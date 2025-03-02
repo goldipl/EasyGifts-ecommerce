@@ -2244,6 +2244,12 @@ label.add-files:focus, label.add-files:hover {
 .swiper_products_block_box:hover {
   box-shadow: 0px 0px 9px 2px rgba(0, 0, 0, 0.1);
 }
+.swiper_products_block_box:hover {
+  border: 1px solid #e6007e;
+}
+.swiper_products_block_box:hover .product-hover-box {
+  display: flex;
+}
 .swiper_products_block_box .product-label-box {
   position: absolute;
   top: 25px;
@@ -2268,6 +2274,67 @@ label.add-files:focus, label.add-files:hover {
   color: #374957;
   margin: 0;
   text-align: center;
+}
+.swiper_products_block_box .product-hover-box {
+  display: none;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 73px;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.swiper_products_block_box .product-hover-box__slot {
+  width: 25%;
+  height: 73px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.swiper_products_block_box .product-hover-box__slot:hover span {
+  color: #000000;
+}
+.swiper_products_block_box .product-hover-box__slot:hover img {
+  filter: invert(1);
+}
+.swiper_products_block_box .product-hover-box__slot:nth-of-type(1) {
+  background-color: #e6007e;
+}
+.swiper_products_block_box .product-hover-box__slot:nth-of-type(2) {
+  background-color: #374957;
+}
+.swiper_products_block_box .product-hover-box__slot:nth-of-type(3) {
+  background-color: #8a8a8a;
+}
+.swiper_products_block_box .product-hover-box__slot:nth-of-type(4) {
+  background-color: #bfbfbf;
+}
+.swiper_products_block_box .product-hover-box__slot:nth-of-type(4) img {
+  width: 28px;
+  height: 28px;
+  margin-top: -4px;
+  margin-right: -4px;
+}
+.swiper_products_block_box .product-hover-box__slot:nth-of-type(4) span {
+  margin-top: 0;
+}
+.swiper_products_block_box .product-hover-box__slot img {
+  width: 22px;
+  height: 22px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.swiper_products_block_box .product-hover-box__slot span {
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  color: #ffffff;
+  margin: 4px 0 0 0;
 }
 .swiper_products_block_box__top .products-image {
   display: flex;
