@@ -6,13 +6,24 @@
             <div class="swiper-slide">
                 <div class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
                     <div class="swiper_products_block_box__top">
-                        <a href="#" rel="nofollow" class="products-image">
-                            <img src="./assets/img/main_page/products/notepadA5.jpg" alt="products block img" width="200" height="200">
+                        <a href="#" class="products-image" rel="nofollow">
+                            <img src="./assets/img/main_page/products/green_pen.jpg" alt="products img" width="200" height="200">
                         </a>
-                        <div class="products-title">
-                            <h3 class="text-center">
-                                <a href="#">Notatnik A5</a>
-                            </h3>
+                        <a href="#" class="products-title">
+                            <h3 class="text-center">Długopis metalowy</h3>
+                        </a>
+                        <div class="products-colors">
+                            <a href="#" class="color white"></a>
+                            <a href="#" class="color grey"></a>
+                            <a href="#" class="color red"></a>
+                            <a href="#" class="color yellow"></a>
+                            <a href="#" class="color lightblue"></a>
+                            <a href="#" class="color blue"></a>
+                            <a href="#" class="color pink"></a>
+                            <a href="#" class="color purple"></a>
+                            <a href="#" class="color green"></a>
+                            <a href="#" class="color orange"></a>
+                            <a href="#" class="color black"></a>
                         </div>
                         <div class="products-code">
                             <p class="text-center">Kod: 1333929</p>
@@ -20,10 +31,24 @@
                     </div>
                     <div class="swiper_products_block_box__bottom">
                         <div class="catalog-price">
-                            <p class="text-center">Cena kat. <span>111,88 PLN</span></p>
+                            <p class="text-center">Cena kat. <span>111,88 PLN</span>
+                            </p>
                         </div>
-                        <div class="promo-price">
-                            <p class="text-center">Cena promo <span>100,88 PLN</span></p>
+                        <div class="table-delivery">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <th><b>24h/48h</b></th>
+                                        <th><b>2-3 dni</b></th>
+                                        <th><b>Dostawa</b></th>
+                                    </tr>
+                                    <tr>
+                                        <td>30 348</td>
+                                        <td>45 675</td>
+                                        <td>100 000</td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                     <!-- Product label -->
@@ -38,13 +63,24 @@
             <div class="swiper-slide">
                 <div class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
                     <div class="swiper_products_block_box__top">
-                        <a href="#" rel="nofollow" class="products-image">
+                        <a href="#" class="products-image" rel="nofollow">
                             <img src="./assets/img/main_page/products/headphones.jpg" alt="products block img" width="200" height="200">
                         </a>
-                        <div class="products-title">
-                            <h3 class="text-center">
-                                <a href="#">Słuchawki bluetooth</a>
-                            </h3>
+                        <a href="#" class="products-title">
+                            <h3 class="text-center">Słuchawki bluetooth</h3>
+                        </a>
+                        <div class="products-colors">
+                            <a href="#" class="color white"></a>
+                            <a href="#" class="color grey"></a>
+                            <a href="#" class="color red"></a>
+                            <a href="#" class="color yellow"></a>
+                            <a href="#" class="color lightblue"></a>
+                            <a href="#" class="color blue"></a>
+                            <a href="#" class="color pink"></a>
+                            <a href="#" class="color purple"></a>
+                            <a href="#" class="color green"></a>
+                            <a href="#" class="color orange"></a>
+                            <a href="#" class="color black"></a>
                         </div>
                         <div class="products-code">
                             <p class="text-center">Kod: 1333929</p>
@@ -52,10 +88,24 @@
                     </div>
                     <div class="swiper_products_block_box__bottom">
                         <div class="catalog-price">
-                            <p class="text-center">Cena kat. <span>71,88 PLN</span></p>
+                            <p class="text-center">Cena kat. <span>111,88 PLN</span>
+                            </p>
                         </div>
-                        <div class="promo-price">
-                            <p class="text-center">Cena promo <span>70,88 PLN</span></p>
+                        <div class="table-delivery">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <th><b>24h/48h</b></th>
+                                        <th><b>2-3 dni</b></th>
+                                        <th><b>Dostawa</b></th>
+                                    </tr>
+                                    <tr>
+                                        <td>30 348</td>
+                                        <td>45 675</td>
+                                        <td>100 000</td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                     <!-- Product label -->
@@ -70,13 +120,24 @@
             <div class="swiper-slide">
                 <div class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
                     <div class="swiper_products_block_box__top">
-                        <a href="#" rel="nofollow" class="products-image">
-                            <img src="./assets/img/main_page/products/umbrella.jpg" alt="products block img" width="200" height="200">
+                        <a href="#" class="products-image" rel="nofollow">
+                            <img src="./assets/img/main_page/products/green_pen.jpg" alt="products img" width="200" height="200">
                         </a>
-                        <div class="products-title">
-                            <h3 class="text-center">
-                                <a href="#">Automatyczny parasol rPET</a>
-                            </h3>
+                        <a href="#" class="products-title">
+                            <h3 class="text-center">Długopis metalowy</h3>
+                        </a>
+                        <div class="products-colors">
+                            <a href="#" class="color white"></a>
+                            <a href="#" class="color grey"></a>
+                            <a href="#" class="color red"></a>
+                            <a href="#" class="color yellow"></a>
+                            <a href="#" class="color lightblue"></a>
+                            <a href="#" class="color blue"></a>
+                            <a href="#" class="color pink"></a>
+                            <a href="#" class="color purple"></a>
+                            <a href="#" class="color green"></a>
+                            <a href="#" class="color orange"></a>
+                            <a href="#" class="color black"></a>
                         </div>
                         <div class="products-code">
                             <p class="text-center">Kod: 1333929</p>
@@ -84,10 +145,24 @@
                     </div>
                     <div class="swiper_products_block_box__bottom">
                         <div class="catalog-price">
-                            <p class="text-center">Cena kat. <span>78,88 PLN</span></p>
+                            <p class="text-center">Cena kat. <span>111,88 PLN</span>
+                            </p>
                         </div>
-                        <div class="promo-price">
-                            <p class="text-center">Cena promo <span>70,88 PLN</span></p>
+                        <div class="table-delivery">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <th><b>24h/48h</b></th>
+                                        <th><b>2-3 dni</b></th>
+                                        <th><b>Dostawa</b></th>
+                                    </tr>
+                                    <tr>
+                                        <td>30 348</td>
+                                        <td>45 675</td>
+                                        <td>100 000</td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                     <!-- Product label -->
@@ -98,17 +173,28 @@
                     </div>
                 </div>
             </div>
-             <!-- Slide 04 -->
-             <div class="swiper-slide">
+            <!-- Slide 04 -->
+            <div class="swiper-slide">
                 <div class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
                     <div class="swiper_products_block_box__top">
-                        <a href="#" rel="nofollow" class="products-image">
-                            <img src="./assets/img/main_page/products/belly_bag.jpg" alt="products block img" width="200" height="200">
+                        <a href="#" class="products-image" rel="nofollow">
+                            <img src="./assets/img/main_page/products/headphones.jpg" alt="products block img" width="200" height="200">
                         </a>
-                        <div class="products-title">
-                            <h3 class="text-center">
-                                <a href="#">Saszetka (nerka) RPET</a>
-                            </h3>
+                        <a href="#" class="products-title">
+                            <h3 class="text-center">Słuchawki bluetooth</h3>
+                        </a>
+                        <div class="products-colors">
+                            <a href="#" class="color white"></a>
+                            <a href="#" class="color grey"></a>
+                            <a href="#" class="color red"></a>
+                            <a href="#" class="color yellow"></a>
+                            <a href="#" class="color lightblue"></a>
+                            <a href="#" class="color blue"></a>
+                            <a href="#" class="color pink"></a>
+                            <a href="#" class="color purple"></a>
+                            <a href="#" class="color green"></a>
+                            <a href="#" class="color orange"></a>
+                            <a href="#" class="color black"></a>
                         </div>
                         <div class="products-code">
                             <p class="text-center">Kod: 1333929</p>
@@ -116,10 +202,24 @@
                     </div>
                     <div class="swiper_products_block_box__bottom">
                         <div class="catalog-price">
-                            <p class="text-center">Cena kat. <span>32,88 PLN</span></p>
+                            <p class="text-center">Cena kat. <span>111,88 PLN</span>
+                            </p>
                         </div>
-                        <div class="promo-price">
-                            <p class="text-center">Cena promo <span>30,88 PLN</span></p>
+                        <div class="table-delivery">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <th><b>24h/48h</b></th>
+                                        <th><b>2-3 dni</b></th>
+                                        <th><b>Dostawa</b></th>
+                                    </tr>
+                                    <tr>
+                                        <td>30 348</td>
+                                        <td>45 675</td>
+                                        <td>100 000</td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                     <!-- Product label -->
@@ -134,13 +234,24 @@
             <div class="swiper-slide">
                 <div class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
                     <div class="swiper_products_block_box__top">
-                        <a href="#" rel="nofollow" class="products-image">
-                            <img src="./assets/img/main_page/products/thermal_bottle.jpg" alt="products block img" width="200" height="200">
+                        <a href="#" class="products-image" rel="nofollow">
+                            <img src="./assets/img/main_page/products/green_pen.jpg" alt="products img" width="200" height="200">
                         </a>
-                        <div class="products-title">
-                            <h3 class="text-center">
-                                <a href="#">Butelka termiczna 500 ml</a>
-                            </h3>
+                        <a href="#" class="products-title">
+                            <h3 class="text-center">Długopis metalowy</h3>
+                        </a>
+                        <div class="products-colors">
+                            <a href="#" class="color white"></a>
+                            <a href="#" class="color grey"></a>
+                            <a href="#" class="color red"></a>
+                            <a href="#" class="color yellow"></a>
+                            <a href="#" class="color lightblue"></a>
+                            <a href="#" class="color blue"></a>
+                            <a href="#" class="color pink"></a>
+                            <a href="#" class="color purple"></a>
+                            <a href="#" class="color green"></a>
+                            <a href="#" class="color orange"></a>
+                            <a href="#" class="color black"></a>
                         </div>
                         <div class="products-code">
                             <p class="text-center">Kod: 1333929</p>
@@ -148,10 +259,24 @@
                     </div>
                     <div class="swiper_products_block_box__bottom">
                         <div class="catalog-price">
-                            <p class="text-center">Cena kat. <span>21,88 PLN</span></p>
+                            <p class="text-center">Cena kat. <span>111,88 PLN</span>
+                            </p>
                         </div>
-                        <div class="promo-price">
-                            <p class="text-center">Cena promo <span>20,88 PLN</span></p>
+                        <div class="table-delivery">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <th><b>24h/48h</b></th>
+                                        <th><b>2-3 dni</b></th>
+                                        <th><b>Dostawa</b></th>
+                                    </tr>
+                                    <tr>
+                                        <td>30 348</td>
+                                        <td>45 675</td>
+                                        <td>100 000</td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                     <!-- Product label -->
@@ -166,13 +291,24 @@
             <div class="swiper-slide">
                 <div class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
                     <div class="swiper_products_block_box__top">
-                        <a href="#" rel="nofollow" class="products-image">
-                            <img src="./assets/img/main_page/products/thermal_bottle.jpg" alt="products block img" width="200" height="200">
+                        <a href="#" class="products-image" rel="nofollow">
+                            <img src="./assets/img/main_page/products/headphones.jpg" alt="products block img" width="200" height="200">
                         </a>
-                        <div class="products-title">
-                            <h3 class="text-center">
-                                <a href="#">Butelka termiczna 500 ml</a>
-                            </h3>
+                        <a href="#" class="products-title">
+                            <h3 class="text-center">Słuchawki bluetooth</h3>
+                        </a>
+                        <div class="products-colors">
+                            <a href="#" class="color white"></a>
+                            <a href="#" class="color grey"></a>
+                            <a href="#" class="color red"></a>
+                            <a href="#" class="color yellow"></a>
+                            <a href="#" class="color lightblue"></a>
+                            <a href="#" class="color blue"></a>
+                            <a href="#" class="color pink"></a>
+                            <a href="#" class="color purple"></a>
+                            <a href="#" class="color green"></a>
+                            <a href="#" class="color orange"></a>
+                            <a href="#" class="color black"></a>
                         </div>
                         <div class="products-code">
                             <p class="text-center">Kod: 1333929</p>
@@ -180,10 +316,24 @@
                     </div>
                     <div class="swiper_products_block_box__bottom">
                         <div class="catalog-price">
-                            <p class="text-center">Cena kat. <span>21,88 PLN</span></p>
+                            <p class="text-center">Cena kat. <span>111,88 PLN</span>
+                            </p>
                         </div>
-                        <div class="promo-price">
-                            <p class="text-center">Cena promo <span>20,88 PLN</span></p>
+                        <div class="table-delivery">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <th><b>24h/48h</b></th>
+                                        <th><b>2-3 dni</b></th>
+                                        <th><b>Dostawa</b></th>
+                                    </tr>
+                                    <tr>
+                                        <td>30 348</td>
+                                        <td>45 675</td>
+                                        <td>100 000</td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                     <!-- Product label -->
@@ -198,13 +348,24 @@
             <div class="swiper-slide">
                 <div class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
                     <div class="swiper_products_block_box__top">
-                        <a href="#" rel="nofollow" class="products-image">
-                            <img src="./assets/img/main_page/products/headphones.jpg" alt="products block img" width="200" height="200">
+                        <a href="#" class="products-image" rel="nofollow">
+                            <img src="./assets/img/main_page/products/green_pen.jpg" alt="products img" width="200" height="200">
                         </a>
-                        <div class="products-title">
-                            <h3 class="text-center">
-                                <a href="#">Słuchawki bluetooth</a>
-                            </h3>
+                        <a href="#" class="products-title">
+                            <h3 class="text-center">Długopis metalowy</h3>
+                        </a>
+                        <div class="products-colors">
+                            <a href="#" class="color white"></a>
+                            <a href="#" class="color grey"></a>
+                            <a href="#" class="color red"></a>
+                            <a href="#" class="color yellow"></a>
+                            <a href="#" class="color lightblue"></a>
+                            <a href="#" class="color blue"></a>
+                            <a href="#" class="color pink"></a>
+                            <a href="#" class="color purple"></a>
+                            <a href="#" class="color green"></a>
+                            <a href="#" class="color orange"></a>
+                            <a href="#" class="color black"></a>
                         </div>
                         <div class="products-code">
                             <p class="text-center">Kod: 1333929</p>
@@ -212,10 +373,24 @@
                     </div>
                     <div class="swiper_products_block_box__bottom">
                         <div class="catalog-price">
-                            <p class="text-center">Cena kat. <span>71,88 PLN</span></p>
+                            <p class="text-center">Cena kat. <span>111,88 PLN</span>
+                            </p>
                         </div>
-                        <div class="promo-price">
-                            <p class="text-center">Cena promo <span>70,88 PLN</span></p>
+                        <div class="table-delivery">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <th><b>24h/48h</b></th>
+                                        <th><b>2-3 dni</b></th>
+                                        <th><b>Dostawa</b></th>
+                                    </tr>
+                                    <tr>
+                                        <td>30 348</td>
+                                        <td>45 675</td>
+                                        <td>100 000</td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                     <!-- Product label -->
@@ -230,13 +405,24 @@
             <div class="swiper-slide">
                 <div class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
                     <div class="swiper_products_block_box__top">
-                        <a href="#" rel="nofollow" class="products-image">
-                            <img src="./assets/img/main_page/products/thermal_bottle.jpg" alt="products block img" width="200" height="200">
+                        <a href="#" class="products-image" rel="nofollow">
+                            <img src="./assets/img/main_page/products/headphones.jpg" alt="products block img" width="200" height="200">
                         </a>
-                        <div class="products-title">
-                            <h3 class="text-center">
-                                <a href="#">Butelka termiczna 500 ml</a>
-                            </h3>
+                        <a href="#" class="products-title">
+                            <h3 class="text-center">Słuchawki bluetooth</h3>
+                        </a>
+                        <div class="products-colors">
+                            <a href="#" class="color white"></a>
+                            <a href="#" class="color grey"></a>
+                            <a href="#" class="color red"></a>
+                            <a href="#" class="color yellow"></a>
+                            <a href="#" class="color lightblue"></a>
+                            <a href="#" class="color blue"></a>
+                            <a href="#" class="color pink"></a>
+                            <a href="#" class="color purple"></a>
+                            <a href="#" class="color green"></a>
+                            <a href="#" class="color orange"></a>
+                            <a href="#" class="color black"></a>
                         </div>
                         <div class="products-code">
                             <p class="text-center">Kod: 1333929</p>
@@ -244,10 +430,24 @@
                     </div>
                     <div class="swiper_products_block_box__bottom">
                         <div class="catalog-price">
-                            <p class="text-center">Cena kat. <span>21,88 PLN</span></p>
+                            <p class="text-center">Cena kat. <span>111,88 PLN</span>
+                            </p>
                         </div>
-                        <div class="promo-price">
-                            <p class="text-center">Cena promo <span>20,88 PLN</span></p>
+                        <div class="table-delivery">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <th><b>24h/48h</b></th>
+                                        <th><b>2-3 dni</b></th>
+                                        <th><b>Dostawa</b></th>
+                                    </tr>
+                                    <tr>
+                                        <td>30 348</td>
+                                        <td>45 675</td>
+                                        <td>100 000</td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                     <!-- Product label -->
@@ -262,13 +462,24 @@
             <div class="swiper-slide">
                 <div class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
                     <div class="swiper_products_block_box__top">
-                        <a href="#" rel="nofollow" class="products-image">
-                            <img src="./assets/img/main_page/products/thermal_bottle.jpg" alt="products block img" width="200" height="200">
+                        <a href="#" class="products-image" rel="nofollow">
+                            <img src="./assets/img/main_page/products/green_pen.jpg" alt="products img" width="200" height="200">
                         </a>
-                        <div class="products-title">
-                            <h3 class="text-center">
-                                <a href="#">Butelka termiczna 500 ml</a>
-                            </h3>
+                        <a href="#" class="products-title">
+                            <h3 class="text-center">Długopis metalowy</h3>
+                        </a>
+                        <div class="products-colors">
+                            <a href="#" class="color white"></a>
+                            <a href="#" class="color grey"></a>
+                            <a href="#" class="color red"></a>
+                            <a href="#" class="color yellow"></a>
+                            <a href="#" class="color lightblue"></a>
+                            <a href="#" class="color blue"></a>
+                            <a href="#" class="color pink"></a>
+                            <a href="#" class="color purple"></a>
+                            <a href="#" class="color green"></a>
+                            <a href="#" class="color orange"></a>
+                            <a href="#" class="color black"></a>
                         </div>
                         <div class="products-code">
                             <p class="text-center">Kod: 1333929</p>
@@ -276,10 +487,24 @@
                     </div>
                     <div class="swiper_products_block_box__bottom">
                         <div class="catalog-price">
-                            <p class="text-center">Cena kat. <span>21,88 PLN</span></p>
+                            <p class="text-center">Cena kat. <span>111,88 PLN</span>
+                            </p>
                         </div>
-                        <div class="promo-price">
-                            <p class="text-center">Cena promo <span>20,88 PLN</span></p>
+                        <div class="table-delivery">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <th><b>24h/48h</b></th>
+                                        <th><b>2-3 dni</b></th>
+                                        <th><b>Dostawa</b></th>
+                                    </tr>
+                                    <tr>
+                                        <td>30 348</td>
+                                        <td>45 675</td>
+                                        <td>100 000</td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                     <!-- Product label -->
@@ -294,13 +519,24 @@
             <div class="swiper-slide">
                 <div class="swiper_products_block_box d-flex flex-column align-items-center justify-content-center text-decoration-none">
                     <div class="swiper_products_block_box__top">
-                        <a href="#" rel="nofollow" class="products-image">
-                            <img src="./assets/img/main_page/products/umbrella.jpg" alt="products block img" width="200" height="200">
+                        <a href="#" class="products-image" rel="nofollow">
+                            <img src="./assets/img/main_page/products/headphones.jpg" alt="products block img" width="200" height="200">
                         </a>
-                        <div class="products-title">
-                            <h3 class="text-center">
-                                <a href="#">Automatyczny parasol rPET</a>
-                            </h3>
+                        <a href="#" class="products-title">
+                            <h3 class="text-center">Słuchawki bluetooth</h3>
+                        </a>
+                        <div class="products-colors">
+                            <a href="#" class="color white"></a>
+                            <a href="#" class="color grey"></a>
+                            <a href="#" class="color red"></a>
+                            <a href="#" class="color yellow"></a>
+                            <a href="#" class="color lightblue"></a>
+                            <a href="#" class="color blue"></a>
+                            <a href="#" class="color pink"></a>
+                            <a href="#" class="color purple"></a>
+                            <a href="#" class="color green"></a>
+                            <a href="#" class="color orange"></a>
+                            <a href="#" class="color black"></a>
                         </div>
                         <div class="products-code">
                             <p class="text-center">Kod: 1333929</p>
@@ -308,10 +544,24 @@
                     </div>
                     <div class="swiper_products_block_box__bottom">
                         <div class="catalog-price">
-                            <p class="text-center">Cena kat. <span>78,88 PLN</span></p>
+                            <p class="text-center">Cena kat. <span>111,88 PLN</span>
+                            </p>
                         </div>
-                        <div class="promo-price">
-                            <p class="text-center">Cena promo <span>70,88 PLN</span></p>
+                        <div class="table-delivery">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <th><b>24h/48h</b></th>
+                                        <th><b>2-3 dni</b></th>
+                                        <th><b>Dostawa</b></th>
+                                    </tr>
+                                    <tr>
+                                        <td>30 348</td>
+                                        <td>45 675</td>
+                                        <td>100 000</td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                     <!-- Product label -->
