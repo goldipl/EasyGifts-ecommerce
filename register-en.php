@@ -238,7 +238,7 @@
                         </div>
                     </div>
                     <div class="modal-footer justify-content-center">
-                        <button class="orange-btn" data-bs-dismiss="modal">Zamknij <img src="./assets/icons/common/buttons/button_white_arrow.svg" alt="arrow icon" width="18" height="18"></button>
+                        <button class="color-btn" data-bs-dismiss="modal">Zamknij <img src="./assets/icons/common/buttons/button_white_arrow.svg" alt="arrow icon" width="18" height="18"></button>
                     </div>
                 </div>
             </div>

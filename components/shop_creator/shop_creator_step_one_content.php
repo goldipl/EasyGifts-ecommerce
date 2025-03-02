@@ -9,7 +9,7 @@
         <div class="subdomain-box">
             <input class="form-input" type="text" name="subdomain" id="subdomain">
             <p>Twój aktualny adres url: https://<span class="subdomain-name"></span>.howtowow.pl/ </p>
-            <button class="orange-save-btn">Zapisz <img src="./assets/icons/dashboard/save-btn.svg" alt="save btn icon" width="18" height="18">
+            <button class="color-save-btn">Zapisz <img src="./assets/icons/dashboard/save-btn.svg" alt="save btn icon" width="18" height="18">
             </button>
         </div>
     </div>
@@ -25,7 +25,7 @@
         <p>Kliknij przycisk 'Zapisz”, skopiuj swój adres url i otwórz go w przeglądarce (w osobnej karcie), dzięki temu będziesz widzieć wszystkie zmiany, które wprowadzisz. Wystarczy, że po każdej zapisanej zmianie odświeżysz stronę ze swoim sklepem/katalogiem w przeglądarce. </p>
     </div>
     <div class="bottom-button right-btn">
-        <button class="orange-btn next">Dalej <img src="./assets/icons/common/buttons/button_white_arrow.svg" alt="arrow icon" width="18" height="18">
+        <button class="color-btn next">Dalej <img src="./assets/icons/common/buttons/button_white_arrow.svg" alt="arrow icon" width="18" height="18">
         </button>
     </div>
     <div class="shopcreator-dots">

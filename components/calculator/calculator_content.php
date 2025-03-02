@@ -70,7 +70,7 @@
                                         <div class="color green" ></div>
                                         <div class="color black" ></div>
                                     </div>
-                                    <button class="orange-btn d-flex justify-content-center align-items-center mx-auto">Zatwierdź <img src="./assets/icons/common/buttons/button_white_arrow.svg">
+                                    <button class="color-btn d-flex justify-content-center align-items-center mx-auto">Zatwierdź <img src="./assets/icons/common/buttons/button_white_arrow.svg">
                                     </button>
                                 </div>
                             </div>
@@ -104,7 +104,7 @@
                                         </div>
                                     </div>
                                     <div class="d-flex w-100">
-                                        <button class="orange-btn d-flex justify-content-center align-items-center mx-auto">Zatwierdź <img src="./assets/icons/common/buttons/button_white_arrow.svg"></button>
+                                        <button class="color-btn d-flex justify-content-center align-items-center mx-auto">Zatwierdź <img src="./assets/icons/common/buttons/button_white_arrow.svg"></button>
                                     </div>
                                 </div>
                             </div>
@@ -255,7 +255,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <button class="orange-btn d-flex justify-content-center align-items-center mx-auto">Oblicz cenę <img src="./assets/icons/common/buttons/button_white_arrow.svg">
+                                    <button class="color-btn d-flex justify-content-center align-items-center mx-auto">Oblicz cenę <img src="./assets/icons/common/buttons/button_white_arrow.svg">
                                     </button>
                                 </div>
                             </div>

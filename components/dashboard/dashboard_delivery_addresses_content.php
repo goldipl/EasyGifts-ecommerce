@@ -11,7 +11,7 @@
                 <p>35-582 Kraków</p>
                 <p>Mirosław Kozłowski</p>
                 <p>657 557 2526</p>
-                <span class="default-address"><img src="./assets/icons/dashboard/checked_orange.svg" alt="menu icon" width="18" height="18">Domyślny adres odbiorcy</span>
+                <span class="default-address"><img src="./assets/icons/dashboard/checked_color.svg" alt="menu icon" width="18" height="18">Domyślny adres odbiorcy</span>
             </div>
             <div class="delivery-box-bottom">
                 <div class="bottom-icons">

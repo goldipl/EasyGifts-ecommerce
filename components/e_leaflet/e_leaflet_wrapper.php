@@ -196,7 +196,7 @@
                 <span>Pobierz ulotkę PDF</span>
                 <img src="./assets/icons/catalogs/download.svg" alt="download" width="20" height="20">
             </a>
-            <button class="orange-btn">Wyślij e-mailem do klienta <img src="./assets/icons/common/buttons/button_white_arrow.svg"></button>
+            <button class="color-btn">Wyślij e-mailem do klienta <img src="./assets/icons/common/buttons/button_white_arrow.svg"></button>
         </div>
     </div>
 </div>

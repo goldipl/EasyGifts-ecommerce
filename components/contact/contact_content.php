@@ -85,7 +85,7 @@
                     <div class="checkbox-button-box">
                         <label class="custom-checkbox-container">Administratorem Państwa danych osobowych jest Macma Polska Sp. z o.o. (NIP: 8951782271). Dane osobowe przetwarzane będą wyłącznie w prawnie usprawiedliwionych celach administratora danych polegających na udzieleniu odpowiedzi na Państwa wiadomość. Podanie przez Państwa danych osobowych jest dobrowolne, ale też niezbędne do nawiązania z Państwem kontaktu za pomocą formularza kontaktowego. Szczegółowe informacje na temat przetwarzania Państwa danych osobowych mogą Państwo znaleźć w naszej <a href="#">Polityce prywatności</a> na temat zasad przetwarzania danych osobowych.<input type="checkbox" class="custom_input"><span class="custom-checkbox-checkmark"></span>
                         </label>
-                        <button class="orange-btn">Wyślij <img src="./assets/icons/common/buttons/button_white_arrow.svg"></button>
+                        <button class="color-btn">Wyślij <img src="./assets/icons/common/buttons/button_white_arrow.svg"></button>
                     </div>
                 </form>
             </div>

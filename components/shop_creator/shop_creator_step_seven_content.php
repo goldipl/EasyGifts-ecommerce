@@ -13,7 +13,7 @@
     </div>
     <textarea class="form-textarea" name="ga-textarea" id="ga-textarea"></textarea>
     <div class="bottom-button">
-    <button class="orange-save-btn mt-0">Zapisz <img src="./assets/icons/dashboard/save-btn.svg" alt="save btn icon" width="18" height="18">
+    <button class="color-save-btn mt-0">Zapisz <img src="./assets/icons/dashboard/save-btn.svg" alt="save btn icon" width="18" height="18">
     </button>
     </div>
     <div class="shopcreator-dots">

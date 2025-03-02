@@ -97,7 +97,7 @@
                                 </div>
                             </td>
                             <td>
-                                <div class="orange-btn save-btn">Zapisz <img src="./assets/icons/common/buttons/button_white_arrow.svg" alt="arrow icon" width="18" height="18"></div>
+                                <div class="color-btn save-btn">Zapisz <img src="./assets/icons/common/buttons/button_white_arrow.svg" alt="arrow icon" width="18" height="18"></div>
                             </td>
                         </tr>
                 </table>
@@ -108,7 +108,7 @@
                         <img src="./assets/icons/common/buttons/button_color_arrow.svg" alt="arrow icon" width="18" height="18"> Powrót </a>
                 </div>
                 <div class="bottom-offertspage-button right-btn">
-                    <a href="#" class="orange-btn next">Dalej <img src="./assets/icons/common/buttons/button_white_arrow.svg" alt="arrow icon" width="18" height="18">
+                    <a href="#" class="color-btn next">Dalej <img src="./assets/icons/common/buttons/button_white_arrow.svg" alt="arrow icon" width="18" height="18">
                     </a>
                 </div>
             </div>

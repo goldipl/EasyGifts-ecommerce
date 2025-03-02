@@ -37,6 +37,6 @@
         <input class="form-input" type="text" name="telephone" id="telephone" placeholder="Telefon *" required>
         <input class="form-input" type="text" name="nip" id="nip" placeholder="NIP *" required>
     </div>
-    <button class="orange-btn">Wyślij <img src="./assets/icons/common/buttons/button_white_arrow.svg" alt="arrow icon" width="18" height="18">
+    <button class="color-btn">Wyślij <img src="./assets/icons/common/buttons/button_white_arrow.svg" alt="arrow icon" width="18" height="18">
     </button>
 </form>

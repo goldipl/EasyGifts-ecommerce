@@ -32,7 +32,7 @@
         <p><strong>Uwaga:</strong> Ceny znakowania są zgodne z aktualnym cennikiem nadruków. Jeśli chcesz, możesz dodać własny narzut w %.</p>
     </div>
     <div class="bottom-button right-btn">
-        <button class="orange-btn next">Dalej <img src="./assets/icons/common/buttons/button_white_arrow.svg" alt="arrow icon" width="18" height="18">
+        <button class="color-btn next">Dalej <img src="./assets/icons/common/buttons/button_white_arrow.svg" alt="arrow icon" width="18" height="18">
         </button>
     </div>
     <div class="shopcreator-dots">
