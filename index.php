@@ -21,8 +21,6 @@
             <?php include "./components/main_page/info_section.php"; ?> 
             <?php include "./components/main_page/promo_products.php"; ?> 
             <?php include "./components/main_page/promo_products_swiper.php"; ?> 
-            <?php include "./components/main_page/our_products.php"; ?> 
-            <?php include "./components/main_page/our_products_swiper.php"; ?> 
             <?php include "./components/main_page/articles.php"; ?> 
             <?php include "./components/main_page/news.php"; ?> 
             <?php include "./components/main_page/news_swiper.php"; ?> 
@@ -43,7 +41,6 @@
         <script src="./js/swiper/swiper-bundle.js"></script>
         <script src="./js/swiper/swiper.js"></script>
         <script src="./js/swiper/promo-products-swiper.js"></script>
-        <script src="./js/swiper/our-products-swiper.js"></script>
         <script src="./js/swiper/news-swiper.js"></script>
         <script src="./js/swiper/blog-swiper.js"></script>
         <script src="./js/swiper/our-brands-swiper.js"></script>
