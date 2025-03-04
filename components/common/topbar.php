@@ -36,7 +36,7 @@
                 </a>
             </div>
             <div class="topbar-lang d-flex flex-row align-items-center">
-                <div class="flag-toggle" onclick="showModal()">
+                <div class="flag-toggle" onclick="toggleModal()">
                     <img src="./assets/img/common/topbar/PL-flag.png" alt="Polish Flag" class="flag-img">
                     <span class="flag-arrow">
                         <img src="./assets/icons/common/topbar/flag-arrow.svg" alt="arrow">
@@ -53,8 +53,8 @@
 </div>
 
 <script>
-function showModal() {
+function toggleModal() {
   const modal = document.getElementById("flag-modal");
-  modal.style.display = "block";
+  modal.style.display = (modal.style.display === "block") ? "none" : "block";
 }
 </script>

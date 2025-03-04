@@ -123,7 +123,7 @@ body #main-wrapper.opened-menu::after {
   display: none;
   position: absolute;
   top: 40px;
-  left: 0;
+  right: 0;
 }
 #topbar .container .topbar-lang .flag-modal .flag-modal-content {
   display: flex;
@@ -169,7 +169,6 @@ body #main-wrapper.opened-menu::after {
   font-weight: 400;
   line-height: 1;
   color: #374957;
-  width: 26px;
   height: 26px;
 }
 
