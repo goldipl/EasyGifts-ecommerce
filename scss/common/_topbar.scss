@@ -1,16 +1,50 @@
 #topbar {
+  position: relative;
   background-color: $main-color-second;
-  height: 50px;
+  height: 40px;
+  z-index: 11;
   .container {
-    height: 50px;
+    height: 40px;
     padding: 0;
     .topbar-lang {
-      a:last-of-type {
-        padding-right: 0 !important;
+      user-select: none;
+      position: relative;
+      margin-left: 16px;
+      .flag-toggle {
+        cursor: pointer;
+        .flag-arrow {
+          display: inline-flex;
+          align-items: center;
+          margin-left: 4px;
+          img {
+            width: 9px;
+            height: auto;
+          }
+        }
+      }
+      .flag-modal {
+        display: none;
+        position: absolute;
+        top: 40px;
+        left: 0;
+        .flag-modal-content {
+          display: flex;
+          padding: 16px;
+          background-color: $white;
+          cursor: pointer;
+          .flag-img {
+            cursor: pointer;
+          }
+        }
       }
     }
     .topbar-socials {
       a {
+        margin-right: 8px;
+        img {
+          width: 20px;
+          height: 20px;
+        }
         filter: invert(1) brightness(2);
         &:hover {
           filter: invert(13%) sepia(96%) saturate(7041%) hue-rotate(319deg)
@@ -20,25 +54,25 @@
     }
     div:not(.topbar-lang) {
       a {
-        font-size: 18px;
+        font-size: 16px;
         font-style: normal;
         font-weight: 400;
-        line-height: 90%;
+        line-height: 1;
         color: $white;
         text-decoration: none;
         &:first-of-type {
           padding-left: 0 !important;
         }
-        &.active {
-          color: $text_color;
-          text-shadow: 0.3px 0px 0.1px, -0.3px 0px 0.1px;
+        &.active,
+        &:hover {
+          color: $main-color;
         }
       }
       span {
         font-size: 12px;
         font-style: normal;
         font-weight: 400;
-        line-height: 90%;
+        line-height: 1;
         color: $text_color;
         width: 26px;
         height: 26px;

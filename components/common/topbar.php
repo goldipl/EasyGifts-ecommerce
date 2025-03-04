@@ -34,18 +34,27 @@
                 <a href="./faq.php" class="p-3">
                     FAQ
                 </a>
-                <a href="./contact.php" class="p-3">
-                    Kontakt
-                </a>
             </div>
             <div class="topbar-lang d-flex flex-row align-items-center">
-                <a href="#" class="p-1">
-                    <span class="d-flex justify-content-center align-items-center bg-white rounded-circle">PL</span>
-                </a>
-                <a href="#" class="p-1">
-                    <span class="d-flex justify-content-center align-items-center bg-white rounded-circle">EN</span>
-                </a>
+                <div class="flag-toggle" onclick="showModal()">
+                    <img src="./assets/img/common/topbar/PL-flag.png" alt="Polish Flag" class="flag-img">
+                    <span class="flag-arrow">
+                        <img src="./assets/icons/common/topbar/flag-arrow.svg" alt="arrow">
+                    </span>
+                </div>
+                <div class="flag-modal" id="flag-modal">
+                    <div class="flag-modal-content">
+                        <img src="./assets/img/common/topbar/EN-flag.png" alt="English Flag" class="flag-img">
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </div>
+
+<script>
+function showModal() {
+  const modal = document.getElementById("flag-modal");
+  modal.style.display = "block";
+}
+</script>
