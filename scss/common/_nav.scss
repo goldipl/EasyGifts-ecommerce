@@ -326,6 +326,16 @@ nav {
     }
     .navbar-bottom {
       align-items: flex-start !important;
+      .offert-nav-toggler {
+        margin-right: unset;
+        width: 100%;
+      }
+      .bottom-nav-categories {
+        flex-direction: column;
+        .nav-link {
+          padding-left: 0;
+        }
+      }
       .main-nav-item {
         width: 100%;
         .dropdown-toggle,

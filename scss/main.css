@@ -317,7 +317,7 @@ nav .dropend {
 }
 nav .dropdown-item:focus,
 nav .dropdown-item:hover {
-  background-color: #ffd5ae;
+  background-color: rgba(52, 34, 79, 0.2666666667);
   text-shadow: 0.3px 0px 0.1px, -0.3px 0px 0.1px;
 }
 nav .dropdown-toggle::after {
@@ -490,6 +490,16 @@ nav .navbar-bottom .main-nav-item > a.show::after {
   }
   nav .navbar-bottom {
     align-items: flex-start !important;
+  }
+  nav .navbar-bottom .offert-nav-toggler {
+    margin-right: unset;
+    width: 100%;
+  }
+  nav .navbar-bottom .bottom-nav-categories {
+    flex-direction: column;
+  }
+  nav .navbar-bottom .bottom-nav-categories .nav-link {
+    padding-left: 0;
   }
   nav .navbar-bottom .main-nav-item {
     width: 100%;

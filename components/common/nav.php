@@ -240,7 +240,7 @@
                         </ul>
                     </li>
                 </div>
-                <div class="d-flex">
+                <div class="d-flex bottom-nav-categories">
                     <!-- Nav Item -->
                     <li class="nav-item main-nav-item">
                         <a class="nav-link" href="">Marki</a>
