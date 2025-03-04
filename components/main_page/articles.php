@@ -5,9 +5,6 @@
                 <div class="article-title">
                     <h2>Katalog Macma</h2>
                 </div>
-                <div class="article-button mp-check-all-btn">
-                    <a href="#">Sprawdź wszystkie <img src="./assets/icons/main_page/check-all-boxes.svg" alt="boxes" width="41" height="41"></a>
-                </div>
             </div>
             <div class="articles_container__slot--img">
                 <img src="./assets/img/main_page/articles/macma_catalog.jpg" alt="article img" width="765" height="208">
@@ -22,8 +19,6 @@
             <div class="articles_container__slot--title d-flex justify-content-between align-items-center">
                 <div class="article-title">
                     <h2>M-collection</h2>
-                </div>
-                <div class="article-button mp-check-all-btn">
                 </div>
             </div>
             <div class="articles_container__slot--img">

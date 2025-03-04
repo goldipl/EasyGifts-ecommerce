@@ -2205,27 +2205,6 @@ label.add-files:focus, label.add-files:hover {
   min-width: 234px;
   text-decoration: none;
 }
-.mp-titles .flex-row .promo-box.new {
-  background-color: #b5efcc;
-}
-.mp-titles .flex-row .promo-box.promotions {
-  background-color: #e4edff;
-}
-.mp-titles .flex-row .promo-box.news {
-  background-color: #e6007e;
-}
-.mp-titles .flex-row .promo-box.blog {
-  background-color: #9aa8b3;
-}
-.mp-titles .flex-row .promo-box.about-us {
-  background-color: #dbaccb;
-}
-.mp-titles .flex-row .promo-box.our-brands {
-  background-color: #acbfdb;
-}
-.mp-titles .flex-row .promo-box.light-green {
-  background-color: #acdbd5;
-}
 .mp-titles .flex-row .promo-box p,
 .mp-titles .flex-row .promo-box a {
   font-size: 16px;
@@ -3038,6 +3017,9 @@ label.add-files:focus, label.add-files:hover {
     margin-left: 0 !important;
     margin-right: 0 !important;
   }
+}
+#our_brands {
+  padding-top: 56px;
 }
 #our_brands .mp-titles {
   padding-top: 0 !important;
