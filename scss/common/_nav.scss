@@ -132,6 +132,12 @@ nav {
     color: $white;
     text-shadow: 0.3px 0px 0.1px, -0.3px 0px 0.1px;
   }
+  .second-lvl-menu {
+    .dropdown-item:focus,
+    .dropdown-item:hover {
+      color: $menu_hover_color;
+    }
+  }
   .dropdown-toggle::after {
     border-top: 0.3em solid $menu_arrows_color;
     border-right: 0.3em solid $transparent;

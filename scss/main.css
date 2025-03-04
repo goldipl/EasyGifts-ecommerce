@@ -321,6 +321,10 @@ nav .dropdown-item:hover {
   color: #ffffff;
   text-shadow: 0.3px 0px 0.1px, -0.3px 0px 0.1px;
 }
+nav .second-lvl-menu .dropdown-item:focus,
+nav .second-lvl-menu .dropdown-item:hover {
+  color: #e6007e;
+}
 nav .dropdown-toggle::after {
   border-top: 0.3em solid #34224f;
   border-right: 0.3em solid rgba(255, 255, 255, 0);
