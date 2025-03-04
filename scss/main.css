@@ -317,7 +317,8 @@ nav .dropend {
 }
 nav .dropdown-item:focus,
 nav .dropdown-item:hover {
-  background-color: rgba(52, 34, 79, 0.2666666667);
+  background-color: #e6007e;
+  color: #ffffff;
   text-shadow: 0.3px 0px 0.1px, -0.3px 0px 0.1px;
 }
 nav .dropdown-toggle::after {

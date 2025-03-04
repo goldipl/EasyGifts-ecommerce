@@ -129,6 +129,7 @@ nav {
   .dropdown-item:focus,
   .dropdown-item:hover {
     background-color: $menu_hover_color;
+    color: $white;
     text-shadow: 0.3px 0px 0.1px, -0.3px 0px 0.1px;
   }
   .dropdown-toggle::after {
