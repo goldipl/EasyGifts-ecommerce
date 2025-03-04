@@ -24,25 +24,47 @@
           }
           h1,
           h2 {
-            font-size: 72px;
+            font-size: 56px;
             font-style: normal;
-            font-weight: 500;
+            font-weight: 700;
             line-height: 120%;
             text-transform: uppercase;
-            margin: 0;
-            color: $black;
+            margin: 0 0 20px 0;
+            color: $main-color-second;
             span {
-              font-weight: 900;
-              color: $main-color;
+              font-weight: 700;
+              color: $white;
             }
           }
-          p {
+          h3 {
+            font-weight: 600;
             font-size: 20px;
+            line-height: 24px;
+            color: $white;
+            margin: 0 0 15px 0;
+            text-transform: uppercase;
+          }
+          p {
+            font-size: 18px;
             font-style: normal;
             font-weight: 400;
             line-height: 177.023%;
-            color: $text_color;
-            margin: 19px 0 0 0;
+            color: $white;
+            margin: 0;
+            max-width: 649px;
+          }
+          .white-btn {
+            color: $main-color-second;
+            border-color: $main-color-second;
+            text-transform: uppercase;
+            font-family: Instrument Sans;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px;
+            &:hover {
+              background-color: $main-color-second;
+              color: $white;
+            }
           }
         }
       }
@@ -50,7 +72,7 @@
   }
   .swiper {
     width: 100%;
-    height: 507px;
+    height: 577px;
     z-index: 0;
     &.mobile {
       display: none;
@@ -108,7 +130,7 @@
     .swiper-pagination-horizontal.swiper-pagination-bullets
       .swiper-pagination-bullet.swiper-pagination-bullet-active {
       border: 2px solid $swiper_border_color;
-      background-color: $main-color;
+      background-color: $main-color-second;
     }
   }
 }
@@ -210,10 +232,14 @@
             }
           }
           .hero_content--content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
             position: absolute;
-            top: 8px;
+            top: 50%;
             left: 50%;
-            transform: translateX(-50%);
+            transform: translate(-50%, -50%);
             h1,
             h2 {
               font-size: 34px;
@@ -221,22 +247,52 @@
               font-weight: 500;
               line-height: 110%;
               text-transform: uppercase;
-              margin: 0;
-              color: $black;
-              text-align: center;
+              margin: 0 0 20px 0;
+              text-align: left;
+              color: $main-color-second;
               span {
-                font-weight: 900;
-                color: $main-color;
+                font-weight: 700;
+                color: $white;
               }
+            }
+            h3 {
+              text-align: center;
+              font-weight: 600;
+              font-size: 17px;
+              line-height: 22px;
+              color: $white;
+              margin: 0 0 15px 0;
+              text-transform: uppercase;
+              text-align: left;
             }
             p {
               font-size: 14px;
               font-style: normal;
               font-weight: 400;
               line-height: 120%;
-              color: $text_color;
               margin: 10px 0 0 0;
-              text-align: center;
+              color: $white;
+              margin: 0;
+              text-align: left;
+            }
+            .white-btn {
+              color: $main-color-second;
+              border-color: $main-color-second;
+              text-transform: uppercase;
+              font-family: Instrument Sans;
+              font-weight: 600;
+              font-size: 14px;
+              line-height: 16px;
+              margin-top: 12px;
+              height: 42px;
+              img {
+                width: 16px;
+                height: 16px;
+              }
+              &:hover {
+                background-color: $main-color-second;
+                color: $white;
+              }
             }
           }
         }
@@ -310,10 +366,10 @@
   #swiper .swiper.desktop .swiper-slide img {
     width: 100%;
     height: auto;
-    max-height: 474px;
+    max-height: 577px;
   }
   #swiper .swiper.desktop {
     height: auto;
-    max-height: 474px;
+    max-height: 577px;
   }
 }

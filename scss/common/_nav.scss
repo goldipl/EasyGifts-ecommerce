@@ -1,7 +1,3 @@
-header {
-  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.05);
-}
-
 nav {
   .navbar-brand {
     img {
@@ -15,15 +11,21 @@ nav {
     position: relative;
     input {
       all: unset;
-      width: 568px;
-      height: 60px;
+      width: 901px;
+      height: 45px;
       background-color: $light_grey;
       padding: 0 60px 0 38px;
+      border-radius: 30px;
+      border: 1px solid $grey11;
       &::placeholder {
         font-size: 16px;
         font-weight: 300;
         line-height: 90%;
         color: $grey2;
+      }
+      &:hover,
+      &:active {
+        border: 1px solid $main-color-second;
       }
     }
     button {
@@ -139,6 +141,12 @@ nav {
     }
   }
   .navbar-bottom {
+    .offert-nav-toggler {
+      margin-right: 120px;
+      @media (max-width: 1360px) {
+        margin-right: auto;
+      }
+    }
     .main-nav-item {
       &:first-of-type {
         > a {
@@ -152,12 +160,17 @@ nav {
       }
     }
     .main-nav-item > a {
-      font-size: 20px;
+      font-size: 16px;
       font-style: normal;
-      font-weight: 400;
+      font-weight: 500;
       line-height: 177.023%;
       text-transform: uppercase;
       color: $text_color;
+      padding: 10px;
+      margin: 0 15px;
+      @media (max-width: 1220px) {
+        margin: 0;
+      }
       &:hover,
       &.active {
         color: $main-color;
@@ -186,24 +199,27 @@ nav {
 }
 
 @media (min-width: 992px) {
+  header {
+    height: 184px;
+  }
   nav {
-    height: 160px;
+    height: 144px;
     .navbar-brand-mobile {
       display: none;
     }
     .navbar-first-row {
-      height: 100px;
+      height: 86px;
     }
     .navbar-top {
       position: absolute;
       top: 0;
       left: 0;
       display: flex;
-      height: 100px;
+      height: 86px;
     }
     .navbar-bottom {
       position: absolute;
-      top: 100px;
+      top: 86px;
       left: 0;
       display: flex;
       height: 60px;
