@@ -128,8 +128,12 @@ body #main-wrapper.opened-menu::after {
 #topbar .container .topbar-lang .flag-modal .flag-modal-content {
   display: flex;
   padding: 16px;
-  background-color: #ffffff;
+  background-color: #34224f;
+  border: 1px solid #ffffff;
   cursor: pointer;
+}
+#topbar .container .topbar-lang .flag-modal .flag-modal-content:hover {
+  opacity: 0.8;
 }
 #topbar .container .topbar-lang .flag-modal .flag-modal-content .flag-img {
   cursor: pointer;

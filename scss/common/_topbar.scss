@@ -30,8 +30,12 @@
         .flag-modal-content {
           display: flex;
           padding: 16px;
-          background-color: $white;
+          background-color: $main-color-second;
+          border: 1px solid $white;
           cursor: pointer;
+          &:hover {
+            opacity: 0.8;
+          }
           .flag-img {
             cursor: pointer;
           }
