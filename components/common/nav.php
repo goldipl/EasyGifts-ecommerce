@@ -53,7 +53,7 @@
                 <div class="d-flex offert-nav-toggler">
                     <!-- Nav Dropdown Item -->
                     <li class="nav-item dropdown main-nav-item">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Oferta N01</a>
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Kategorie</a>
                         <ul class="dropdown-menu">
                             <!-- 2nd Level Nav Dropdown Item -->
                             <li class="dropend">
