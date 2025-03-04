@@ -32,7 +32,7 @@
             <?php include "./components/common/footer.php"; ?> 
         </footer>
         <script>
-            document.querySelector('#topbar .container .topbar-links a:nth-of-type(6)').classList.add('active')
+            document.querySelector('nav .nav-item.main-nav-item.contact a').classList.add('active')
         </script>
         <script src="./js/jquery.min.js"></script>
         <script src="./js/popper.min.js"></script>
