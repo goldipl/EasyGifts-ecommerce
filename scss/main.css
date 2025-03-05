@@ -2714,11 +2714,11 @@ label.add-files:focus, label.add-files:hover {
     font-size: 20px;
   }
 }
-#articles {
+#banners {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-#articles .articles_container {
+#banners .banners_container {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -2726,7 +2726,7 @@ label.add-files:focus, label.add-files:hover {
   gap: 24px;
 }
 @media (max-width: 991px) {
-  #articles .articles_container {
+  #banners .banners_container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr);
@@ -2734,14 +2734,14 @@ label.add-files:focus, label.add-files:hover {
     grid-row-gap: 24px;
   }
 }
-#articles .articles_container__slot .article-slot-img {
+#banners .banners_container__slot .banners-slot-img {
   position: relative;
 }
-#articles .articles_container__slot .article-slot-img .article-img {
+#banners .banners_container__slot .banners-slot-img .banners-img {
   width: 100%;
   height: auto;
 }
-#articles .articles_container__slot .article-slot-img .white-purple-btn {
+#banners .banners_container__slot .banners-slot-img .white-purple-btn {
   position: absolute;
   bottom: 11%;
   left: 7%;
@@ -2749,7 +2749,7 @@ label.add-files:focus, label.add-files:hover {
   height: 52px;
 }
 @media (max-width: 760px) {
-  #articles .articles_container__slot .article-slot-img .white-purple-btn {
+  #banners .banners_container__slot .banners-slot-img .white-purple-btn {
     width: 50%;
     height: auto;
   }
