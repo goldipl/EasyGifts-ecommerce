@@ -1,15 +1,25 @@
+#news {
+  position: relative;
+  background-color: $light_grey;
+  padding: 60px 0 60px 0;
+  margin-bottom: 60px;
+  &::before {
+    position: absolute;
+    display: block;
+    content: "";
+    background-color: $light_grey;
+    left: calc((100vw - 1576px) / 2 * (-1));
+    top: 0;
+    width: 100vw;
+    height: 100%;
+    z-index: -1;
+  }
+}
+
 .news_swiper {
-    overflow: hidden;
-    margin-bottom: 70px;
-    .swiper-slide {
-        position: relative;
-    }
-}
-
-@media (max-width: 1199px) {
-
-}
-
-@media (max-width: 991px) {
-
+  overflow: hidden;
+  margin-bottom: 42px;
+  .swiper-slide {
+    position: relative;
+  }
 }

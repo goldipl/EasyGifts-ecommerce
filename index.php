@@ -19,15 +19,11 @@
         <main id="main-wrapper">
             <?php include "./components/main_page/hero_swiper.php"; ?> 
             <?php include "./components/main_page/our_brands.php"; ?> 
-            <?php include "./components/main_page/our_brands_swiper.php"; ?>
-            <?php include "./components/main_page/promo_products.php"; ?> 
-            <?php include "./components/main_page/promo_products_swiper.php"; ?> 
+            <?php include "./components/main_page/promo_products.php"; ?>  
             <?php include "./components/main_page/articles.php"; ?> 
             <?php include "./components/main_page/news.php"; ?> 
-            <?php include "./components/main_page/news_swiper.php"; ?> 
             <?php include "./components/main_page/about_us.php"; ?>
-            <?php include "./components/main_page/blog.php"; ?> 
-            <?php include "./components/main_page/blog_swiper.php"; ?>   
+            <?php include "./components/main_page/blog.php"; ?>   
             <?php include "./components/main_page/info_section.php"; ?> 
         </main>
         <footer> 
