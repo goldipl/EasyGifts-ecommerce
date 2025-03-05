@@ -1060,13 +1060,12 @@ footer .footer__container__bottom .contip img {
   margin-top: 24px;
   border: 1px solid #34224f;
   background-color: #ffffff;
-  color: #e6007e;
+  color: #34224f;
   width: -moz-max-content;
   width: max-content;
   height: 54px;
   padding: 15px 20px;
   text-decoration: none;
-  color: #34224f;
   text-transform: uppercase;
   font-family: Instrument Sans;
   font-weight: 600;
@@ -1084,14 +1083,46 @@ footer .footer__container__bottom .contip img {
   content: url("./../assets/icons/common/buttons/button_white_arrow.svg?=gdfg5");
 }
 
+.white-pink-btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+  border: 1px solid #e6007e;
+  background-color: #ffffff;
+  color: #e6007e;
+  width: -moz-max-content;
+  width: max-content;
+  height: 54px;
+  padding: 15px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Instrument Sans;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+.white-pink-btn img {
+  margin-left: 10px;
+}
+.white-pink-btn:hover {
+  background-color: #e6007e;
+  color: #ffffff;
+}
+.white-pink-btn:hover img {
+  content: url("./../assets/icons/common/buttons/button_white_arrow.svg?=gdfg5");
+}
+
 @media (max-width: 991px) {
-  .white-purple-btn {
+  .white-purple-btn,
+  .white-pink-btn {
     font-size: 14px;
     line-height: 16px;
     margin-top: 12px;
     height: 42px;
   }
-  .white-purple-btn img {
+  .white-purple-btn img,
+  .white-pink-btn img {
     width: 16px;
     height: 16px;
   }
