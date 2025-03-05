@@ -2444,8 +2444,11 @@ label.add-files:focus, label.add-files:hover {
   z-index: 1;
 }
 .swiper_products_block_box .product-label-box .product-label {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   width: auto;
-  padding: 0 6px;
+  padding: 3px 27px;
   height: 27px;
   margin-right: 5px;
   margin-bottom: 5px;
@@ -2453,8 +2456,8 @@ label.add-files:focus, label.add-files:hover {
 .swiper_products_block_box .product-label-box .product-label p {
   font-size: 14px;
   font-style: normal;
-  font-weight: 500;
-  line-height: 27px;
+  font-weight: 600;
+  line-height: 21px;
   text-transform: uppercase;
   color: #374957;
   margin: 0;
@@ -4913,8 +4916,11 @@ label.add-files:focus, label.add-files:hover {
   z-index: 1;
 }
 .product_card_gallery_info .product-gallery .slider-one .product-label-box .product-label {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   width: auto;
-  padding: 0 6px;
+  padding: 3px 27px;
   height: 27px;
   margin-right: 5px;
   margin-bottom: 5px;
@@ -4922,8 +4928,8 @@ label.add-files:focus, label.add-files:hover {
 .product_card_gallery_info .product-gallery .slider-one .product-label-box .product-label p {
   font-size: 14px;
   font-style: normal;
-  font-weight: 500;
-  line-height: 27px;
+  font-weight: 600;
+  line-height: 21px;
   text-transform: uppercase;
   color: #374957;
   margin: 0;
@@ -13562,8 +13568,11 @@ main.grey-background {
   z-index: 1;
 }
 .category-filters-main__slot .product-label-box .product-label {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   width: auto;
-  padding: 0 6px;
+  padding: 3px 27px;
   height: 27px;
   margin-right: 5px;
   margin-bottom: 5px;
@@ -13571,8 +13580,8 @@ main.grey-background {
 .category-filters-main__slot .product-label-box .product-label p {
   font-size: 14px;
   font-style: normal;
-  font-weight: 500;
-  line-height: 27px;
+  font-weight: 600;
+  line-height: 21px;
   text-transform: uppercase;
   color: #374957;
   margin: 0;

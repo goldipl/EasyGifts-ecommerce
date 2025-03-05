@@ -36,16 +36,19 @@
         flex-wrap: wrap;
         z-index: 1;
         .product-label {
+          display: inline-flex;
+          justify-content: center;
+          align-items: center;
           width: auto;
-          padding: 0 6px;
+          padding: 3px 27px;
           height: 27px;
           margin-right: 5px;
           margin-bottom: 5px;
           p {
             font-size: 14px;
             font-style: normal;
-            font-weight: 500;
-            line-height: 27px;
+            font-weight: 600;
+            line-height: 21px;
             text-transform: uppercase;
             color: $text_color;
             margin: 0;
