@@ -9,6 +9,10 @@
       align-items: center;
       justify-content: center;
       height: 111px;
+      opacity: 0.5;
+      &:hover {
+        opacity: 1;
+      }
       img {
         height: 111px;
         width: auto;

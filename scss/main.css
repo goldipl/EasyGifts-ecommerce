@@ -1766,7 +1766,7 @@ label.add-files:focus, label.add-files:hover {
     line-height: 110%;
     text-transform: uppercase;
     margin: 0 0 20px 0;
-    text-align: left;
+    text-align: center;
     color: #34224f;
   }
   #swiper.main-page-swiper .swiper.mobile .swiper-slide .hero_content--content h1 span,
@@ -1782,17 +1782,9 @@ label.add-files:focus, label.add-files:hover {
     color: #ffffff;
     margin: 0 0 15px 0;
     text-transform: uppercase;
-    text-align: left;
   }
   #swiper.main-page-swiper .swiper.mobile .swiper-slide .hero_content--content p {
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 120%;
-    margin: 10px 0 0 0;
-    color: #ffffff;
-    margin: 0;
-    text-align: left;
+    display: none;
   }
   #swiper .swiper.desktop {
     display: none;
@@ -1833,10 +1825,7 @@ label.add-files:focus, label.add-files:hover {
 }
 @media (max-width: 760px) {
   .our_brands_swiper {
-    margin: -64px 0 0 0 !important;
-  }
-  .our_brands_swiper .swiper-slide img {
-    padding: 40px !important;
+    margin: -24px 0 24px 0 !important;
   }
 }
 @media (max-width: 576px) {
@@ -3018,6 +3007,10 @@ label.add-files:focus, label.add-files:hover {
   align-items: center;
   justify-content: center;
   height: 111px;
+  opacity: 0.5;
+}
+#our_brands .swiper-slide a:hover {
+  opacity: 1;
 }
 #our_brands .swiper-slide a img {
   height: 111px;
