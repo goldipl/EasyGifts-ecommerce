@@ -12,7 +12,7 @@
                     <h3>Personalizowane gadżety reklamowe!</h3>
                     <h1><span>Twoja marka -</span> Twój styl</h1>
                     <p>Realizujemy wyjątkowe gadżety reklamowe, które podkreślą charakter Twojej marki i przyciągną uwagę klientów. Oferujemy pełną personalizację, wysoką jakość wykonania oraz terminową realizację zamówień.</p>
-                    <a class="white-btn" href="#our_products_container">Sprawdź<img src="./assets/icons/common/buttons/button_color_arrow.svg" alt="arrow icon" width="18" height="18"></a>
+                    <a class="white-purple-btn" href="#our_products_container">Sprawdź<img src="./assets/icons/common/buttons/button_color_arrow.svg" alt="arrow icon" width="18" height="18"></a>
                 </div>
             </div>
             <div class="swiper-slide">
@@ -23,7 +23,7 @@
                     <h3>Personalizowane gadżety reklamowe!</h3>
                     <h1><span>Twoja marka -</span> Twój styl</h1>
                     <p>Realizujemy wyjątkowe gadżety reklamowe, które podkreślą charakter Twojej marki i przyciągną uwagę klientów. Oferujemy pełną personalizację, wysoką jakość wykonania oraz terminową realizację zamówień.</p>
-                    <a class="white-btn" href="#our_products_container">Sprawdź<img src="./assets/icons/common/buttons/button_color_arrow.svg" alt="arrow icon" width="18" height="18"></a>
+                    <a class="white-purple-btn" href="#our_products_container">Sprawdź<img src="./assets/icons/common/buttons/button_color_arrow.svg" alt="arrow icon" width="18" height="18"></a>
                 </div>
             </div>
             <div class="swiper-slide">
@@ -34,7 +34,7 @@
                     <h3>Personalizowane gadżety reklamowe!</h3>
                     <h1><span>Twoja marka -</span> Twój styl</h1>
                     <p>Realizujemy wyjątkowe gadżety reklamowe, które podkreślą charakter Twojej marki i przyciągną uwagę klientów. Oferujemy pełną personalizację, wysoką jakość wykonania oraz terminową realizację zamówień.</p>
-                    <a class="white-btn" href="#our_products_container">Sprawdź<img src="./assets/icons/common/buttons/button_color_arrow.svg" alt="arrow icon" width="18" height="18"></a>
+                    <a class="white-purple-btn" href="#our_products_container">Sprawdź<img src="./assets/icons/common/buttons/button_color_arrow.svg" alt="arrow icon" width="18" height="18"></a>
                 </div>
             </div>
             <div class="swiper-slide">
@@ -45,7 +45,7 @@
                     <h3>Personalizowane gadżety reklamowe!</h3>
                     <h1><span>Twoja marka -</span> Twój styl</h1>
                     <p>Realizujemy wyjątkowe gadżety reklamowe, które podkreślą charakter Twojej marki i przyciągną uwagę klientów. Oferujemy pełną personalizację, wysoką jakość wykonania oraz terminową realizację zamówień.</p>
-                    <a class="white-btn" href="#our_products_container">Sprawdź<img src="./assets/icons/common/buttons/button_color_arrow.svg" alt="arrow icon" width="18" height="18"></a>
+                    <a class="white-purple-btn" href="#our_products_container">Sprawdź<img src="./assets/icons/common/buttons/button_color_arrow.svg" alt="arrow icon" width="18" height="18"></a>
                 </div>
             </div>
         </div>
@@ -67,7 +67,7 @@
                     <h3>Personalizowane gadżety reklamowe!</h3>
                     <h1><span>Twoja marka -</span> Twój styl</h1>
                     <p>Realizujemy wyjątkowe gadżety reklamowe, które podkreślą charakter Twojej marki i przyciągną uwagę klientów. Oferujemy pełną personalizację, wysoką jakość wykonania oraz terminową realizację zamówień.</p>
-                    <a class="white-btn" href="#our_products_container">Sprawdź<img src="./assets/icons/common/buttons/button_color_arrow.svg" alt="arrow icon" width="18" height="18"></a>
+                    <a class="white-purple-btn" href="#our_products_container">Sprawdź<img src="./assets/icons/common/buttons/button_color_arrow.svg" alt="arrow icon" width="18" height="18"></a>
                 </div>
             </div>
             <div class="swiper-slide">
@@ -78,7 +78,7 @@
                     <h3>Personalizowane gadżety reklamowe!</h3>
                     <h1><span>Twoja marka -</span> Twój styl</h1>
                     <p>Realizujemy wyjątkowe gadżety reklamowe, które podkreślą charakter Twojej marki i przyciągną uwagę klientów. Oferujemy pełną personalizację, wysoką jakość wykonania oraz terminową realizację zamówień.</p>
-                    <a class="white-btn" href="#our_products_container">Sprawdź<img src="./assets/icons/common/buttons/button_color_arrow.svg" alt="arrow icon" width="18" height="18"></a>
+                    <a class="white-purple-btn" href="#our_products_container">Sprawdź<img src="./assets/icons/common/buttons/button_color_arrow.svg" alt="arrow icon" width="18" height="18"></a>
                 </div>
             </div>
             <div class="swiper-slide">
@@ -89,7 +89,7 @@
                     <h3>Personalizowane gadżety reklamowe!</h3>
                     <h1><span>Twoja marka -</span> Twój styl</h1>
                     <p>Realizujemy wyjątkowe gadżety reklamowe, które podkreślą charakter Twojej marki i przyciągną uwagę klientów. Oferujemy pełną personalizację, wysoką jakość wykonania oraz terminową realizację zamówień.</p>
-                    <a class="white-btn" href="#our_products_container">Sprawdź<img src="./assets/icons/common/buttons/button_color_arrow.svg" alt="arrow icon" width="18" height="18"></a>
+                    <a class="white-purple-btn" href="#our_products_container">Sprawdź<img src="./assets/icons/common/buttons/button_color_arrow.svg" alt="arrow icon" width="18" height="18"></a>
                 </div>
             </div>
             <div class="swiper-slide">
@@ -100,7 +100,7 @@
                     <h3>Personalizowane gadżety reklamowe!</h3>
                     <h1><span>Twoja marka -</span> Twój styl</h1>
                     <p>Realizujemy wyjątkowe gadżety reklamowe, które podkreślą charakter Twojej marki i przyciągną uwagę klientów. Oferujemy pełną personalizację, wysoką jakość wykonania oraz terminową realizację zamówień.</p>
-                    <a class="white-btn" href="#our_products_container">Sprawdź<img src="./assets/icons/common/buttons/button_color_arrow.svg" alt="arrow icon" width="18" height="18"></a>
+                    <a class="white-purple-btn" href="#our_products_container">Sprawdź<img src="./assets/icons/common/buttons/button_color_arrow.svg" alt="arrow icon" width="18" height="18"></a>
                 </div>
             </div>
         </div>

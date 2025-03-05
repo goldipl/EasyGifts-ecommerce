@@ -1053,6 +1053,49 @@ footer .footer__container__bottom .contip img {
   content: url("./../assets/icons/dashboard/save-btn-color.svg?gf=534");
 }
 
+.white-purple-btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+  border: 1px solid #34224f;
+  background-color: #ffffff;
+  color: #e6007e;
+  width: -moz-max-content;
+  width: max-content;
+  height: 54px;
+  padding: 15px 20px;
+  text-decoration: none;
+  color: #34224f;
+  text-transform: uppercase;
+  font-family: Instrument Sans;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+.white-purple-btn img {
+  margin-left: 10px;
+}
+.white-purple-btn:hover {
+  background-color: #34224f;
+  color: #ffffff;
+}
+.white-purple-btn:hover img {
+  content: url("./../assets/icons/common/buttons/button_white_arrow.svg?=gdfg5");
+}
+
+@media (max-width: 991px) {
+  .white-purple-btn {
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 12px;
+    height: 42px;
+  }
+  .white-purple-btn img {
+    width: 16px;
+    height: 16px;
+  }
+}
 input.form-input,
 select.form-select {
   width: -moz-max-content;
@@ -1507,19 +1550,6 @@ label.add-files:focus, label.add-files:hover {
   margin: 0;
   max-width: 649px;
 }
-#swiper.main-page-swiper .swiper.desktop .swiper-slide .hero_content--content .white-btn {
-  color: #34224f;
-  border-color: #34224f;
-  text-transform: uppercase;
-  font-family: Instrument Sans;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 24px;
-}
-#swiper.main-page-swiper .swiper.desktop .swiper-slide .hero_content--content .white-btn:hover {
-  background-color: #34224f;
-  color: #ffffff;
-}
 #swiper .swiper {
   width: 100%;
   height: 577px;
@@ -1732,25 +1762,6 @@ label.add-files:focus, label.add-files:hover {
     color: #ffffff;
     margin: 0;
     text-align: left;
-  }
-  #swiper.main-page-swiper .swiper.mobile .swiper-slide .hero_content--content .white-btn {
-    color: #34224f;
-    border-color: #34224f;
-    text-transform: uppercase;
-    font-family: Instrument Sans;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 16px;
-    margin-top: 12px;
-    height: 42px;
-  }
-  #swiper.main-page-swiper .swiper.mobile .swiper-slide .hero_content--content .white-btn img {
-    width: 16px;
-    height: 16px;
-  }
-  #swiper.main-page-swiper .swiper.mobile .swiper-slide .hero_content--content .white-btn:hover {
-    background-color: #34224f;
-    color: #ffffff;
   }
   #swiper .swiper.desktop {
     display: none;

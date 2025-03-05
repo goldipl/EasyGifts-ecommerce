@@ -53,19 +53,6 @@
             margin: 0;
             max-width: 649px;
           }
-          .white-btn {
-            color: $main-color-second;
-            border-color: $main-color-second;
-            text-transform: uppercase;
-            font-family: Instrument Sans;
-            font-weight: 600;
-            font-size: 20px;
-            line-height: 24px;
-            &:hover {
-              background-color: $main-color-second;
-              color: $white;
-            }
-          }
         }
       }
     }
@@ -274,25 +261,6 @@
               color: $white;
               margin: 0;
               text-align: left;
-            }
-            .white-btn {
-              color: $main-color-second;
-              border-color: $main-color-second;
-              text-transform: uppercase;
-              font-family: Instrument Sans;
-              font-weight: 600;
-              font-size: 14px;
-              line-height: 16px;
-              margin-top: 12px;
-              height: 42px;
-              img {
-                width: 16px;
-                height: 16px;
-              }
-              &:hover {
-                background-color: $main-color-second;
-                color: $white;
-              }
             }
           }
         }
