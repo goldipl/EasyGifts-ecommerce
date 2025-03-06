@@ -1532,7 +1532,7 @@ label.add-files:focus, label.add-files:hover {
 #swiper.main-page-swiper {
   position: relative;
   width: 100%;
-  max-width: 1640px;
+  max-width: 1920px;
 }
 #swiper.main-page-swiper .swiper.desktop .swiper-slide a img {
   -o-object-fit: cover;
