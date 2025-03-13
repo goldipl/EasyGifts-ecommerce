@@ -1899,7 +1899,7 @@ label.add-files:focus, label.add-files:hover {
   text-transform: uppercase;
   width: auto;
   max-width: 240px;
-  margin: 30px 0;
+  margin: 30px 0 8px 0;
   height: 60px;
 }
 #info_section .info-section-box__slot .info_section__bottom {
@@ -1912,7 +1912,7 @@ label.add-files:focus, label.add-files:hover {
   line-height: 160%;
   color: #374957;
   text-align: center;
-  width: 70%;
+  width: 80%;
 }
 
 @media (max-width: 991px) {
