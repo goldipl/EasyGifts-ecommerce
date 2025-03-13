@@ -43,7 +43,7 @@
         <div class="swiper-slide">
           <div class="article_swiper_box">
             <div class="article_swiper_box__image">
-              <img src="./assets/img/main_page/blog/blog01.png" alt="news img" width="310" height="251">
+              <img src="./assets/img/main_page/blog/blog02.png" alt="news img" width="310" height="251">
               <div class="article_swiper_box__image--date">
                 <img src="./assets/icons/blog/calendar-icon.svg" alt="kalendarz" width="13" height="13">
                 <p>27 Grudzień, 2024</p>
@@ -66,7 +66,7 @@
         <div class="swiper-slide">
           <div class="article_swiper_box">
             <div class="article_swiper_box__image">
-              <img src="./assets/img/main_page/blog/blog02.png" alt="news img" width="310" height="251">
+              <img src="./assets/img/main_page/blog/blog03.png" alt="news img" width="310" height="251">
               <div class="article_swiper_box__image--date">
                 <img src="./assets/icons/blog/calendar-icon.svg" alt="kalendarz" width="13" height="13">
                 <p>27 Grudzień, 2024</p>
@@ -89,7 +89,7 @@
         <div class="swiper-slide">
           <div class="article_swiper_box">
             <div class="article_swiper_box__image">
-              <img src="./assets/img/main_page/blog/blog03.png" alt="news img" width="310" height="251">
+              <img src="./assets/img/main_page/blog/blog04.png" alt="news img" width="310" height="251">
               <div class="article_swiper_box__image--date">
                 <img src="./assets/icons/blog/calendar-icon.svg" alt="kalendarz" width="13" height="13">
                 <p>27 Grudzień, 2024</p>
@@ -112,7 +112,7 @@
         <div class="swiper-slide">
           <div class="article_swiper_box">
             <div class="article_swiper_box__image">
-              <img src="./assets/img/main_page/blog/blog04.png" alt="news img" width="310" height="251">
+              <img src="./assets/img/main_page/blog/blog01.png" alt="news img" width="310" height="251">
               <div class="article_swiper_box__image--date">
                 <img src="./assets/icons/blog/calendar-icon.svg" alt="kalendarz" width="13" height="13">
                 <p>27 Grudzień, 2024</p>
