@@ -11,7 +11,6 @@
     width: calc(25% - 18px);
     margin-right: 24px;
     margin-bottom: 24px;
-    padding: 16px 16px 0 16px;
     &:nth-of-type(4n) {
       margin-right: 0;
     }
@@ -54,14 +53,14 @@
       position: absolute;
       left: 0;
       bottom: 0;
-      height: 73px;
+      height: 104px;
       width: 100%;
       flex-direction: row;
       align-items: center;
       justify-content: center;
       &__slot {
-        width: 25%;
-        height: 73px;
+        width: 50%;
+        height: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -76,45 +75,39 @@
           }
         }
         &:nth-of-type(1) {
-          background-color: $main-color;
+          background-color: $main-color-second;
         }
         &:nth-of-type(2) {
-          background-color: $text_color;
-        }
-        &:nth-of-type(3) {
-          background-color: $grey5;
-        }
-        &:nth-of-type(4) {
-          background-color: $grey9;
+          background-color: $main-color;
           img {
-            width: 28px;
-            height: 28px;
-            margin-top: -4px;
-            margin-right: -4px;
-          }
-          span {
-            margin-top: 0;
+            width: 32px;
+            height: 32px;
           }
         }
         img {
+          width: 26px;
+          height: 26px;
           object-fit: contain;
         }
         span {
-          font-size: 8px;
+          display: inline-flex;
+          font-size: 14px;
           font-style: normal;
-          font-weight: 400;
+          font-weight: 600;
           line-height: 160%;
           color: $white;
-          margin: 4px 0 0 0;
+          margin: 12px 0 0 0;
+          text-transform: uppercase;
         }
       }
     }
     &__top {
+      padding: 24px 32px 0 32px;
       .products-image {
         display: flex;
         height: 200px;
         width: 200px;
-        margin: 70px auto 48px;
+        margin: 60px auto 24px;
         text-decoration: none;
         img {
           height: 200px;
@@ -129,36 +122,49 @@
         -webkit-line-clamp: 2;
         -webkit-box-orient: vertical;
         overflow: hidden;
-        text-align: center;
-        height: 41px;
+        text-align: left;
+        height: 62px;
         width: 100%;
         margin: 0 auto 16px;
         text-decoration: none;
+        text-transform: uppercase;
         h3 {
           font-size: 20px;
           font-style: normal;
           font-weight: 700;
-          line-height: 100%;
+          line-height: 137%;
           color: $text_color;
-          width: 98%;
-          text-align: center;
+          text-align: left;
           margin: 0 auto;
+          text-transform: uppercase;
+          a {
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 137%;
+            color: $text_color;
+            text-align: center;
+            margin: 0 auto;
+            text-decoration: none;
+            text-transform: uppercase;
+          }
         }
       }
       .products-colors {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
         box-sizing: border-box;
         margin-bottom: 17px;
         .color {
-          width: 14px;
-          min-width: 14px !important;
-          height: 14px;
+          width: 20px;
+          min-width: 20px !important;
+          height: 20px;
           box-sizing: border-box;
           margin-right: 5px;
           margin-bottom: 5px;
+          border-radius: 100%;
           &.red {
             border-color: #fd0000;
           }
@@ -196,11 +202,11 @@
       }
       .products-code {
         display: -webkit-box;
-        -webkit-line-clamp: 1;
+        -webkit-line-clamp: 2;
         -webkit-box-orient: vertical;
         overflow: hidden;
         text-align: center;
-        height: 20px;
+        height: 40px;
         width: 100%;
         margin: 0 0 31px 0;
         p {
@@ -212,15 +218,11 @@
           margin: 0 auto;
         }
       }
-    }
-    &__bottom {
-      width: 100%;
-      border-top: 1px solid $grey;
       .catalog-price {
         p {
           font-size: 16px;
           font-style: normal;
-          font-weight: 500;
+          font-weight: 600;
           line-height: 160%;
           margin: 19px 0 8px 0;
           color: $text_color;
@@ -229,6 +231,13 @@
           }
         }
       }
+    }
+    &__bottom {
+      height: 104px;
+      padding-left: 32px;
+      padding-right: 32px;
+      width: 100%;
+      border-top: 1px solid $grey;
       .your-price {
         p {
           font-size: 16px;
@@ -262,7 +271,7 @@
           margin: 22px auto;
           border-collapse: collapse;
           border-color: $light_grey;
-          width: 90%;
+          width: 100%;
           tbody {
             tr {
               th {
