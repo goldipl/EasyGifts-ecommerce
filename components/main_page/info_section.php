@@ -1,42 +1,51 @@
 <section id="info_section">
-    <div class="container">
-        <div class="d-flex flex-wrap flex-row py-5">
-            <div class="d-flex flex-column align-items-center flex-col col-6 col-lg-3 p-3">
-                <div class="info_section__top d-flex align-items-center justify-content-center">
-                    <img src="./assets/icons/main_page/info_section/info-section-01.svg" alt="welcome slot img" width="62" height="50">
-                    <p>Duże stany magazynowe</p>
+    <div class="container info-section">
+        <div class="info-section-box">
+            <a href="" class="info-section-box__slot">
+                <div class="info_section__top">
+                    <img src="./assets/icons/main_page/info_section/import.svg" alt="Import" width="57" height="50">
+                    <p>Import</p>
                 </div>
                 <div class="info_section__bottom">
-                    <p>Gwarancja szybkiej realizacji zamówień</p>
+                    <p>Zrealizujemy Twoje pomysły. Stwórz z nami gadżety, jakich nie ma nikt inny!</p>
                 </div>
-            </div>
-            <div class="d-flex flex-column align-items-center flex-col col-6 col-lg-3 p-3">
-                <div class="info_section__top d-flex align-items-center justify-content-center">
-                    <img src="./assets/icons/main_page/info_section/info-section-02.svg" alt="welcome slot img" width="62" height="50">
-                    <p>Oferta produktowa</p>
+            </a>
+            <a href="" class="info-section-box__slot">
+                <div class="info_section__top">
+                    <img src="./assets/icons/main_page/info_section/shop.svg" alt="SKLEP LUB KATALOG NO-NAME" width="57" height="50">
+                    <p>SKLEP LUB KATALOG NO-NAMEa</p>
                 </div>
                 <div class="info_section__bottom">
-                    <p>Zawsze na czasie i zgodnie z trendami rynkowymi</p>
+                    <p>Zbuduj własny sklep internetowy lub katalog no-name za darmo!</p>
                 </div>
-            </div>
-            <div class="d-flex flex-column align-items-center flex-col col-6 col-lg-3 p-3">
-                <div class="info_section__top d-flex align-items-center justify-content-center">
-                    <img src="./assets/icons/main_page/info_section/info-section-03.svg" alt="welcome slot img" width="62" height="50">
+            </a>
+            <a href="" class="info-section-box__slot">
+                <div class="info_section__top">
+                    <img src="./assets/icons/main_page/info_section/print.svg" alt="Drukarnia gadżetowa" width="57" height="50">
                     <p>Drukarnia gadżetowa</p>
                 </div>
                 <div class="info_section__bottom">
-                    <p>Znakowania na towarze własnym i powierzonym</p>
+                    <p>Zamawiaj produkty ze znakowaniem i drukuj na towarze powierzonym</p>
                 </div>
-            </div>
-            <div class="d-flex flex-column align-items-center flex-col col-6 col-lg-3 p-3">
-                <div class="info_section__top d-flex align-items-center justify-content-center">
-                    <img src="./assets/icons/main_page/info_section/info-section-04.svg" alt="welcome slot img" width="62" height="50">
+            </a>
+            <a href="" class="info-section-box__slot">
+                <div class="info_section__top">
+                    <img src="./assets/icons/main_page/info_section/delivery.svg" alt="Szybka realizacja" width="57" height="50">
+                    <p>Szybka realizacja</p>
+                </div>
+                <div class="info_section__bottom">
+                    <p>Nie trać czasu! Zrealizujemy Twoje zamówienia szybko i sprawnie</p>
+                </div>
+            </a>
+            <a href="" class="info-section-box__slot">
+                <div class="info_section__top">
+                    <img src="./assets/icons/main_page/info_section/support.svg" alt="Serwis klienta" width="57" height="50">
                     <p>Serwis klienta</p>
                 </div>
                 <div class="info_section__bottom">
-                    <p>Doświadczony zespół specjalistów</p>
+                    <p>Masz pytania? Skontaktuj się z naszymi doświadczonymi specjalistami</p>
                 </div>
-            </div>
+            </a>
         </div>
     </div>
 </section>

@@ -1,14 +1,30 @@
 #info_section {
-  .container {
-    .flex-row {
-      .flex-col {
-        border-right: 2px solid $main-color;
-        &:last-of-type {
-          border-right: 0;
+  padding: 64px 0;
+  .info-section {
+    &-box {
+      display: flex;
+      flex-direction: row;
+      &__slot {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        &:hover {
+          p {
+            color: $main-color !important;
+          }
+          img {
+            filter: invert(13%) sepia(96%) saturate(7041%) hue-rotate(319deg)
+              brightness(89%) contrast(110%);
+          }
         }
         .info_section__top {
-          width: 80%;
-          text-align: left;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
           img {
             height: 50px;
             width: auto;
@@ -21,9 +37,10 @@
             line-height: 150%;
             color: $text_color;
             text-transform: uppercase;
-            margin: 0 0 0 24px;
             width: auto;
-            max-width: 180px;
+            max-width: 240px;
+            margin: 30px 0;
+            height: 60px;
           }
         }
         .info_section__bottom {
@@ -34,7 +51,6 @@
             font-weight: 400;
             line-height: 160%;
             color: $text_color;
-            margin: 22px auto 0;
             text-align: center;
             width: 70%;
           }
@@ -46,15 +62,18 @@
 
 @media (max-width: 991px) {
   #info_section {
-    .container {
-      .flex-row {
-        .flex-col {
-          &:nth-of-type(2) {
-            border-right: 0;
-          }
+    .info-section {
+      &-box {
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        &__slot {
+          width: 50%;
           .info_section__top {
             p {
-              font-size: 18px;
+              font-size: 16px;
+              margin-bottom: 16px;
+              height: 40px;
             }
           }
           .info_section__bottom {
@@ -72,9 +91,9 @@
 
 @media (max-width: 576px) {
   #info_section {
-    .container {
-      .flex-row {
-        .flex-col {
+    .info-section {
+      &-box {
+        &__slot {
           .info_section__top {
             flex-direction: column;
             p {
