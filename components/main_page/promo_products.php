@@ -9,6 +9,7 @@
       </div>
     </div>
   </div>
+
   <div id="promo_products_swiper" class="container position-relative">
     <div class="promo_products_swiper">
       <!-- Additional required wrapper -->
@@ -618,5 +619,9 @@
       <div class="swiper-button-prev"></div>
       <div class="swiper-button-next"></div>
     </div>
+  </div>
+
+  <div class="main-check-btn-box">
+    <a href="" class="white-pink-btn">Sprawdź wszystkie <img src="./assets/icons/common/buttons/button_pink_arrow.svg" alt="arrow icon" width="18" height="18"></a>
   </div>
 </section>
