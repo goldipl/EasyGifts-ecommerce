@@ -8,43 +8,53 @@
       }
     }
   }
-  .article-text-sg {
-    h3 {
-      font-size: 28px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 120%;
-      text-transform: uppercase;
-      margin: 0 0 30px 0;
-      color: $text_color;
-      span {
-        color: $main-color;
-        font-weight: 900;
+  .about-us-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 68px;
+    &__img {
+      display: flex;
+      flex-direction: column;
+      img {
+        object-fit: contain;
       }
     }
-    p {
-      font-size: 16px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 160%;
-      margin: 0 0 30px 0;
-      color: $text_color;
-      a {
-        text-decoration: underline;
-        &:hover {
-          text-decoration: none;
+    &__text {
+      display: flex;
+      flex-direction: column;
+      h2 {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 120%;
+        text-transform: uppercase;
+        margin-bottom: 24px;
+        color: $main-color-second;
+      }
+      h3 {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 107%;
+        color: $main-color-second;
+        margin-bottom: 19px;
+      }
+      p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 160%;
+        margin-bottom: 24px;
+        color: $small_text_color;
+        strong {
+          margin-bottom: 0;
         }
       }
-    }
-    a {
-      font-size: 16px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 160%;
-      color: $text_color;
-      text-decoration: underline;
-      &:hover {
-        text-decoration: none;
+      strong {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 160%;
+        margin-bottom: 24px;
+        color: $small_text_color;
       }
     }
   }
@@ -52,27 +62,31 @@
 
 @media (max-width: 991px) {
   #about_us {
-    .article-text-sg {
-      h3 {
-        font-size: 21px;
-        margin: 0 0 24px 0;
+    .about-us-box {
+      flex-direction: column;
+      justify-content: flex-start;
+      gap: 24px;
+      &__img {
+        order: 2;
       }
-      p {
-        font-size: 14px;
-        line-height: 140%;
-        margin: 0 0 24px 0;
-      }
-      a {
-        font-size: 14px;
-        line-height: 140%;
-      }
-      &__content {
-        flex-direction: column !important;
-        .left-column,
-        .right-column {
-          width: 100% !important;
-          margin-left: 0 !important;
-          margin-right: 0 !important;
+      &__text {
+        order: 1;
+        h2 {
+          font-size: 24px;
+          text-align: center;
+        }
+        h3 {
+          font-size: 16px;
+          text-align: center;
+        }
+        p {
+          font-size: 14px;
+          line-height: 130%;
+          text-align: justify;
+        }
+        strong {
+          font-size: 14px;
+          line-height: 130%;
         }
       }
     }
