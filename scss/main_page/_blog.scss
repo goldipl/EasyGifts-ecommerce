@@ -30,16 +30,42 @@
     height: 100%;
     z-index: 0;
   }
+  .article_swiper_box {
+    padding: 31px 31px 16px 31px;
+  }
   .swiper-slide {
     position: relative;
     .article_swiper_box__text {
-      background-color: $blog_grey_opacity;
+      margin-top: 8px;
+      &--title {
+        h3 {
+          height: 75px;
+          display: inline-flex;
+          align-items: center;
+        }
+      }
       &--date,
-      &--title,
+      &--title {
+        p,
+        h3,
+        a {
+          color: $text_color;
+        }
+        h3 {
+          margin-bottom: 10px;
+        }
+        h3 a {
+          -webkit-line-clamp: 3;
+        }
+        p {
+          -webkit-line-clamp: 4;
+        }
+      }
       &--see-more {
         p,
         a {
-          color: $white;
+          margin-top: 10px;
+          color: $main-color;
         }
       }
     }
