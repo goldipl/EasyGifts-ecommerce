@@ -3365,7 +3365,7 @@ label.add-files:focus, label.add-files:hover {
   position: absolute;
   display: block;
   content: "";
-  background-color: #e7b8bd;
+  background-color: #0091a6;
   top: 0;
   left: -50vw;
   height: 100%;
@@ -3376,7 +3376,7 @@ label.add-files:focus, label.add-files:hover {
   position: absolute;
   display: block;
   content: "";
-  background-color: #d8cc84;
+  background-color: #0091a6;
   top: 0;
   right: -50vw;
   height: 100%;
