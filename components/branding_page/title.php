@@ -1,18 +1,12 @@
 <section id="top_title">
-    <div class="container d-flex flex-row align-items-center justify-content-center">
-        <div class="d-flex flex-column py-4 mp-titles align-items-center justify-content-center">
-            <div class="d-flex flex-row">
-                <a href="#" class="promo-box d-flex justify-content-center new">
-                    <p>Możliwości</p>
-                </a>
-            </div>
-            <div class="d-flex flex-row mp-title">
-                <h2 class="p-0">
-                    <span>Nasze</span> Dostępne metody znakowania
-                </h2>
-            </div>
-        </div>
-        <div class="d-flex flex-row mp-bell-btn-box">
-        </div>
+<div class="container d-flex flex-row align-items-start justify-content-start">
+    <div class="d-flex flex-column py-4 mp-titles align-items-start justify-content-start">
+      <div class="d-flex flex-row mp-title">
+        <h2 class="mb-3">Techniki znakowania</h2>
+      </div>
+      <div class="d-flex flex-row mp-description">
+        <span class="text-start">Oferujemy szeroką gamę nadruków na różnych powierzchniach. Dla każdego produktu z naszego asortymentu proponujemy optymalną technikę i rozmiar  znakowania. Istnieje także możliwość wyboru innej techniki nadruku niż  sugerowana. Wówczas należy skontaktować się z opiekunem handlowym i  dostosować optymalną metodę znakownania.</span>
+      </div>
     </div>
+  </div>
 </section>

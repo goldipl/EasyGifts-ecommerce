@@ -135,7 +135,8 @@
     background-color: rgb(0, 145, 166);
     position: relative;
     width: 100vw;
-    margin-bottom: 148px;
+    padding-bottom: 120px;
+    margin-bottom: 24px;
     &.import-yellow {
       background-color: #faf385;
       padding-bottom: 80px;
@@ -180,10 +181,11 @@
       }
       &--btn {
         margin-top: 16px;
-        width: 180px;
+        width: max-content;
         height: 48px;
         a {
           font-size: 14px;
+          padding: 0 24px;
         }
       }
     }
