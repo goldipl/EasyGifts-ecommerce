@@ -1191,8 +1191,10 @@ footer .footer__container__bottom .contip img {
   align-items: center;
 }
 .main-check-btn-box a {
+  margin-top: 0;
   font-size: 16px;
   line-height: 140%;
+  margin-bottom: 16px;
 }
 @media (max-width: 991px) {
   .main-check-btn-box a {
@@ -2288,6 +2290,11 @@ label.add-files:focus, label.add-files:hover {
     font-size: 20px;
   }
 }
+@media (max-width: 649px) {
+  #promo_products_container {
+    padding: 32px 0;
+  }
+}
 #our_products_swiper {
   position: relative;
   background-color: #f2f3f7;
@@ -2885,6 +2892,12 @@ label.add-files:focus, label.add-files:hover {
   position: relative;
 }
 
+@media (max-width: 649px) {
+  #news {
+    padding: 32px 0;
+    margin-bottom: 40px;
+  }
+}
 #blog_swiper .swiper-slide:last-of-type .article_swiper_box {
   border-right: 1px solid #e6e6e6;
 }
@@ -3275,6 +3288,11 @@ label.add-files:focus, label.add-files:hover {
   color: #ffffff;
 }
 
+@media (max-width: 649px) {
+  #our_brands {
+    padding-top: 40px;
+  }
+}
 #hero {
   position: relative;
   width: 100vw;
