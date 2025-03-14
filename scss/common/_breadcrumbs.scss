@@ -31,6 +31,12 @@
         background-position: center center;
       }
       a,
+      p {
+        &:hover {
+          color: $main-color;
+        }
+      }
+      a,
       p,
       span {
         font-weight: 400;
@@ -39,9 +45,6 @@
         color: $text_color;
         text-decoration: none;
         margin: 0;
-        &:hover {
-          color: $main-color;
-        }
       }
     }
   }
