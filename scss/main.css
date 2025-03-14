@@ -3302,7 +3302,7 @@ label.add-files:focus, label.add-files:hover {
   position: absolute;
   display: block;
   content: "";
-  background-color: #ac9fe4;
+  background-color: #0091a6;
   top: 0;
   left: -50vw;
   height: 100%;
@@ -3313,7 +3313,7 @@ label.add-files:focus, label.add-files:hover {
   position: absolute;
   display: block;
   content: "";
-  background-color: #bb9bde;
+  background-color: #0091a6;
   top: 0;
   right: -50vw;
   height: 100%;
@@ -3387,7 +3387,7 @@ label.add-files:focus, label.add-files:hover {
   position: absolute;
   top: 100px;
   left: 0;
-  width: 35vw;
+  width: 40vw;
   z-index: 1;
 }
 #hero .hero_content .breadcrumbs {
@@ -3396,21 +3396,21 @@ label.add-files:focus, label.add-files:hover {
   left: -10px;
 }
 #hero .hero_content h1 {
-  font-size: 72px;
+  font-size: 36px;
   font-style: normal;
   font-weight: 600;
-  line-height: 120%;
+  line-height: 136%;
   text-transform: uppercase;
-  color: #212321;
-  margin: 0 0 26px 0;
+  color: #34224f;
+  margin: 24px 0 40px 0;
 }
 #hero .hero_content p {
-  font-size: 20px;
+  font-size: 18px;
   font-style: normal;
-  font-weight: 400;
-  line-height: 177.023%;
-  color: #212321;
-  margin: 0 0 26px 0;
+  font-weight: 500;
+  line-height: 160%;
+  color: #ffffff;
+  margin: 0 0 40px 0;
 }
 #hero .hero_content--btn {
   display: inline-flex;
@@ -3419,7 +3419,8 @@ label.add-files:focus, label.add-files:hover {
   margin-top: 24px;
   border: 1px solid #e6007e;
   background-color: #ffffff;
-  width: 192px;
+  width: -moz-max-content;
+  width: max-content;
   height: 54px;
   margin-right: 20px;
 }
@@ -3431,10 +3432,12 @@ label.add-files:focus, label.add-files:hover {
   height: 100%;
   font-size: 16px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   line-height: normal;
   color: #e6007e;
   text-decoration: none;
+  padding: 0 40px;
+  cursor: pointer;
 }
 #hero .hero_content--btn a img {
   margin-left: 10px;
@@ -3446,7 +3449,7 @@ label.add-files:focus, label.add-files:hover {
   color: #ffffff;
 }
 #hero .hero_content--btn:hover a img {
-  content: url("./../assets/icons/common/buttons/button_white_arrow.svg");
+  filter: invert(1) brightness(22);
 }
 #hero .hero_video {
   position: absolute;

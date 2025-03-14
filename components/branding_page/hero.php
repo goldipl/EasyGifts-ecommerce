@@ -11,15 +11,12 @@
             </ul>
         </div>
         <h1 class="hero_content--title">Znakowanie</h1>
-        <p class="hero_content--text">Aby upominek w pełni spełniał funkcje reklamowe koniecznie powinien zostać spersonalizowany. Idealnym rozwiązaniem jest trwały logotyp wykonany na gadżecie, który gwarantuje skuteczną reklamę na lata! Dbając o wygodę naszych Klientów świadczymy kompleksowe usługi w zakresie znakowania upominków reklamowych. Zajmujemy się znakowaniem artykułów własnych oraz powierzonych.</p>
+        <p class="hero_content--text">Gadżety reklamowe z logo firmy to skuteczny sposób na promowanie biznesu i  utrwalanie pozytywnego wizerunku marki. Od kilkunastu lat specjalizujemy się w nadrukach na artykułach reklamowych. Posiadamy specjalistyczny  park maszynowy i wykwalifikowaną ekipę fachowców, którzy wykonają  estetyczne i precyzyjne znakowanie. Znakujemy również na towarze  powierzonym. </p>
         <div class="hero_content--btn">
-            <a href="#">Kliknij i sprawdź<img src="./assets/icons/common/buttons/button_color_arrow.svg" alt="arrow icon" width="18" height="18"></a>
+            <a href="#">TERMINY ZNAKOWAŃ<img src="./assets/icons/branding/branding-clock.svg" alt="arrow icon" width="30" height="26"></a>
         </div>
     </div>
     <div class="hero_image">
         <img src="./assets/img/branding_page/hero_img.jpg" alt="hero img" width="1928" height="638">
-    </div>
-    <div class="hero_video">
-        <iframe width="727" height="409" src="https://www.youtube.com/embed/ykCKd1cVvyU" frameborder="0" allowfullscreen></iframe>
     </div>
 </section>
