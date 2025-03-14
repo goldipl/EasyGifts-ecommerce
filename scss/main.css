@@ -3295,6 +3295,7 @@ label.add-files:focus, label.add-files:hover {
 #hero {
   position: relative;
   width: 100vw;
+  height: 521px;
   margin-bottom: 72px;
 }
 #hero.register-purple {
@@ -3318,24 +3319,24 @@ label.add-files:focus, label.add-files:hover {
 }
 #hero .hero_content {
   position: absolute;
-  top: 100px;
+  top: 140px;
   left: 0;
-  width: 40vw;
+  max-width: 646px;
   z-index: 1;
 }
 #hero .hero_content .breadcrumbs {
   position: absolute;
-  top: -80px;
+  top: -140px;
   left: -10px;
 }
 #hero .hero_content h1 {
   font-size: 36px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 136%;
   text-transform: uppercase;
   color: #34224f;
-  margin: 24px 0 40px 0;
+  margin: -56px 0 48px 0;
 }
 #hero .hero_content p {
   font-size: 18px;
@@ -3395,34 +3396,28 @@ label.add-files:focus, label.add-files:hover {
   border-radius: 10px;
   box-shadow: -33px 45px 50px 24px rgba(0, 0, 0, 0.25);
 }
+#hero .hero_image {
+  height: 521px;
+}
 #hero .hero_image img {
+  height: 521px;
+  -o-object-fit: cover;
+     object-fit: cover;
   margin-left: -160px;
 }
 
-@media (max-width: 1399px) {
-  #hero .hero_content h1 {
-    font-size: 50px;
-    margin: 0 0 24px 0;
-  }
-  #hero .hero_content p {
-    font-size: 18px;
-    margin: 0 0 20px 0;
-  }
-  #hero .hero_video {
-    right: 0;
-  }
-  #hero .hero_video iframe {
-    width: 640px;
-    height: 360px;
-  }
-}
 @media (max-width: 1199px) {
   #hero {
-    background-color: rgb(0, 145, 166);
+    background-color: #59b1c9;
     position: relative;
     width: 100vw;
     padding-bottom: 120px;
     margin-bottom: 24px;
+    margin-left: -40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: calc(100% + 80px);
+    max-width: unset;
   }
   #hero.import-yellow {
     background-color: #faf385;
@@ -3450,13 +3445,14 @@ label.add-files:focus, label.add-files:hover {
   }
   #hero .hero_content {
     position: relative;
-    top: 40px;
-    left: 0;
-    width: 100%;
+    top: 80px;
+    left: 40px;
+    right: 40px;
+    width: 80%;
   }
   #hero .hero_content .breadcrumbs {
     position: absolute;
-    top: -48px;
+    top: -88px;
     left: -10px;
   }
   #hero .hero_content h1 {
@@ -3492,9 +3488,17 @@ label.add-files:focus, label.add-files:hover {
   }
 }
 @media (max-width: 991px) {
+  #hero + #top_title {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  #hero .hero_content {
+    left: 24px;
+    right: 24px;
+  }
   #hero .hero_content .breadcrumbs {
     position: absolute;
-    top: -38px;
+    top: -68px;
     left: -16px;
   }
   #hero .hero_content h1 {
