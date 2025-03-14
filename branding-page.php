@@ -17,19 +17,7 @@
             <?php include "./components/common/nav.php"; ?> 
         </header>
         <main id="main-wrapper">
-            <div class="breadcrumbs container">
-                <ul>
-                    <li class="breadcrumb-item">
-                        <a href="./index.php">Home</a>
-                    </li>
-                    <li class="breadcrumb-item">
-                        <a href="#">Znakowanie</a>
-                    </li>
-                    <li class="breadcrumb-item">
-                        <span>Grawer laserowy</span>
-                    </li>
-                </ul>
-            </div>
+            <?php include "./components/branding_page/branding_page_hero.php"; ?> 
             <?php include "./components/branding_page/gallery_article.php"; ?> 
             <?php include "./components/branding_page/branding_info_boxes.php"; ?> 
         </main>

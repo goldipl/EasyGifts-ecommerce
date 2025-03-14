@@ -3297,6 +3297,16 @@ label.add-files:focus, label.add-files:hover {
   height: 521px;
   margin-bottom: 72px;
 }
+#hero.branding-page-hero {
+  height: 680px;
+  background-color: #c9e7f1;
+}
+#hero.branding-page-hero .hero_image {
+  height: 680px;
+}
+#hero.branding-page-hero .hero_image img {
+  height: 680px;
+}
 #hero.register-purple {
   margin-bottom: 0 !important;
 }
@@ -3320,7 +3330,7 @@ label.add-files:focus, label.add-files:hover {
   position: absolute;
   top: 140px;
   left: 0;
-  max-width: 646px;
+  max-width: 800px;
   z-index: 1;
 }
 #hero .hero_content .breadcrumbs {
@@ -3344,6 +3354,9 @@ label.add-files:focus, label.add-files:hover {
   line-height: 160%;
   color: #ffffff;
   margin: 0 0 40px 0;
+}
+#hero .hero_content p.black {
+  color: #374957;
 }
 #hero .hero_content--btn {
   display: inline-flex;
