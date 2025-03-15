@@ -20,7 +20,7 @@
             <?php include "./components/branding_page/branding_page_hero.php"; ?> 
             <?php include "./components/branding_page/branding_benefits.php"; ?> 
             <?php include "./components/branding_page/branding_types.php"; ?> 
-            <?php include "./components/branding_page/carousel.php"; ?>
+            <?php include "./components/branding_page/branding_carousel.php"; ?>
             <?php include "./components/branding_page/branding_techniques.php"; ?>
         </main>
         <footer> 
@@ -36,6 +36,6 @@
         <script src="./js/select2.min.js"></script>
         <script src="./js/script.js"></script>
         <script src="./js/swiper/swiper-bundle.js"></script>
-        <script src="./js/import_page/import-carousel.js"></script>
+        <script src="./js/branding_page/branding-carousel.js"></script>
     </body>
 </html>
