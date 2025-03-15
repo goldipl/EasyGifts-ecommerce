@@ -6,7 +6,7 @@
                     <a href="./index.php">Home</a>
                 </li>
                 <li class="breadcrumb-item">
-                    <a href="#">Znakowanie</a>
+                    <span>Znakowanie</span>
                 </li>
             </ul>
         </div>
