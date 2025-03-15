@@ -1739,7 +1739,7 @@ label.add-files:focus, label.add-files:hover {
 }
 @media (max-width: 991px) {
   #branding_page_swiper h2 {
-    font-size: 30px;
+    font-size: 24px;
     margin-bottom: 24px;
     padding-top: 16px;
   }
@@ -3805,7 +3805,7 @@ label.add-files:focus, label.add-files:hover {
     padding-bottom: 32px;
   }
   .types-container__title {
-    font-size: 30px;
+    font-size: 24px;
     margin-bottom: 24px;
     padding-top: 16px;
   }
@@ -3882,7 +3882,7 @@ label.add-files:focus, label.add-files:hover {
     padding: 0;
   }
   .benefits-section .container .benefits-title {
-    font-size: 30px;
+    font-size: 24px;
     margin-bottom: 24px;
     padding-top: 16px;
   }
@@ -3902,6 +3902,66 @@ label.add-files:focus, label.add-files:hover {
   .benefits-section .container .benefits-container .benefit-card .benefit-header .benefit-icon img {
     width: 40px;
     height: auto;
+  }
+}
+.branding-techniques {
+  background-color: #f2f3f7;
+  padding-bottom: 52px;
+}
+.branding-techniques__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 136%;
+  text-transform: uppercase;
+  color: #34224f;
+  margin-bottom: 40px;
+}
+.branding-techniques .techniques {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.branding-techniques .techniques ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex: 1;
+  min-width: 150px;
+}
+.branding-techniques .techniques ul li {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 200%;
+  margin-bottom: 5px;
+  color: #374957;
+}
+.branding-techniques .techniques ul li a {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 200%;
+  color: #374957;
+  text-decoration: none;
+}
+.branding-techniques .techniques ul li a:hover {
+  color: #e6007e;
+}
+
+@media (max-width: 991px) {
+  .branding-techniques {
+    padding-bottom: 24px;
+  }
+  .branding-techniques__title {
+    font-size: 24px;
+    margin-bottom: 24px;
+    padding-top: 16px;
+  }
+  .branding-techniques .techniques ul li {
+    font-size: 14px;
+    line-height: 160%;
+  }
+  .branding-techniques .techniques ul li a {
+    font-size: 14px;
+    line-height: 160%;
   }
 }
 .text_teasers {
