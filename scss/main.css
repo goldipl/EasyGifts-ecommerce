@@ -4016,7 +4016,7 @@ label.add-files:focus, label.add-files:hover {
   color: #212321;
 }
 .branding-table table tbody tr td:first-of-type {
-  min-width: 300px;
+  min-width: 380px;
   font-weight: 600;
   padding-left: 68px;
 }
