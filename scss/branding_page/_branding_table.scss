@@ -1,0 +1,112 @@
+#main-wrapper:has(.branding-table) {
+  background-color: $light_grey;
+}
+
+.branding-table {
+  padding-bottom: 75px;
+  background-color: $light_grey;
+  h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 136%;
+    text-transform: uppercase;
+    color: $text_color;
+    margin: 40px 0 28px 0;
+  }
+  table {
+    width: 100%;
+    background-color: $white;
+    tbody {
+      tr {
+        height: 75px;
+        &:first-of-type {
+          th {
+            background-color: $light_violet;
+          }
+        }
+        &:nth-of-type(even) {
+          background-color: $grey13;
+        }
+        th {
+          font-size: 20px;
+          font-weight: 500;
+          line-height: 177.023%;
+          margin: 0;
+          color: $text_color;
+          background-color: $white;
+          padding: 8px 0;
+          vertical-align: top;
+          &:first-of-type {
+            min-width: 300px;
+            padding-left: 68px;
+          }
+        }
+        td {
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 177.023%;
+          margin: 0;
+          padding: 16px 0;
+          color: $text_color;
+          &:first-of-type {
+            min-width: 300px;
+            font-weight: 600;
+            padding-left: 68px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1399px) {
+  .branding-table {
+    h1 {
+      font-size: 50px;
+      margin: 0 0 24px 0;
+    }
+  }
+}
+
+@media (max-width: 1199px) {
+  .branding-table {
+    h1 {
+      font-size: 36px;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .branding-table {
+    padding-bottom: 36px;
+    h1 {
+      font-size: 26px;
+      margin-top: 16px;
+      margin-bottom: 16px;
+    }
+    table {
+      width: 100%;
+      tbody {
+        tr {
+          height: 40px;
+          th {
+            font-size: 12px;
+            line-height: 140%;
+            &:first-of-type {
+              min-width: 160px;
+              padding-left: 16px;
+            }
+          }
+          td {
+            font-size: 12px;
+            line-height: 140%;
+            &:first-of-type {
+              min-width: 140px;
+              padding-left: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

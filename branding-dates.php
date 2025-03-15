@@ -25,11 +25,12 @@
                         <a href="#">Znakowanie</a>
                     </li>
                     <li class="breadcrumb-item">
-                        <a href="#">Terminy znakowań</a>
+                        <span>Terminy znakowań</span>
                     </li>
                 </ul>
             </div>
             <?php include "./components/branding_page/branding_table.php"; ?> 
+            <?php include "./components/branding_page/branding_techniques.php"; ?> 
         <footer> 
             <?php include "./components/common/footer.php"; ?> 
         </footer>

@@ -3964,6 +3964,106 @@ label.add-files:focus, label.add-files:hover {
     line-height: 160%;
   }
 }
+#main-wrapper:has(.branding-table) {
+  background-color: #f2f3f7;
+}
+
+.branding-table {
+  padding-bottom: 75px;
+  background-color: #f2f3f7;
+}
+.branding-table h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 136%;
+  text-transform: uppercase;
+  color: #212321;
+  margin: 40px 0 28px 0;
+}
+.branding-table table {
+  width: 100%;
+  background-color: #ffffff;
+}
+.branding-table table tbody tr {
+  height: 75px;
+}
+.branding-table table tbody tr:first-of-type th {
+  background-color: #bba6dc;
+}
+.branding-table table tbody tr:nth-of-type(even) {
+  background-color: #f4f4f4;
+}
+.branding-table table tbody tr th {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 177.023%;
+  margin: 0;
+  color: #212321;
+  background-color: #ffffff;
+  padding: 8px 0;
+  vertical-align: top;
+}
+.branding-table table tbody tr th:first-of-type {
+  min-width: 300px;
+  padding-left: 68px;
+}
+.branding-table table tbody tr td {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 177.023%;
+  margin: 0;
+  padding: 16px 0;
+  color: #212321;
+}
+.branding-table table tbody tr td:first-of-type {
+  min-width: 300px;
+  font-weight: 600;
+  padding-left: 68px;
+}
+
+@media (max-width: 1399px) {
+  .branding-table h1 {
+    font-size: 50px;
+    margin: 0 0 24px 0;
+  }
+}
+@media (max-width: 1199px) {
+  .branding-table h1 {
+    font-size: 36px;
+  }
+}
+@media (max-width: 991px) {
+  .branding-table {
+    padding-bottom: 36px;
+  }
+  .branding-table h1 {
+    font-size: 26px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+  .branding-table table {
+    width: 100%;
+  }
+  .branding-table table tbody tr {
+    height: 40px;
+  }
+  .branding-table table tbody tr th {
+    font-size: 12px;
+    line-height: 140%;
+  }
+  .branding-table table tbody tr th:first-of-type {
+    min-width: 160px;
+    padding-left: 16px;
+  }
+  .branding-table table tbody tr td {
+    font-size: 12px;
+    line-height: 140%;
+  }
+  .branding-table table tbody tr td:first-of-type {
+    min-width: 140px;
+    padding-left: 16px;
+  }
+}
 .text_teasers {
   margin: 40px auto 35px auto;
   flex-wrap: wrap;
