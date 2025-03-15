@@ -18,7 +18,10 @@
         </header>
         <main id="main-wrapper">
             <?php include "./components/branding_page/branding_page_hero.php"; ?> 
+            <?php include "./components/branding_page/branding_benefits.php"; ?> 
+            <?php include "./components/branding_page/branding_types.php"; ?> 
             <?php include "./components/branding_page/carousel.php"; ?>
+            <?php include "./components/branding_page/branding_techniques.php"; ?>
         </main>
         <footer> 
             <?php include "./components/common/footer.php"; ?> 

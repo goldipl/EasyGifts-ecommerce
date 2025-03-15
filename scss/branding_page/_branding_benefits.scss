@@ -1,0 +1,100 @@
+.benefits-section {
+  background-color: $light_grey;
+  padding: 40px;
+  padding-bottom: 44px;
+
+  .benefits-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 136%;
+    text-transform: uppercase;
+    color: $main-color-second;
+    margin-bottom: 40px;
+  }
+
+  .benefits-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 20px;
+
+    .benefit-card {
+      background-color: $white;
+      padding: 32px 48px;
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      gap: 17px;
+      border: 1px solid $light_grey;
+
+      .benefit-header {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        padding-bottom: 16px;
+        border-bottom: 1px solid #34224f;
+      }
+
+      .benefit-icon {
+        font-size: 30px;
+        color: $text_color;
+      }
+
+      .benefit-title {
+        font-size: 18px;
+        font-weight: bold;
+        color: $text_color;
+        margin-bottom: 0;
+        text-transform: uppercase;
+      }
+
+      .benefit-description {
+        font-size: 14px;
+        color: $small_text_color;
+        line-height: 1.5;
+      }
+    }
+  }
+}
+
+@media (max-width: 1260px) {
+  .benefits-section {
+    padding: 20px;
+    .benefits-container {
+      grid-template-columns: repeat(2, minmax(auto, 2fr));
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .benefits-section {
+    padding: 16px;
+    .container {
+      max-width: 100vw;
+      .benefits-title {
+        font-size: 30px;
+        margin-bottom: 24px;
+        padding-top: 16px;
+      }
+      .benefits-container {
+        overflow: hidden;
+        grid-template-columns: repeat(1, minmax(auto, 1fr));
+        .benefit-card {
+          padding: 24px 32px;
+          .benefit-header {
+            gap: 16px;
+            .benefit-title {
+              font-size: 16px;
+            }
+            .benefit-icon {
+              img {
+                width: 40px;
+                height: auto;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
