@@ -622,6 +622,6 @@
   </div>
 
   <div class="main-check-btn-box">
-    <a href="" class="white-pink-btn">Sprawdź wszystkie <img src="./assets/icons/common/buttons/button_pink_arrow.svg" alt="arrow icon" width="18" height="18"></a>
+    <a href="./category.php" class="white-pink-btn">Sprawdź wszystkie <img src="./assets/icons/common/buttons/button_pink_arrow.svg" alt="arrow icon" width="18" height="18"></a>
   </div>
 </section>
