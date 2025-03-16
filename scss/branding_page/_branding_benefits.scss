@@ -53,6 +53,15 @@
         color: $small_text_color;
         line-height: 1.5;
       }
+
+      ul,
+      ol {
+        li {
+          font-size: 14px;
+          color: $small_text_color;
+          line-height: 1.5;
+        }
+      }
     }
   }
 }

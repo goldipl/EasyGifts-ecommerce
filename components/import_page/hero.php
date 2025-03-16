@@ -1,4 +1,4 @@
-<section id="hero" class="hero container import-yellow">
+<section id="hero" class="hero container import-blue">
     <div class="hero_content">
         <div class="breadcrumbs container">
             <ul>
@@ -11,9 +11,13 @@
             </ul>
         </div>
         <h1 class="hero_content--title">Import</h1>
-        <p class="hero_content--text">W odpowiedzi na potrzeby naszych Klientów wprowadziliśmy do oferty usługę Direct Asia, w ramach której realizowana jest kompleksowa obsługa zamówień indywidualnych bezpośrednio u dostawców na Dalekim Wschodzie.</p>
-        <div class="hero_content--btn">
-            <a href="#">Kliknij i sprawdź<img src="./assets/icons/common/buttons/button_color_arrow.svg" alt="arrow icon" width="18" height="18"></a>
+        <strong class="hero_content--strong">
+        <span>Twoje pomysły, nasze doświadczenie!</span>
+        <span>Stwórz z nami gadżety reklamowe, jakich nie ma nikt inny!</span>
+        </strong>
+        <p class="hero_content--text">W odpowiedzi na potrzeby naszych Klientów wprowadziliśmy do oferty  usługę IMPORT, w ramach której realizowana jest kompleksowa obsługa  zamówień indywidualnych bezpośrednio u dostawców na Dalekim Wschodzie. Chcesz wiedzieć więcej? Przeczytaj dlaczego warto zlecić zamówienie  właśnie u nas.</p>
+        <div class="hero_content--btn text-uppercase">
+            <a href="#">Sprawdź ofertę produktów<img src="./assets/icons/common/buttons/button_pink_arrow.svg" alt="arrow icon" width="18" height="18"></a>
         </div>
     </div>
     <div class="hero_image">

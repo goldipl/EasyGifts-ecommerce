@@ -18,11 +18,9 @@
         </header>
         <main id="main-wrapper">
             <?php include "./components/import_page/hero.php"; ?> 
-            <?php include "./components/import_page/import_title.php"; ?> 
             <?php include "./components/import_page/text_teasers.php"; ?> 
-            <?php include "./components/import_page/carousel.php"; ?> 
-            <?php include "./components/import_page/import_form_title.php"; ?> 
             <?php include "./components/import_page/import_form.php"; ?> 
+            <?php include "./components/import_page/carousel.php"; ?> 
         </main>
         <footer> 
             <?php include "./components/common/footer.php"; ?> 

@@ -130,11 +130,8 @@
   }
 }
 
+#branding_page_swiper,
 #import-page-swiper {
-  width: 76%;
-}
-
-#branding_page_swiper {
   background-color: $light_grey;
   padding-bottom: 44px;
   h2 {
@@ -158,7 +155,8 @@
   }
 }
 
-.branding-page-swiper {
+.branding-page-swiper,
+.import-page-swiper {
   width: 100% !important;
   margin: 44px auto !important;
   @media (max-width: 991px) {

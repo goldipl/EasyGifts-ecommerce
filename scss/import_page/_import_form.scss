@@ -1,4 +1,5 @@
 .import_form {
+  background-color: $light_grey;
   .title {
     display: flex;
     align-items: center;
@@ -7,7 +8,7 @@
     font-weight: 500;
     line-height: 160%;
     color: $text_color;
-    margin-top: 16px;
+    padding-top: 16px;
     .form-number {
       display: flex;
       justify-content: center;
@@ -18,8 +19,8 @@
       font-style: normal;
       font-weight: 500;
       line-height: 30px;
-      color: $main-color;
-      border: 1px solid $main-color;
+      color: $main-color-second;
+      border: 1px solid $main-color-second;
       background-color: $light_grey;
       border-radius: 100%;
       margin-right: 15px;
@@ -28,6 +29,7 @@
   .form-input {
     width: calc(33% - 26px);
     margin-right: 26px;
+    background-color: $white;
     &:nth-of-type(3n) {
       margin-right: 0;
     }
@@ -36,6 +38,7 @@
     width: calc(33% - 26px);
     margin-right: 26px;
     cursor: pointer;
+    background-color: $white;
     .add-files-img {
       margin: 8px auto 8px;
       width: 100%;
@@ -51,9 +54,16 @@
   textarea.form-textarea {
     width: calc(33% - 26px);
     margin-right: 0;
+    background-color: $white;
   }
   button {
     margin-bottom: 132px;
+    width: 260px;
+    height: 52px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    text-transform: uppercase;
   }
 }
 
@@ -100,5 +110,23 @@
     button {
       margin-bottom: 40px;
     }
+  }
+}
+
+.import-form-title {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: $text-color;
+  margin-bottom: 40px;
+  strong {
+    font-weight: 900;
+    color: $main-color-second;
+  }
+  @media (max-width: 991px) {
+    font-size: 24px;
+    margin-bottom: 24px;
+    padding-top: 16px;
   }
 }
