@@ -22,7 +22,7 @@
                         <a href="./index.php">Home</a>
                     </li>
                     <li class="breadcrumb-item">
-                        <a href="#">Aktualności</a>
+                        <span>Aktualności</span>
                     </li>
                 </ul>
             </div>
