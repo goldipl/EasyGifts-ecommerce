@@ -1,3 +1,7 @@
+#main-wrapper:has(.contact-container) {
+  background-color: $light_grey;
+}
+
 .contact-container {
   h1 {
     font-size: 72px;
