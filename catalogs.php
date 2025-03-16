@@ -23,7 +23,7 @@
                         <a href="./index.php">Home</a>
                     </li>
                     <li class="breadcrumb-item">
-                        <a href="#">Katalogi</a>
+                        <span>Katalogi</span>
                     </li>
                 </ul>
             </div>

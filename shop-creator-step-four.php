@@ -22,7 +22,7 @@
                         <a href="./index.php">Home</a>
                     </li>
                     <li class="breadcrumb-item">
-                        <a href="#">Kreator sklepów i katalogów online</a>
+                        <span>Kreator sklepów i katalogów online</span>
                     </li>
                 </ul>
             </div>
