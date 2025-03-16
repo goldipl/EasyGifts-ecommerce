@@ -1,0 +1,36 @@
+.blog_article_hero {
+  padding: 0;
+  h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 136%;
+    text-transform: uppercase;
+    color: $main-color-second;
+    margin-bottom: 18px;
+  }
+  img {
+    float: left;
+    width: 297px;
+    height: 297px;
+    object-fit: cover;
+    margin: 0 24px 24px 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .blog_article_hero {
+    margin-bottom: 24px;
+    h2 {
+      margin-top: 4px;
+      margin-bottom: 8px;
+      font-size: 24px;
+      padding-right: 16px;
+    }
+    img {
+      object-fit: cover;
+      height: inherit;
+      margin: 0 0 0 -12px;
+      width: 100vw;
+    }
+  }
+}

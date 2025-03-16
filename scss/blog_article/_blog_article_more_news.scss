@@ -1,0 +1,20 @@
+.related-articles-blog {
+  margin-top: 20px;
+  h3,
+  h2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: $small_text_color;
+    margin-bottom: 18px;
+  }
+  .white-pink-btn {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    text-transform: uppercase;
+    width: 100%;
+  }
+}
