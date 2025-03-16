@@ -1,15 +1,6 @@
 <section id="top_title" class="news_title">
-    <div class="container d-flex flex-row align-items-center justify-content-center">
-        <div class="d-flex flex-column py-4 mp-titles align-items-center justify-content-center">
-            <div class="d-flex flex-row">
-            </div>
-            <div class="d-flex flex-row mp-title">
-                <h1 class="p-0">
-                    <span>Co</span> nowego?
-                </h1>
-            </div>
-        </div>
-        <div class="d-flex flex-row mp-bell-btn-box">
-        </div>
+    <div class="container">
+        <h1>Aktualności</h1>
+        <p>Najnowsze informacje o produktach, usługach i wydarzeniach związanych z działalnością firmy.</p>
     </div>
 </section>
