@@ -1296,6 +1296,11 @@ label.add-files:focus, label.add-files:hover {
   text-decoration: none;
   margin: 0;
 }
+@media (max-width: 640px) {
+  .pagination_container .element p {
+    font-size: 13px;
+  }
+}
 .pagination_container .element.prev img {
   transform: rotate(180deg);
 }
