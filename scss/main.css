@@ -4562,14 +4562,32 @@ label.add-files:focus, label.add-files:hover {
   }
 }
 
+.news_article_hero {
+  padding: 0;
+  margin-bottom: 40px;
+}
+.news_article_hero h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 136%;
+  text-transform: uppercase;
+  color: #34224f;
+  margin-bottom: 18px;
+}
 .news_article_hero img {
-  margin-left: -200px;
-  margin-top: -16px;
+  width: 100%;
+  height: auto;
 }
 
 @media (max-width: 991px) {
   .news_article_hero {
-    height: 40vh;
+    margin-bottom: 24px;
+  }
+  .news_article_hero h2 {
+    margin-top: 4px;
+    margin-bottom: 8px;
+    font-size: 24px;
+    padding-right: 16px;
   }
   .news_article_hero img {
     -o-object-fit: cover;
@@ -4582,40 +4600,32 @@ label.add-files:focus, label.add-files:hover {
 .news_article_content {
   margin-bottom: 87px;
 }
-.news_article_content .date {
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 160%;
-  margin: 44px 0 12px 0;
-  color: #e6007e;
-}
 .news_article_content h1 {
-  font-size: 72px;
+  font-size: 32px;
   font-style: normal;
   font-weight: 600;
   line-height: 120%;
   text-transform: uppercase;
-  margin: 0 0 43px 0;
+  margin: 0 0 40px 0;
 }
 .news_article_content h1 span {
   color: #e6007e;
 }
 .news_article_content a {
-  font-size: 20px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 177.023%;
-  margin: 0 0 26px 0;
+  margin: 0 0 24px 0;
   color: #212321;
   text-decoration: underline;
 }
 .news_article_content p {
-  font-size: 20px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 177.023%;
-  margin: 0 0 26px 0;
+  margin: 0 0 24px 0;
   color: #212321;
 }
 .news_article_content p b,
@@ -4625,19 +4635,19 @@ label.add-files:focus, label.add-files:hover {
 }
 .news_article_content b,
 .news_article_content strong {
-  font-size: 20px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 600;
   line-height: 177.023%;
-  margin: 0 0 26px 0;
+  margin: 0 0 24px 0;
 }
 .news_article_content ul,
 .news_article_content ol {
-  margin: 0 0 26px 0;
+  margin: 0 0 24px 0;
 }
 .news_article_content ul li,
 .news_article_content ol li {
-  font-size: 20px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 177.023%;
@@ -4692,23 +4702,80 @@ label.add-files:focus, label.add-files:hover {
     margin-top: -16px;
   }
 }
-.more-news-title {
-  position: relative;
-  background-color: #f2f3f7;
-  padding-top: 25px;
+.related-articles-news {
+  margin-top: 20px;
 }
-.more-news-title::before {
-  position: absolute;
-  display: block;
-  content: "";
-  background-color: #f2f3f7;
-  left: -50vw;
-  top: 0;
-  width: 200vw;
-  height: 100%;
-  z-index: 0;
+.related-articles-news h3,
+.related-articles-news h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: #374957;
+  margin-bottom: 18px;
+}
+.related-articles-news .white-pink-btn {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+  text-transform: uppercase;
+  width: 100%;
 }
 
+#main-wrapper:has(.news-article-col-short) {
+  background-color: #f2f3f7;
+}
+
+.news-article-row {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+.news-article-row .news-article-col {
+  display: flex;
+  flex-direction: column;
+}
+.news-article-row .news-article-col-wide {
+  width: 70%;
+}
+.news-article-row .news-article-col-short {
+  width: 30%;
+  max-width: 379px;
+}
+.news-article-row .news-article-col-short .related-articles-news {
+  position: sticky;
+  top: 16px;
+  margin-bottom: 24px;
+}
+.news-article-row .news-article-col-short .news-article-box-slot {
+  height: 408px;
+  margin-bottom: 24px;
+}
+.news-article-row .news-article-col-short .news-article-box-slot .article_swiper_box__image,
+.news-article-row .news-article-col-short .news-article-box-slot img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 991px) {
+  .news-article-row {
+    gap: 0;
+    flex-direction: column;
+  }
+  .news-article-row .news-article-col-short, .news-article-row .news-article-col-wide {
+    width: 100%;
+  }
+  .news-article-row .news-article-col-short .related-articles-news {
+    margin-top: 0;
+    position: relative;
+    padding: 0 8px;
+  }
+  .news-article-row .news-article-col-short .white-pink-btn {
+    font-size: 14px;
+    margin-bottom: 36px;
+  }
+}
 .blog_news_articles {
   position: relative;
   background-color: #f2f3f7;

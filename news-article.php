@@ -25,13 +25,19 @@
                         <a href="#">Aktualności</a>
                     </li>
                     <li class="breadcrumb-item">
-                        <a href="#">Ulepszamy naszą drukarnię!</a>
+                        <span>Inwentaryzacja magazynu</span>
                     </li>
                 </ul>
             </div>
-            <?php include "./components/news_article/news_article_hero.php"; ?>
-            <?php include "./components/news_article/news_article_content.php"; ?>
-            <?php include "./components/news_article/news_article_more_news.php"; ?>
+            <div class="news-article-row container">
+                <div class="news-article-col-wide">
+                    <?php include "./components/news_article/news_article_hero.php"; ?>
+                    <?php include "./components/news_article/news_article_content.php"; ?>
+                </div>
+                <aside class="news-article-col-short">
+                    <?php include "./components/news_article/news_article_more_news.php"; ?>
+                </aside>
+            </div>
         </main>
         <footer> 
             <?php include "./components/common/footer.php"; ?> 
