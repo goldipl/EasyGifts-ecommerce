@@ -27,12 +27,14 @@
                 </ul>
             </div>
             <?php include "./components/contact/contact_content.php"; ?> 
+            <?php include "./components/contact/contact_sales_department_content.php"; ?> 
+            <?php include "./components/contact/contact_other_departments_content.php"; ?> 
         </main>
         <footer> 
             <?php include "./components/common/footer.php"; ?> 
         </footer>
         <script>
-            document.querySelector('nav .nav-item.main-nav-item.contact a').classList.add('active')
+            document.querySelector('#topbar .container .topbar-links a:nth-of-type(6)').classList.add('active')
         </script>
         <script src="./js/jquery.min.js"></script>
         <script src="./js/popper.min.js"></script>
