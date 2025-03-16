@@ -18,17 +18,17 @@
                     "@type": "ListItem",
                     "position": 1,
                     "name": "Home",
-                    "item": "https://www.macma.pl/index.php"
+                    "item": "https://www.easygifts.com.pl/index.php"
                 }, {
                     "@type": "ListItem",
                     "position": 2,
                     "name": "Oferta",
-                    "item": "https://www.macma.pl/oferta"
+                    "item": "https://www.easygifts.com.pl/oferta"
                 }, {
                     "@type": "ListItem",
                     "position": 3,
                     "name": "Artykuły biurowe",
-                    "item": "https://www.macma.pl/oferta/artykuly-biurowe"
+                    "item": "https://www.easygifts.com.pl/oferta/artykuly-biurowe"
                 }]
             }
         </script>
