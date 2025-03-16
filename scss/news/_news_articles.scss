@@ -1,7 +1,7 @@
 .news_articles {
   position: relative;
   background-color: $light_grey;
-  padding: 37px 0 47px 0;
+  padding: 37px 0 24px 0;
   &::before {
     position: absolute;
     display: block;
@@ -17,11 +17,21 @@
     width: calc((100% / 4) - 18px);
     height: 400px;
     margin-bottom: 18px;
+    justify-content: center;
     .article_swiper_box__image {
       height: 118px;
       img {
         height: 100%;
       }
+    }
+    @media (max-width: 1200px) {
+      width: calc((100% / 3) - 18px);
+    }
+    @media (max-width: 960px) {
+      width: calc((100% / 2) - 18px);
+    }
+    @media (max-width: 640px) {
+      width: 100%;
     }
   }
 }
