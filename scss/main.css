@@ -772,7 +772,7 @@ footer .footer__container__bottom::before {
 }
 footer .footer__container__bottom p {
   position: relative;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 160%;
   color: #ffffff;
