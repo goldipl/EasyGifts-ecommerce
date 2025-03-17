@@ -222,6 +222,7 @@
     &_availability-colors {
       margin-bottom: 40px;
       .color {
+        border-radius: 100%;
         &.checked {
           outline: 1px solid $black;
           background-image: url(./../assets/icons/product_page/checked.svg);

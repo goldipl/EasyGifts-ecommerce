@@ -5348,6 +5348,9 @@ label.add-files:focus, label.add-files:hover {
 .product_card_gallery_info .product-info_availability-colors {
   margin-bottom: 40px;
 }
+.product_card_gallery_info .product-info_availability-colors .color {
+  border-radius: 100%;
+}
 .product_card_gallery_info .product-info_availability-colors .color.checked {
   outline: 1px solid #000000;
   background-image: url(./../assets/icons/product_page/checked.svg);
