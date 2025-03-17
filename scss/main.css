@@ -8895,9 +8895,9 @@ label.add-files:focus, label.add-files:hover {
   border-bottom: 1px solid #f2f3f7;
 }
 .contact-container .contact-wrapper_col .title p {
-  font-size: 18px;
+  font-size: 20px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   text-transform: uppercase;
   color: #212321;
   padding-left: 46px;
@@ -8908,7 +8908,7 @@ label.add-files:focus, label.add-files:hover {
 }
 .contact-container .contact-wrapper_col__content.map {
   padding: 15px;
-  border-top: 15px solid #f2f3f7;
+  border-top: 21px solid #f2f3f7;
 }
 .contact-container .contact-wrapper_col__content.map iframe {
   width: 100%;
@@ -8925,9 +8925,8 @@ label.add-files:focus, label.add-files:hover {
 }
 .contact-container .contact-wrapper_col__content .contact-box h3 {
   position: relative;
-  padding-left: 44px;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 177.023%;
   margin: 0 0 18px 0;
   color: #212321;
@@ -8971,7 +8970,7 @@ label.add-files:focus, label.add-files:hover {
 .contact-container .contact-wrapper_col__content .contact-box p {
   position: relative;
   padding-left: 44px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 177.023%;
   margin: 0 0 9px 0;
@@ -8984,6 +8983,18 @@ label.add-files:focus, label.add-files:hover {
   top: 4px;
   left: 0;
   background: url("./../assets/icons/contact/telephone.svg");
+  background-repeat: no-repeat;
+  background-size: 18px;
+  width: 18px;
+  height: 18px;
+}
+.contact-container .contact-wrapper_col__content .contact-box p.phone2::before {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 0;
+  background: url("./../assets/icons/contact/telephone2.svg");
   background-repeat: no-repeat;
   background-size: 18px;
   width: 18px;
@@ -9023,7 +9034,7 @@ label.add-files:focus, label.add-files:hover {
 .contact-container .contact-wrapper_col__content .data-box {
   position: relative;
   padding-left: 44px;
-  margin: 0 0 25px 0;
+  margin: 0 0 12px 0;
 }
 .contact-container .contact-wrapper_col__content .data-box.location::before {
   display: block;
@@ -9031,9 +9042,45 @@ label.add-files:focus, label.add-files:hover {
   position: absolute;
   top: 6px;
   left: 0;
-  background: url("./../assets/icons/contact/pin-map.svg");
+  background: url("./../assets/icons/contact/location.svg");
   background-repeat: no-repeat;
-  background-size: 18px;
+  background-size: 18px 20px;
+  width: 18px;
+  height: 20px;
+}
+.contact-container .contact-wrapper_col__content .data-box.phone::before {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 0;
+  background: url("./../assets/icons/contact/telephone.svg");
+  background-repeat: no-repeat;
+  background-size: 18px 18px;
+  width: 18px;
+  height: 18px;
+}
+.contact-container .contact-wrapper_col__content .data-box.mail::before {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 0;
+  background: url("./../assets/icons/contact/envelope.svg");
+  background-repeat: no-repeat;
+  background-size: 18px 18px;
+  width: 18px;
+  height: 18px;
+}
+.contact-container .contact-wrapper_col__content .data-box.hours::before {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 0;
+  background: url("./../assets/icons/contact/clock.svg");
+  background-repeat: no-repeat;
+  background-size: 18px 18px;
   width: 18px;
   height: 18px;
 }
@@ -9045,16 +9092,19 @@ label.add-files:focus, label.add-files:hover {
   left: 0;
   background: url("./../assets/icons/contact/data.svg");
   background-repeat: no-repeat;
-  background-size: 18px;
+  background-size: 18px 18px;
   width: 18px;
   height: 18px;
 }
-.contact-container .contact-wrapper_col__content .data-box b {
+.contact-container .contact-wrapper_col__content .data-box strong {
   font-size: 16px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 177.023%;
   margin: 0;
+}
+.contact-container .contact-wrapper_col__content .data-box.data p {
+  font-size: 14px;
 }
 .contact-container .contact-wrapper_col__content .data-box p {
   font-size: 16px;
@@ -9062,6 +9112,14 @@ label.add-files:focus, label.add-files:hover {
   font-weight: 400;
   line-height: 177.023%;
   margin: 0;
+  color: #212321;
+}
+.contact-container .contact-wrapper_col__content .data-box p a {
+  color: #212321;
+  text-decoration: none;
+}
+.contact-container .contact-wrapper_col__content .data-box p a:hover {
+  color: #e6007e;
 }
 .contact-container .contact-wrapper_col__content .send-form .input-slot {
   display: flex;
@@ -9078,10 +9136,26 @@ label.add-files:focus, label.add-files:hover {
   height: 40px;
   padding: 0 20px;
 }
+.contact-container .contact-wrapper_col__content .send-form .input-slot input::-moz-placeholder {
+  font-size: 14px;
+  color: #8a8a8a;
+}
+.contact-container .contact-wrapper_col__content .send-form .input-slot input::placeholder {
+  font-size: 14px;
+  color: #8a8a8a;
+}
 .contact-container .contact-wrapper_col__content .send-form .input-slot textarea {
   margin: 0 0 10px 0;
   width: 100%;
   padding: 20px;
+}
+.contact-container .contact-wrapper_col__content .send-form .input-slot textarea::-moz-placeholder {
+  font-size: 14px;
+  color: #8a8a8a;
+}
+.contact-container .contact-wrapper_col__content .send-form .input-slot textarea::placeholder {
+  font-size: 14px;
+  color: #8a8a8a;
 }
 .contact-container .contact-wrapper_col__content .send-form .checkbox-button-box {
   display: flex;
@@ -9103,6 +9177,17 @@ label.add-files:focus, label.add-files:hover {
 }
 .contact-container .contact-wrapper_col__content .send-form .checkbox-button-box button {
   margin: 0 0 0 12px;
+  background-color: #ffffff;
+  color: #e6007e;
+  font-size: 16px;
+  font-weight: 600;
+}
+.contact-container .contact-wrapper_col__content .send-form .checkbox-button-box button:hover {
+  background-color: #e6007e;
+  color: #ffffff;
+}
+.contact-container .contact-wrapper_col__content .send-form .checkbox-button-box button:hover img {
+  filter: invert(1) brightness(22);
 }
 
 @media (max-width: 1200px) {
@@ -9218,34 +9303,35 @@ label.add-files:focus, label.add-files:hover {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0);
   width: 100%;
-  height: 70px;
-  margin-bottom: 16px;
+  margin: 16px 0 34px 0;
 }
 .sales-department-box__title p {
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 120%;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 136%;
+  letter-spacing: 0%;
   text-transform: uppercase;
-  color: #212321;
+  color: #34224f;
   margin: 0;
-  padding-left: 46px;
 }
 .sales-department-box__row {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 1.2%;
+  gap: 23px;
 }
 .sales-department-box__row__col {
   display: flex;
   flex-direction: column;
-  width: 15.6666666667%;
-  justify-content: space-between;
+  width: calc((100% - 92px) / 5);
+  justify-content: flex-start;
   background-color: #ffffff;
   margin-bottom: 16px;
+}
+.sales-department-box__row__col__top {
+  padding-top: 28px;
 }
 .sales-department-box__row__col__top img {
   -o-object-fit: contain;
@@ -9258,16 +9344,17 @@ label.add-files:focus, label.add-files:hover {
 .sales-department-box__row__col__middle p {
   font-size: 18px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 177.023%;
-  color: #212321;
+  text-transform: uppercase;
+  color: #34224f;
   margin: 0;
 }
 .sales-department-box__row__col__middle span {
   position: relative;
   font-size: 10px;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 160%;
   color: #212321;
   margin: 0;
@@ -9296,14 +9383,15 @@ label.add-files:focus, label.add-files:hover {
   padding: 25px 22px;
 }
 .sales-department-box__row__col__bottom p {
+  display: inline-flex;
   position: relative;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 177.023%;
   color: #212321;
-  margin: 0;
   padding-left: 23px;
+  margin: 0 0 10px 0;
 }
 .sales-department-box__row__col__bottom p.tel1::before {
   display: block;
@@ -9311,11 +9399,11 @@ label.add-files:focus, label.add-files:hover {
   position: absolute;
   top: 5px;
   left: 0;
-  background: url("./../assets/icons/contact/telephone2.svg");
+  background: url("./../assets/icons/contact/telephone.svg");
   background-repeat: no-repeat;
-  background-size: 14px;
-  width: 14px;
-  height: 14px;
+  background-size: 18px 18px;
+  width: 18px;
+  height: 18px;
 }
 .sales-department-box__row__col__bottom p.tel2::before {
   display: block;
@@ -9323,11 +9411,11 @@ label.add-files:focus, label.add-files:hover {
   position: absolute;
   top: 5px;
   left: 0;
-  background: url("./../assets/icons/contact/telephone.svg");
+  background: url("./../assets/icons/contact/telephone2.svg");
   background-repeat: no-repeat;
-  background-size: 14px;
-  width: 14px;
-  height: 14px;
+  background-size: 18px 18px;
+  width: 18px;
+  height: 18px;
 }
 .sales-department-box__row__col__bottom p.mail::before {
   display: block;
@@ -9337,9 +9425,9 @@ label.add-files:focus, label.add-files:hover {
   left: 0;
   background: url("./../assets/icons/contact/envelope.svg");
   background-repeat: no-repeat;
-  background-size: 14px;
-  width: 14px;
-  height: 14px;
+  background-size: 18px 18px;
+  width: 18px;
+  height: 18px;
 }
 .sales-department-box__row__col__bottom p a {
   font-size: 14px;
@@ -9347,7 +9435,6 @@ label.add-files:focus, label.add-files:hover {
   font-weight: 400;
   line-height: 177.023%;
   color: #212321;
-  margin: 0 0 10px 0;
   text-decoration: none;
 }
 .sales-department-box__row__col__bottom p a:hover {
@@ -9369,11 +9456,8 @@ label.add-files:focus, label.add-files:hover {
   .sales-department-box__row__col {
     width: 32%;
   }
-  .sales-department-box__row__col:nth-of-type(3) {
-    width: 34%;
-  }
   .sales-department-box__row__col:last-of-type {
-    width: 34%;
+    width: 32%;
   }
 }
 @media (max-width: 1080px) {
@@ -9384,11 +9468,11 @@ label.add-files:focus, label.add-files:hover {
     width: 49%;
   }
   .sales-department-box__row__col:nth-of-type(2n) {
-    width: 50%;
+    width: 49%;
     margin-right: 0;
   }
   .sales-department-box__row__col:last-of-type {
-    width: 50%;
+    width: 49%;
   }
 }
 @media (max-width: 760px) {
@@ -9435,42 +9519,54 @@ label.add-files:focus, label.add-files:hover {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0);
   width: 100%;
-  height: 70px;
-  border-bottom: 1px solid #f2f3f7;
+  margin: 16px 0 34px 0;
 }
 .other-department-box__title p {
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 120%;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 136%;
+  letter-spacing: 0%;
   text-transform: uppercase;
-  color: #212321;
+  color: #34224f;
   margin: 0;
-  padding-left: 46px;
 }
 .other-department-box__row {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  background-color: #ffffff;
+  gap: 23px;
 }
 .other-department-box__row__col {
   display: flex;
   flex-direction: column;
-  width: 24%;
+  width: calc((100% - 92px) / 5);
   justify-content: space-between;
-  padding: 38px 38px 38px 63px;
+  background-color: #ffffff;
+}
+.other-department-box__row__col .department-top-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 26px 26px 18px 26px;
+}
+.other-department-box__row__col .department-bottom-box {
+  padding: 26px;
+}
+.other-department-box__row__col .horizontal-line {
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #f2f3f7;
 }
 .other-department-box__row__col b {
   position: relative;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 177.023%;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 177%;
+  text-transform: uppercase;
   color: #212321;
-  margin: 0 0 18px 0;
   padding-left: 46px;
 }
 .other-department-box__row__col b.graphic-department::before {
@@ -9479,23 +9575,23 @@ label.add-files:focus, label.add-files:hover {
   position: absolute;
   top: 2px;
   left: 0;
-  background: url("./../assets/icons/contact/graphic-department.svg");
+  background: url("./../assets/icons/contact/graphics.svg");
   background-repeat: no-repeat;
-  background-size: 25px;
-  width: 25px;
-  height: 25px;
+  background-size: 32px 32px;
+  width: 32px;
+  height: 32px;
 }
-.other-department-box__row__col b.accountancy::before {
+.other-department-box__row__col b.tax-department::before {
   display: block;
   content: "";
   position: absolute;
   top: 2px;
   left: 0;
-  background: url("./../assets/icons/contact/accountancy.svg");
+  background: url("./../assets/icons/contact/tax.svg");
   background-repeat: no-repeat;
-  background-size: 25px;
-  width: 25px;
-  height: 25px;
+  background-size: 32px 32px;
+  width: 32px;
+  height: 32px;
 }
 .other-department-box__row__col b.marketing-department::before {
   display: block;
@@ -9503,11 +9599,11 @@ label.add-files:focus, label.add-files:hover {
   position: absolute;
   top: 2px;
   left: 0;
-  background: url("./../assets/icons/contact/marketing-department.svg");
+  background: url("./../assets/icons/contact/marketing.svg");
   background-repeat: no-repeat;
-  background-size: 25px;
-  width: 25px;
-  height: 25px;
+  background-size: 32px 32px;
+  width: 32px;
+  height: 32px;
 }
 .other-department-box__row__col b.import-department::before {
   display: block;
@@ -9515,11 +9611,11 @@ label.add-files:focus, label.add-files:hover {
   position: absolute;
   top: 2px;
   left: 0;
-  background: url("./../assets/icons/contact/telephone2.svg");
+  background: url("./../assets/icons/contact/import.svg");
   background-repeat: no-repeat;
-  background-size: 25px;
-  width: 25px;
-  height: 25px;
+  background-size: 32px 32px;
+  width: 32px;
+  height: 32px;
 }
 .other-department-box__row__col p {
   position: relative;
@@ -9538,6 +9634,18 @@ label.add-files:focus, label.add-files:hover {
   top: 4px;
   left: 0;
   background: url("./../assets/icons/contact/telephone.svg");
+  background-repeat: no-repeat;
+  background-size: 18px;
+  width: 18px;
+  height: 18px;
+}
+.other-department-box__row__col p.phone2::before {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 0;
+  background: url("./../assets/icons/contact/telephone2.svg");
   background-repeat: no-repeat;
   background-size: 18px;
   width: 18px;
@@ -9575,14 +9683,14 @@ label.add-files:focus, label.add-files:hover {
   color: #e6007e;
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1500px) {
   .other-department-box__row__col {
-    width: 33%;
+    width: calc((100% - 92px) / 4);
   }
 }
-@media (max-width: 1080px) {
+@media (max-width: 1180px) {
   .other-department-box__row__col {
-    width: 50%;
+    width: calc((100% - 48px) / 2);
   }
 }
 @media (max-width: 760px) {

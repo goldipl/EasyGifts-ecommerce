@@ -17,40 +17,52 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    background-color: $white;
+    background-color: $transparent;
     width: 100%;
-    height: 70px;
-    border-bottom: 1px solid $light_grey;
+    margin: 16px 0 34px 0;
     p {
-      font-size: 18px;
-      font-style: normal;
-      font-weight: 600;
-      line-height: 120%;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 136%;
+      letter-spacing: 0%;
       text-transform: uppercase;
-      color: $text_color;
+      color: $main-color-second;
       margin: 0;
-      padding-left: 46px;
     }
   }
   &__row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: $white;
+    gap: 23px;
     &__col {
       display: flex;
       flex-direction: column;
-      width: 24%;
+      width: calc((100% - (4 * 23px)) / 5);
       justify-content: space-between;
-      padding: 38px 38px 38px 63px;
+      background-color: $white;
+      .department-top-box {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 26px 26px 18px 26px;
+      }
+      .department-bottom-box {
+        padding: 26px;
+      }
+      .horizontal-line {
+        display: block;
+        width: 100%;
+        height: 1px;
+        background-color: $light_grey;
+      }
       b {
         position: relative;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 177.023%;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 177%;
+        text-transform: uppercase;
         color: $text_color;
-        margin: 0 0 18px 0;
         padding-left: 46px;
         &.graphic-department::before {
           display: block;
@@ -58,23 +70,23 @@
           position: absolute;
           top: 2px;
           left: 0;
-          background: url("./../assets/icons/contact/graphic-department.svg");
+          background: url("./../assets/icons/contact/graphics.svg");
           background-repeat: no-repeat;
-          background-size: 25px;
-          width: 25px;
-          height: 25px;
+          background-size: 32px 32px;
+          width: 32px;
+          height: 32px;
         }
-        &.accountancy::before {
+        &.tax-department::before {
           display: block;
           content: "";
           position: absolute;
           top: 2px;
           left: 0;
-          background: url("./../assets/icons/contact/accountancy.svg");
+          background: url("./../assets/icons/contact/tax.svg");
           background-repeat: no-repeat;
-          background-size: 25px;
-          width: 25px;
-          height: 25px;
+          background-size: 32px 32px;
+          width: 32px;
+          height: 32px;
         }
         &.marketing-department::before {
           display: block;
@@ -82,11 +94,11 @@
           position: absolute;
           top: 2px;
           left: 0;
-          background: url("./../assets/icons/contact/marketing-department.svg");
+          background: url("./../assets/icons/contact/marketing.svg");
           background-repeat: no-repeat;
-          background-size: 25px;
-          width: 25px;
-          height: 25px;
+          background-size: 32px 32px;
+          width: 32px;
+          height: 32px;
         }
         &.import-department::before {
           display: block;
@@ -94,11 +106,11 @@
           position: absolute;
           top: 2px;
           left: 0;
-          background: url("./../assets/icons/contact/telephone2.svg");
+          background: url("./../assets/icons/contact/import.svg");
           background-repeat: no-repeat;
-          background-size: 25px;
-          width: 25px;
-          height: 25px;
+          background-size: 32px 32px;
+          width: 32px;
+          height: 32px;
         }
       }
       p {
@@ -117,6 +129,18 @@
           top: 4px;
           left: 0;
           background: url("./../assets/icons/contact/telephone.svg");
+          background-repeat: no-repeat;
+          background-size: 18px;
+          width: 18px;
+          height: 18px;
+        }
+        &.phone2::before {
+          display: block;
+          content: "";
+          position: absolute;
+          top: 4px;
+          left: 0;
+          background: url("./../assets/icons/contact/telephone2.svg");
           background-repeat: no-repeat;
           background-size: 18px;
           width: 18px;
@@ -158,21 +182,21 @@
   }
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1500px) {
   .other-department-box {
     &__row {
       &__col {
-        width: 33%;
+        width: calc((100% - 92px) / 4);
       }
     }
   }
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 1180px) {
   .other-department-box {
     &__row {
       &__col {
-        width: 50%;
+        width: calc((100% - 48px) / 2);
       }
     }
   }

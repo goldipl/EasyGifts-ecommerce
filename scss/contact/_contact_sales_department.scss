@@ -17,34 +17,33 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    background-color: $white;
+    background-color: $transparent;
     width: 100%;
-    height: 70px;
-    margin-bottom: 16px;
+    margin: 16px 0 34px 0;
     p {
-      font-size: 18px;
-      font-style: normal;
-      font-weight: 600;
-      line-height: 120%;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 136%;
+      letter-spacing: 0%;
       text-transform: uppercase;
-      color: $text_color;
+      color: $main-color-second;
       margin: 0;
-      padding-left: 46px;
     }
   }
   &__row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 1.2%;
+    gap: 23px;
     &__col {
       display: flex;
       flex-direction: column;
-      width: calc(94% / 6);
-      justify-content: space-between;
+      width: calc((100% - (4 * 23px)) / 5);
+      justify-content: flex-start;
       background-color: $white;
       margin-bottom: 16px;
       &__top {
+        padding-top: 28px;
         img {
           object-fit: contain;
           width: 100%;
@@ -55,16 +54,17 @@
         p {
           font-size: 18px;
           font-style: normal;
-          font-weight: 500;
+          font-weight: 700;
           line-height: 177.023%;
-          color: $text_color;
+          text-transform: uppercase;
+          color: $main-color-second;
           margin: 0;
         }
         span {
           position: relative;
           font-size: 10px;
           font-style: normal;
-          font-weight: 300;
+          font-weight: 400;
           line-height: 160%;
           color: $text_color;
           margin: 0;
@@ -93,27 +93,16 @@
         min-height: 124px;
         padding: 25px 22px;
         p {
+          display: inline-flex;
           position: relative;
           font-size: 14px;
           font-style: normal;
           font-weight: 400;
           line-height: 177.023%;
           color: $text_color;
-          margin: 0;
           padding-left: 23px;
+          margin: 0 0 10px 0;
           &.tel1::before {
-            display: block;
-            content: "";
-            position: absolute;
-            top: 5px;
-            left: 0;
-            background: url("./../assets/icons/contact/telephone2.svg");
-            background-repeat: no-repeat;
-            background-size: 14px;
-            width: 14px;
-            height: 14px;
-          }
-          &.tel2::before {
             display: block;
             content: "";
             position: absolute;
@@ -121,9 +110,21 @@
             left: 0;
             background: url("./../assets/icons/contact/telephone.svg");
             background-repeat: no-repeat;
-            background-size: 14px;
-            width: 14px;
-            height: 14px;
+            background-size: 18px 18px;
+            width: 18px;
+            height: 18px;
+          }
+          &.tel2::before {
+            display: block;
+            content: "";
+            position: absolute;
+            top: 5px;
+            left: 0;
+            background: url("./../assets/icons/contact/telephone2.svg");
+            background-repeat: no-repeat;
+            background-size: 18px 18px;
+            width: 18px;
+            height: 18px;
           }
           &.mail::before {
             display: block;
@@ -133,9 +134,9 @@
             left: 0;
             background: url("./../assets/icons/contact/envelope.svg");
             background-repeat: no-repeat;
-            background-size: 14px;
-            width: 14px;
-            height: 14px;
+            background-size: 18px 18px;
+            width: 18px;
+            height: 18px;
           }
           a {
             font-size: 14px;
@@ -143,7 +144,6 @@
             font-weight: 400;
             line-height: 177.023%;
             color: $text_color;
-            margin: 0 0 10px 0;
             text-decoration: none;
             &:hover {
               color: $main-color;
@@ -174,11 +174,8 @@
     &__row {
       &__col {
         width: 32%;
-        &:nth-of-type(3) {
-          width: 34%;
-        }
         &:last-of-type {
-          width: 34%;
+          width: 32%;
         }
       }
     }
@@ -194,11 +191,11 @@
           width: 49%;
         }
         &:nth-of-type(2n) {
-          width: 50%;
+          width: 49%;
           margin-right: 0;
         }
         &:last-of-type {
-          width: 50%;
+          width: 49%;
         }
       }
     }
