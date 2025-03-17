@@ -119,6 +119,7 @@
 /* When the checkbox is checked, add a grey background */
 .custom-checkbox-container input:checked ~ .custom-checkbox-checkmark {
   background-color: #f4f4f4;
+  outline: 1px solid $main-color;
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
