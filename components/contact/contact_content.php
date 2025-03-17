@@ -1,6 +1,6 @@
 <div class="contact-container container">
     <h1>Kontakt</h1>
-    <h4>Jesteśmy dystrybutorem gadżetów reklamowych</h4>
+    <h4>W razie potrzeby prosimy o kontakt</h4>
     <div class="contact-wrapper">
         <div class="contact-wrapper_col">
             <div class="title">
@@ -22,7 +22,7 @@
                 </div>
             </div>
             <div class="contact-wrapper_col__content map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d20010.49034802634!2d17.1486478!3d51.1764852!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470fef577e957a8d%3A0x1a5d684335f8a7d7!2sMacma%20Polska%20Sp.%20Z%20O.o.!5e0!3m2!1spl!2spl!4v1704371760457!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2500.729120119161!2d17.223109877721452!3d51.187215371742305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470fe5e729634add%3A0xa7c28460780ab14a!2sEasy%20Gifts!5e0!3m2!1spl!2spl!4v1742219503318!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
         <div class="contact-wrapper_col">
@@ -83,9 +83,9 @@
                         <textarea class="form-textarea" name="msgarea" id="msgarea" required></textarea>
                     </div>
                     <div class="checkbox-button-box">
-                        <label class="custom-checkbox-container">Administratorem Państwa danych osobowych jest Macma Polska Sp. z o.o. (NIP: 8951782271). Dane osobowe przetwarzane będą wyłącznie w prawnie usprawiedliwionych celach administratora danych polegających na udzieleniu odpowiedzi na Państwa wiadomość. Podanie przez Państwa danych osobowych jest dobrowolne, ale też niezbędne do nawiązania z Państwem kontaktu za pomocą formularza kontaktowego. Szczegółowe informacje na temat przetwarzania Państwa danych osobowych mogą Państwo znaleźć w naszej <a href="#">Polityce prywatności</a> na temat zasad przetwarzania danych osobowych.<input type="checkbox" class="custom_input"><span class="custom-checkbox-checkmark"></span>
+                        <label class="custom-checkbox-container">Administratorem Państwa danych osobowych jest PCM Sp. z o.o. EASY GIFTS Sp.k. (NIP: 8961447858). Dane osobowe przetwarzane będą wyłącznie w prawnie usprawiedliwionych celach administratora danych polegających na udzieleniu odpowiedzi na Państwa wiadomość. Podanie przez Państwa danych osobowych jest dobrowolne, ale też niezbędne do nawiązania z Państwem kontaktu za pomocą formularza kontaktowego. Szczegółowe informacje na temat przetwarzania Państwa danych osobowych mogą Państwo znaleźć w naszej <a href="#">Polityce prywatności</a> na temat zasad przetwarzania danych osobowych.<input type="checkbox" class="custom_input"><span class="custom-checkbox-checkmark"></span>
                         </label>
-                        <button class="color-btn">Wyślij <img src="./assets/icons/common/buttons/button_white_arrow.svg"></button>
+                        <button class="color-btn">Wyślij <img src="./assets/icons/common/buttons/button_pink_arrow.svg"></button>
                     </div>
                 </form>
             </div>

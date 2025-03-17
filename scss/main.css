@@ -8841,26 +8841,24 @@ label.add-files:focus, label.add-files:hover {
 }
 
 .contact-container h1 {
-  font-size: 72px;
-  font-style: normal;
-  font-weight: 900;
-  line-height: 120%;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 136%;
+  letter-spacing: 0%;
   text-transform: uppercase;
-  color: #212321;
-  margin: 0;
+  color: #34224f;
 }
 .contact-container h4 {
   font-size: 18px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 120%;
-  text-transform: uppercase;
-  color: #8a8a8a;
+  color: #374957;
   margin: 6px 0 16px 0;
 }
 .contact-container .contact-wrapper {
   position: relative;
-  padding: 44px 0 19px 0;
+  padding: 16px 0 19px 0;
   background-color: #f2f3f7;
   display: flex;
   flex-wrap: wrap;
@@ -9109,7 +9107,7 @@ label.add-files:focus, label.add-files:hover {
 
 @media (max-width: 1200px) {
   .contact-container h1 {
-    font-size: 40px;
+    font-size: 33px;
   }
   .contact-container h4 {
     font-size: 16px;
@@ -9128,13 +9126,13 @@ label.add-files:focus, label.add-files:hover {
 }
 @media (max-width: 860px) {
   .contact-container h1 {
-    font-size: 32px;
+    font-size: 28px;
   }
   .contact-container h4 {
     font-size: 15px;
   }
   .contact-container .contact-wrapper {
-    padding: 24px 0;
+    padding: 8px 0 24px 0;
     flex-direction: column;
   }
   .contact-container .contact-wrapper_col {
@@ -9420,7 +9418,7 @@ label.add-files:focus, label.add-files:hover {
 .other-department-box {
   position: relative;
   background-color: #f2f3f7;
-  padding-bottom: 217px;
+  padding-bottom: 120px;
 }
 .other-department-box::before {
   position: absolute;
