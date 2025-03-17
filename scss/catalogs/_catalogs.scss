@@ -8,26 +8,24 @@
   background-color: $light_grey;
   padding-bottom: 192px;
   h1 {
-    font-size: 72px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 120%;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 136%;
+    letter-spacing: 0%;
     text-transform: uppercase;
-    color: $text_color;
-    margin: 0;
+    color: $main-color-second;
   }
   h4 {
     font-size: 18px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 120%;
-    text-transform: uppercase;
-    color: $grey5;
+    color: $small_text_color;
     margin: 6px 0 16px 0;
   }
   .catalogs-wrapper {
     position: relative;
-    padding: 44px 0 19px 0;
+    padding: 16px 0 19px 0;
     background-color: $light_grey;
     display: flex;
     flex-wrap: wrap;
@@ -35,6 +33,7 @@
     &_col {
       display: flex;
       flex-direction: column;
+      height: 700px;
       width: calc(50% - 23px);
       margin-right: 23px;
       margin-bottom: 23px;
@@ -50,6 +49,7 @@
         align-items: flex-start;
         padding: 36px 36px 26px 36px;
         border-bottom: 1px solid $grey11;
+        height: 590px;
         &_left {
           margin: 0 27px 0 0;
           img {
@@ -65,21 +65,25 @@
               font-weight: 600;
               line-height: 28.8px;
               text-align: left;
-              color: $main-color;
+              color: $main-color-second;
               text-transform: uppercase;
               margin: 0 0 24px 0;
             }
             p {
-              font-size: 12px;
+              display: -webkit-box;
+              -webkit-line-clamp: 15;
+              -webkit-box-orient: vertical;
+              overflow: hidden;
+              font-size: 16px;
               font-weight: 400;
-              line-height: 20.52px;
+              line-height: 171%;
               text-align: left;
               color: $text_color;
               margin: 0 0 16px 0;
               a {
-                font-size: 12px;
+                font-size: 16px;
                 font-weight: 400;
-                line-height: 20.52px;
+                line-height: 171%;
                 text-align: left;
                 color: $main-color;
                 text-decoration: none;
@@ -89,9 +93,9 @@
               }
             }
             a {
-              font-size: 12px;
+              font-size: 16px;
               font-weight: 400;
-              line-height: 20.52px;
+              line-height: 171%;
               text-align: left;
               color: $main-color;
               margin: 0 0 16px 0;
@@ -105,6 +109,7 @@
       }
       &_bottom {
         padding: 22px 36px;
+        height: 110px;
         &__btns {
           display: flex;
           flex-wrap: wrap;
@@ -119,10 +124,10 @@
             align-items: center;
             width: max-content;
             height: 54px;
-            padding: 15px 20px;
+            padding: 15px 16px;
             box-sizing: border-box;
             border: 1px solid $main-color;
-            background-color: $main-color;
+            background-color: $white;
             text-decoration: unset;
             span {
               font-size: 16px;
@@ -130,20 +135,19 @@
               line-height: 24px;
               text-align: center;
               margin: 0;
-              color: $white;
+              color: $main-color;
             }
             img {
               display: flex;
               margin: 0 0 0 10px;
             }
             &:hover {
-              background-color: $white;
+              background-color: $main-color;
               span {
-                color: $main-color;
+                color: $white;
               }
               img {
-                filter: invert(57%) sepia(38%) saturate(7038%)
-                  hue-rotate(350deg) brightness(99%) contrast(91%);
+                filter: invert(1) brightness(22);
               }
             }
           }
@@ -156,7 +160,7 @@
 @media (max-width: 1380px) {
   .catalogs-container {
     h1 {
-      font-size: 40px;
+      font-size: 33px;
     }
     h4 {
       font-size: 16px;
@@ -178,12 +182,6 @@
 
 @media (max-width: 1270px) {
   .catalogs-container {
-    h1 {
-      font-size: 40px;
-    }
-    h4 {
-      font-size: 16px;
-    }
     .catalogs-wrapper {
       &_col {
         width: 100%;
@@ -208,7 +206,7 @@
   .catalogs-container {
     padding-bottom: 24px;
     h1 {
-      font-size: 32px;
+      font-size: 28px;
     }
     h4 {
       font-size: 15px;
@@ -246,8 +244,10 @@
   .catalogs-container {
     .catalogs-wrapper {
       &_col {
+        height: auto;
         &_top {
           flex-direction: column;
+          height: auto;
           &_left {
             display: flex;
             justify-content: center;
@@ -261,8 +261,17 @@
               h2 {
                 margin: 0 0 12px 0;
               }
+              p {
+                display: unset;
+                -webkit-line-clamp: unset;
+                -webkit-box-orient: unset;
+                overflow: unset;
+              }
             }
           }
+        }
+        &_bottom {
+          height: auto;
         }
       }
     }
