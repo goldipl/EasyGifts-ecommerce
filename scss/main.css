@@ -5130,6 +5130,31 @@ label.add-files:focus, label.add-files:hover {
     font-size: 14px;
   }
 }
+#main-wrapper:has(.product_card_gallery_info) .breadcrumbs {
+  position: relative;
+  background-color: #f2f3f7;
+  height: 65px;
+  padding-top: 20px;
+}
+@media (max-width: 760px) {
+  #main-wrapper:has(.product_card_gallery_info) .breadcrumbs {
+    height: auto;
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+}
+#main-wrapper:has(.product_card_gallery_info) .breadcrumbs::before {
+  position: absolute;
+  display: block;
+  content: "";
+  background-color: #f2f3f7;
+  left: -50vw;
+  top: 0;
+  width: 200vw;
+  height: 100%;
+  z-index: -1;
+}
+
 .product_card_gallery_info {
   display: flex;
   flex-direction: row;
