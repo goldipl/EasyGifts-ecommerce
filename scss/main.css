@@ -1525,6 +1525,7 @@ label.add-files:focus, label.add-files:hover {
 /* When the checkbox is checked, add a grey background */
 .custom-checkbox-container input:checked ~ .custom-checkbox-checkmark {
   background-color: #f4f4f4;
+  outline: 1px solid #e6007e;
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
@@ -13608,6 +13609,9 @@ main.grey-background {
   }
 }
 @media (max-width: 992px) {
+  .category-wrapper {
+    margin-top: 16px;
+  }
   .category-wrapper .container {
     flex-direction: column;
   }
@@ -13740,21 +13744,45 @@ main.grey-background {
   margin-bottom: 65px;
   background-color: #ffffff;
   border: 1px solid #e6e6e6;
-  padding: 29px 39px;
+  padding: 24px 20px;
 }
 .category-left-filters-box .category-left-filters.show {
   display: flex;
+}
+.category-left-filters-box .category-left-filters__slot.buttons {
+  margin-top: 30px;
+  margin-bottom: 16px;
+}
+.category-left-filters-box .category-left-filters__slot.buttons .filter-clear {
+  width: 74px;
+  height: 35px;
+  background-color: #ffffff;
+  border: 1px solid #34224f;
+  font-size: 14px;
+  font-weight: 400;
+  color: #34224f;
+  cursor: pointer;
+  margin: 0;
+}
+.category-left-filters-box .category-left-filters__slot.buttons .filter-clear:hover {
+  background-color: #34224f;
+  color: #ffffff;
 }
 .category-left-filters-box .category-left-filters__slot:first-of-type .header h3 {
   margin-top: 0;
 }
 .category-left-filters-box .category-left-filters__slot .header h3 {
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 177.023%;
-  color: #212321;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 177%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  text-transform: uppercase;
+  color: #34224f;
   margin: 20px 0;
+}
+.category-left-filters-box .category-left-filters__slot .content .color {
+  border-radius: 100%;
 }
 .category-left-filters-box .category-left-filters__slot .content.hidden {
   display: none;
@@ -13772,10 +13800,11 @@ main.grey-background {
 .category-left-filters-box .category-left-filters__slot .content .custom-checkbox-container {
   display: inline-flex;
   align-items: center;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 400;
   width: 100%;
   margin-bottom: 8px;
+  color: #212321;
 }
 .category-left-filters-box .category-left-filters__slot .content .custom-checkbox-container .custom-checkbox-checkmark {
   width: 18px;
@@ -13800,6 +13829,22 @@ main.grey-background {
   width: 100%;
   padding: 0 15px;
   margin: 0;
+  box-sizing: border-box;
+}
+.category-left-filters-box .category-left-filters__slot .content .row-inputs__left button, .category-left-filters-box .category-left-filters__slot .content .row-inputs__right button {
+  width: 74px;
+  height: 35px;
+  background-color: #ffffff;
+  border: 1px solid #34224f;
+  font-size: 14px;
+  font-weight: 400;
+  color: #34224f;
+  cursor: pointer;
+  margin: 0;
+}
+.category-left-filters-box .category-left-filters__slot .content .row-inputs__left button:hover, .category-left-filters-box .category-left-filters__slot .content .row-inputs__right button:hover {
+  background-color: #34224f;
+  color: #ffffff;
 }
 .category-left-filters-box .category-left-filters__slot .content .row-inputs .spacer {
   display: inline-flex;
@@ -13809,6 +13854,9 @@ main.grey-background {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
+}
+.category-left-filters-box .category-left-filters__slot .content .row-inputs .spacer.btn-spacer {
+  padding: 0 5px;
 }
 .category-left-filters-box .category-left-filters__slot .content input {
   height: 35px;
@@ -13854,8 +13902,9 @@ main.grey-background {
   .category-left-filters-box__button {
     display: flex;
     width: 100%;
-    font-size: 15px;
+    font-size: 14px;
     padding: 10px 28px 0 24px;
+    margin-bottom: 16px;
   }
 }
 .category-top-filters {
@@ -14404,6 +14453,19 @@ main.grey-background {
   margin-bottom: 0;
 }
 
+@media (max-width: 991px) {
+  .category-top-seo-text h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .category-top-seo-text .category-seo-top-desc {
+    margin-bottom: 0px;
+  }
+  .category-top-seo-text .category-seo-top-desc p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+}
 .negotiator_container .accordion-container {
   width: calc(80% - 27px);
   margin-right: 27px;

@@ -34,11 +34,30 @@
     margin-bottom: 65px;
     background-color: $white;
     border: 1px solid $grey;
-    padding: 29px 39px;
+    padding: 24px 20px;
     &.show {
       display: flex;
     }
     &__slot {
+      &.buttons {
+        margin-top: 30px;
+        margin-bottom: 16px;
+        .filter-clear {
+          width: 74px;
+          height: 35px;
+          background-color: $white;
+          border: 1px solid $main-color-second;
+          font-size: 14px;
+          font-weight: 400;
+          color: $main-color-second;
+          cursor: pointer;
+          margin: 0;
+          &:hover {
+            background-color: $main-color-second;
+            color: $white;
+          }
+        }
+      }
       &:first-of-type {
         .header {
           h3 {
@@ -48,15 +67,20 @@
       }
       .header {
         h3 {
-          font-size: 16px;
-          font-style: normal;
-          font-weight: 500;
-          line-height: 177.023%;
-          color: $text_color;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 177%;
+          letter-spacing: 0%;
+          vertical-align: middle;
+          text-transform: uppercase;
+          color: $main-color-second;
           margin: 20px 0;
         }
       }
       .content {
+        .color {
+          border-radius: 100%;
+        }
         &.hidden {
           display: none;
           .custom-checkbox-container {
@@ -73,10 +97,11 @@
         .custom-checkbox-container {
           display: inline-flex;
           align-items: center;
-          font-size: 12px;
+          font-size: 14px;
           font-weight: 400;
           width: 100%;
           margin-bottom: 8px;
+          color: $text_color;
           .custom-checkbox-checkmark {
             width: 18px;
             height: 18px;
@@ -102,6 +127,22 @@
               width: 100%;
               padding: 0 15px;
               margin: 0;
+              box-sizing: border-box;
+            }
+            button {
+              width: 74px;
+              height: 35px;
+              background-color: $white;
+              border: 1px solid $main-color-second;
+              font-size: 14px;
+              font-weight: 400;
+              color: $main-color-second;
+              cursor: pointer;
+              margin: 0;
+              &:hover {
+                background-color: $main-color-second;
+                color: $white;
+              }
             }
           }
           .spacer {
@@ -112,6 +153,9 @@
             font-size: 12px;
             font-style: normal;
             font-weight: 400;
+            &.btn-spacer {
+              padding: 0 5px;
+            }
           }
         }
         input {
@@ -161,8 +205,9 @@
     &__button {
       display: flex;
       width: 100%;
-      font-size: 15px;
+      font-size: 14px;
       padding: 10px 28px 0 24px;
+      margin-bottom: 16px;
     }
   }
 }
