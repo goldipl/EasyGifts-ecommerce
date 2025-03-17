@@ -2,8 +2,13 @@ main.grey-background {
   background-color: $light_grey;
 }
 
+.category-filters-main + .pagination {
+  padding-bottom: 0;
+}
+
 .category-wrapper {
   background-color: $light_grey;
+  margin-top: 40px;
   .container {
     display: flex;
     flex-direction: row;

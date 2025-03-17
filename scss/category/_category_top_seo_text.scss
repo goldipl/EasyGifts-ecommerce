@@ -1,0 +1,28 @@
+.category-top-seo-text {
+  h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 136%;
+    text-transform: uppercase;
+    color: $main-color-second;
+    margin-bottom: 19px;
+  }
+  .category-seo-top-desc {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 34px;
+    p {
+      font-family: Instrument Sans;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 160%;
+      letter-spacing: 0%;
+      vertical-align: middle;
+      color: $text_color;
+      margin-bottom: 16px;
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

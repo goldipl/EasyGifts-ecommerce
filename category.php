@@ -52,9 +52,6 @@
                     </li>
                 </ul>
             </div>
-            <div class="container category-title">
-                <h1>Artykuły biurowe</h1>
-            </div>
             <div class="category-wrapper">
                 <div class="container">
                     <aside class="category-wrapper__left">
@@ -62,11 +59,10 @@
                         <?php include "./components/category/category_left_filters.php"; ?> 
                     </aside>
                     <div class="category-wrapper__right">
+                        <?php include "./components/category/category_top_seo_text.php"; ?> 
                         <?php include "./components/category/category_top_filters.php"; ?> 
-                        <?php include "./components/category/category_top_pagination.php"; ?> 
                         <?php include "./components/category/category_filters_main.php"; ?> 
                         <?php include "./components/common/pagination.php"; ?> 
-                        <?php include "./components/category/category_seo_text.php"; ?> 
                     </div>
                 </div>
             </div> 
