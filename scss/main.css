@@ -4350,33 +4350,64 @@ label.add-files:focus, label.add-files:hover {
   }
 }
 
+#main-wrapper:has(.hero.newsletter-pink) {
+  height: 605px;
+}
+@media (max-width: 991px) {
+  #main-wrapper:has(.hero.newsletter-pink) {
+    height: 100% !important;
+  }
+}
+#main-wrapper:has(.hero.newsletter-pink) .hero_content p {
+  color: #212321;
+}
+
 .hero.newsletter-pink {
   margin-bottom: 0 !important;
+  height: 605px !important;
+}
+@media (max-width: 991px) {
+  .hero.newsletter-pink {
+    height: 100% !important;
+  }
+  .hero.newsletter-pink .newsletter-row {
+    display: flex;
+    flex-direction: row !important;
+  }
+}
+.hero.newsletter-pink .custom-checkbox-container {
+  font-size: 14px;
+  line-height: 177%;
+  padding-left: 60px;
+}
+@media (max-width: 991px) {
+  .hero.newsletter-pink .custom-checkbox-container {
+    padding-left: 40px;
+    font-size: 12px;
+  }
+}
+.hero.newsletter-pink .hero_image {
+  height: 605px !important;
+}
+.hero.newsletter-pink .hero_image img {
+  height: 605px !important;
+}
+@media (max-width: 991px) {
+  .hero.newsletter-pink .hero_image {
+    height: 100% !important;
+  }
+  .hero.newsletter-pink .hero_image img {
+    height: 100% !important;
+  }
+}
+.hero.newsletter-pink label a {
+  color: #212321;
+}
+.hero.newsletter-pink label a:hover {
+  text-decoration: none;
 }
 .hero.newsletter-pink.correct-mail, .hero.newsletter-pink.incorrect-mail {
   margin-top: -100px;
-}
-.hero.newsletter-pink::before {
-  position: absolute;
-  display: block;
-  content: "";
-  background-color: #fadedb !important;
-  top: 0;
-  left: -50vw;
-  height: 100%;
-  width: 60vw;
-  z-index: -1;
-}
-.hero.newsletter-pink::after {
-  position: absolute;
-  display: block;
-  content: "";
-  background-color: #fadedb !important;
-  top: 0;
-  right: -50vw;
-  height: 100%;
-  width: 60vw;
-  z-index: -1;
 }
 .hero.newsletter-pink input.newsletter-hero {
   width: 324px;
@@ -4413,7 +4444,7 @@ label.add-files:focus, label.add-files:hover {
 
 @media (max-width: 1199px) {
   .hero.newsletter-pink {
-    background-color: #fadedb !important;
+    background-color: #caebfa !important;
     padding-bottom: 120px !important;
   }
   .hero.newsletter-pink input.newsletter-hero {
@@ -4430,7 +4461,7 @@ label.add-files:focus, label.add-files:hover {
     font-size: 14px;
   }
   .hero.newsletter-pink::before {
-    background-color: #fadedb !important;
+    background-color: #caebfa !important;
   }
 }
 @media (max-width: 991px) {
