@@ -215,13 +215,13 @@ footer {
       height: 42px;
       width: 1576px;
       margin: 0 auto;
-      background-color: $text-color;
+      background-color: $black;
       z-index: 1;
       &::before {
         position: absolute;
         display: block;
         content: "";
-        background-color: $text-color;
+        background-color: $black;
         left: calc((100vw - 1576px) / 2 * -1);
         top: 0;
         width: 100vw;
