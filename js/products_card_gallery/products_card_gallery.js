@@ -1,6 +1,6 @@
 var galleryThumbs = new Swiper('.slider-two', {
   spaceBetween: 10,
-  slidesPerView: 4,
+  slidesPerView: 3,
   watchSlidesVisibility: true,
   watchSlidesProgress: true,
   centerInsufficientSlides: true,
@@ -9,7 +9,7 @@ var galleryThumbs = new Swiper('.slider-two', {
   breakpoints: {
     // when window width is >= 992px
     992: {
-      slidesPerView: 4,
+      slidesPerView: 3,
     },
     // when window width is >= 200px
     200: {
