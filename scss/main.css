@@ -4471,7 +4471,7 @@ label.add-files:focus, label.add-files:hover {
 }
 .newsletter_correct_modal {
   position: relative;
-  top: 20px;
+  top: 490px;
   left: 0;
   width: 100%;
   background-color: #beffc1;
@@ -4514,6 +4514,7 @@ label.add-files:focus, label.add-files:hover {
 @media (max-width: 991px) {
   .newsletter_incorrect_modal,
   .newsletter_correct_modal {
+    top: 60px;
     padding: 16px;
   }
   .newsletter_incorrect_modal strong,
