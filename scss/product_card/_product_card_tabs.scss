@@ -27,6 +27,7 @@
   .tab-content {
     position: relative;
     background-color: $light_grey;
+    padding-bottom: 48px;
     &::before {
       position: absolute;
       display: block;
@@ -39,11 +40,42 @@
       z-index: -1;
     }
     .tab-pane {
-      padding: 52px 0;
+      background-color: $white;
+      padding: 45px;
       &:hover,
       &:focus {
         outline: 0;
         border: 0;
+      }
+      .features {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-bottom: 40px;
+        .feature {
+          display: flex;
+          align-items: center;
+          box-sizing: border-box;
+          img {
+            height: 45px;
+            min-height: 45px;
+            width: auto;
+            margin-right: 10px;
+          }
+          span {
+            flex-grow: 1;
+          }
+          @media (max-width: 991px) {
+            flex-direction: column;
+            img {
+              height: 34px;
+              min-height: 34px;
+            }
+            span {
+              font-size: 14px;
+            }
+          }
+        }
       }
       p {
         font-size: 18px;
@@ -509,6 +541,7 @@
 
 @media (max-width: 991px) {
   .product_card_tabs {
+    background-color: $white;
     nav {
       height: unset;
       .nav-tabs {
@@ -522,8 +555,9 @@
       }
     }
     .tab-content {
+      padding-bottom: 24px;
       .tab-pane {
-        padding: 24px 0;
+        padding: 24px 16px;
         p {
           font-size: 14px;
           line-height: 140%;

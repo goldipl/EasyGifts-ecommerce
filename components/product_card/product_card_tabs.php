@@ -12,6 +12,23 @@
     </nav>
     <div class="tab-content" id="nav-tabContent">
         <div class="tab-pane fade show active" id="nav-desc" role="tabpanel" aria-labelledby="nav-desc-tab" tabindex="0">
+            <div class="features mb--2">                                                          <div class="feature">
+                    <img src="./assets/img/product_card/eye.png" width="45" height="45">
+                    <span>UV400</span>
+                </div>
+                <div class="feature">
+                    <img src="./assets/img/product_card/rpet.png" width="45" height="45">
+                    <span>RPET</span>
+                </div>
+                <div class="feature">
+                    <img src="./assets/img/product_card/recycle.png" width="45" height="45">
+                    <span>RECYCLED</span>
+                </div>
+                <div class="feature">
+                    <img src="./assets/img/product_card/leaf.png" width="45" height="45">
+                    <span>ECO-FRIENDLY</span>
+                </div>
+            </div>
             <p>Klasyczny długopis metalowy z chromowanymi elementami i smukłym klipsem. Długopis wyposażony w duży niebieski wkład.</p>
             <h3>Dostępność</h3>
             <div class="table-container wide-table">
