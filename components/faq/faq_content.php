@@ -23,7 +23,7 @@
                 </div>
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="heading13">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse13" aria-expanded="false" aria-controls="collapse13"> 1.3 W jaki sposób można się zarejestrować na stronie www.macma.pl? </button>
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse13" aria-expanded="false" aria-controls="collapse13"> 1.3 W jaki sposób można się zarejestrować na stronie www.easygifts.com.pl? </button>
                     </h2>
                     <div id="collapse13" class="accordion-collapse collapse" aria-labelledby="heading13" data-bs-parent="#accordionExample">
                         <div class="accordion-body">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</div>
@@ -125,7 +125,7 @@
     <div class="d-flex flex-row w-100 faq-row">
         <div class="d-flex flex-column w-50 faq-col">
             <div class="number-title me-2 mb-4">
-                <span class="form-number">3</span>EasyGifts WEBSHOP – SKLEP INTERNETOWY W MACMIE
+                <span class="form-number">3</span>EasyGifts WEBSHOP – SKLEP INTERNETOWY
             </div>
             <div class="accordion me-2" id="accordionExample03">
                 <div class="accordion-item">
@@ -164,7 +164,7 @@
         </div>
         <div class="d-flex flex-column w-50 faq-col">
         <div class="number-title ms-2 mb-4">
-                <span class="form-number">4</span>ZNAKOWANIE W MACMIE
+                <span class="form-number">4</span>ZNAKOWANIE
             </div>
             <div class="accordion ms-2" id="accordionExample04">
                 <div class="accordion-item">

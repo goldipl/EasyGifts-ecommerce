@@ -1,11 +1,11 @@
 .number-title {
   display: flex;
   align-items: center;
-  font-size: 18px;
+  font-size: 22px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 160%;
-  color: $text_color;
+  color: $main-color-second;
   margin-top: 16px;
   text-transform: uppercase;
   .form-number {
@@ -19,8 +19,8 @@
     font-style: normal;
     font-weight: 500;
     line-height: 30px;
-    color: $main-color;
-    border: 1px solid $main-color;
+    color: $main-color-second;
+    border: 1px solid $main-color-second;
     background-color: $light_grey;
     border-radius: 100%;
     margin-right: 15px;

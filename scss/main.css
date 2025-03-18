@@ -1325,11 +1325,11 @@ label.add-files:focus, label.add-files:hover {
 .number-title {
   display: flex;
   align-items: center;
-  font-size: 18px;
+  font-size: 22px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 160%;
-  color: #212321;
+  color: #34224f;
   margin-top: 16px;
   text-transform: uppercase;
 }
@@ -1344,8 +1344,8 @@ label.add-files:focus, label.add-files:hover {
   font-style: normal;
   font-weight: 500;
   line-height: 30px;
-  color: #e6007e;
-  border: 1px solid #e6007e;
+  color: #34224f;
+  border: 1px solid #34224f;
   background-color: #f2f3f7;
   border-radius: 100%;
   margin-right: 15px;
@@ -5072,14 +5072,21 @@ label.add-files:focus, label.add-files:hover {
     margin-bottom: 36px;
   }
 }
+#main-wrapper:has(.faq_content) {
+  background-color: #f2f3f7;
+}
+
 .accordion {
   border-radius: 0 !important;
 }
 .accordion-item {
   border-radius: 0 !important;
   border: 0;
-  border-bottom: 3px solid #ffffff;
-  border-top: 3px solid #ffffff;
+  border-bottom: 3px solid #f2f3f7;
+  border-top: 3px solid #f2f3f7;
+}
+.accordion-item .accordion-body {
+  background-color: #f2f3f7;
 }
 .accordion-item .accordion-body p a {
   color: #e6007e;
@@ -5093,7 +5100,7 @@ label.add-files:focus, label.add-files:hover {
 }
 .accordion-button,
 .accordion .accordion-button:not(.collapsed) {
-  background-color: #f2f3f7;
+  background-color: #ffffff;
   border-radius: 0;
 }
 .accordion .accordion-button:focus {
@@ -5107,12 +5114,12 @@ label.add-files:focus, label.add-files:hover {
 }
 
 .faq_content {
-  margin-bottom: 60px;
+  padding-bottom: 60px;
 }
 
 @media (max-width: 991px) {
   .faq_content {
-    margin-bottom: 40px;
+    padding-bottom: 40px;
   }
   .faq_content .faq-row {
     flex-direction: column !important;

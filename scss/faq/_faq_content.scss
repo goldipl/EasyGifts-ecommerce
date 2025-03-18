@@ -1,11 +1,16 @@
+#main-wrapper:has(.faq_content) {
+  background-color: $light_grey;
+}
+
 .accordion {
   border-radius: 0 !important;
   &-item {
     border-radius: 0 !important;
     border: 0;
-    border-bottom: 3px solid $white;
-    border-top: 3px solid $white;
+    border-bottom: 3px solid $light_grey;
+    border-top: 3px solid $light_grey;
     .accordion-body {
+      background-color: $light_grey;
       p {
         a {
           color: $main-color;
@@ -24,7 +29,7 @@
   }
   &-button,
   .accordion-button:not(.collapsed) {
-    background-color: $light_grey;
+    background-color: $white;
     border-radius: 0;
   }
   .accordion-button:focus {
@@ -39,12 +44,12 @@
 }
 
 .faq_content {
-  margin-bottom: 60px;
+  padding-bottom: 60px;
 }
 
 @media (max-width: 991px) {
   .faq_content {
-    margin-bottom: 40px;
+    padding-bottom: 40px;
     .faq-row {
       flex-direction: column !important;
       .faq-col {
