@@ -4,10 +4,8 @@
             <button class="nav-link active" id="nav-desc-tab" data-bs-toggle="tab" data-bs-target="#nav-desc" type="button" role="tab" aria-controls="nav-desc" aria-selected="true">Opis i stan magazynowy</button>
             <button class="nav-link" id="nav-branding-tab" data-bs-toggle="tab" data-bs-target="#nav-branding" type="button" role="tab" aria-controls="nav-branding" aria-selected="false">Znakowanie</button>
             <button class="nav-link" id="nav-specification-tab" data-bs-toggle="tab" data-bs-target="#nav-specification" type="button" role="tab" aria-controls="nav-specification" aria-selected="false">Specyfikacja</button>
-            <button class="nav-link" id="nav-packing-tab" data-bs-toggle="tab" data-bs-target="#nav-packing" type="button" role="tab" aria-controls="nav-packing" aria-selected="false">Pakowanie</button>
+            <button class="nav-link" id="nav-packing-tab" data-bs-toggle="tab" data-bs-target="#nav-packing" type="button" role="tab" aria-controls="nav-packing" aria-selected="false">Opakowanie</button>
             <button class="nav-link" id="nav-detdesc-tab" data-bs-toggle="tab" data-bs-target="#nav-detdesc" type="button" role="tab" aria-controls="nav-detdesc" aria-selected="false">Opis szczegółowy</button>
-            <button class="nav-link" id="nav-detdesc-tab" data-bs-toggle="tab" data-bs-target="#nav-todownload" type="button" role="tab" aria-controls="nav-todownload" aria-selected="false">Do pobrania</button>
-            <button class="nav-link" id="nav-detdesc-tab" data-bs-toggle="tab" data-bs-target="#nav-movies" type="button" role="tab" aria-controls="nav-movies" aria-selected="false">Filmy</button>
         </div>
     </nav>
     <div class="tab-content" id="nav-tabContent">
@@ -113,7 +111,7 @@
                             <td>
                                 <div class="two-lines">
                                     <a class="mail-contact" href="#">
-                                        <img src="./assets/icons/product_page/orange-envelope.svg" alt="envelope">Kontakt
+                                        <img src="./assets/icons/product_page/color-envelope.svg" alt="envelope">Kontakt
                                     </a>
                                 </div>
                             </td>
@@ -148,7 +146,7 @@
                             <td>
                                 <div class="two-lines">
                                     <a class="mail-contact" href="#">
-                                        <img src="./assets/icons/product_page/orange-envelope.svg" alt="envelope">ZAMÓW BEZPŁATNĄ WIZUALIZACJĘ
+                                        <img src="./assets/icons/product_page/color-envelope.svg" alt="envelope">ZAMÓW BEZPŁATNĄ WIZUALIZACJĘ
                                     </a>
                                 </div>
                             </td>
@@ -159,7 +157,7 @@
                             <td>
                                 <div class="two-lines">
                                     <a class="mail-contact" href="#">
-                                        <img src="./assets/icons/product_page/orange-envelope.svg" alt="envelope">ZAMÓW BEZPŁATNĄ WIZUALIZACJĘ
+                                        <img src="./assets/icons/product_page/color-envelope.svg" alt="envelope">ZAMÓW BEZPŁATNĄ WIZUALIZACJĘ
                                     </a>
                                 </div>
                             </td>
@@ -170,7 +168,7 @@
                             <td>
                                 <div class="two-lines">
                                     <a class="mail-contact" href="#">
-                                        <img src="./assets/icons/product_page/orange-envelope.svg" alt="envelope">ZAMÓW BEZPŁATNĄ WIZUALIZACJĘ
+                                        <img src="./assets/icons/product_page/color-envelope.svg" alt="envelope">ZAMÓW BEZPŁATNĄ WIZUALIZACJĘ
                                     </a>
                                 </div>
                             </td>
@@ -181,7 +179,7 @@
                             <td>
                                 <div class="two-lines">
                                     <a class="mail-contact" href="#">
-                                        <img src="./assets/icons/product_page/orange-envelope.svg" alt="envelope">ZAMÓW BEZPŁATNĄ WIZUALIZACJĘ
+                                        <img src="./assets/icons/product_page/color-envelope.svg" alt="envelope">ZAMÓW BEZPŁATNĄ WIZUALIZACJĘ
                                     </a>
                                 </div>
                             </td>
@@ -483,98 +481,6 @@
             <p>
             Nunc nisl diam integer proin et feugiat iaculis nec nisl. Dignissim amet interdum id senectus interdum. Aliquam sed nascetur in enim quam arcu. Sit pulvinar eget amet id. Amet viverra ut nunc arcu lorem. Quam eu hendrerit id amet sagittis non ac. Tortor interdum sed tortor egestas. Malesuada auctor diam quis urna a molestie at pretium vulputate. Eu lorem facilisi dolor scelerisque volutpat vulputate. Tincidunt sem non diam felis vestibulum morbi bibendum nunc ut. Aliquet velit pharetra ornare tortor ornare. Ornare arcu dignissim venenatis lectus feugiat tellus mi vulputate. Et sit sit porta tellus tristique risus aliquet. At sed facilisis congue quam ac tempor. Venenatis tincidunt arcu suspendisse convallis at cras auctor. 
             </p>
-        </div>
-        <div class="tab-pane fade" id="nav-todownload" role="tabpanel" aria-labelledby="nav-todownload-tab" tabindex="0">
-            <div class="table-container short-rows-table">
-                <table>
-                    <tbody>
-                        <tr>
-                            <th>Nazwa</th>
-                            <th>Pobierz</th>
-                        </tr>
-                        <tr>
-                            <td>Zdjęcie.jpg</td>
-                            <td><a href="#"><img src="./assets/icons/product_page/download.svg" alt="download icon" width="22" height="18"></a></td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-        <div class="tab-pane fade" id="nav-movies" role="tabpanel" aria-labelledby="nav-movies-tab" tabindex="0">
-            <div class="movies-container">
-                <div class="movies-container_slot">
-                    <div class="movies-container_slot__top">
-                        <iframe width="458" height="252" src="https://www.youtube.com/embed/xa2anvAnsIo" frameborder="0" allowfullscreen></iframe>
-                    </div>
-                    <div class="movies-container_slot__bottom">
-                        <div class="desc_left">
-                            <p>Film długopis</p>
-                        </div>
-                        <div class="desc_right">
-                            <a href="#">
-                                <img src="./assets/icons/product_page/yt.svg" alt="youtube" width="30" height="30">
-                            </a>
-                            <a href="#">
-                                <img src="./assets/icons/product_page/download.svg" alt="download" width="34" height="28">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="movies-container_slot">
-                    <div class="movies-container_slot__top">
-                        <iframe width="458" height="252" src="https://www.youtube.com/embed/xa2anvAnsIo" frameborder="0" allowfullscreen></iframe>
-                    </div>
-                    <div class="movies-container_slot__bottom">
-                        <div class="desc_left">
-                            <p>Film długopis</p>
-                        </div>
-                        <div class="desc_right">
-                            <a href="#">
-                                <img src="./assets/icons/product_page/yt.svg" alt="youtube" width="30" height="30">
-                            </a>
-                            <a href="#">
-                                <img src="./assets/icons/product_page/download.svg" alt="download" width="34" height="28">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="movies-container_slot">
-                    <div class="movies-container_slot__top">
-                        <iframe width="458" height="252" src="https://www.youtube.com/embed/xa2anvAnsIo" frameborder="0" allowfullscreen></iframe>
-                    </div>
-                    <div class="movies-container_slot__bottom">
-                        <div class="desc_left">
-                            <p>Film długopis</p>
-                        </div>
-                        <div class="desc_right">
-                            <a href="#">
-                                <img src="./assets/icons/product_page/yt.svg" alt="youtube" width="30" height="30">
-                            </a>
-                            <a href="#">
-                                <img src="./assets/icons/product_page/download.svg" alt="download" width="34" height="28">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="movies-container_slot">
-                    <div class="movies-container_slot__top">
-                        <iframe width="458" height="252" src="https://www.youtube.com/embed/xa2anvAnsIo" frameborder="0" allowfullscreen></iframe>
-                    </div>
-                    <div class="movies-container_slot__bottom">
-                        <div class="desc_left">
-                            <p>Film długopis</p>
-                        </div>
-                        <div class="desc_right">
-                            <a href="#">
-                                <img src="./assets/icons/product_page/yt.svg" alt="youtube" width="30" height="30">
-                            </a>
-                            <a href="#">
-                                <img src="./assets/icons/product_page/download.svg" alt="download" width="34" height="28">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 </div>

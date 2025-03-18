@@ -36,6 +36,7 @@
             </div>
             <?php include "./components/product_card/product_card_gallery_info.php"; ?> 
             <?php include "./components/product_card/product_card_tabs.php"; ?> 
+            <?php include "./components/product_card/product_card_similar_products.php"; ?> 
         </main>
         <footer> 
             <?php include "./components/common/footer.php"; ?> 
@@ -49,6 +50,7 @@
         <script src="./js/swiper/swiper-bundle.js"></script>
         <script src="./js/products_card_gallery/products_card_gallery.js"></script>
         <script src="./js/jquery.magnific-popup.min.js"></script>
+        <script src="./js/swiper/promo-products-swiper.js"></script>
         <script>
             $(document).ready(function() {
                  $(".product-download").click(function(e){

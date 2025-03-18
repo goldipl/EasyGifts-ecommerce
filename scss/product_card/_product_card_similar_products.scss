@@ -1,0 +1,19 @@
+.product-card-similar-products {
+  background-color: $light_grey;
+  .container {
+    h2 {
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 120%;
+      text-transform: uppercase;
+      color: $main-color-second;
+      padding-bottom: 42px;
+      margin: 0;
+      @media (max-width: 991px) {
+        font-size: 24px;
+        padding-bottom: 24px;
+        padding-top: 24px;
+      }
+    }
+  }
+}
