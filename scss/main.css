@@ -9201,8 +9201,8 @@ label.add-files:focus, label.add-files:hover {
   margin: 0;
 }
 .contact-container .contact-wrapper_col__content .send-form .checkbox-button-box label a {
-  color: #e6007e;
-  text-decoration: none;
+  color: #8a8a8a;
+  text-decoration: underline;
 }
 .contact-container .contact-wrapper_col__content .send-form .checkbox-button-box button {
   margin: 0 0 0 12px;
