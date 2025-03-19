@@ -1,5 +1,6 @@
 .cart_container.step_three {
   .bottom-cart-box-with-btn {
+    position: relative;
     display: flex;
     justify-content: space-between;
     width: 80%;
@@ -15,20 +16,37 @@
     position: relative;
   }
   .cart-products-table {
+    width: 100%;
     tr {
       border-bottom: 18px solid $light_grey;
       &:last-of-type {
         background-color: $light_grey;
       }
       td {
+        &:has(.color-btn.next) {
+          background-color: $light_grey;
+          vertical-align: top;
+          .color-btn.next {
+            width: 100%;
+            margin-top: 0;
+            &:hover {
+              color: $main-color;
+              img {
+                content: url("./../assets/icons/common/buttons/button_pink_arrow.svg");
+              }
+            }
+          }
+        }
         padding: 0 !important;
         &:first-of-type {
           width: 40px !important;
           min-width: 40px !important;
         }
+        &:nth-of-type(2) {
+          border-right: 27px solid $light_grey;
+        }
         &.send-info-td {
           width: 290px;
-          border-left: 27px solid $light_grey;
           .cart-delivery-time-box {
             display: flex;
             flex-direction: column;
@@ -234,6 +252,11 @@
           }
         }
         .delivery-price-info-box {
+          position: absolute;
+          top: -97px;
+          right: 13px;
+          height: 70px;
+          width: 543px;
           display: flex;
           flex-direction: row;
           justify-content: center;
@@ -247,25 +270,29 @@
             }
           }
           &__text {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
             padding: 20px 0;
             margin: 8px;
             .text {
               font-size: 16px;
               font-style: normal;
-              font-weight: 600;
-              line-height: 120%;
+              font-weight: 700;
+              line-height: 1;
               text-transform: uppercase;
               color: $text_color;
               margin: 0;
               text-align: center;
             }
             .price {
+              display: inline-flex;
+              margin: 0 0 0 5px;
               font-size: 18px;
               font-style: normal;
-              font-weight: 400;
-              line-height: 177.023%;
+              font-weight: 700;
+              line-height: 1;
               color: $red;
-              margin: 8px 0 0 0;
               text-align: center;
             }
           }
@@ -282,9 +309,11 @@
       .right-btn {
         .next {
           position: relative;
-          right: 0;
           bottom: 0;
+          width: 216px;
+          right: -273px;
           left: unset;
+          margin-right: 30px;
         }
       }
     }

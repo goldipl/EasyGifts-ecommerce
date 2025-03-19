@@ -171,3 +171,14 @@
     }
   }
 }
+
+.cart_container {
+  .prev {
+    color: $main-color-second;
+    border-color: $main-color-second;
+    &:hover {
+      color: $white;
+      background-color: $main-color-second;
+    }
+  }
+}

@@ -1,4 +1,5 @@
 .cart_container.step_five {
+  padding-bottom: 80px;
   .cart-table_box {
     width: 100%;
     .cart-final-container {
@@ -101,8 +102,11 @@
               font-weight: 600;
               line-height: 120%;
               text-transform: uppercase;
-              color: $main-color;
+              color: $main-color-second;
               margin: 0;
+              &.pink {
+                color: $main-color;
+              }
               span {
                 font-size: 30px;
                 font-weight: 700;
@@ -156,17 +160,17 @@
                 align-items: center;
                 width: 30%;
                 height: 40px;
-                border: 1px solid $main-color;
+                border: 1px solid $main-color-second;
                 margin-left: -4px;
                 &:hover {
-                  background-color: $main-color;
+                  background-color: $main-color-second;
                   color: $white;
                 }
               }
             }
           }
           .final-radios-types {
-            margin-bottom: 29px;
+            margin-bottom: 100px;
             &_slot {
               display: inline-flex;
               justify-content: space-between;
@@ -225,12 +229,18 @@
             font-size: 16px;
             font-weight: 700;
             text-transform: uppercase;
+            &:hover {
+              img {
+                content: url("./../assets/icons/common/buttons/button_pink_arrow.svg") !important;
+              }
+            }
             img {
               margin-top: -2px;
             }
           }
           .pay-info {
             margin-top: 10px;
+            margin-bottom: 0;
             font-size: 12px;
             font-weight: 400;
             line-height: 177.023%;
@@ -261,6 +271,7 @@
 
 @media (max-width: 991px) {
   .cart_container.step_five {
+    padding-bottom: 24px;
     .cart-table_box {
       .cart-final-container {
         &__col {

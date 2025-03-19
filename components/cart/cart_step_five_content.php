@@ -18,7 +18,7 @@
                             <div class="col-container_line"></div>
                             <div class="col-container_summary-price">
                                 <p>Razem do zapłaty:</p>
-                                <p><span>17,88 PLN</span> brutto</p>
+                                <p class="pink"><span>17,88 PLN</span> brutto</p>
                             </div>
                             <div class="col-container_discount-code">
                                 <label for="discount">Wpisz swój kod rabatowy</label>
@@ -47,7 +47,7 @@
                             <div class="email-box">
                                 <h3>Email</h3>
                                 <p class="desc">na który zostanie wysłane potwierdzenie zamówienia</p>
-                                <input type="email" class="form-input" name="email" id="email">
+                                <input type="email" class="form-input" name="email" id="email" placeholder="email@gmail.com">
                             </div>
                         </div>
                     </div>
@@ -64,16 +64,6 @@
                                     </label>
                                     <div class="pay-images">
                                         <img src="./assets/icons/cart/wallet2.svg" alt="pay-icon" width="24" height="24">
-                                    </div>
-                                </div>
-                                <div class="final-radios-types_slot">
-                                    <label class="custom-radio-container">Płatność online
-                                        <input type="radio" name="radio2" class="custom_input">
-                                        <span class="custom-radio-checkmark"></span>
-                                    </label>
-                                    <div class="pay-images">
-                                        <img src="./assets/icons/cart/przelewy24.svg" alt="pay-icon" width="65" height="23">
-                                        <img src="./assets/icons/cart/payu.svg" alt="pay-icon" width="42" height="22">
                                     </div>
                                 </div>
                             </div>

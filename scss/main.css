@@ -1201,6 +1201,15 @@ footer .footer__container__bottom .contip img {
   }
 }
 
+.cart_container .prev {
+  color: #34224f;
+  border-color: #34224f;
+}
+.cart_container .prev:hover {
+  color: #ffffff;
+  background-color: #34224f;
+}
+
 input.form-input,
 select.form-select {
   width: -moz-max-content;
@@ -1578,14 +1587,14 @@ label.add-files:focus, label.add-files:hover {
 .common-steps-container .container .common-steps-container-slot p {
   font-size: 18px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 120%;
   text-transform: uppercase;
   color: #8a8a8a;
   margin: 0;
 }
 .common-steps-container .container .common-steps-container-slot p.active {
-  color: #212321;
+  color: #e6007e;
 }
 
 @media (max-width: 991px) {
@@ -6849,7 +6858,7 @@ label.add-files:focus, label.add-files:hover {
   flex-direction: row;
   align-items: center;
   background-color: #ffffff;
-  width: 572px;
+  width: auto;
   height: 74px;
   padding: 0 27px;
   box-sizing: border-box;
@@ -6950,7 +6959,7 @@ label.add-files:focus, label.add-files:hover {
   width: 20%;
   height: -moz-max-content;
   height: max-content;
-  background-color: #ffffff;
+  background-color: #f2f3f7;
 }
 .cart_container .sumary_box--title,
 .calculator_container .sumary_box--title,
@@ -6963,13 +6972,14 @@ label.add-files:focus, label.add-files:hover {
   height: auto;
   border-bottom: 1px solid #f2f3f7;
   padding: 16px 24px;
+  background-color: #ffffff;
 }
 .cart_container .sumary_box--title p,
 .calculator_container .sumary_box--title p,
 .negotiator_container .sumary_box--title p {
   font-size: 18px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 120%;
   text-transform: uppercase;
   margin: 0;
@@ -6982,13 +6992,14 @@ label.add-files:focus, label.add-files:hover {
   border-bottom: 1px solid #f2f3f7;
   width: 100%;
   padding: 26px 8px;
+  background-color: #ffffff;
 }
 .cart_container .sumary_box--netto .netto-value,
 .calculator_container .sumary_box--netto .netto-value,
 .negotiator_container .sumary_box--netto .netto-value {
   font-size: 30px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 177.023%;
   margin: 0;
   color: #e6007e;
@@ -7010,11 +7021,12 @@ label.add-files:focus, label.add-files:hover {
 .negotiator_container .sumary_box--brutto {
   width: 100%;
   padding: 26px 0;
+  background-color: #ffffff;
 }
 .cart_container .sumary_box--brutto .brutto-value,
 .calculator_container .sumary_box--brutto .brutto-value,
 .negotiator_container .sumary_box--brutto .brutto-value {
-  font-size: 24px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 177.023%;
@@ -7032,6 +7044,22 @@ label.add-files:focus, label.add-files:hover {
   margin: 0;
   color: #8a8a8a;
   text-align: center;
+}
+.cart_container .sumary_box--button,
+.calculator_container .sumary_box--button,
+.negotiator_container .sumary_box--button {
+  width: 100%;
+  background-color: #f2f3f7;
+}
+.cart_container .sumary_box--button .next,
+.calculator_container .sumary_box--button .next,
+.negotiator_container .sumary_box--button .next {
+  width: 100%;
+}
+.cart_container .sumary_box--button .next:hover img,
+.calculator_container .sumary_box--button .next:hover img,
+.negotiator_container .sumary_box--button .next:hover img {
+  content: url("./../assets/icons/common/buttons/button_pink_arrow.svg");
 }
 
 @media (max-width: 1260px) {
@@ -7193,6 +7221,10 @@ label.add-files:focus, label.add-files:hover {
     background-size: contain;
   }
 }
+.delete-icon img:hover {
+  filter: invert(13%) sepia(96%) saturate(7041%) hue-rotate(319deg) brightness(89%) contrast(110%);
+}
+
 .cart_container.step_two .cart-products-table tr td {
   padding: 0 !important;
 }
@@ -7573,6 +7605,7 @@ label.add-files:focus, label.add-files:hover {
   }
 }
 .cart_container.step_three .bottom-cart-box-with-btn {
+  position: relative;
   display: flex;
   justify-content: space-between;
   width: 80%;
@@ -7585,6 +7618,9 @@ label.add-files:focus, label.add-files:hover {
   width: 100%;
   position: relative;
 }
+.cart_container.step_three .cart-products-table {
+  width: 100%;
+}
 .cart_container.step_three .cart-products-table tr {
   border-bottom: 18px solid #f2f3f7;
 }
@@ -7594,13 +7630,29 @@ label.add-files:focus, label.add-files:hover {
 .cart_container.step_three .cart-products-table tr td {
   padding: 0 !important;
 }
+.cart_container.step_three .cart-products-table tr td:has(.color-btn.next) {
+  background-color: #f2f3f7;
+  vertical-align: top;
+}
+.cart_container.step_three .cart-products-table tr td:has(.color-btn.next) .color-btn.next {
+  width: 100%;
+  margin-top: 0;
+}
+.cart_container.step_three .cart-products-table tr td:has(.color-btn.next) .color-btn.next:hover {
+  color: #e6007e;
+}
+.cart_container.step_three .cart-products-table tr td:has(.color-btn.next) .color-btn.next:hover img {
+  content: url("./../assets/icons/common/buttons/button_pink_arrow.svg");
+}
 .cart_container.step_three .cart-products-table tr td:first-of-type {
   width: 40px !important;
   min-width: 40px !important;
 }
+.cart_container.step_three .cart-products-table tr td:nth-of-type(2) {
+  border-right: 27px solid #f2f3f7;
+}
 .cart_container.step_three .cart-products-table tr td.send-info-td {
   width: 290px;
-  border-left: 27px solid #f2f3f7;
 }
 .cart_container.step_three .cart-products-table tr td.send-info-td .cart-delivery-time-box {
   display: flex;
@@ -7800,6 +7852,11 @@ label.add-files:focus, label.add-files:hover {
   top: 6px;
 }
 .cart_container.step_three .cart-products-table tr td .delivery-price-info-box {
+  position: absolute;
+  top: -97px;
+  right: 13px;
+  height: 70px;
+  width: 543px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -7813,26 +7870,30 @@ label.add-files:focus, label.add-files:hover {
   margin: 16px;
 }
 .cart_container.step_three .cart-products-table tr td .delivery-price-info-box__text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   padding: 20px 0;
   margin: 8px;
 }
 .cart_container.step_three .cart-products-table tr td .delivery-price-info-box__text .text {
   font-size: 16px;
   font-style: normal;
-  font-weight: 600;
-  line-height: 120%;
+  font-weight: 700;
+  line-height: 1;
   text-transform: uppercase;
   color: #212321;
   margin: 0;
   text-align: center;
 }
 .cart_container.step_three .cart-products-table tr td .delivery-price-info-box__text .price {
+  display: inline-flex;
+  margin: 0 0 0 5px;
   font-size: 18px;
   font-style: normal;
-  font-weight: 400;
-  line-height: 177.023%;
+  font-weight: 700;
+  line-height: 1;
   color: #ed1717;
-  margin: 8px 0 0 0;
   text-align: center;
 }
 
@@ -7842,9 +7903,11 @@ label.add-files:focus, label.add-files:hover {
   }
   .cart_container.step_three .bottom-cart-box-with-btn .right-btn .next {
     position: relative;
-    right: 0;
     bottom: 0;
+    width: 216px;
+    right: -273px;
     left: unset;
+    margin-right: 30px;
   }
   .cart-products-table tr td .cart-delivery-product-box__bottom .cart-delivery__col__two p:last-of-type {
     margin-right: 8px;
@@ -7961,6 +8024,15 @@ label.add-files:focus, label.add-files:hover {
   .cart_container.step_three .cart-table_box .bottom-cart-box-with-btn {
     width: 100vw;
   }
+}
+.cart_container.step_four {
+  padding-bottom: 80px;
+}
+.cart_container.step_four .custom-checkbox-container .custom-checkbox-checkmark {
+  top: 6px;
+}
+.cart_container.step_four .custom-checkbox-container small {
+  font-size: 14px;
 }
 .cart_container.step_four .cart-table_box {
   width: 100%;
@@ -8116,6 +8188,9 @@ label.add-files:focus, label.add-files:hover {
   }
 }
 @media (max-width: 860px) {
+  .cart_container.step_four {
+    padding-bottom: 24px;
+  }
   .cart_container.step_four .cart-table_box .cart-your-data-container__col {
     width: 100%;
     margin-right: 0;
@@ -8144,6 +8219,9 @@ label.add-files:focus, label.add-files:hover {
   .cart_container.step_four .cart-table_box .bottom-cart-box-with-btn .prev {
     margin-bottom: 24px;
   }
+}
+.cart_container.step_five {
+  padding-bottom: 80px;
 }
 .cart_container.step_five .cart-table_box {
   width: 100%;
@@ -8247,8 +8325,11 @@ label.add-files:focus, label.add-files:hover {
   font-weight: 600;
   line-height: 120%;
   text-transform: uppercase;
-  color: #e6007e;
+  color: #34224f;
   margin: 0;
+}
+.cart_container.step_five .cart-table_box .cart-final-container__col .col-container_summary-price p.pink {
+  color: #e6007e;
 }
 .cart_container.step_five .cart-table_box .cart-final-container__col .col-container_summary-price p span {
   font-size: 30px;
@@ -8305,15 +8386,15 @@ label.add-files:focus, label.add-files:hover {
   align-items: center;
   width: 30%;
   height: 40px;
-  border: 1px solid #e6007e;
+  border: 1px solid #34224f;
   margin-left: -4px;
 }
 .cart_container.step_five .cart-table_box .cart-final-container__col .col-container_discount-code .input-button button:hover {
-  background-color: #e6007e;
+  background-color: #34224f;
   color: #ffffff;
 }
 .cart_container.step_five .cart-table_box .cart-final-container__col .col-container .final-radios-types {
-  margin-bottom: 29px;
+  margin-bottom: 100px;
 }
 .cart_container.step_five .cart-table_box .cart-final-container__col .col-container .final-radios-types_slot {
   display: inline-flex;
@@ -8371,11 +8452,15 @@ label.add-files:focus, label.add-files:hover {
   font-weight: 700;
   text-transform: uppercase;
 }
+.cart_container.step_five .cart-table_box .cart-final-container__col .col-container button:hover img {
+  content: url("./../assets/icons/common/buttons/button_pink_arrow.svg") !important;
+}
 .cart_container.step_five .cart-table_box .cart-final-container__col .col-container button img {
   margin-top: -2px;
 }
 .cart_container.step_five .cart-table_box .cart-final-container__col .col-container .pay-info {
   margin-top: 10px;
+  margin-bottom: 0;
   font-size: 12px;
   font-weight: 400;
   line-height: 177.023%;
@@ -8393,6 +8478,9 @@ label.add-files:focus, label.add-files:hover {
   }
 }
 @media (max-width: 991px) {
+  .cart_container.step_five {
+    padding-bottom: 24px;
+  }
   .cart_container.step_five .cart-table_box .cart-final-container__col {
     width: 100%;
   }
