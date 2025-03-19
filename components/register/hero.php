@@ -14,10 +14,10 @@
         <p class="hero_content--text">W odpowiedzi na potrzeby naszych Klientów wprowadziliśmy do oferty usługę Direct Asia, w ramach której realizowana jest kompleksowa obsługa zamówień indywidualnych bezpośrednio u dostawców na Dalekim Wschodzie.</p>
         <div class="hero-btns-box">
             <div class="hero_content--btn">
-                <a href="#">Jestem nowym klientem <br>Macma Polska<img src="./assets/icons/common/buttons/button_color_arrow.svg" alt="arrow icon" width="18" height="18"></a>
+                <a href="./register-pl.php">Jestem nowym klientem <br>EasyGifts<img src="./assets/icons/common/buttons/button_color_arrow.svg" alt="arrow icon" width="18" height="18"></a>
             </div>
             <div class="hero_content--btn">
-                <a href="#">Jestem już klientem <br>Macma Polska <br>i zakładam dodatkowe konto<img src="./assets/icons/common/buttons/button_color_arrow.svg" alt="arrow icon" width="18" height="18"></a>
+                <a href="./register-had-account.php">Jestem już klientem <br>EasyGifts <br>i zakładam dodatkowe konto<img src="./assets/icons/common/buttons/button_color_arrow.svg" alt="arrow icon" width="18" height="18"></a>
             </div>
         </div>
     </div>
