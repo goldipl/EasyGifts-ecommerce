@@ -16,7 +16,7 @@
             <?php include "./components/common/nav.php"; ?> 
         </header>
         <main id="main-wrapper">
-            <?php include "./components/register/hero.php"; ?>
+        <?php include "./components/register/hero_en_client.php"; ?>
             <?php include "./components/register/register_en_content.php"; ?> 
         </main>
         <footer> 

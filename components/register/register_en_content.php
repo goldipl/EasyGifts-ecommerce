@@ -109,7 +109,7 @@
                 </div>
             </div>
             <div class="button-box">
-                <button class="color-btn">Wyślij <img src="./assets/icons/dashboard/save-btn.svg" alt="save btn icon" width="18" height="18"></button>
+                <button class="white-pink-btn">Wyślij <img src="./assets/icons/common/buttons/button_pink_arrow.svg" alt="save btn icon" width="18" height="18"></button>
             </div>
         </form>
     </div>

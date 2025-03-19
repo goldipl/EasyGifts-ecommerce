@@ -10,11 +10,11 @@
                     <div class="inputs-wrapper">
                         <div class="inputs-wrapper__slot">
                             <label for="name-surname">Twoje imię i nazwisko<span class="orange">*</span></label>
-                            <input class="form-input" type="text" name="name-surname" id="name-surname" required="">
+                            <input class="form-input" type="text" name="name-surname" id="name-surname" required="" placeholder="Jan Kowalski">
                         </div>
                         <div class="inputs-wrapper__slot">
                             <label for="telephone">Telefon<span class="orange">*</span></label>
-                            <input class="form-input" type="text" name="telephone" id="telephone" required="">
+                            <input class="form-input" type="text" name="telephone" id="telephone" required="" placeholder="604 222 774">
                         </div>
                     </div>
                 </div>
@@ -25,11 +25,11 @@
                     <div class="inputs-wrapper">
                         <div class="inputs-wrapper__slot">
                             <label for="company">Firma<span class="orange">*</span></label>
-                            <input class="form-input" type="text" name="company" id="company" required="">
+                            <input class="form-input" type="text" name="company" id="company" required="" placeholder="Nazwa firmy">
                         </div>
                         <div class="inputs-wrapper__slot">
                             <label for="nip">NIP<span class="orange">*</span><small>Masz nowy NIP? Poinformuj o tym swojego opiekuna handlowego.</small></label>
-                            <input class="form-input" type="text" name="nip" id="nip" required="">
+                            <input class="form-input" type="text" name="nip" id="nip" required="" placeholder="1234567890">
                         </div>
                     </div>
                 </div>
@@ -41,7 +41,7 @@
                 <div class="d-flex flex-column input-column">      
                     <div class="inputs-wrapper__slot">
                         <label for="login">Login – wpisz swój adres e-mail<span class="orange">*</span></label>
-                        <input class="form-input" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" name="login" id="login" required="">
+                        <input class="form-input" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" name="login" id="login" required="" placeholder="mail@gmail.com">
                     </div>
                     <div class="inputs-wrapper__slot">
                         <label class="custom-checkbox-container newsletter">Zapisz się do naszego newslettera<input type="checkbox" class="custom_input" required="">
@@ -56,11 +56,11 @@
                 </div>
                 <div class="inputs-wrapper__slot">
                     <label for="password">Hasło<span class="orange">*</span></label>
-                    <input class="form-input" type="password" name="password" id="password" required="">
+                    <input class="form-input" type="password" name="password" id="password" required="" placeholder="••••••••••••••••••••••">
                 </div>
                 <div class="inputs-wrapper__slot">
                     <label for="repeat-password">Powtórz hasło<span class="orange">*</span></label>
-                    <input class="form-input" type="password" name="repeat-password" id="repeat-password" required="">
+                    <input class="form-input" type="password" name="repeat-password" id="repeat-password" required="" placeholder="••••••••••••••••••••••">
                 </div>
             </div>
             <div class="checkboxes-box">
@@ -81,7 +81,7 @@
                 </div>
             </div>
             <div class="button-box">
-                <button class="color-btn">Wyślij <img src="./assets/icons/dashboard/save-btn.svg" alt="save btn icon" width="18" height="18"></button>
+                <button class="white-pink-btn">Wyślij <img src="./assets/icons/common/buttons/button_pink_arrow.svg" alt="save btn icon" width="18" height="18"></button>
             </div>
         </form>
     </div>

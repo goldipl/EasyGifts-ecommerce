@@ -6,7 +6,7 @@
     h2 {
       font-size: 36px;
       font-style: normal;
-      font-weight: 900;
+      font-weight: 700;
       line-height: 120%;
       text-transform: uppercase;
       color: $text_color;
@@ -91,24 +91,22 @@
       }
       .button-box {
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         padding-bottom: 45px;
+        padding-left: 46px;
         button {
-          width: 205px;
-          height: 54px;
-          &:hover {
-            img {
-              content: url("./../assets/icons/dashboard/save-btn-orange.svg");
-            }
-          }
+          font-size: 16px;
+          width: 300px;
+          height: 52px;
         }
       }
       .checkboxes-box {
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: flex-start;
+        padding-left: 46px;
         &__slot {
           width: 24%;
           margin-right: 23px;
@@ -280,6 +278,9 @@
             width: 100%;
             padding: 0 25px;
             margin: 13px 0 25px 0;
+            &::placeholder {
+              color: $grey5;
+            }
           }
           input[type="file"] {
             font-size: 16px;
@@ -355,6 +356,7 @@
           }
         }
         .button-box {
+          padding-left: 16px;
           button {
             font-size: 14px;
           }
@@ -404,7 +406,7 @@
               margin-right: 1%;
             }
             label {
-              font-size: 14px;
+              font-size: 14px !important;
             }
             input,
             select {
@@ -462,6 +464,7 @@
           label.marketing-consents {
             margin: 8px 0 !important;
             padding-left: 40px !important;
+            font-size: 12px !important;
             .custom-checkbox-checkmark {
               width: 25px !important;
               height: 25px !important;
