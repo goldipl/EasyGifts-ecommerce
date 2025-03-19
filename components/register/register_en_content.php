@@ -38,7 +38,7 @@
                     </div>
                 </div>
                 <div class="inputs-wrapper__slot">
-                    <label class="custom-checkbox-container marketing-consents">Wyrażam zgodę na przetwarzanie moich danych przez Macma Polska Sp. z o.o. w celu otrzymywania aktualności oraz treści marketingowych, za pomocą automatycznych wiadomości e-mail w ramach usługi „Newsletter”, zgodnie z art. 10 ust. 2 ustawy o świadczeniu usług drogą elektroniczną oraz art. 172 ust. 1 ustawy Prawo telekomunikacyjne.<input type="checkbox" class="custom_input" required="">
+                    <label class="custom-checkbox-container marketing-consents">Wyrażam zgodę na przetwarzanie moich danych przez PCM Sp. z o.o. EASY GIFTS  Sp.k. (NIP: 8961447858) w celu otrzymywania aktualności oraz treści marketingowych, za pomocą automatycznych wiadomości e-mail w ramach usługi „Newsletter”, zgodnie z art. 10 ust. 2 ustawy o świadczeniu usług drogą elektroniczną oraz art. 172 ust. 1 ustawy Prawo telekomunikacyjne.<input type="checkbox" class="custom_input" required="">
                     <span class="custom-checkbox-checkmark"></span>
                     </label>
                 </div>
