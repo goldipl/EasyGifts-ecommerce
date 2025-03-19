@@ -16,14 +16,16 @@
       p {
         font-size: 18px;
         font-style: normal;
-        font-weight: 500;
+        font-weight: 700;
         line-height: normal;
         text-transform: uppercase;
-        color: $text_color;
+        color: $main-color-second;
         margin: 0;
         padding-left: 40px;
         span {
-          font-weight: 800;
+          display: inline-flex;
+          margin-left: 10px;
+          color: $main-color;
         }
         img {
           margin-right: 10px;
@@ -134,6 +136,9 @@
         }
       }
       .catalog-offert {
+        a:hover {
+          color: $main-color;
+        }
         p,
         a {
           font-size: 14px;
@@ -151,10 +156,7 @@
             margin: 0 0 34px 0;
           }
           &.orange {
-            color: $main-color;
-          }
-          &:hover {
-            color: $main-color;
+            color: $main-color-second;
           }
         }
         a {
@@ -203,7 +205,7 @@
             height: 35px;
             box-sizing: border-box;
             background-color: $white;
-            border: 1px solid $text_color;
+            border: 1px solid $main-color;
             cursor: pointer;
             text-align: center;
             font-size: 16px;
@@ -212,10 +214,10 @@
             line-height: normal;
             margin-top: 10px;
             text-decoration: none;
-            color: $text_color;
+            color: $main-color;
             a {
               text-decoration: none;
-              color: $text_color;
+              color: $main-color;
             }
             &:hover {
               border: 1px solid $main-color;
@@ -227,8 +229,11 @@
           }
         }
         &__right {
+          padding-right: 40px;
           img {
             margin-left: 16px;
+            border-radius: 100%;
+            border: 1px solid $main-color;
           }
         }
       }
@@ -301,6 +306,7 @@
             }
           }
           .long {
+            font-size: 14px;
             width: 100%;
             padding: 12px 40px;
           }

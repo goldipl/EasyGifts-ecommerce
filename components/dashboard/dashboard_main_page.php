@@ -1,7 +1,7 @@
 <div class="dashboard-main">
     <section class="dashboard-main-box-large">
         <div class="title">
-            <p><img src="./assets/icons/dashboard/wallet.svg" alt="dashboard icon" width="20" height="20"><span>Twoja</span> Linia kredytowa:</p>
+            <p><img src="./assets/icons/dashboard/wallet.svg" alt="dashboard icon" width="20" height="20">Twoja Linia kredytowa: <span>40 000zł</span></p>
         </div>
         <div class="bottom-boxes">
             <div class="value-box">
@@ -28,7 +28,7 @@
             <p><img src="./assets/icons/dashboard/client-status.svg" alt="dashboard icon" width="20" height="20"><span>Twój status klienta</p>
         </div>
         <div class="box-content big-arrow">
-            <img src="./assets/img/dashboard/macma-gold.jpg" alt="macma status arrow" width="350" height="194">
+            <img src="./assets/img/dashboard/easygifts-gold.jpg" alt="easygifts status arrow" width="350" height="194">
         </div>
     </div>
     <div class="dashboard-main-box">
@@ -50,7 +50,7 @@
         </div>
         <div class="box-content">
             <p><span class="orange text-uppercase fw-bold">Sprawdź</span> jakie korzyści na Ciebie czekają!</p>
-            <img class="arrows" src="./assets/img/dashboard/macma-arrows.jpg" alt="macma status arrow" width="550" height="117">
+            <img class="arrows" src="./assets/img/dashboard/easygifts-arrows.jpg" alt="easygifts status arrow" width="550" height="117">
         </div>
     </div>
     <div class="dashboard-main-box">
@@ -65,7 +65,7 @@
                     <p>tel: <a class="gtm-phone" href="tel:+48 71 330 51 11">+48 71 330 51 11</a></p>
                     <p>kom: <a class="gtm-phone" href="tel:+48 880 349 176">+48 880 349 176</a></p>
                     <button>
-                        <a href="mailto:biuro@macma.pl">Napisz</a>
+                        <a href="mailto:biuro@easygifts.pl">Napisz</a>
                     </button>
                 </div>
                 <div class="supervisor-box__right">

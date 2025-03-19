@@ -10198,7 +10198,7 @@ label.add-files:focus, label.add-files:hover {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  background-color: #e6007e;
+  background-color: #34224f;
   min-height: 65px;
 }
 .dashboard-menu .header p {
@@ -10222,7 +10222,7 @@ label.add-files:focus, label.add-files:hover {
   background-color: #ffffff;
   min-height: 40px;
   cursor: pointer;
-  border: 1px solid #e6007e;
+  border: 1px solid #34224f;
 }
 .dashboard-menu .expand-menu p {
   display: flex;
@@ -10234,7 +10234,7 @@ label.add-files:focus, label.add-files:hover {
   font-weight: 700;
   line-height: 160%;
   text-transform: uppercase;
-  color: #e6007e;
+  color: #34224f;
   margin: 0;
 }
 .dashboard-menu .expand-menu p img {
@@ -10259,7 +10259,7 @@ label.add-files:focus, label.add-files:hover {
   font-weight: 700;
   line-height: 140%;
   text-transform: uppercase;
-  color: #212321;
+  color: #34224f;
   margin: 0 0 10px 0;
   padding-left: 40px;
   text-decoration: none;
@@ -10283,24 +10283,26 @@ label.add-files:focus, label.add-files:hover {
   margin: 0 0 10px 0;
   padding-left: 40px;
   text-decoration: none;
-}
-.dashboard-menu .menu-links-container .menu-links-box .menu-link:hover {
-  color: #e6007e;
-}
-.dashboard-menu .menu-links-container .menu-links-box .menu-link.active {
-  color: #e6007e;
-  border-bottom: 1px solid #e6007e;
+  padding: 4px 0;
   margin-left: -26px;
   padding-left: 66px;
   width: calc(100% + 52px);
 }
+.dashboard-menu .menu-links-container .menu-links-box .menu-link:hover, .dashboard-menu .menu-links-container .menu-links-box .menu-link.active {
+  background-color: #e6007e;
+  color: #ffffff;
+}
 .dashboard-menu .menu-links-container button {
   all: unset;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   width: 100%;
-  height: 35px;
+  height: 40px;
   box-sizing: border-box;
   background-color: #ffffff;
-  border: 1px solid #212321;
+  border: 1px solid #34224f;
   cursor: pointer;
   text-align: center;
   font-size: 16px;
@@ -10310,10 +10312,16 @@ label.add-files:focus, label.add-files:hover {
   margin-top: 10px;
   max-width: 300px;
 }
+.dashboard-menu .menu-links-container button svg {
+  display: inline-flex;
+  margin-right: 10px;
+}
 .dashboard-menu .menu-links-container button:hover {
-  border: 1px solid #e6007e;
-  background-color: #e6007e;
+  background-color: #34224f;
   color: #ffffff;
+}
+.dashboard-menu .menu-links-container button:hover svg {
+  filter: invert(1) brightness(22);
 }
 
 @media (max-width: 1260px) {
@@ -10374,15 +10382,17 @@ label.add-files:focus, label.add-files:hover {
 .dashboard-main-box-large .title p {
   font-size: 18px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
-  color: #212321;
+  color: #34224f;
   margin: 0;
   padding-left: 40px;
 }
 .dashboard-main-box-large .title p span {
-  font-weight: 800;
+  display: inline-flex;
+  margin-left: 10px;
+  color: #e6007e;
 }
 .dashboard-main-box-large .title p img {
   margin-right: 10px;
@@ -10489,6 +10499,9 @@ label.add-files:focus, label.add-files:hover {
 .dashboard-main-box .box-content span.orange {
   color: #e6007e;
 }
+.dashboard-main-box .box-content .catalog-offert a:hover {
+  color: #e6007e;
+}
 .dashboard-main-box .box-content .catalog-offert p,
 .dashboard-main-box .box-content .catalog-offert a {
   font-size: 14px;
@@ -10509,11 +10522,7 @@ label.add-files:focus, label.add-files:hover {
 }
 .dashboard-main-box .box-content .catalog-offert p.orange,
 .dashboard-main-box .box-content .catalog-offert a.orange {
-  color: #e6007e;
-}
-.dashboard-main-box .box-content .catalog-offert p:hover,
-.dashboard-main-box .box-content .catalog-offert a:hover {
-  color: #e6007e;
+  color: #34224f;
 }
 .dashboard-main-box .box-content .catalog-offert a {
   display: inline-block;
@@ -10560,7 +10569,7 @@ label.add-files:focus, label.add-files:hover {
   height: 35px;
   box-sizing: border-box;
   background-color: #ffffff;
-  border: 1px solid #212321;
+  border: 1px solid #e6007e;
   cursor: pointer;
   text-align: center;
   font-size: 16px;
@@ -10569,11 +10578,11 @@ label.add-files:focus, label.add-files:hover {
   line-height: normal;
   margin-top: 10px;
   text-decoration: none;
-  color: #212321;
+  color: #e6007e;
 }
 .dashboard-main-box .box-content .supervisor-box__left button a {
   text-decoration: none;
-  color: #212321;
+  color: #e6007e;
 }
 .dashboard-main-box .box-content .supervisor-box__left button:hover {
   border: 1px solid #e6007e;
@@ -10582,8 +10591,13 @@ label.add-files:focus, label.add-files:hover {
 .dashboard-main-box .box-content .supervisor-box__left button:hover a {
   color: #ffffff;
 }
+.dashboard-main-box .box-content .supervisor-box__right {
+  padding-right: 40px;
+}
 .dashboard-main-box .box-content .supervisor-box__right img {
   margin-left: 16px;
+  border-radius: 100%;
+  border: 1px solid #e6007e;
 }
 .dashboard-main-box .box-content .lines-box {
   display: flex;
@@ -10656,6 +10670,7 @@ label.add-files:focus, label.add-files:hover {
   align-items: flex-end;
 }
 .dashboard-main-box .box-content .lines-box__row .long {
+  font-size: 14px;
   width: 100%;
   padding: 12px 40px;
 }
@@ -10762,7 +10777,7 @@ label.add-files:focus, label.add-files:hover {
   line-height: 120%;
   text-transform: uppercase;
   padding-left: 42px;
-  color: #212321;
+  color: #34224f;
   margin: 0;
 }
 
