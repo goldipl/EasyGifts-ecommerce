@@ -17,7 +17,7 @@
         </header>
         <main id="main-wrapper">
             <?php include "./components/branding_page/hero.php"; ?> 
-            <?php include "./components/branding_page/title.php"; ?> 
+            <?php include "./components/branding_page/branding_title.php"; ?> 
             <?php include "./components/branding_page/branding_articles.php"; ?> 
         </main>
         <footer> 
