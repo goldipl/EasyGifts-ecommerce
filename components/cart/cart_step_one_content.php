@@ -1,13 +1,13 @@
 <div class="cart_container step_one">
     <div class="container">
-        <h1>Produkty</h1>
+        <h1>Koszyk - Produkty</h1>
         <div class="cart-table_full_box d-flex flex-row">
             <div class="cart-table_box d-flex flex-column">
                 <div class="cart-step-table-container">
                     <table class="cart-products-table">
                         <tbody>
                             <tr>
-                                <th>LP.</th>
+                                <th>Nr</th>
                                 <th>Produkt</th>
                                 <th>Ilość</th>
                                 <th>Cena<br>katalogowa</th>

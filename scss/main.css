@@ -6699,13 +6699,14 @@ label.add-files:focus, label.add-files:hover {
 .cart_container h1,
 .calculator_container h1,
 .negotiator_container h1 {
-  font-size: 40px;
+  font-size: 36px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 120%;
   text-transform: uppercase;
   padding: 42px 0 50px 0;
   margin: 0;
+  color: #34224f;
 }
 .cart_container .cart-table_box,
 .calculator_container .cart-table_box,
