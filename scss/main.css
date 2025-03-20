@@ -12188,6 +12188,7 @@ label.add-files:focus, label.add-files:hover {
   display: flex;
   flex-direction: column;
   width: 50%;
+  margin-top: 36px;
 }
 .dashboard-text-img-content__text p {
   font-size: 16px;
@@ -12196,6 +12197,13 @@ label.add-files:focus, label.add-files:hover {
   line-height: 140%;
   color: #212321;
   margin: 0 0 24px 0;
+}
+.dashboard-text-img-content__text p a {
+  color: #e6007e;
+  text-decoration: none;
+}
+.dashboard-text-img-content__text p a:hover {
+  text-decoration: underline;
 }
 .dashboard-text-img-content__text .downl-btn {
   display: flex;

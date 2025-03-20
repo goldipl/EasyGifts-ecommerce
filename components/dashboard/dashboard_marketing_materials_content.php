@@ -5,7 +5,7 @@
     <div class="dashboard-img-boxes">
         <div class="dashboard-img-boxes__slot">
             <div class="product-img">
-                <img src="./assets/img/dashboard/marketing01.jpg" alt="marketing materials img" width="180" height="180">
+                <img src="./assets/icons/dashboard/logo-easygifts.svg" alt="marketing materials img" width="180" height="180">
             </div>
             <div class="product-content">
                 <p>Logo</p>

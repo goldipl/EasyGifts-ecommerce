@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>EasyGifts - Panel Klienta - Newsletters</title>
+        <title>EasyGifts - Panel Klienta - Ulotki i instrukcje</title>
         <link rel="shortcut icon" href="./assets/icons/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="./css/bootstrap.min.css" crossorigin="anonymous">
         <link rel="stylesheet" href="./css/select2.min.css" />
@@ -22,7 +22,7 @@
                 </div>
                 <div class="dashboard-container__right">
                     <?php include "./components/dashboard/dashboard_title.php"; ?>
-                    <?php include "./components/dashboard/dashboard_download_newsletters_content.php"; ?> 
+                    <?php include "./components/dashboard/dashboard_download_instructions_content.php"; ?> 
                 </div>
             </div>
         </main>
@@ -30,7 +30,7 @@
             <?php include "./components/common/footer.php"; ?> 
         </footer>
         <script>
-            document.querySelector('.menu-links-box.big-to-download > a:nth-of-type(4)').classList.add('active');
+            document.querySelector('.menu-links-box.big-to-download > a:nth-of-type(6)').classList.add('active');
         </script>
         <script src="./js/jquery.min.js"></script>
         <script src="./js/popper.min.js"></script>
