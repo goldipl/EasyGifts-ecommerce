@@ -70,7 +70,7 @@
                                         <div class="color green" ></div>
                                         <div class="color black" ></div>
                                     </div>
-                                    <button class="color-btn d-flex justify-content-center align-items-center mx-auto">Zatwierdź <img src="./assets/icons/common/buttons/button_white_arrow.svg">
+                                    <button class="white-btn d-flex justify-content-center align-items-center mx-auto">Zatwierdź <img src="./assets/icons/common/buttons/button_pink_arrow.svg">
                                     </button>
                                 </div>
                             </div>
@@ -104,7 +104,8 @@
                                         </div>
                                     </div>
                                     <div class="d-flex w-100">
-                                        <button class="color-btn d-flex justify-content-center align-items-center mx-auto">Zatwierdź <img src="./assets/icons/common/buttons/button_white_arrow.svg"></button>
+                                        <button class="white-btn d-flex justify-content-center align-items-center mx-auto">Zatwierdź <img src="./assets/icons/common/buttons/button_pink_arrow.svg">
+                                    </button>
                                     </div>
                                 </div>
                             </div>
@@ -255,7 +256,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <button class="color-btn d-flex justify-content-center align-items-center mx-auto">Oblicz cenę <img src="./assets/icons/common/buttons/button_white_arrow.svg">
+                                    <button class="white-btn d-flex justify-content-center align-items-center mx-auto">Oblicz cenę <img src="./assets/icons/common/buttons/button_pink_arrow.svg">
                                     </button>
                                 </div>
                             </div>
@@ -337,11 +338,17 @@
                                             </div>
                                         </div>
                                         <div class="exclamation-box">
-                                            <img src="./assets/icons/offertspage/exclamation-octagon-fill.svg" alt="exclamation icon" width="24" height="24">
-                                            <span>Aby negocjować cenę, Twoje zamówienie powinno osiągnąć całkowitą wartość co najmniej 1000 PLN netto.</span>
+                                            <div class="exclamation-box__left">
+                                                <img src="./assets/icons/offertspage/exclamation-octagon-fill.svg" alt="exclamation icon" width="24" height="24">
+                                            </div>
+                                            <div class="exclamation-box__right">
+                                                <span>Aby negocjować cenę, Twoje zamówienie powinno osiągnąć całkowitą wartość co najmniej:</span>
+                                                <strong>5000,00 PLN netto</strong>
+                                            </div>
                                         </div>
                                     </div>
-                                    <button class="color-btn d-flex justify-content-center align-items-center mx-auto">Wyślij do negocjacji <img src="./assets/icons/common/buttons/button_white_arrow.svg">
+                                    <button class="white-btn d-flex justify-content-center align-items-center mx-auto">Wyślij do negocjacji <img src="./assets/icons/common/buttons/button_pink_arrow.svg">
+                                    </button>
                                     </button>
                                     <p class="desc-info-green">Dziękujemy za wysłanie negocjacji. Już wkrótce Twój opiekun handlowy skontaktuje się z Tobą.</p>
                                 </div>
@@ -352,7 +359,7 @@
             </div>
             <aside class="sumary_box">
                 <div class="sumary_box--title">
-                    <p>Kalkulacja</p>
+                    <p>Negocjacja</p>
                 </div>
                 <div class="sumary_box--netto">
                     <p class="netto-value">2180,00 PLN</p>

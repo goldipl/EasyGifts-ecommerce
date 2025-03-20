@@ -71,6 +71,12 @@
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        background-color: $white;
+        button {
+          img:not(.check-circle) {
+            transform: rotate(90deg) translateX(1px);
+          }
+        }
         &__col {
           display: flex;
           flex-direction: column;
@@ -88,12 +94,12 @@
           b {
             font-size: 18px;
             font-style: normal;
-            font-weight: 500;
+            font-weight: 700;
             line-height: 160%;
             margin: 0;
             color: $text_color;
             .orange {
-              color: $main-color;
+              color: $main-color-second;
             }
           }
           .catalog-price {
@@ -190,6 +196,7 @@
             user-select: none;
             .color {
               cursor: pointer;
+              border-radius: 100%;
               &.checked {
                 outline: 1px solid $black;
                 background-image: url(./../assets/icons/product_page/checked.svg);
@@ -249,7 +256,7 @@
           }
           button {
             img {
-              transform: rotate(90deg) translateX(-2px);
+              transform: rotate(90deg) translateX(1px);
             }
           }
         }
@@ -258,7 +265,7 @@
           flex-direction: column;
           button {
             img {
-              transform: rotate(90deg) translateX(-2px);
+              transform: rotate(90deg) translateX(1px);
             }
           }
           .two-rows-box {
@@ -371,7 +378,7 @@
                 &.orange {
                   font-size: 30px;
                   line-height: 36px;
-                  color: $main-color;
+                  color: $main-color-second;
                 }
               }
               span {
@@ -496,8 +503,28 @@
             .exclamation-box {
               padding: 17px 25px;
               display: flex;
+              flex-direction: row;
+              justify-content: center;
               align-items: center;
               background-color: $light_grey;
+              height: 178px;
+              &__right {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                span {
+                  text-align: center;
+                }
+                strong {
+                  font-size: 24px;
+                  line-height: 160%;
+                  text-align: center;
+                  @media (max-width: 991px) {
+                    font-size: 17px;
+                  }
+                }
+              }
               img {
                 margin-right: 29px;
               }
@@ -550,10 +577,12 @@
       }
       .netto-text {
         margin-top: 7px;
+        color: $small-text-color;
       }
     }
     &--brutto {
       .brutto-value {
+        font-weight: 500;
         margin-bottom: 0;
         line-height: 36px;
         &.small {
@@ -563,6 +592,7 @@
       }
       .brutto-text {
         margin-top: 7px;
+        color: $small-text-color;
       }
     }
   }
@@ -697,6 +727,13 @@
                 span {
                   font-size: 12px;
                 }
+                strong {
+                  font-weight: 700;
+                  font-size: 24px;
+                  line-height: 160%;
+                  text-align: center;
+                  color: $main-color-second;
+                }
               }
             }
           }
@@ -710,6 +747,7 @@
               font-size: 14px;
               line-height: 120%;
               .orange {
+                color: $main-color-second;
                 font-size: 19px;
               }
             }

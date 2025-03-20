@@ -71,6 +71,14 @@
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        background-color: $white;
+        &:has(.branding-row-elements) {
+          display: flex;
+          flex-direction: column;
+          .branding-row-elements {
+            padding-top: 30px;
+          }
+        }
         &__col {
           display: flex;
           flex-direction: column;
@@ -88,12 +96,12 @@
           b {
             font-size: 18px;
             font-style: normal;
-            font-weight: 500;
+            font-weight: 700;
             line-height: 160%;
             margin: 0;
             color: $text_color;
             .orange {
-              color: $main-color;
+              color: $main-color-second;
             }
           }
           .catalog-price {
@@ -370,7 +378,7 @@
                 &.orange {
                   font-size: 30px;
                   line-height: 36px;
-                  color: $main-color;
+                  color: $main-color-second;
                 }
               }
               span {
@@ -391,31 +399,68 @@
               justify-content: center;
               align-items: center;
               width: auto;
-              padding: 8px 16px;
+              height: 24px;
               height: auto;
               box-sizing: border-box;
               margin: 0 6px 6px 0;
               text-decoration: none;
-              background-color: $white;
-              border: 1px solid $main-color;
+              background-color: $grey5;
+              border: 1px solid $grey5;
               min-width: 121px;
-              font-size: 16px;
+              font-size: 12px;
               font-style: normal;
               font-weight: 400;
               line-height: normal;
+              @media (max-width: 991px) {
+                height: 40px !important;
+              }
               p {
-                font-size: 16px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 12px;
                 font-style: normal;
                 font-weight: 400;
                 line-height: normal;
                 margin: 0;
-                color: $main-color;
+                color: $white;
                 text-align: center;
+                text-transform: uppercase;
+                padding: 4px 8px;
               }
               &:hover {
                 background-color: $main-color;
-                p {
-                  color: $white;
+                border-color: $main-color;
+              }
+            }
+          }
+          &__info-box {
+            background-color: $grey13;
+            padding: 18px 28px;
+            p {
+              span {
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 160%;
+                color: $text_color;
+                &.green-small {
+                  display: inline-flex;
+                  margin: 0 4px;
+                  color: $dashboard_green2;
+                  font-weight: 700;
+                }
+                &.green-big {
+                  display: inline-flex;
+                  margin: 0 7px;
+                  color: $dashboard_green2;
+                  font-size: 17px;
+                  font-weight: 700;
+                }
+                &.pink {
+                  display: inline-flex;
+                  margin: 0 4px;
+                  color: $main-color;
+                  font-weight: 700;
                 }
               }
             }
@@ -575,6 +620,7 @@
               font-size: 14px;
               line-height: 120%;
               .orange {
+                color: $main-color-second;
                 font-size: 19px;
               }
             }
