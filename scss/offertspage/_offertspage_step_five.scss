@@ -61,6 +61,11 @@
           .details-content {
             padding: 15px 30px;
 
+            label {
+              font-size: 14px !important;
+              color: $text_color;
+            }
+
             .form-check.form-switch {
               display: inline-flex;
               align-items: center;
@@ -90,8 +95,8 @@
                 margin-bottom: 0;
                 cursor: pointer;
                 &:checked {
-                  background-color: $green;
-                  border-color: $green;
+                  background-color: $main-color;
+                  border-color: $main-color;
                 }
               }
             }
@@ -143,7 +148,7 @@
               flex-direction: row;
               justify-content: space-between;
               height: 70px;
-              margin-bottom: 18px;
+              margin-bottom: 44px;
               &__left {
                 width: 45%;
                 height: 35px;
@@ -199,6 +204,22 @@
     justify-content: space-between;
     width: 100%;
     padding-bottom: 24px;
+    .prev {
+      color: $main-color-second;
+      border-color: $main-color-second;
+      &:hover {
+        color: $white;
+        background-color: $main-color-second;
+        border-color: $main-color-second;
+      }
+    }
+    .next {
+      &:hover {
+        img {
+          content: url(./../assets/icons/common/buttons/button_pink_arrow.svg);
+        }
+      }
+    }
   }
 }
 
@@ -206,8 +227,9 @@
   .offertspage_container.step_five {
     padding-bottom: 40px;
     h1 {
+      font-weight: 700;
       font-size: 24px;
-      padding: 24px 0 0 0;
+      padding: 24px 0;
     }
     .offertspage-offerts-details {
       &-container {

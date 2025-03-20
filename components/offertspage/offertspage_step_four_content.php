@@ -2,7 +2,7 @@
     <div class="container">
         <div class="top-title-box">
             <div class="top-title-box__left">
-                <h1>Ofertownik</h1>
+                <h1>Ofertownik - Ustal opisy</h1>
             </div>
             <div class="top-title-box__right">
             </div>
@@ -12,10 +12,9 @@
                 <table class="offertspage-products-table">
                     <tbody>
                         <tr>
-                            <th>LP.</th>
+                            <th>Nr</th>
                             <th>Produkt</th>
                             <th>Opis produktu</th>
-                            <th>Zapisz</th>
                             <!-- Product 01 -->
                         <tr>
                             <td>
@@ -45,19 +44,16 @@
                                 <div class="table-middle-box">
                                     <div class="table-middle-buttons">
                                         <div class="table-middle-buttons__slot">
-                                            <button class="white-btn"> Wczytaj domyślną nazwę <img src="./assets/icons/common/buttons/button_color_arrow.svg" alt="arrow icon" width="18" height="18"></button>
-                                            <input type="text" class="form-input">
+                                            <label for="text-name">W poniższych polach możesz edytować nazwę i opis.</label>
+                                            <input id="text-name" type="text" class="form-input" placeholder="Długopis metalowy">
                                         </div>
                                         <div class="table-middle-buttons__slot">
-                                            <button class="white-btn"> Wczytaj domyślny kod <img src="./assets/icons/common/buttons/button_color_arrow.svg" alt="arrow icon" width="18" height="18"></button>
-                                            <input type="text" class="form-input">
-                                        </div>
-                                        <div class="table-middle-buttons__slot">
-                                            <button class="white-btn"> Wczytaj domyślny opis <img src="./assets/icons/common/buttons/button_color_arrow.svg" alt="arrow icon" width="18" height="18"></button>
-                                            <textarea class="form-textarea"></textarea>
+                                            <label for="textarea-name" class="text-end">78/230</label>
+                                            <textarea class="form-textarea" id="textarea-name" placeholder="Dlugopis metalowy z chromowanymi elementami i smukłym klipsem"></textarea>
                                         </div>
                                     </div>
                                     <div class="table-middle-checkboxes">
+                                        <a href="#" class="white-btn">Odznacz wszystkie</a>
                                         <div class="table-middle-checkboxes__slot">
                                             <label class="custom-checkbox-container">Kolor <input type="checkbox" class="custom_input">
                                             <span class="custom-checkbox-checkmark"></span>
@@ -95,9 +91,6 @@
                                         </div>
                                     </div>
                                 </div>
-                            </td>
-                            <td>
-                                <div class="color-btn save-btn">Zapisz <img src="./assets/icons/common/buttons/button_white_arrow.svg" alt="arrow icon" width="18" height="18"></div>
                             </td>
                         </tr>
                 </table>

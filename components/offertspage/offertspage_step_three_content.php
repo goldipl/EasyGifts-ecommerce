@@ -2,7 +2,7 @@
     <div class="container">
         <div class="top-title-box">
             <div class="top-title-box__left">
-                <h1>Ofertownik</h1>
+                <h1>Ofertownik - Ustal ceny</h1>
             </div>
             <div class="top-title-box__right">
             </div>
@@ -13,7 +13,7 @@
                     <table class="offertspage-products-table">
                         <tbody>
                             <tr>
-                                <th>LP.</th>
+                                <th>Nr</th>
                                 <th>Produkt</th>
                                 <th>Ilość</th>
                                 <th>Cena<br>katalogowa</th>
@@ -217,14 +217,11 @@
                     <div class="bottom-offertspage-button">
                         <a href="#" class="white-btn prev left-btn"><img src="./assets/icons/common/buttons/button_color_arrow.svg" alt="arrow icon" width="18" height="18"> Powrót</a>
                     </div>
-                    <div class="bottom-offertspage-button right-btn">
-                        <a href="#" class="color-btn next">Dalej <img src="./assets/icons/common/buttons/button_white_arrow.svg" alt="arrow icon" width="18" height="18"></a>
-                    </div>
                 </div>
             </div>
             <aside class="sumary_box">
                 <div class="sumary_box--title">
-                    <p>Wartość produktów</p>
+                    <p>Wartość</p>
                 </div>
                 <div class="sumary_box--netto">
                     <p class="netto-value">17,88 PLN</p>
@@ -237,6 +234,9 @@
                 <div class="sumary_box--profit">
                     <p class="profit-value">21,99 PLN</p>
                     <p class="profit-text">Twój zysk</p>
+                </div>
+                <div class="sumary_box--button">
+                    <a href="#" class="color-btn next">Dalej <img src="./assets/icons/common/buttons/button_white_arrow.svg" alt="arrow icon" width="18" height="18"></a>
                 </div>
             </aside>
         </div>

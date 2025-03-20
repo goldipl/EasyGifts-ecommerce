@@ -66,7 +66,7 @@
                     justify-content: center;
                     align-items: flex-start;
                     p {
-                      font-size: 10px;
+                      font-size: 14px;
                       font-style: normal;
                       font-weight: 400;
                       line-height: 100%;
@@ -83,7 +83,6 @@
               .table-middle-box {
                 display: flex;
                 flex-direction: row;
-                padding-top: 25px;
                 .table-middle-buttons {
                   display: flex;
                   flex-direction: column;
@@ -110,6 +109,17 @@
                 .table-middle-checkboxes {
                   align-items: flex-start;
                   margin-right: 40px;
+                  .white-btn {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: max-content;
+                    padding: 5px 10px;
+                    height: 35px;
+                    font-size: 14px;
+                    margin-bottom: 16px;
+                    margin-top: 0;
+                  }
                   &__slot {
                     label {
                       text-align: left;
@@ -137,7 +147,7 @@
                 box-sizing: border-box;
                 background-color: $light_grey;
                 padding: 0 0 0 17px;
-                font-size: 16px;
+                font-size: 14px;
                 font-style: normal;
                 font-weight: 400;
                 line-height: 177.023%;
@@ -148,6 +158,10 @@
               .color-btn {
                 margin: 0 10px;
                 cursor: pointer;
+              }
+              textarea {
+                font-size: 14px;
+                padding: 17px;
               }
             }
           }
@@ -161,6 +175,22 @@
       justify-content: space-between;
       width: 100%;
       padding-bottom: 24px;
+      .prev {
+        color: $main-color-second;
+        border-color: $main-color-second;
+        &:hover {
+          color: $white;
+          background-color: $main-color-second;
+          border-color: $main-color-second;
+        }
+      }
+      .next {
+        &:hover {
+          img {
+            content: url(./../assets/icons/common/buttons/button_pink_arrow.svg);
+          }
+        }
+      }
     }
   }
 }
@@ -168,8 +198,9 @@
 @media (max-width: 1260px) {
   .offertspage_container.step_four {
     h1 {
+      font-weight: 700;
       font-size: 24px;
-      padding: 24px 0 24px 0;
+      padding: 24px 0;
     }
     .offertspage-step-table-container {
       overflow-x: scroll;

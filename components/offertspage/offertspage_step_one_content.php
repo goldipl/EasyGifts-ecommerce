@@ -2,11 +2,7 @@
     <div class="container">
         <div class="top-title-box">
             <div class="top-title-box__left">
-                <h1>Ofertownik</h1>
-                <div class="exclamation-box">
-                    <img src="./assets/icons/offertspage/exclamation-octagon-fill.svg" alt="exclamation icon" width="24" height="24">
-                    <span>W ofertowniku może znajdować się max. 30 produktów</span>
-                </div>
+                <h1>Ofertownik - Produkty</h1>
             </div>
             <div class="top-title-box__right">
             </div>
@@ -17,7 +13,7 @@
                     <table class="offertspage-products-table">
                         <tbody>
                             <tr>
-                                <th>LP.</th>
+                                <th>Nr</th>
                                 <th>Produkt</th>
                                 <th>Ilość</th>
                                 <th>Cena<br>katalogowa</th>
@@ -98,8 +94,9 @@
                 </div>
                 <div class="bottom-offertspage-box-with-btn">
                     <div class="bottom-offertspage-box">
-                        <div class="bottom-offertspage-box--text">
-                            <p>Wpisz ilość dla wszystkich pozycji:</p>
+                        <div class="bottom-cart-box--text">
+                            <p>Wpisz ilość dla wszystkich pozycji bez wariantów kolorystycznych.</p>
+                            <small>Uwaga! Ilości w polach wersji kolorystycznych zostaną wyzerowane.</small>
                         </div>
                         <div class="bottom-offertspage-box--input">
                             <input type="text" name="all-quantity" id="all-quantity">
@@ -108,9 +105,6 @@
                             <button class="confirm-btn">Zatwierdź</button>
                         </div>
                     </div>
-                    <div class="bottom-offertspage-button">
-                    <a href="#" class="color-btn next">Dalej <img src="./assets/icons/common/buttons/button_white_arrow.svg" alt="arrow icon" width="18" height="18"></a>
-                    </div>
                 </div>
                 <div class="add-product-box">
                     <button class="add-product">Dodaj produkt</button>
@@ -118,7 +112,7 @@
             </div>
             <aside class="sumary_box">
                 <div class="sumary_box--title">
-                    <p>Wartość produktów</p>
+                    <p>Wartość</p>
                 </div>
                 <div class="sumary_box--netto">
                     <p class="netto-value">17,88 PLN</p>
@@ -127,6 +121,9 @@
                 <div class="sumary_box--brutto">
                     <p class="brutto-value">21,99 PLN</p>
                     <p class="brutto-text">Suma brutto</p>
+                </div>
+                <div class="sumary_box--button">
+                    <a href="#" class="color-btn next">Dalej <img src="./assets/icons/common/buttons/button_white_arrow.svg" alt="arrow icon" width="18" height="18"></a>
                 </div>
             </aside>
         </div>

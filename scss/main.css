@@ -12312,13 +12312,14 @@ label.add-files:focus, label.add-files:hover {
   background-color: #f2f3f7;
 }
 .offertspage_container h1 {
-  font-size: 40px;
+  font-size: 36px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 120%;
   text-transform: uppercase;
   padding: 42px 0 50px 0;
   margin: 0;
+  color: #34224f;
 }
 .offertspage_container .top-title-box {
   display: flex;
@@ -12335,13 +12336,14 @@ label.add-files:focus, label.add-files:hover {
   margin-right: 30px;
 }
 .offertspage_container .top-title-box__left h1 {
-  font-size: 40px;
+  font-size: 36px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 120%;
   text-transform: uppercase;
   padding: 42px 0 50px 0;
   margin: 0;
+  color: #34224f;
 }
 .offertspage_container .top-title-box__left .exclamation-box {
   display: flex;
@@ -12501,12 +12503,13 @@ label.add-files:focus, label.add-files:hover {
   flex-direction: row;
   align-items: center;
   background-color: #ffffff;
-  width: 572px;
+  width: -moz-max-content;
+  width: max-content;
   height: 74px;
   padding: 0 27px;
   box-sizing: border-box;
 }
-.offertspage_container .offertspage-table_box .bottom-offertspage-box-with-btn .bottom-offertspage-box--text p {
+.offertspage_container .offertspage-table_box .bottom-offertspage-box-with-btn .bottom-offertspage-box .bottom-cart-box--text p {
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -12549,6 +12552,15 @@ label.add-files:focus, label.add-files:hover {
 .offertspage_container .offertspage-table_box .bottom-offertspage-box-with-btn .bottom-offertspage-box--btn button:hover {
   background-color: #e6007e;
   color: #ffffff;
+}
+.offertspage_container .offertspage-table_box .bottom-offertspage-box-with-btn .bottom-offertspage-button .prev {
+  color: #34224f;
+  border-color: #34224f;
+}
+.offertspage_container .offertspage-table_box .bottom-offertspage-box-with-btn .bottom-offertspage-button .prev:hover {
+  color: #ffffff;
+  background-color: #34224f;
+  border-color: #34224f;
 }
 .offertspage_container .offertspage-table_box .bottom-offertspage-box-with-btn .bottom-offertspage-button .next {
   margin: 19px 0 0 0;
@@ -12614,7 +12626,7 @@ label.add-files:focus, label.add-files:hover {
 .offertspage_container .sumary_box--netto .netto-value {
   font-size: 30px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 177.023%;
   margin: 0;
   color: #e6007e;
@@ -12650,6 +12662,16 @@ label.add-files:focus, label.add-files:hover {
   margin: 0;
   color: #8a8a8a;
   text-align: center;
+}
+.offertspage_container .sumary_box--button {
+  width: 100%;
+  background-color: #f2f3f7;
+}
+.offertspage_container .sumary_box--button .next {
+  width: 100%;
+}
+.offertspage_container .sumary_box--button .next:hover img {
+  content: url("./../assets/icons/common/buttons/button_pink_arrow.svg");
 }
 
 @media (max-width: 1260px) {
@@ -12710,18 +12732,22 @@ label.add-files:focus, label.add-files:hover {
     margin-right: 0;
   }
   .offertspage_container .offertspage-table_box .bottom-offertspage-box-with-btn .bottom-offertspage-box {
+    display: inline-flex;
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
     height: auto;
     padding-bottom: 24px;
+    padding-top: 24px;
   }
-  .offertspage_container .offertspage-table_box .bottom-offertspage-box-with-btn .bottom-offertspage-box--text {
+  .offertspage_container .offertspage-table_box .bottom-offertspage-box-with-btn .bottom-offertspage-box .bottom-cart-box--text {
+    display: inline;
     padding: 8px 0;
   }
-  .offertspage_container .offertspage-table_box .bottom-offertspage-box-with-btn .bottom-offertspage-box--text p {
+  .offertspage_container .offertspage-table_box .bottom-offertspage-box-with-btn .bottom-offertspage-box .bottom-cart-box--text p {
     font-size: 14px;
     line-height: 140%;
+    white-space: inherit;
   }
   .offertspage_container .offertspage-table_box .bottom-offertspage-box-with-btn .bottom-offertspage-box--input {
     padding: 0 0 16px 0;
@@ -12795,6 +12821,7 @@ label.add-files:focus, label.add-files:hover {
     margin-right: 0;
   }
   .offertspage_container .top-title-box__left h1 {
+    font-weight: 700;
     font-size: 24px;
     padding: 24px 0 24px 0;
   }
@@ -13220,13 +13247,14 @@ label.add-files:focus, label.add-files:hover {
   background-color: #f2f3f7;
 }
 .offertspage_container.step_three h1 {
-  font-size: 40px;
+  font-size: 36px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 120%;
   text-transform: uppercase;
   padding: 42px 0 50px 0;
   margin: 0;
+  color: #34224f;
 }
 .offertspage_container.step_three .top-title-box {
   display: flex;
@@ -13243,13 +13271,14 @@ label.add-files:focus, label.add-files:hover {
   margin-right: 30px;
 }
 .offertspage_container.step_three .top-title-box__left h1 {
-  font-size: 40px;
+  font-size: 36px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 120%;
   text-transform: uppercase;
   padding: 42px 0 50px 0;
   margin: 0;
+  color: #34224f;
 }
 .offertspage_container.step_three .top-title-box__right {
   display: flex;
@@ -13464,7 +13493,7 @@ label.add-files:focus, label.add-files:hover {
 .offertspage_container.step_three .sumary_box--netto .netto-value {
   font-size: 30px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 177.023%;
   margin: 0;
   color: #e6007e;
@@ -13658,8 +13687,9 @@ label.add-files:focus, label.add-files:hover {
     margin-right: 0;
   }
   .offertspage_container.step_three .top-title-box__left h1 {
+    font-weight: 700;
     font-size: 24px;
-    padding: 24px 0 0 0;
+    padding: 24px 0;
   }
   .offertspage_container.step_three .top-title-box__right {
     justify-content: flex-start;
@@ -13741,7 +13771,7 @@ label.add-files:focus, label.add-files:hover {
   align-items: flex-start;
 }
 .offertspage_container.step_four .offertspage-set-prices .offertspage-step-table-container .offertspage-products-table tbody tr td .table-product-box__bottom--right p {
-  font-size: 10px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 100%;
@@ -13755,7 +13785,6 @@ label.add-files:focus, label.add-files:hover {
 .offertspage_container.step_four .offertspage-set-prices .offertspage-step-table-container .offertspage-products-table tbody tr td .table-middle-box {
   display: flex;
   flex-direction: row;
-  padding-top: 25px;
 }
 .offertspage_container.step_four .offertspage-set-prices .offertspage-step-table-container .offertspage-products-table tbody tr td .table-middle-box .table-middle-buttons {
   display: flex;
@@ -13784,6 +13813,18 @@ label.add-files:focus, label.add-files:hover {
   align-items: flex-start;
   margin-right: 40px;
 }
+.offertspage_container.step_four .offertspage-set-prices .offertspage-step-table-container .offertspage-products-table tbody tr td .table-middle-box .table-middle-checkboxes .white-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 5px 10px;
+  height: 35px;
+  font-size: 14px;
+  margin-bottom: 16px;
+  margin-top: 0;
+}
 .offertspage_container.step_four .offertspage-set-prices .offertspage-step-table-container .offertspage-products-table tbody tr td .table-middle-box .table-middle-checkboxes__slot label {
   text-align: left;
   margin-left: 5px;
@@ -13807,7 +13848,7 @@ label.add-files:focus, label.add-files:hover {
   box-sizing: border-box;
   background-color: #f2f3f7;
   padding: 0 0 0 17px;
-  font-size: 16px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 177.023%;
@@ -13819,6 +13860,10 @@ label.add-files:focus, label.add-files:hover {
   margin: 0 10px;
   cursor: pointer;
 }
+.offertspage_container.step_four .offertspage-set-prices .offertspage-step-table-container .offertspage-products-table tbody tr td textarea {
+  font-size: 14px;
+  padding: 17px;
+}
 .offertspage_container.step_four .offertspage-set-prices .bottom-offertspage-box-with-btn {
   display: flex;
   flex-direction: row;
@@ -13827,11 +13872,24 @@ label.add-files:focus, label.add-files:hover {
   width: 100%;
   padding-bottom: 24px;
 }
+.offertspage_container.step_four .offertspage-set-prices .bottom-offertspage-box-with-btn .prev {
+  color: #34224f;
+  border-color: #34224f;
+}
+.offertspage_container.step_four .offertspage-set-prices .bottom-offertspage-box-with-btn .prev:hover {
+  color: #ffffff;
+  background-color: #34224f;
+  border-color: #34224f;
+}
+.offertspage_container.step_four .offertspage-set-prices .bottom-offertspage-box-with-btn .next:hover img {
+  content: url(./../assets/icons/common/buttons/button_pink_arrow.svg);
+}
 
 @media (max-width: 1260px) {
   .offertspage_container.step_four h1 {
+    font-weight: 700;
     font-size: 24px;
-    padding: 24px 0 24px 0;
+    padding: 24px 0;
   }
   .offertspage_container.step_four .offertspage-step-table-container {
     overflow-x: scroll;
@@ -13945,6 +14003,10 @@ label.add-files:focus, label.add-files:hover {
 .offertspage_container.step_five .offertspage-offerts-details-container .offerts-details__top__col .details-content {
   padding: 15px 30px;
 }
+.offertspage_container.step_five .offertspage-offerts-details-container .offerts-details__top__col .details-content label {
+  font-size: 14px !important;
+  color: #212321;
+}
 .offertspage_container.step_five .offertspage-offerts-details-container .offerts-details__top__col .details-content .form-check.form-switch {
   display: inline-flex;
   align-items: center;
@@ -13981,8 +14043,8 @@ label.add-files:focus, label.add-files:hover {
   cursor: pointer;
 }
 .offertspage_container.step_five .offertspage-offerts-details-container .offerts-details__top__col .details-content .form-check.form-switch .form-check-input:checked {
-  background-color: #21a500;
-  border-color: #21a500;
+  background-color: #e6007e;
+  border-color: #e6007e;
 }
 .offertspage_container.step_five .offertspage-offerts-details-container .offerts-details__top__col .details-content.border-bottom {
   border-bottom: 13px solid #f2f3f7 !important;
@@ -14031,7 +14093,7 @@ label.add-files:focus, label.add-files:hover {
   flex-direction: row;
   justify-content: space-between;
   height: 70px;
-  margin-bottom: 18px;
+  margin-bottom: 44px;
 }
 .offertspage_container.step_five .offertspage-offerts-details-container .offerts-details__top__col .details-content .details-two-col__left {
   width: 45%;
@@ -14083,14 +14145,27 @@ label.add-files:focus, label.add-files:hover {
   width: 100%;
   padding-bottom: 24px;
 }
+.offertspage_container.step_five .bottom-offertspage-box-with-btn .prev {
+  color: #34224f;
+  border-color: #34224f;
+}
+.offertspage_container.step_five .bottom-offertspage-box-with-btn .prev:hover {
+  color: #ffffff;
+  background-color: #34224f;
+  border-color: #34224f;
+}
+.offertspage_container.step_five .bottom-offertspage-box-with-btn .next:hover img {
+  content: url(./../assets/icons/common/buttons/button_pink_arrow.svg);
+}
 
 @media (max-width: 1100px) {
   .offertspage_container.step_five {
     padding-bottom: 40px;
   }
   .offertspage_container.step_five h1 {
+    font-weight: 700;
     font-size: 24px;
-    padding: 24px 0 0 0;
+    padding: 24px 0;
   }
   .offertspage_container.step_five .offertspage-offerts-details-container .offerts-details__top {
     flex-direction: column;
@@ -14143,6 +14218,28 @@ label.add-files:focus, label.add-files:hover {
     padding: 16px;
   }
 }
+.offertspage_container.step_six .sumary_box--button .next {
+  font-weight: 700;
+}
+.offertspage_container.step_six .sumary_box--button .next:hover img {
+  content: url(./../assets/icons/dashboard/save-btn-color.svg) !important;
+}
+.offertspage_container.step_six .bottom-offertspage-box-with-btn {
+  justify-content: flex-start;
+}
+.offertspage_container.step_six .bottom-offertspage-box-with-btn .prev {
+  color: #34224f;
+  border-color: #34224f;
+  margin-right: 15px;
+}
+.offertspage_container.step_six .bottom-offertspage-box-with-btn .prev:hover {
+  color: #ffffff;
+  background-color: #34224f;
+  border-color: #34224f;
+}
+.offertspage_container.step_six table tr td {
+  font-size: 14px;
+}
 .offertspage_container.step_six table tr td.specification p {
   margin: 0 0 6px 0;
 }
@@ -14152,7 +14249,33 @@ label.add-files:focus, label.add-files:hover {
   max-width: 200px;
 }
 .offertspage_container.step_six .add-product-box {
-  margin-top: 26px;
+  height: 54px;
+  margin: 24px 0 250px 0;
+}
+.offertspage_container.step_six .add-product-box input {
+  width: 225px !important;
+  height: 54px !important;
+  background-color: #ffffff !important;
+  border: 1px solid #8a8a8a !important;
+  font-size: 14px !important;
+  color: #212321 !important;
+  padding: 0 18px;
+  margin-top: 0;
+}
+.offertspage_container.step_six .add-product-box input::-moz-placeholder {
+  font-size: 14px;
+  color: #212321;
+}
+.offertspage_container.step_six .add-product-box input::placeholder {
+  font-size: 14px;
+  color: #212321;
+}
+.offertspage_container.step_six .add-product-box .add-product {
+  display: inline-flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  height: 54px !important;
+  min-width: 150px !important;
 }
 .offertspage_container.step_six .add-product-box .add-product img {
   width: 16px;
@@ -14160,8 +14283,28 @@ label.add-files:focus, label.add-files:hover {
   margin-left: 4px;
   margin-top: -4px;
 }
-.offertspage_container.step_six .add-product-box .add-product:hover img {
-  content: url("./../assets/icons/common/buttons/button_white_arrow.svg");
+.offertspage_container.step_six .sumary_box--profit {
+  border-top: 1px solid #f2f3f7;
+  width: 100%;
+  padding: 26px 0;
+}
+.offertspage_container.step_six .sumary_box--profit .profit-value {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 177.023%;
+  margin: 0;
+  color: #54bf00;
+  text-align: center;
+}
+.offertspage_container.step_six .sumary_box--profit .profit-text {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  margin: 0;
+  color: #8a8a8a;
+  text-align: center;
 }
 
 @media (max-width: 1260px) {
@@ -14189,7 +14332,8 @@ label.add-files:focus, label.add-files:hover {
   }
 }
 @media (max-width: 500px) {
-  .offertspage_container.step_six .add-product-box .add-product {
+  .offertspage_container.step_six .add-product-box .add-product,
+  .offertspage_container.step_six .add-product-box input {
     width: 100% !important;
     margin-right: 0 !important;
     text-align: center !important;

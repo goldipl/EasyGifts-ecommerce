@@ -1,13 +1,14 @@
 .offertspage_container {
   background-color: $light_grey;
   h1 {
-    font-size: 40px;
+    font-size: 36px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 120%;
     text-transform: uppercase;
     padding: 42px 0 50px 0;
     margin: 0;
+    color: $main-color-second;
   }
   .top-title-box {
     display: flex;
@@ -22,13 +23,14 @@
       width: calc(80% - 30px);
       margin-right: 30px;
       h1 {
-        font-size: 40px;
+        font-size: 36px;
         font-style: normal;
-        font-weight: 600;
+        font-weight: 700;
         line-height: 120%;
         text-transform: uppercase;
         padding: 42px 0 50px 0;
         margin: 0;
+        color: $main-color-second;
       }
       .exclamation-box {
         display: flex;
@@ -191,11 +193,11 @@
         flex-direction: row;
         align-items: center;
         background-color: $white;
-        width: 572px;
+        width: max-content;
         height: 74px;
         padding: 0 27px;
         box-sizing: border-box;
-        &--text {
+        .bottom-cart-box--text {
           p {
             font-size: 16px;
             font-style: normal;
@@ -247,6 +249,15 @@
         }
       }
       .bottom-offertspage-button {
+        .prev {
+          color: $main-color-second;
+          border-color: $main-color-second;
+          &:hover {
+            color: $white;
+            background-color: $main-color-second;
+            border-color: $main-color-second;
+          }
+        }
         .next {
           margin: 19px 0 0 0;
         }
@@ -311,7 +322,7 @@
       .netto-value {
         font-size: 30px;
         font-style: normal;
-        font-weight: 400;
+        font-weight: 700;
         line-height: 177.023%;
         margin: 0;
         color: $main-color;
@@ -347,6 +358,18 @@
         margin: 0;
         color: $grey5;
         text-align: center;
+      }
+    }
+    &--button {
+      width: 100%;
+      background-color: $light_grey;
+      .next {
+        width: 100%;
+        &:hover {
+          img {
+            content: url("./../assets/icons/common/buttons/button_pink_arrow.svg");
+          }
+        }
       }
     }
   }
@@ -419,16 +442,20 @@
         flex-direction: column;
         margin-right: 0;
         .bottom-offertspage-box {
+          display: inline-flex;
           flex-direction: column;
           align-items: flex-start;
           width: 100%;
           height: auto;
           padding-bottom: 24px;
-          &--text {
+          padding-top: 24px;
+          .bottom-cart-box--text {
+            display: inline;
             padding: 8px 0;
             p {
               font-size: 14px;
               line-height: 140%;
+              white-space: inherit;
             }
           }
           &--input {
@@ -507,6 +534,7 @@
         width: 100%;
         margin-right: 0;
         h1 {
+          font-weight: 700;
           font-size: 24px;
           padding: 24px 0 24px 0;
         }

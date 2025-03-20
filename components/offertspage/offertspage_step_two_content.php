@@ -1,6 +1,6 @@
 <div class="offertspage_container step_two">
     <div class="container">
-        <h1>Ofertownik</h1>
+        <h1>Ofertownik - Znakowanie</h1>
         <div class="offertspage-table_full_box d-flex flex-row">
             <div class="offertspage-table_box d-flex flex-column">
                 <div class="offertspage-step-table-container">
@@ -288,14 +288,11 @@
                     <div class="bottom-offertspage-button">
                         <a href="#" class="white-btn prev left-btn"><img src="./assets/icons/common/buttons/button_color_arrow.svg" alt="arrow icon" width="18" height="18"> Powrót</a>
                     </div>
-                    <div class="bottom-offertspage-button right-btn">
-                        <a href="#" class="color-btn next">Dalej <img src="./assets/icons/common/buttons/button_white_arrow.svg" alt="arrow icon" width="18" height="18"></a>
-                    </div>
                 </div>
             </div>
             <aside class="sumary_box">
                 <div class="sumary_box--title">
-                    <p>CAŁKOWITA WARTOŚĆ PRODUKTÓW ZE ZNAKOWANIEM</p>
+                    <p>Wartość</p>
                 </div>
                 <div class="sumary_box--netto">
                     <p class="netto-value">17,88 PLN</p>
@@ -304,6 +301,9 @@
                 <div class="sumary_box--brutto">
                     <p class="brutto-value">35,66 PLN</p>
                     <p class="brutto-text">Suma brutto</p>
+                </div>
+                <div class="sumary_box--button">
+                    <a href="#" class="color-btn next">Dalej <img src="./assets/icons/common/buttons/button_white_arrow.svg" alt="arrow icon" width="18" height="18"></a>
                 </div>
             </aside>
         </div>

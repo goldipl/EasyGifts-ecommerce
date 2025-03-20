@@ -2,7 +2,7 @@
     <div class="container">
         <div class="top-title-box">
             <div class="top-title-box__left">
-                <h1>Ofertownik</h1>
+                <h1>Ofertownik - Finalizacja</h1>
             </div>
             <div class="top-title-box__right">
             </div>
@@ -13,7 +13,7 @@
                     <table class="offertspage-products-table">
                         <tbody>
                             <tr>
-                                <th>LP.</th>
+                                <th>Nr</th>
                                 <th>Produkt</th>
                                 <th>Ilość</th>
                                 <th>Opis</th>
@@ -70,21 +70,17 @@
                             <img src="./assets/icons/common/buttons/button_color_arrow.svg" alt="arrow icon" width="18" height="18"> Powrót </a>
                     </div>
                     <div class="add-product-box">
-                        <button class="add-product">Dodaj produkt</button>
-                        <button class="add-product">Przekształć w zamówienie <img src="./assets/icons/common/buttons/button_color_arrow.svg" alt="arrow icon" width="18" height="18"></button>
-                        <button class="add-product">Pobierz plik PDF <img src="./assets/icons/common/buttons/button_color_arrow.svg" alt="arrow icon" width="18" height="18"></button>
-                        <button class="add-product">Drukuj <img src="./assets/icons/common/buttons/button_color_arrow.svg" alt="arrow icon" width="18" height="18"></button>
-                        <button class="add-product">Wyślij <img src="./assets/icons/common/buttons/button_color_arrow.svg" alt="arrow icon" width="18" height="18"></button>
-                    </div>
-                    <div class="bottom-offertspage-button right-btn">
-                        <a href="#" class="color-btn next">Dalej <img src="./assets/icons/common/buttons/button_white_arrow.svg" alt="arrow icon" width="18" height="18">
-                        </a>
+                        <button class="add-product">Przekształć w zamówienie</button>
+                        <button class="add-product">Pobierz plik PDF</button>
+                        <button class="add-product">Drukuj</button>
+                        <button class="add-product">Wyślij</button>
+                        <input type="email" class="form-input" name="email" id="email" placeholder="email@gmail.com">
                     </div>
                 </div>
             </div>
             <aside class="sumary_box">
                 <div class="sumary_box--title">
-                    <p>Wartość produktów</p>
+                    <p>Wartość</p>
                 </div>
                 <div class="sumary_box--netto">
                     <p class="netto-value">17,88 PLN</p>
@@ -93,6 +89,14 @@
                 <div class="sumary_box--brutto">
                     <p class="brutto-value">21,99 PLN</p>
                     <p class="brutto-text">Suma brutto</p>
+                </div>
+                <div class="sumary_box--profit">
+                    <p class="profit-value">21,99 PLN</p>
+                    <p class="profit-text">Twój zysk</p>
+                </div>
+                <div class="sumary_box--button">
+                    <a href="#" class="color-btn next">Zakończ i zapisz ofertę  <img src="./assets/icons/dashboard/save-btn-white.svg" alt="arrow icon" width="18" height="18">
+                </a>
                 </div>
             </aside>
         </div>
