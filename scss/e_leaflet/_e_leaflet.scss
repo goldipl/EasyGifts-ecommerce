@@ -9,10 +9,10 @@
   &_title {
     h1 {
       font-size: 40px;
-      font-weight: 600;
+      font-weight: 700;
       line-height: 120%;
       text-transform: uppercase;
-      color: $text_color;
+      color: $main-color-second;
       margin: 0 0 22px 0;
       @media (max-width: 760px) {
         font-size: 26px;
@@ -71,7 +71,17 @@
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    gap: 18px;
+    gap: 11px;
+    .form-input-wrap {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      label {
+        font-size: 10px;
+        height: 10px;
+        margin-bottom: 6px;
+      }
+    }
     &--btn {
       display: flex;
       flex-direction: row;
@@ -82,37 +92,40 @@
       padding: 15px 20px;
       box-sizing: border-box;
       border: 1px solid $main-color;
-      background-color: $main-color;
+      background-color: $white;
       text-decoration: unset;
       span {
-        font-size: 16px;
-        font-weight: 400;
+        font-size: 14px;
+        font-weight: 500;
         line-height: 24px;
         text-align: center;
         margin: 0;
-        color: $white;
+        color: $main-color;
         @media (max-width: 900px) {
           font-size: 14px;
         }
       }
-      img {
+      img,
+      svg {
         display: flex;
         margin: 0 0 0 10px;
       }
       &:hover {
-        background-color: $white;
+        background-color: $main-color;
         span {
-          color: $main-color;
+          color: $white;
         }
-        img {
-          filter: invert(57%) sepia(38%) saturate(7038%) hue-rotate(350deg)
-            brightness(99%) contrast(91%);
+        img,
+        svg {
+          filter: invert(1) brightness(22);
         }
       }
     }
   }
-  .color-btn {
+  .white-btn {
     margin-top: 0;
+    font-size: 14px;
+    font-weight: 500;
     @media (max-width: 900px) {
       font-size: 14px;
     }
@@ -145,8 +158,8 @@
       margin-top: 0;
       cursor: pointer;
       &:checked {
-        background-color: $green;
-        border-color: $green;
+        background-color: $main-color;
+        border-color: $main-color;
       }
     }
   }

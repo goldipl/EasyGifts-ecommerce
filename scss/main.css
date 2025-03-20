@@ -17018,10 +17018,10 @@ main.grey-background {
 }
 .e-leaflet-info_title h1 {
   font-size: 40px;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 120%;
   text-transform: uppercase;
-  color: #212321;
+  color: #34224f;
   margin: 0 0 22px 0;
 }
 @media (max-width: 760px) {
@@ -17087,7 +17087,17 @@ main.grey-background {
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  gap: 18px;
+  gap: 11px;
+}
+.e-leaflet-info .e-leaflet__btns .form-input-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.e-leaflet-info .e-leaflet__btns .form-input-wrap label {
+  font-size: 10px;
+  height: 10px;
+  margin-bottom: 6px;
 }
 .e-leaflet-info .e-leaflet__btns--btn {
   display: flex;
@@ -17100,40 +17110,44 @@ main.grey-background {
   padding: 15px 20px;
   box-sizing: border-box;
   border: 1px solid #e6007e;
-  background-color: #e6007e;
+  background-color: #ffffff;
   text-decoration: unset;
 }
 .e-leaflet-info .e-leaflet__btns--btn span {
-  font-size: 16px;
-  font-weight: 400;
+  font-size: 14px;
+  font-weight: 500;
   line-height: 24px;
   text-align: center;
   margin: 0;
-  color: #ffffff;
+  color: #e6007e;
 }
 @media (max-width: 900px) {
   .e-leaflet-info .e-leaflet__btns--btn span {
     font-size: 14px;
   }
 }
-.e-leaflet-info .e-leaflet__btns--btn img {
+.e-leaflet-info .e-leaflet__btns--btn img,
+.e-leaflet-info .e-leaflet__btns--btn svg {
   display: flex;
   margin: 0 0 0 10px;
 }
 .e-leaflet-info .e-leaflet__btns--btn:hover {
-  background-color: #ffffff;
+  background-color: #e6007e;
 }
 .e-leaflet-info .e-leaflet__btns--btn:hover span {
-  color: #e6007e;
+  color: #ffffff;
 }
-.e-leaflet-info .e-leaflet__btns--btn:hover img {
-  filter: invert(57%) sepia(38%) saturate(7038%) hue-rotate(350deg) brightness(99%) contrast(91%);
+.e-leaflet-info .e-leaflet__btns--btn:hover img,
+.e-leaflet-info .e-leaflet__btns--btn:hover svg {
+  filter: invert(1) brightness(22);
 }
-.e-leaflet-info .color-btn {
+.e-leaflet-info .white-btn {
   margin-top: 0;
+  font-size: 14px;
+  font-weight: 500;
 }
 @media (max-width: 900px) {
-  .e-leaflet-info .color-btn {
+  .e-leaflet-info .white-btn {
     font-size: 14px;
   }
 }
@@ -17172,8 +17186,8 @@ main.grey-background {
   cursor: pointer;
 }
 .e-leaflet-info .form-check.form-switch .form-check-input:checked {
-  background-color: #21a500;
-  border-color: #21a500;
+  background-color: #e6007e;
+  border-color: #e6007e;
 }
 
 main:has(.shop-creator-wrapper) {
