@@ -76,8 +76,56 @@
             </div>
         </div>
         <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"> Kosmetyki i pielęgnacja</button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <div class="menu-slot">
+                        <a href="#">Akcesoria 01</a>
+                    </div>
+                    <div class="menu-slot">
+                        <a href="#">Akcesoria 02</a>
+                    </div>
+                    <div class="menu-slot">
+                        <a href="#">Akcesoria 03</a>
+                    </div>
+                    <div class="menu-slot">
+                        <a href="#">Akcesoria 04</a>
+                    </div>
+                    <div class="menu-slot">
+                        <a href="#">Akcesoria 05</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive"> Latarki i narzędzia </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <div class="menu-slot">
+                        <a href="#">Akcesoria 01</a>
+                    </div>
+                    <div class="menu-slot">
+                        <a href="#">Akcesoria 02</a>
+                    </div>
+                    <div class="menu-slot">
+                        <a href="#">Akcesoria 03</a>
+                    </div>
+                    <div class="menu-slot">
+                        <a href="#">Akcesoria 04</a>
+                    </div>
+                    <div class="menu-slot">
+                        <a href="#">Akcesoria 05</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
             <h2 class="accordion-header" id="headingSix">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix"> Kosmetyki i pielęgnacja</button>
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix"> Parasole i płaszcze </button>
             </h2>
             <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
@@ -100,10 +148,10 @@
             </div>
         </div>
         <div class="accordion-item">
-            <h2 class="accordion-header" id="headingSix">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix"> Latarki i narzędzia </button>
+            <h2 class="accordion-header" id="headingSeven">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven"> Sport i podróże</button>
             </h2>
-            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                     <div class="menu-slot">
                         <a href="#">Akcesoria 01</a>
@@ -125,57 +173,9 @@
         </div>
         <div class="accordion-item">
             <h2 class="accordion-header" id="headingEight">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight"> Parasole i płaszcze </button>
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight"> Torby, worki, plecaki </button>
             </h2>
             <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <div class="menu-slot">
-                        <a href="#">Akcesoria 01</a>
-                    </div>
-                    <div class="menu-slot">
-                        <a href="#">Akcesoria 02</a>
-                    </div>
-                    <div class="menu-slot">
-                        <a href="#">Akcesoria 03</a>
-                    </div>
-                    <div class="menu-slot">
-                        <a href="#">Akcesoria 04</a>
-                    </div>
-                    <div class="menu-slot">
-                        <a href="#">Akcesoria 05</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="headingNine">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine"> Sport i podróże</button>
-            </h2>
-            <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <div class="menu-slot">
-                        <a href="#">Akcesoria 01</a>
-                    </div>
-                    <div class="menu-slot">
-                        <a href="#">Akcesoria 02</a>
-                    </div>
-                    <div class="menu-slot">
-                        <a href="#">Akcesoria 03</a>
-                    </div>
-                    <div class="menu-slot">
-                        <a href="#">Akcesoria 04</a>
-                    </div>
-                    <div class="menu-slot">
-                        <a href="#">Akcesoria 05</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="headingNine">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine"> Torby, worki, plecaki </button>
-            </h2>
-            <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                     <div class="menu-slot">
                         <a href="#">Akcesoria 01</a>
