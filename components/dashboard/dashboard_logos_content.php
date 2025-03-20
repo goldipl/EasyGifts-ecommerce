@@ -38,7 +38,7 @@
         <div class="dashboard-logos__slot">
             <div class="add-file-box">
                 <label for="files" class="upload-files-box">
-                    <img src="./assets/icons/upload-icon.svg" alt="upload icon" width="21" height="14">
+                    <img src="./assets/icons/upload-icon.svg" alt="upload icon" width="48" height="32">
                     <p>Przeciągnij i upuść albo<br><span>Dodaj plik</span></p>
                     <input class="file file-block" type="file" id="files-logo">
                 </label>               

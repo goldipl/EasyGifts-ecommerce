@@ -63,22 +63,21 @@
           height: 100%;
           &:hover {
             img {
-              filter: invert(13%) sepia(96%) saturate(7041%) hue-rotate(319deg)
-                brightness(89%) contrast(110%);
+              filter: invert(0) brightness(-2222%);
             }
             span {
-              color: $main-color;
+              color: $text_color;
             }
           }
           img {
             margin-bottom: 12px;
           }
           span {
-            font-size: 10px;
+            font-size: 14px;
             font-style: normal;
             font-weight: 400;
             line-height: normal;
-            color: $text_color;
+            color: $main-color;
             margin: 0;
           }
         }

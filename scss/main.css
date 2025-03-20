@@ -11358,6 +11358,11 @@ label.add-files:focus, label.add-files:hover {
   text-decoration: none;
   color: #212321;
 }
+.dashboard-table table tr td a.offert-td-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
 .dashboard-table table tr td a img {
   margin: 0 auto;
 }
@@ -11508,20 +11513,20 @@ label.add-files:focus, label.add-files:hover {
   height: 100%;
 }
 .dashboard-delivery-addresses__slot .delivery-box-content.add-address .add-address-box:hover img {
-  filter: invert(13%) sepia(96%) saturate(7041%) hue-rotate(319deg) brightness(89%) contrast(110%);
+  filter: invert(0) brightness(-2222%);
 }
 .dashboard-delivery-addresses__slot .delivery-box-content.add-address .add-address-box:hover span {
-  color: #e6007e;
+  color: #212321;
 }
 .dashboard-delivery-addresses__slot .delivery-box-content.add-address .add-address-box img {
   margin-bottom: 12px;
 }
 .dashboard-delivery-addresses__slot .delivery-box-content.add-address .add-address-box span {
-  font-size: 10px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  color: #212321;
+  color: #e6007e;
   margin: 0;
 }
 .dashboard-delivery-addresses__slot .delivery-box-bottom {
@@ -11765,7 +11770,7 @@ label.add-files:focus, label.add-files:hover {
 }
 .dashboard-logos__slot .add-file-box label p {
   text-align: center;
-  font-size: 10px;
+  font-size: 13px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -11882,17 +11887,112 @@ label.add-files:focus, label.add-files:hover {
   display: flex;
 }
 
-.dashboard-calculations table tr td {
+.dashboard-calculations table tr td,
+.dashboard-negotiations table tr td {
   padding-top: 15px;
   padding-bottom: 15px;
 }
-.dashboard-calculations table tr td .info-desc {
-  max-width: 500px;
+.dashboard-calculations table tr td input.input-price,
+.dashboard-negotiations table tr td input.input-price {
+  display: flex;
+  justify-content: center;
+  width: 80px;
+  height: 36px;
+  margin: 0 auto;
+  padding: 0 8px;
 }
-.dashboard-calculations table tr td .info-desc p {
-  margin: 0;
+.dashboard-calculations table tr td .negotiation-prices p,
+.dashboard-negotiations table tr td .negotiation-prices p {
+  margin: 0 0 5px 0;
 }
-.dashboard-calculations table tr td .info-desc .desc {
+.dashboard-calculations table tr td .negotiation-prices strong.green,
+.dashboard-negotiations table tr td .negotiation-prices strong.green {
+  color: #00d13a;
+}
+.dashboard-calculations table tr td .validity,
+.dashboard-negotiations table tr td .validity {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  height: auto;
+  margin-top: 8px;
+}
+.dashboard-calculations table tr td .validity span,
+.dashboard-negotiations table tr td .validity span {
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 1;
+}
+.dashboard-calculations table tr td .calc-dates .date-top,
+.dashboard-calculations table tr td .calc-dates .date-bottom,
+.dashboard-negotiations table tr td .calc-dates .date-top,
+.dashboard-negotiations table tr td .calc-dates .date-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 80px;
+}
+.dashboard-calculations table tr td .calc-dates .date-top span,
+.dashboard-calculations table tr td .calc-dates .date-bottom span,
+.dashboard-negotiations table tr td .calc-dates .date-top span,
+.dashboard-negotiations table tr td .calc-dates .date-bottom span {
+  font-size: 14px;
+  line-height: 140%;
+  color: #212321;
+  white-space: pre;
+}
+.dashboard-calculations table tr td .calc-dates .date-top strong,
+.dashboard-calculations table tr td .calc-dates .date-bottom strong,
+.dashboard-negotiations table tr td .calc-dates .date-top strong,
+.dashboard-negotiations table tr td .calc-dates .date-bottom strong {
+  font-size: 14px;
+  line-height: 140%;
+  color: #212321;
+  white-space: pre;
+}
+.dashboard-calculations table tr td .calc-dates .date-top strong.pink,
+.dashboard-calculations table tr td .calc-dates .date-bottom strong.pink,
+.dashboard-negotiations table tr td .calc-dates .date-top strong.pink,
+.dashboard-negotiations table tr td .calc-dates .date-bottom strong.pink {
+  color: #e6007e;
+}
+.dashboard-calculations table tr td .calc-dates .date-bottom,
+.dashboard-negotiations table tr td .calc-dates .date-bottom {
+  justify-content: flex-end;
+}
+.dashboard-calculations table tr td span.pink,
+.dashboard-negotiations table tr td span.pink {
+  color: #e6007e;
+}
+.dashboard-calculations table tr td .info-desc,
+.dashboard-negotiations table tr td .info-desc {
+  max-width: 310px;
+}
+.dashboard-calculations table tr td .info-desc strong,
+.dashboard-calculations table tr td .info-desc p,
+.dashboard-negotiations table tr td .info-desc strong,
+.dashboard-negotiations table tr td .info-desc p {
+  display: inline-flex;
+  margin: 0 0 11px 0;
+}
+.dashboard-calculations table tr td .info-desc p:has(img, svg),
+.dashboard-negotiations table tr td .info-desc p:has(img, svg) {
+  align-items: center;
+  gap: 5px;
+}
+.dashboard-calculations table tr td .info-desc p:has(img, svg) small,
+.dashboard-negotiations table tr td .info-desc p:has(img, svg) small {
+  font-size: 9px;
+}
+.dashboard-calculations table tr td .info-desc img,
+.dashboard-calculations table tr td .info-desc svg,
+.dashboard-negotiations table tr td .info-desc img,
+.dashboard-negotiations table tr td .info-desc svg {
+  display: inline-flex;
+  margin-right: 4px;
+}
+.dashboard-calculations table tr td .info-desc .desc,
+.dashboard-negotiations table tr td .info-desc .desc {
   font-size: 9px;
   font-style: normal;
   font-weight: 400;
@@ -11909,6 +12009,7 @@ label.add-files:focus, label.add-files:hover {
   .dashboard-calculations table tr th:nth-of-type(2),
   .dashboard-calculations table tr td:nth-of-type(2) {
     white-space: inherit;
+    min-width: 300px;
   }
 }
 .dashboard-pricelists table tr:first-of-type {

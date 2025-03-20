@@ -90,7 +90,7 @@
         <div class="dashboard-delivery-addresses__slot">
             <div class="delivery-box-content add-address">
                 <div class="add-address-box">
-                    <img src="./assets/icons/dashboard/add_orange.svg" alt="menu icon" width="18" height="18">
+                    <img src="./assets/icons/dashboard/add_color.svg" alt="menu icon" width="32" height="32">
                     <span>Dodaj Adres</span>
                 </div>
             </div>

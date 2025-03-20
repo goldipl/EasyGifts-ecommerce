@@ -40,6 +40,11 @@
         a {
           text-decoration: none;
           color: $text_color;
+          &.offert-td-col {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+          }
           img {
             margin: 0 auto;
           }
