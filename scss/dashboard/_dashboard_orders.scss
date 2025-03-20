@@ -4,12 +4,12 @@
   padding: 25px 40px;
   &__month {
     p {
-      font-size: 18px;
+      font-size: 14px;
       font-style: normal;
       font-weight: 700;
       line-height: 140%;
       color: $text_color;
-      margin: 0 0 15px 0;
+      margin: 0 0 11px 0;
     }
   }
   &__slot {
@@ -31,6 +31,9 @@
       }
     }
     &--middle {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
       margin-right: 45px;
       p {
         font-size: 14px;
@@ -45,27 +48,31 @@
           margin: 0 0 11px 0;
         }
       }
+      .product-code {
+        display: inline-flex;
+        margin: 0 0 6px 0;
+      }
     }
     &--right {
-      margin-top: 45px;
+      margin-left: 40px;
       p {
-        font-size: 16px;
+        font-size: 14px;
         font-style: normal;
-        font-weight: 400;
-        line-height: 140%;
+        font-weight: 600;
+        line-height: 100%;
         color: $text_color;
-        margin: 0 0 21px 0;
+        margin: 0 0 10px 0;
         &.status {
           font-weight: 700;
         }
         span {
           display: inline-flex;
           margin-left: 8px;
-          &.send {
+          &.green {
             font-weight: 700;
             color: $dashboard_green;
           }
-          &.in-progress {
+          &.orange {
             font-weight: 700;
             color: $dashboard_orange;
           }
@@ -100,11 +107,6 @@
 @media (max-width: 992px) {
   .dashboard-orders {
     padding: 16px;
-    &__month {
-      p {
-        font-size: 16px;
-      }
-    }
     &__slot {
       flex-direction: column;
       border: 1px solid $grey8;
@@ -117,7 +119,7 @@
         margin-right: 0;
       }
       &--right {
-        margin-top: 16px;
+        margin-left: 16px;
         p {
           font-size: 15px;
         }

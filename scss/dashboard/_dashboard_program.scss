@@ -1,16 +1,23 @@
 .dashboard-wrapper {
+  .title-benefits-box {
+    border-top: 20px solid $light_grey;
+  }
   .dashboard-program {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    img {
+      width: 100%;
+      max-width: 700px;
+    }
     h2 {
       font-size: 50px;
       font-style: normal;
       font-weight: 600;
       line-height: 140%;
       margin: 14px 0 18px 0;
-      color: $main-color;
+      color: $main-color-second;
       text-transform: uppercase;
     }
     p {
@@ -21,23 +28,26 @@
       color: $text_color;
       margin: 16px 0 8px 0;
       span {
-        color: $main-color;
+        color: $dashboard_orange;
       }
     }
   }
-  .progress-box {
-    padding: 4px;
-    border: 1px solid $dashboard_grey;
-    box-sizing: border-box;
-    width: 505px;
-    height: 36px;
-    margin: 0 auto;
-    .progress {
-      border-radius: 0;
-      --bs-progress-bg: #f4f4f4;
-      height: 26px;
-      .progress-bar {
-        background-color: $main-color;
+  .progress-wrapper {
+    padding-bottom: 37px;
+    .progress-box {
+      padding: 4px;
+      border: 1px solid $dashboard_grey;
+      box-sizing: border-box;
+      width: 505px;
+      height: 36px;
+      margin: 0 auto;
+      .progress {
+        border-radius: 0;
+        --bs-progress-bg: #f4f4f4;
+        height: 26px;
+        .progress-bar {
+          background-color: $main-color-second;
+        }
       }
     }
   }
@@ -123,14 +133,14 @@
         align-items: center;
         width: 181px;
         height: 35px;
-        border: 1px solid $small_text_color;
+        border: 1px solid $main-color;
         background-color: $white;
         text-align: center;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
-        color: $small_text_color;
+        color: $main-color;
         text-decoration: none;
         margin: 0 auto;
         &:hover {
@@ -147,17 +157,19 @@
   .dashboard-wrapper {
     .dashboard-program {
       h2 {
-        font-size: 30px;
+        font-size: 25px;
         margin: 10px 0 10px 0;
       }
     }
     img {
-      max-width: 80%;
+      max-width: 80% !important;
       height: auto;
     }
-    .progress-box {
-      width: 90%;
+    .progress-wrapper {
       margin: 0 auto 24px;
+      .progress-box {
+        width: 90%;
+      }
     }
     .program-benefits-box {
       flex-direction: column;

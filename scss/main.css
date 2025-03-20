@@ -10253,6 +10253,13 @@ label.add-files:focus, label.add-files:hover {
   flex-direction: column;
   margin-bottom: 20px;
 }
+.dashboard-menu .menu-links-container .menu-links-box .menu-link-big.not-hover:hover {
+  color: #34224f;
+  cursor: default;
+}
+.dashboard-menu .menu-links-container .menu-links-box .menu-link-big.not-hover:hover img {
+  filter: unset;
+}
 .dashboard-menu .menu-links-container .menu-links-box .menu-link-big {
   font-size: 18px;
   font-style: normal;
@@ -10429,7 +10436,7 @@ label.add-files:focus, label.add-files:hover {
   color: #54bf00;
 }
 .dashboard-main-box-large .bottom-boxes .value-box b.orange {
-  color: #fd4c00;
+  color: #f26521;
 }
 .dashboard-main-box-large .bottom-boxes .value-box b.red {
   color: #fd0000;
@@ -10841,7 +10848,7 @@ label.add-files:focus, label.add-files:hover {
   margin-bottom: 24px;
 }
 .dashboard-wrapper .button-box button:hover img {
-  content: url("./../assets/icons/dashboard/save-btn-orange.svg");
+  content: url("./../assets/icons/dashboard/save-btn-white.svg");
 }
 .dashboard-wrapper .inputs-wrapper {
   display: flex;
@@ -10979,11 +10986,18 @@ label.add-files:focus, label.add-files:hover {
     width: 100%;
   }
 }
+.dashboard-wrapper .title-benefits-box {
+  border-top: 20px solid #f2f3f7;
+}
 .dashboard-wrapper .dashboard-program {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.dashboard-wrapper .dashboard-program img {
+  width: 100%;
+  max-width: 700px;
 }
 .dashboard-wrapper .dashboard-program h2 {
   font-size: 50px;
@@ -10991,7 +11005,7 @@ label.add-files:focus, label.add-files:hover {
   font-weight: 600;
   line-height: 140%;
   margin: 14px 0 18px 0;
-  color: #e6007e;
+  color: #34224f;
   text-transform: uppercase;
 }
 .dashboard-wrapper .dashboard-program p {
@@ -11003,9 +11017,12 @@ label.add-files:focus, label.add-files:hover {
   margin: 16px 0 8px 0;
 }
 .dashboard-wrapper .dashboard-program p span {
-  color: #e6007e;
+  color: #f26521;
 }
-.dashboard-wrapper .progress-box {
+.dashboard-wrapper .progress-wrapper {
+  padding-bottom: 37px;
+}
+.dashboard-wrapper .progress-wrapper .progress-box {
   padding: 4px;
   border: 1px solid #8c8c8c;
   box-sizing: border-box;
@@ -11013,13 +11030,13 @@ label.add-files:focus, label.add-files:hover {
   height: 36px;
   margin: 0 auto;
 }
-.dashboard-wrapper .progress-box .progress {
+.dashboard-wrapper .progress-wrapper .progress-box .progress {
   border-radius: 0;
   --bs-progress-bg: #f4f4f4;
   height: 26px;
 }
-.dashboard-wrapper .progress-box .progress .progress-bar {
-  background-color: #e6007e;
+.dashboard-wrapper .progress-wrapper .progress-box .progress .progress-bar {
+  background-color: #34224f;
 }
 .dashboard-wrapper .program-benefits-box {
   display: flex;
@@ -11103,14 +11120,14 @@ label.add-files:focus, label.add-files:hover {
   align-items: center;
   width: 181px;
   height: 35px;
-  border: 1px solid #374957;
+  border: 1px solid #e6007e;
   background-color: #ffffff;
   text-align: center;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  color: #374957;
+  color: #e6007e;
   text-decoration: none;
   margin: 0 auto;
 }
@@ -11122,16 +11139,18 @@ label.add-files:focus, label.add-files:hover {
 
 @media (max-width: 992px) {
   .dashboard-wrapper .dashboard-program h2 {
-    font-size: 30px;
+    font-size: 25px;
     margin: 10px 0 10px 0;
   }
   .dashboard-wrapper img {
-    max-width: 80%;
+    max-width: 80% !important;
     height: auto;
   }
-  .dashboard-wrapper .progress-box {
-    width: 90%;
+  .dashboard-wrapper .progress-wrapper {
     margin: 0 auto 24px;
+  }
+  .dashboard-wrapper .progress-wrapper .progress-box {
+    width: 90%;
   }
   .dashboard-wrapper .program-benefits-box {
     flex-direction: column;
@@ -11166,12 +11185,12 @@ label.add-files:focus, label.add-files:hover {
   padding: 25px 40px;
 }
 .dashboard-orders__month p {
-  font-size: 18px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 700;
   line-height: 140%;
   color: #212321;
-  margin: 0 0 15px 0;
+  margin: 0 0 11px 0;
 }
 .dashboard-orders__slot {
   display: flex;
@@ -11194,6 +11213,9 @@ label.add-files:focus, label.add-files:hover {
   padding: 10px;
 }
 .dashboard-orders__slot--middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   margin-right: 45px;
 }
 .dashboard-orders__slot--middle p {
@@ -11209,16 +11231,20 @@ label.add-files:focus, label.add-files:hover {
   font-weight: 700;
   margin: 0 0 11px 0;
 }
+.dashboard-orders__slot--middle .product-code {
+  display: inline-flex;
+  margin: 0 0 6px 0;
+}
 .dashboard-orders__slot--right {
-  margin-top: 45px;
+  margin-left: 40px;
 }
 .dashboard-orders__slot--right p {
-  font-size: 16px;
+  font-size: 14px;
   font-style: normal;
-  font-weight: 400;
-  line-height: 140%;
+  font-weight: 600;
+  line-height: 100%;
   color: #212321;
-  margin: 0 0 21px 0;
+  margin: 0 0 10px 0;
 }
 .dashboard-orders__slot--right p.status {
   font-weight: 700;
@@ -11227,13 +11253,13 @@ label.add-files:focus, label.add-files:hover {
   display: inline-flex;
   margin-left: 8px;
 }
-.dashboard-orders__slot--right p span.send {
+.dashboard-orders__slot--right p span.green {
   font-weight: 700;
   color: #54bf00;
 }
-.dashboard-orders__slot--right p span.in-progress {
+.dashboard-orders__slot--right p span.orange {
   font-weight: 700;
-  color: #fd4c00;
+  color: #f26521;
 }
 .dashboard-orders__slot--right .dashboard-product-details-btn {
   display: flex;
@@ -11262,9 +11288,6 @@ label.add-files:focus, label.add-files:hover {
   .dashboard-orders {
     padding: 16px;
   }
-  .dashboard-orders__month p {
-    font-size: 16px;
-  }
   .dashboard-orders__slot {
     flex-direction: column;
     border: 1px solid #dfdfdf;
@@ -11278,7 +11301,7 @@ label.add-files:focus, label.add-files:hover {
     margin-right: 0;
   }
   .dashboard-orders__slot--right {
-    margin-top: 16px;
+    margin-left: 16px;
   }
   .dashboard-orders__slot--right p {
     font-size: 15px;
@@ -11360,7 +11383,7 @@ label.add-files:focus, label.add-files:hover {
   color: #54bf00;
 }
 .dashboard-table table tr td.status.orange {
-  color: #fd4c00;
+  color: #f26521;
 }
 .dashboard-table table tr td.status.red {
   color: #fd0000;
