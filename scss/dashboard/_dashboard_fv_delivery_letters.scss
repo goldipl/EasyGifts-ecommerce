@@ -98,7 +98,7 @@
     table {
       tr {
         th,
-        td {
+        td:not(:has(.info-desc)) {
           white-space: pre;
           font-size: 14px;
         }

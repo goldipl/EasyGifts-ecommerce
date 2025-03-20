@@ -11409,7 +11409,7 @@ label.add-files:focus, label.add-files:hover {
     overflow-x: scroll;
   }
   .dashboard-table table tr th,
-  .dashboard-table table tr td {
+  .dashboard-table table tr td:not(:has(.info-desc)) {
     white-space: pre;
     font-size: 14px;
   }
@@ -11974,6 +11974,7 @@ label.add-files:focus, label.add-files:hover {
 .dashboard-negotiations table tr td .info-desc p {
   display: inline-flex;
   margin: 0 0 11px 0;
+  width: 100%;
 }
 .dashboard-calculations table tr td .info-desc p:has(img, svg),
 .dashboard-negotiations table tr td .info-desc p:has(img, svg) {
@@ -12002,12 +12003,15 @@ label.add-files:focus, label.add-files:hover {
 
 @media (max-width: 1200px) {
   .dashboard-calculations table tr th,
-  .dashboard-calculations table tr td {
+  .dashboard-calculations table tr td,
+  .dashboard-negotiations table tr td {
     white-space: inherit;
     white-space: pre;
+    width: 300px;
   }
   .dashboard-calculations table tr th:nth-of-type(2),
-  .dashboard-calculations table tr td:nth-of-type(2) {
+  .dashboard-calculations table tr td:nth-of-type(2),
+  .dashboard-negotiations table tr td:nth-of-type(2) {
     white-space: inherit;
     min-width: 300px;
   }
