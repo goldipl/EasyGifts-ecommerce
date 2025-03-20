@@ -9,14 +9,14 @@
   </div>
   <div class="menu-links-container">
     <div class="menu-links-box big-profile">
-      <a class="menu-link-big" href="#">
+      <a class="menu-link-big not-hover" href="#">
         <img src="./assets/icons/dashboard/profile.svg" alt="menu icon" width="20" height="20">Profil </a>
       <a class="menu-link" href="./dashboard-your-data.php">Twoje dane</a>
       <a class="menu-link" href="./dashboard-newsletter.php">Newsletter</a>
       <a class="menu-link" href="./dashboard-program.php">Program Rozwoju</a>
     </div>
     <div class="menu-links-box big-orders">
-      <a class="menu-link-big" href="#">
+      <a class="menu-link-big not-hover" href="#">
         <img src="./assets/icons/dashboard/orders.svg" alt="menu icon" width="20" height="20">Zamówienia </a>
       <a class="menu-link" href="./dashboard-orders.php">Zamówienia</a>
       <a class="menu-link" href="./dashboard-fv-delivery-letters.php">FV i listy przewozowe</a>
@@ -25,7 +25,7 @@
       <a class="menu-link" href="./dashboard-logos.php">Logotypy</a>
     </div>
     <div class="menu-links-box big-offerts">
-      <a class="menu-link-big" href="#">
+      <a class="menu-link-big not-hover" href="#">
         <img src="./assets/icons/dashboard/offerts.svg" alt="menu icon" width="20" height="20">Oferty </a>
       <a class="menu-link" href="./dashboard-commercial-offers.php">Oferty handlowe</a>
       <a class="menu-link" href="./dashboard-your-offers.php">Twój ofertownik</a>
@@ -33,7 +33,7 @@
       <a class="menu-link" href="./dashboard-negotiations.php">Negocjacje</a>
     </div>
     <div class="menu-links-box big-to-download">
-      <a class="menu-link-big" href="#">
+      <a class="menu-link-big not-hover" href="#">
         <img src="./assets/icons/dashboard/to_download.svg" alt="menu icon" width="20" height="20">Do pobrania </a>
       <a class="menu-link" href="./dashboard-pricelists.php">Cenniki</a>
       <a class="menu-link" href="./dashboard-catalogs.php">Katalogi</a>
