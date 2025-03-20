@@ -1080,6 +1080,36 @@ footer .footer__container__bottom .contip img {
   content: url("./../assets/icons/common/buttons/button_white_arrow.svg?=gdfg5");
 }
 
+.white-save-btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+  border: 1px solid #e6007e;
+  background-color: #ffffff;
+  color: #e6007e;
+  width: -moz-max-content;
+  width: max-content;
+  height: 54px;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+.white-save-btn.left-btn img {
+  transform: rotate(180deg);
+  margin-left: 0;
+  margin-right: 10px;
+}
+.white-save-btn img {
+  margin-left: 10px;
+}
+.white-save-btn:hover {
+  background-color: #e6007e;
+  color: #ffffff;
+}
+.white-save-btn:hover img {
+  content: url("./../assets/icons/dashboard/save-btn-white.svg");
+}
+
 .color-save-btn {
   display: inline-flex;
   justify-content: center;
