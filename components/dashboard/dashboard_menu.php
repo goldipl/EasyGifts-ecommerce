@@ -43,11 +43,12 @@
     </div>
     <div class="menu-links-box big-web-api">
       <a class="menu-link-big" href="./dashboard-webapi.php">
-        <img src="./assets/icons/dashboard/api.svg" alt="menu icon" width="20" height="20">Web API </a>
+        <img src="./assets/icons/dashboard/api.svg" alt="menu icon" width="20" height="20">Web API</a>
     </div>
     <div class="menu-links-box big-no-name-shop">
       <a class="menu-link-big" href="#">
-        <img src="./assets/icons/dashboard/cart.svg" alt="menu icon" width="20" height="20">Sklep No-Name </a>
+        <img src="./assets/icons/dashboard/cart.svg" alt="menu icon" width="20" height="20">Kreator sklepów
+        i katalogów online</a>
     </div>
     <button class="logout">
       <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
