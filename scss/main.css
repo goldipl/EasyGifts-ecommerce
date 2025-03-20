@@ -17753,8 +17753,29 @@ main:has(.shop-creator-wrapper) {
   width: 100%;
   margin: 26px auto 42px auto;
 }
-.shop-creator-wrapper .shopcreator-content .bottom-button .color-btn {
+.shop-creator-wrapper .shopcreator-content .bottom-button .white-btn {
   margin-top: 0;
+  width: 290px;
+}
+.shop-creator-wrapper .shopcreator-content .bottom-button .white-btn.prev {
+  color: #34224f;
+  border-color: #34224f;
+}
+.shop-creator-wrapper .shopcreator-content .bottom-button .white-btn.prev:hover {
+  background-color: #34224f;
+  color: #ffffff;
+}
+.shop-creator-wrapper .shopcreator-content .bottom-button .white-btn.prev:hover svg {
+  filter: invert(1) brightness(22);
+}
+.shop-creator-wrapper .shopcreator-content .bottom-button .white-btn.prev svg {
+  display: flex;
+  margin-right: 8px;
+}
+@media (max-width: 300px) {
+  .shop-creator-wrapper .shopcreator-content .bottom-button .white-btn {
+    width: 100%;
+  }
 }
 .shop-creator-wrapper .shopcreator-content .shopcreator-dots {
   display: flex;

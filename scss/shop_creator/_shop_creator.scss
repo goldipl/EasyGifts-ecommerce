@@ -519,8 +519,27 @@ main:has(.shop-creator-wrapper) {
       align-items: center;
       width: 100%;
       margin: 26px auto 42px auto;
-      .color-btn {
+      .white-btn {
         margin-top: 0;
+        width: 290px;
+        &.prev {
+          color: $main-color-second;
+          border-color: $main-color-second;
+          &:hover {
+            background-color: $main-color-second;
+            color: $white;
+            svg {
+              filter: invert(1) brightness(22);
+            }
+          }
+          svg {
+            display: flex;
+            margin-right: 8px;
+          }
+        }
+        @media (max-width: 300px) {
+          width: 100%;
+        }
       }
     }
     .shopcreator-dots {
