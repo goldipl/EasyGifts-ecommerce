@@ -1,6 +1,10 @@
 .product-card-similar-products {
   background-color: $light_grey;
   .container {
+    .promo_products_swiper {
+      margin-bottom: 0;
+      padding-bottom: 42px;
+    }
     h2 {
       font-weight: 700;
       font-size: 36px;

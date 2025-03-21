@@ -1,5 +1,5 @@
-<div class="footer__container container">
-    <div class="footer__container__top d-flex flex-row justify-content-between">
+<div class="footer__container">
+    <div class="footer__container__top container d-flex flex-row justify-content-between">
         <div class="d-flex flex-column col-4 first-column">
             <div class="footer-logo">
                 <img src="./assets/icons/common/footer/logo-easygifts-footer.svg" alt="EasyGifts - Dystrybutor gadżetów reklamowych" width="160" height="62">

@@ -839,6 +839,7 @@ footer .footer__container__bottom .contip img {
 }
 @media (max-width: 639px) {
   footer .footer__container__top {
+    padding: 24px 16px 16px 16px;
     margin-left: 0;
   }
   footer .footer__container__top .first-column .footer-logo img {
@@ -6718,6 +6719,10 @@ label.add-files:focus, label.add-files:hover {
 }
 .product-card-similar-products {
   background-color: #f2f3f7;
+}
+.product-card-similar-products .container .promo_products_swiper {
+  margin-bottom: 0;
+  padding-bottom: 42px;
 }
 .product-card-similar-products .container h2 {
   font-weight: 700;
