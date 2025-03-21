@@ -3640,7 +3640,7 @@ label.add-files:focus, label.add-files:hover {
   height: 521px;
   -o-object-fit: cover;
      object-fit: cover;
-  margin-left: -160px;
+  margin-left: -180px;
 }
 
 @media (max-width: 1199px) {
