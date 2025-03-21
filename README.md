@@ -41,3 +41,15 @@ This work is licensed under a Creative Commons Non-Commercial (CC BY-NC) License
 ## Screenshots
 
 ![screenshot](./screenshots/screenshot01.jpg)
+![screenshot](./screenshots/01_EasyGifts.jpg)
+![screenshot](./screenshots/02_EasyGifts.jpg)
+![screenshot](./screenshots/03_EasyGifts.jpg)
+![screenshot](./screenshots/04_EasyGifts.jpg)
+![screenshot](./screenshots/05_EasyGifts.jpg)
+![screenshot](./screenshots/06_EasyGifts.jpg)
+![screenshot](./screenshots/07_EasyGifts.jpg)
+![screenshot](./screenshots/08_EasyGifts.jpg)
+![screenshot](./screenshots/09_EasyGifts.jpg)
+![screenshot](./screenshots/10_EasyGifts.jpg)
+![screenshot](./screenshots/11_EasyGifts.jpg)
+![screenshot](./screenshots/12_EasyGifts.jpg)
