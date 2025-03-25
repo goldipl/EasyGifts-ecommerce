@@ -13,7 +13,7 @@
             <a href="" class="info-section-box__slot">
                 <div class="info_section__top">
                     <img src="./assets/icons/main_page/info_section/shop.svg" alt="SKLEP LUB KATALOG NO-NAME" width="57" height="50">
-                    <p>SKLEP LUB KATALOG NO-NAMEa</p>
+                    <p>SKLEP LUB KATALOG NO-NAME</p>
                 </div>
                 <div class="info_section__bottom">
                     <p>Zbuduj własny sklep internetowy lub katalog no-name za darmo!</p>
