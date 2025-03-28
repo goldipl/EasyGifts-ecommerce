@@ -90,6 +90,12 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  &.colors_mix {
+    font-size: 12px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    line-height: 32px;
+  }
 }
 
 /* Hide the browser's default checkbox */

@@ -92,6 +92,45 @@
       border: 1px solid $light_grey;
       width: calc(100% - 30px);
       margin-right: 30px;
+      .add-qtys {
+        .colors-row {
+          display: flex;
+          justify-content: flex-start;
+          flex-direction: row;
+          flex-wrap: wrap;
+          .colors-box {
+            width: 120px;
+          }
+        }
+        .colors-btn {
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-start;
+          align-items: flex-start;
+        }
+        span.code {
+          float: left;
+          text-align: left;
+          width: 100%;
+          font-size: 12px;
+        }
+        .box {
+          float: left;
+          height: 35px;
+          width: 35px;
+          border: 1px solid #ebebeb;
+        }
+        input {
+          font-size: 12px;
+          float: left;
+          width: 55px;
+          padding: 0 0 0 5px;
+        }
+        .white-btn {
+          width: 113px;
+          height: 35px;
+        }
+      }
       tbody {
         background-color: $white;
         tr {
@@ -113,6 +152,17 @@
             width: auto;
             text-align: center;
             padding: 12px;
+            #product-quantity {
+              margin: 4px auto;
+            }
+            .check-availability {
+              font-size: 10px;
+              color: $main-color;
+              text-decoration: none;
+              &:hover {
+                text-decoration: underline;
+              }
+            }
             &.table-product-col {
               width: 25%;
             }
