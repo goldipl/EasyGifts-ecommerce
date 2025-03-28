@@ -25,7 +25,6 @@
                                             <div class="cart-delivery__col">
                                                 <h3>Informacje:</h3>
                                                 <p>Kod: <span>1333903</span></p>
-                                                <p>Kolor: <span>czarny</span></p>
                                                 <p>Marka: <span>Basic</span></p>
                                             </div>
                                             <div class="cart-delivery__col">
@@ -86,7 +85,6 @@
                                             <div class="cart-delivery__col">
                                                 <h3>Informacje:</h3>
                                                 <p>Kod: <span>1333903</span></p>
-                                                <p>Kolor: <span>czarny</span></p>
                                                 <p>Marka: <span>Basic</span></p>
                                             </div>
                                             <div class="cart-delivery__col">

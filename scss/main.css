@@ -7385,7 +7385,8 @@ label.add-files:focus, label.add-files:hover {
   text-align: left;
   text-decoration: none;
 }
-.cart_container.step_two .cart-products-table tr td .cart-branding-product-box__top__left .code {
+.cart_container.step_two .cart-products-table tr td .cart-branding-product-box__top__left .code,
+.cart_container.step_two .cart-products-table tr td .cart-branding-product-box__top__left .qty {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -7394,7 +7395,8 @@ label.add-files:focus, label.add-files:hover {
   color: #8a8a8a;
   text-align: left;
 }
-.cart_container.step_two .cart-products-table tr td .cart-branding-product-box__top__left .code span {
+.cart_container.step_two .cart-products-table tr td .cart-branding-product-box__top__left .code span,
+.cart_container.step_two .cart-products-table tr td .cart-branding-product-box__top__left .qty span {
   color: #212321;
 }
 .cart_container.step_two .cart-products-table tr td .cart-branding-product-box__top__right {
@@ -7507,6 +7509,12 @@ label.add-files:focus, label.add-files:hover {
   outline: 0;
   cursor: pointer;
 }
+.cart_container.step_two .cart-products-table tr td .cart-branding-product-box__middle__files .logo-list {
+  font-size: 12px;
+  text-decoration: none;
+  color: #212321;
+  cursor: pointer;
+}
 .cart_container.step_two .cart-products-table tr td .cart-branding-product-box__middle__files .title {
   font-size: 18px;
   font-style: normal;
@@ -7541,6 +7549,16 @@ label.add-files:focus, label.add-files:hover {
   width: 242px;
   height: auto;
   cursor: pointer;
+}
+.cart_container.step_two .cart-products-table tr td .cart-branding-product-box__middle__files .upload-files-box p.file-save input {
+  display: none;
+}
+.cart_container.step_two .cart-products-table tr td .cart-branding-product-box__middle__files .upload-files-box p.file-save label {
+  margin: 10px 0 0 0;
+  cursor: pointer;
+}
+.cart_container.step_two .cart-products-table tr td .cart-branding-product-box__middle__files .upload-files-box .custom-checkbox-checkmark {
+  left: 16px;
 }
 .cart_container.step_two .cart-products-table tr td .cart-branding-product-box__middle__files .upload-files-box img {
   -o-object-fit: contain;
@@ -7645,7 +7663,8 @@ label.add-files:focus, label.add-files:hover {
   .cart_container.step_two .cart-table_full_box .cart-products-table tr td .cart-branding-product-box__top__left .title {
     font-size: 16px;
   }
-  .cart_container.step_two .cart-table_full_box .cart-products-table tr td .cart-branding-product-box__top__left .code {
+  .cart_container.step_two .cart-table_full_box .cart-products-table tr td .cart-branding-product-box__top__left .code,
+  .cart_container.step_two .cart-table_full_box .cart-products-table tr td .cart-branding-product-box__top__left .qty {
     font-size: 11px;
   }
   .cart_container.step_two .cart-table_full_box .cart-products-table tr td .cart-branding-product-box__top__right label {
@@ -13071,7 +13090,8 @@ label.add-files:focus, label.add-files:hover {
   text-align: left;
   text-decoration: none;
 }
-.offertspage_container.step_two .offertspage-products-table tr td .offertspage-branding-product-box__top__left .code {
+.offertspage_container.step_two .offertspage-products-table tr td .offertspage-branding-product-box__top__left .code,
+.offertspage_container.step_two .offertspage-products-table tr td .offertspage-branding-product-box__top__left .qty {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -13080,7 +13100,8 @@ label.add-files:focus, label.add-files:hover {
   color: #8a8a8a;
   text-align: left;
 }
-.offertspage_container.step_two .offertspage-products-table tr td .offertspage-branding-product-box__top__left .code span {
+.offertspage_container.step_two .offertspage-products-table tr td .offertspage-branding-product-box__top__left .code span,
+.offertspage_container.step_two .offertspage-products-table tr td .offertspage-branding-product-box__top__left .qty span {
   color: #212321;
 }
 .offertspage_container.step_two .offertspage-products-table tr td .offertspage-branding-product-box__top__right {
@@ -13193,6 +13214,12 @@ label.add-files:focus, label.add-files:hover {
   outline: 0;
   cursor: pointer;
 }
+.offertspage_container.step_two .offertspage-products-table tr td .offertspage-branding-product-box__middle__files .logo-list {
+  font-size: 12px;
+  text-decoration: none;
+  color: #212321;
+  cursor: pointer;
+}
 .offertspage_container.step_two .offertspage-products-table tr td .offertspage-branding-product-box__middle__files .title {
   font-size: 18px;
   font-style: normal;
@@ -13227,6 +13254,16 @@ label.add-files:focus, label.add-files:hover {
   width: 242px;
   height: auto;
   cursor: pointer;
+}
+.offertspage_container.step_two .offertspage-products-table tr td .offertspage-branding-product-box__middle__files .upload-files-box p.file-save input {
+  display: none;
+}
+.offertspage_container.step_two .offertspage-products-table tr td .offertspage-branding-product-box__middle__files .upload-files-box p.file-save label {
+  margin: 10px 0 0 0;
+  cursor: pointer;
+}
+.offertspage_container.step_two .offertspage-products-table tr td .offertspage-branding-product-box__middle__files .upload-files-box .custom-checkbox-checkmark {
+  left: 16px;
 }
 .offertspage_container.step_two .offertspage-products-table tr td .offertspage-branding-product-box__middle__files .upload-files-box img {
   -o-object-fit: contain;
@@ -13331,7 +13368,8 @@ label.add-files:focus, label.add-files:hover {
   .offertspage_container.step_two .offertspage-table_full_box .offertspage-products-table tr td .offertspage-branding-product-box__top__left .title {
     font-size: 16px;
   }
-  .offertspage_container.step_two .offertspage-table_full_box .offertspage-products-table tr td .offertspage-branding-product-box__top__left .code {
+  .offertspage_container.step_two .offertspage-table_full_box .offertspage-products-table tr td .offertspage-branding-product-box__top__left .code,
+  .offertspage_container.step_two .offertspage-table_full_box .offertspage-products-table tr td .offertspage-branding-product-box__top__left .qty {
     font-size: 11px;
   }
   .offertspage_container.step_two .offertspage-table_full_box .offertspage-products-table tr td .offertspage-branding-product-box__top__right label {

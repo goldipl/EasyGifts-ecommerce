@@ -28,7 +28,8 @@
                 text-align: left;
                 text-decoration: none;
               }
-              .code {
+              .code,
+              .qty {
                 font-size: 12px;
                 font-style: normal;
                 font-weight: 400;
@@ -155,6 +156,12 @@
               }
             }
             &__files {
+              .logo-list {
+                font-size: 12px;
+                text-decoration: none;
+                color: $text_color;
+                cursor: pointer;
+              }
               .title {
                 font-size: 18px;
                 font-style: normal;
@@ -189,6 +196,16 @@
                 width: 242px;
                 height: auto;
                 cursor: pointer;
+                p.file-save input {
+                  display: none;
+                }
+                p.file-save label {
+                  margin: 10px 0 0 0;
+                  cursor: pointer;
+                }
+                .custom-checkbox-checkmark {
+                  left: 16px;
+                }
                 img {
                   object-fit: contain;
                 }
@@ -304,7 +321,8 @@
                   .title {
                     font-size: 16px;
                   }
-                  .code {
+                  .code,
+                  .qty {
                     font-size: 11px;
                   }
                 }

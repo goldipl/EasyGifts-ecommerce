@@ -38,7 +38,6 @@
                                             </div>
                                             <div class="table-product-box__bottom--right">
                                                 <p>Kod: <span>1333903</span></p>
-                                                <p>Kolor: <span>czarny</span></p>
                                                 <p>Marka: <span>Basic</span></p>
                                             </div>
                                         </div>
@@ -119,7 +118,6 @@
                                             </div>
                                             <div class="table-product-box__bottom--right">
                                                 <p>Kod: <span>1333903</span></p>
-                                                <p>Kolor: <span>czarny</span></p>
                                                 <p>Marka: <span>Basic</span></p>
                                             </div>
                                         </div>
