@@ -367,6 +367,7 @@
           img {
             padding: 16px;
             max-height: 180px;
+            max-width: 80vw;
           }
         }
         .catalog-offert {
@@ -392,9 +393,13 @@
           }
           &__right {
             order: 0;
+            padding-right: 0;
             img {
               margin-left: 0;
               margin-bottom: 16px;
+              height: 160px;
+              width: auto;
+              max-width: 80vw;
             }
           }
         }

@@ -10825,6 +10825,7 @@ label.add-files:focus, label.add-files:hover {
   .dashboard-main-box .box-content.big-arrow img {
     padding: 16px;
     max-height: 180px;
+    max-width: 80vw;
   }
   .dashboard-main-box .box-content .catalog-offert p.catalog-p,
   .dashboard-main-box .box-content .catalog-offert a.catalog-p {
@@ -10846,10 +10847,14 @@ label.add-files:focus, label.add-files:hover {
   }
   .dashboard-main-box .box-content .supervisor-box__right {
     order: 0;
+    padding-right: 0;
   }
   .dashboard-main-box .box-content .supervisor-box__right img {
     margin-left: 0;
     margin-bottom: 16px;
+    height: 160px;
+    width: auto;
+    max-width: 80vw;
   }
   .dashboard-main-box .box-content .lines-box__row__left p {
     padding: 12px 0 12px 16px;
