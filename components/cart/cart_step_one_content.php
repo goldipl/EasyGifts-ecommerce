@@ -30,14 +30,16 @@
                                             </div>
                                             <div class="table-product-box__bottom--right">
                                                 <p>Kod: <span>1333903</span></p>
-                                                <p>Kolor: <span>czarny</span></p>
                                                 <p>Marka: <span>Basic</span></p>
                                             </div>
                                         </div>
                                     </div>
                                 </td>
                                 <td>
-                                    <input type="text" name="product-quantity" id="product-quantity">
+                                    <div class="d-flex flex-column justify-content-center">
+                                        <input type="text" name="product-quantity" id="product-quantity">
+                                        <a href="" class="check-availability">Sprawdź dostępność</a>
+                                    </div>
                                 </td>
                                 <td>1,95 zł</td>
                                 <td>44%</td>
@@ -63,14 +65,16 @@
                                             </div>
                                             <div class="table-product-box__bottom--right">
                                                 <p>Kod: <span>1333903</span></p>
-                                                <p>Kolor: <span>czarny</span></p>
                                                 <p>Marka: <span>Basic</span></p>
                                             </div>
                                         </div>
                                     </div>
                                 </td>
                                 <td>
-                                    <input type="text" name="product-quantity" id="product-quantity">
+                                    <div class="d-flex flex-column justify-content-center">
+                                        <input type="text" name="product-quantity" id="product-quantity">
+                                        <a href="" class="check-availability">Sprawdź dostępność</a>
+                                    </div>
                                 </td>
                                 <td>1,95 zł</td>
                                 <td>44%</td>

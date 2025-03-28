@@ -6816,6 +6816,23 @@ label.add-files:focus, label.add-files:hover {
   text-align: center;
   padding: 12px;
 }
+.cart_container .cart-table_box .cart-products-table tbody tr td #product-quantity,
+.calculator_container .cart-table_box .cart-products-table tbody tr td #product-quantity,
+.negotiator_container .cart-table_box .cart-products-table tbody tr td #product-quantity {
+  margin: 4px auto;
+}
+.cart_container .cart-table_box .cart-products-table tbody tr td .check-availability,
+.calculator_container .cart-table_box .cart-products-table tbody tr td .check-availability,
+.negotiator_container .cart-table_box .cart-products-table tbody tr td .check-availability {
+  font-size: 10px;
+  color: #e6007e;
+  text-decoration: none;
+}
+.cart_container .cart-table_box .cart-products-table tbody tr td .check-availability:hover,
+.calculator_container .cart-table_box .cart-products-table tbody tr td .check-availability:hover,
+.negotiator_container .cart-table_box .cart-products-table tbody tr td .check-availability:hover {
+  text-decoration: underline;
+}
 .cart_container .cart-table_box .cart-products-table tbody tr td.table-product-col,
 .calculator_container .cart-table_box .cart-products-table tbody tr td.table-product-col,
 .negotiator_container .cart-table_box .cart-products-table tbody tr td.table-product-col {

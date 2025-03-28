@@ -40,6 +40,17 @@
             width: auto;
             text-align: center;
             padding: 12px;
+            #product-quantity {
+              margin: 4px auto;
+            }
+            .check-availability {
+              font-size: 10px;
+              color: $main-color;
+              text-decoration: none;
+              &:hover {
+                text-decoration: underline;
+              }
+            }
             &.table-product-col {
               width: 25%;
             }
