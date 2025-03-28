@@ -7781,8 +7781,13 @@ label.add-files:focus, label.add-files:hover {
   padding: 0 !important;
 }
 .cart_container.step_three .cart-products-table tr td:has(.color-btn.next) {
+  border-right: 0;
   background-color: #f2f3f7;
   vertical-align: top;
+}
+.cart_container.step_three .cart-products-table tr td:has(.color-btn.next) .right-btn {
+  width: 100%;
+  max-width: 280px;
 }
 .cart_container.step_three .cart-products-table tr td:has(.color-btn.next) .color-btn.next {
   width: 100%;
@@ -7883,6 +7888,34 @@ label.add-files:focus, label.add-files:hover {
   flex-direction: row;
   justify-content: space-around;
   padding: 16px 0;
+}
+.cart_container.step_three .cart-products-table tr td .cart-delivery-product-box__bottom.mod {
+  display: block;
+}
+.cart_container.step_three .cart-products-table tr td .cart-delivery-product-box__bottom.mod .boxes {
+  width: 100%;
+  float: left;
+  margin: 5px 0 0 0;
+  text-align: left;
+  font-size: 12px;
+}
+.cart_container.step_three .cart-products-table tr td .cart-delivery-product-box__bottom.mod .boxes .box-detailed {
+  width: 100%;
+  float: left;
+  margin: 5px 0 0 0;
+  text-align: left;
+  font-size: 12px;
+}
+.cart_container.step_three .cart-products-table tr td .cart-delivery-product-box__bottom.mod .boxes .box-detailed .box {
+  float: left;
+  height: 20px;
+  width: 20px;
+  border: 1px solid #ebebeb;
+}
+.cart_container.step_three .cart-products-table tr td .cart-delivery-product-box__bottom.mod .boxes .box-detailed .qty {
+  float: left;
+  padding-top: 2px;
+  margin-left: 5px;
 }
 .cart_container.step_three .cart-products-table tr td .cart-delivery-product-box__bottom .cart-delivery__col {
   display: flex;
@@ -8002,16 +8035,10 @@ label.add-files:focus, label.add-files:hover {
   top: 6px;
 }
 .cart_container.step_three .cart-products-table tr td .delivery-price-info-box {
-  position: absolute;
-  top: -97px;
-  right: 13px;
-  height: 70px;
-  width: 543px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  border-left: 17px solid #f2f3f7;
   background-color: #ffffff;
 }
 .cart_container.step_three .cart-products-table tr td .delivery-price-info-box__info img {
@@ -8021,7 +8048,7 @@ label.add-files:focus, label.add-files:hover {
 }
 .cart_container.step_three .cart-products-table tr td .delivery-price-info-box__text {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   padding: 20px 0;
   margin: 8px;
@@ -8038,7 +8065,7 @@ label.add-files:focus, label.add-files:hover {
 }
 .cart_container.step_three .cart-products-table tr td .delivery-price-info-box__text .price {
   display: inline-flex;
-  margin: 0 0 0 5px;
+  margin: 12px 0 0 0;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;

@@ -24,8 +24,13 @@
       }
       td {
         &:has(.color-btn.next) {
+          border-right: 0;
           background-color: $light_grey;
           vertical-align: top;
+          .right-btn {
+            width: 100%;
+            max-width: 280px;
+          }
           .color-btn.next {
             width: 100%;
             margin-top: 0;
@@ -128,6 +133,34 @@
             flex-direction: row;
             justify-content: space-around;
             padding: 16px 0;
+            &.mod {
+              display: block;
+              .boxes {
+                width: 100%;
+                float: left;
+                margin: 5px 0 0 0;
+                text-align: left;
+                font-size: 12px;
+                .box-detailed {
+                  width: 100%;
+                  float: left;
+                  margin: 5px 0 0 0;
+                  text-align: left;
+                  font-size: 12px;
+                  .box {
+                    float: left;
+                    height: 20px;
+                    width: 20px;
+                    border: 1px solid #ebebeb;
+                  }
+                  .qty {
+                    float: left;
+                    padding-top: 2px;
+                    margin-left: 5px;
+                  }
+                }
+              }
+            }
             .cart-delivery__col {
               display: flex;
               flex-direction: column;
@@ -252,16 +285,10 @@
           }
         }
         .delivery-price-info-box {
-          position: absolute;
-          top: -97px;
-          right: 13px;
-          height: 70px;
-          width: 543px;
           display: flex;
           flex-direction: row;
           justify-content: center;
           align-items: center;
-          border-left: 17px solid $light_grey;
           background-color: $white;
           &__info {
             img {
@@ -271,7 +298,7 @@
           }
           &__text {
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             align-items: center;
             padding: 20px 0;
             margin: 8px;
@@ -287,7 +314,7 @@
             }
             .price {
               display: inline-flex;
-              margin: 0 0 0 5px;
+              margin: 12px 0 0 0;
               font-size: 18px;
               font-style: normal;
               font-weight: 700;
