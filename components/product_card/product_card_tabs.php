@@ -196,6 +196,11 @@
                         <img src="./assets/img/product_card/product-card-02.jpg" alt="img" width="200" height="200">
                     </div>
                     <div class="details">
+                        <div class="product-icons">
+                            <a class="product-download" href="/getfile.php?lang=pl&amp;pid=2123&amp;msid=2">
+                                <img class="download-icon" src="./assets/icons/product_page/download.svg" alt="download icon">
+                            </a>
+                        </div>
                         <p>Cała długość korpusu:</p>
                         <div class="details-slots">
                             <div class="detail-slot">
@@ -233,6 +238,9 @@
                             </div>
                         </div>
                     </div>
+                    <div class="title title-bottom">
+                        <p>Termin znakowania: środa, 2 kwietnia 2025</p>
+                    </div>
                 </div>
                 <div class="d-flex flex-column branding-col-card">
                     <div class="title">
@@ -242,6 +250,11 @@
                         <img src="./assets/img/product_card/product-card-02.jpg" alt="img" width="200" height="200">
                     </div>
                     <div class="details">
+                        <div class="product-icons">
+                            <a class="product-download" href="/getfile.php?lang=pl&amp;pid=2123&amp;msid=2">
+                                <img class="download-icon" src="./assets/icons/product_page/download.svg" alt="download icon">
+                            </a>
+                        </div>
                         <p>Cała długość korpusu:</p>
                         <div class="details-slots">
                             <div class="detail-slot">
@@ -279,6 +292,9 @@
                             </div>
                         </div>
                     </div>
+                    <div class="title title-bottom">
+                        <p>Termin znakowania: środa, 2 kwietnia 2025</p>
+                    </div>
                 </div>
                 <div class="d-flex flex-column branding-col-card">
                     <div class="title">
@@ -288,6 +304,11 @@
                         <img src="./assets/img/product_card/product-card-02.jpg" alt="img" width="200" height="200">
                     </div>
                     <div class="details">
+                        <div class="product-icons">
+                            <a class="product-download" href="/getfile.php?lang=pl&amp;pid=2123&amp;msid=2">
+                                <img class="download-icon" src="./assets/icons/product_page/download.svg" alt="download icon">
+                            </a>
+                        </div>
                         <p>Cała długość korpusu:</p>
                         <div class="details-slots">
                             <div class="detail-slot">
@@ -325,6 +346,9 @@
                             </div>
                         </div>
                     </div>
+                    <div class="title title-bottom">
+                        <p>Termin znakowania: środa, 2 kwietnia 2025</p>
+                    </div>
                 </div>
                 <div class="d-flex flex-column branding-col-card">
                     <div class="title">
@@ -334,6 +358,11 @@
                         <img src="./assets/img/product_card/product-card-02.jpg" alt="img" width="200" height="200">
                     </div>
                     <div class="details">
+                        <div class="product-icons">
+                            <a class="product-download" href="/getfile.php?lang=pl&amp;pid=2123&amp;msid=2">
+                                <img class="download-icon" src="./assets/icons/product_page/download.svg" alt="download icon">
+                            </a>
+                        </div>
                         <p>Cała długość korpusu:</p>
                         <div class="details-slots">
                             <div class="detail-slot">
@@ -370,6 +399,9 @@
                                 <p>Kolor zależny od podłoża</p>
                             </div>
                         </div>
+                    </div>
+                    <div class="title title-bottom">
+                        <p>Termin znakowania: środa, 2 kwietnia 2025</p>
                     </div>
                 </div>
             </div>
