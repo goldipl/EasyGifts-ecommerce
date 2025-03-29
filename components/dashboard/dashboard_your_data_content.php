@@ -8,20 +8,12 @@
             <input class="form-input" type="text" name="name-surname" id="name-surname" required placeholder="Mirosław Kozłowski">
         </div>
         <div class="inputs-wrapper__slot">
-            <label for="telephone">Tel<span class="orange">*</span></label>
+            <label for="telephone">Telefon<span class="orange">*</span></label>
             <input class="form-input" type="text" name="telephone" id="telephone" required placeholder="604 222 774">
         </div>
         <div class="inputs-wrapper__slot">
             <label for="email">E-mail / To będzie Twój login<span class="orange">*</span></label>
             <input class="form-input" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" name="email" id="email" required placeholder="mail@gmail.com">
-        </div>
-        <div class="inputs-wrapper__slot">
-            <label for="password">Hasło<span class="orange">*</span></label>
-            <input class="form-input" type="password" name="password" id="password" required placeholder="••••••••••••••••••••••">
-        </div>
-        <div class="inputs-wrapper__slot">
-            <label for="repeat-password">Powtórz hasło<span class="orange">*</span></label>
-            <input class="form-input" type="password" name="repeat-password" id="repeat-password" required placeholder="••••••••••••••••••••••">
         </div>
     </div>
     <div class="title">
