@@ -351,6 +351,10 @@
                     <p class="brutto-value small">(2,18 PLN/szt.)</p>
                     <p class="brutto-text">W tym koszt znakowania netto</p>
                 </div>
+                <div class="sumary_box--button">
+                    <a href="#" class="color-btn next">Dalej <img src="./assets/icons/common/buttons/button_white_arrow.svg" alt="arrow icon" width="18" height="18">
+                </a>
+                </div>
             </aside>
         </div>
     </div>
