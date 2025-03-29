@@ -18,7 +18,7 @@
     </p>
     <div class="hero-btns-box">
       <div class="hero_content--btn active">
-        <a href="./register-pl.php">
+        <a href="">
           <div class="d-flex flex-column"> I am a new customer <span>EasyGifts</span>
           </div>
           <div class="d-flex flex-column">
@@ -31,7 +31,7 @@
         </a>
       </div>
       <div class="hero_content--btn">
-        <a href="./register-had-account.php">
+        <a href="">
           <div class="d-flex flex-column"> I am already a customer of <span>EasyGifts</span>  
             and I am creating an additional account 
           </div>
