@@ -18540,4 +18540,13 @@ main:has(.shop-creator-wrapper) {
   text-transform: uppercase;
   color: #34224f;
   text-align: center;
+  margin-bottom: 0;
+}
+@media (max-width: 991px) {
+  .usb-title {
+    padding: 24px 0;
+  }
+  .usb-title .title {
+    font-size: 24px;
+  }
 }/*# sourceMappingURL=main.css.map */
