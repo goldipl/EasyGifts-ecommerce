@@ -138,11 +138,13 @@
                         <tr>
                             <th>Grupa znakowania</th>
                             <th>Rozmiar znakowania</th>
+                            <th>Termin znakowania</th>
                             <th>Wizualizacja</th>
                         </tr>
                         <tr>
                             <td>L0 (grawer laserowy)</td>
                             <td>4 x 0,6 cm</td>
+                            <td>środa, 2 kwietnia 2025</td>
                             <td>
                                 <div class="two-lines">
                                     <a class="mail-contact" href="#">
@@ -154,6 +156,7 @@
                         <tr>
                             <td>T1 (tampodruk)</td>
                             <td>4 x 0,5 cm</td>
+                            <td>środa, 2 kwietnia 2025</td>
                             <td>
                                 <div class="two-lines">
                                     <a class="mail-contact" href="#">
@@ -165,6 +168,7 @@
                         <tr>
                             <td>DC1 (druk UV)</td>
                             <td>3 x 2 cm</td>
+                            <td>środa, 2 kwietnia 2025</td>
                             <td>
                                 <div class="two-lines">
                                     <a class="mail-contact" href="#">
@@ -176,6 +180,7 @@
                         <tr>
                             <td>S1 (sitodruk)</td>
                             <td>3 x 2 cm</td>
+                            <td>środa, 2 kwietnia 2025</td>
                             <td>
                                 <div class="two-lines">
                                     <a class="mail-contact" href="#">
