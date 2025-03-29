@@ -18,7 +18,7 @@
                                 <th>Ilość</th>
                                 <th>Opis</th>
                                 <th>Specyfikacja</th>
-                                <th>Jednostkowa<br> cena dla klienta<br> netto/szt.</th>
+                                <th>Jednostkowa<br> cena dla klienta</th>
                                 <th>Wartość dla<br> klienta netto</th>
                             </tr>
                             <tr>
@@ -34,8 +34,24 @@
                                             </div>
                                             <div class="table-product-box__bottom--right">
                                                 <p>Kod: <span>1333903</span></p>
-                                                <p>Kolor: <span>czarny</span></p>
                                                 <p>Marka: <span>Basic</span></p>
+                                                <div class="table-product-box__bottom mod">
+                                                <div class="boxes">MIX KOLORÓW</div>
+                                                <div class="boxes">
+                                                    <div class="box-detailed">
+                                                    <div class="box" style="background-color: #298df2;"></div>
+                                                    <div class="qty">1 szt.</div>
+                                                    </div>
+                                                    <div class="box-detailed">
+                                                    <div class="box" style="background-color: #e61717;"></div>
+                                                    <div class="qty">1 szt.</div>
+                                                    </div>
+                                                    <div class="box-detailed">
+                                                    <div class="box" style="background-color: #3dcf27;"></div>
+                                                    <div class="qty">1 szt.</div>
+                                                    </div>
+                                                </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -83,15 +99,15 @@
                     <p>Wartość</p>
                 </div>
                 <div class="sumary_box--netto">
-                    <p class="netto-value">17,88 PLN</p>
-                    <p class="netto-text">Suma netto</p>
+                    <p class="netto-value">920,51 PLN</p>
+                    <p class="netto-text">Agencja: suma netto</p>
                 </div>
                 <div class="sumary_box--brutto">
-                    <p class="brutto-value">21,99 PLN</p>
-                    <p class="brutto-text">Suma brutto</p>
+                    <p class="brutto-value">1355,96 PLN</p>
+                    <p class="brutto-text">Klient końcowy: suma netto</p>
                 </div>
                 <div class="sumary_box--profit">
-                    <p class="profit-value">21,99 PLN</p>
+                    <p class="profit-value">435,45 PLN</p>
                     <p class="profit-text">Twój zysk</p>
                 </div>
                 <div class="sumary_box--button">

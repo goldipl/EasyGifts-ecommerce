@@ -14534,6 +14534,36 @@ label.add-files:focus, label.add-files:hover {
     padding: 16px;
   }
 }
+.table-product-box__bottom.mod {
+  display: flex;
+  flex-direction: column !important;
+}
+.table-product-box__bottom.mod .boxes {
+  width: 100%;
+  float: left;
+  margin: 5px 0 0 0;
+  text-align: left;
+  font-size: 12px;
+}
+.table-product-box__bottom.mod .boxes .box-detailed {
+  width: 100%;
+  float: left;
+  margin: 5px 0 0 0;
+  text-align: left;
+  font-size: 12px;
+}
+.table-product-box__bottom.mod .boxes .box-detailed .box {
+  float: left;
+  height: 20px;
+  width: 20px;
+  border: 1px solid #ebebeb;
+}
+.table-product-box__bottom.mod .boxes .box-detailed .qty {
+  float: left;
+  padding-top: 2px;
+  margin-left: 5px;
+}
+
 .offertspage_container.step_six .sumary_box--button .next {
   font-weight: 700;
 }
