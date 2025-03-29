@@ -1,6 +1,6 @@
 <form class="dashboard-wrapper">
     <div class="title">
-        <p><img src="./assets/icons/dashboard/orders.svg" alt="menu icon" width="20" height="20">Twoje Faktury i LISTY PRZEWOZOWE</p>
+        <p><img src="./assets/icons/dashboard/orders.svg" alt="menu icon" width="20" height="20">Faktury i listy przewozowe</p>
     </div>
     <div class="dashboard-table dashboard-fv-delivery-letters">
         <table>
@@ -8,19 +8,13 @@
                 <tr>
                     <th>Data</th>
                     <th>Nazwa</th>
-                    <th>Zamawiający</th>
-                    <th>Kwota</th>
-                    <th>Status</th>
-                    <th class="text-center">Pobierz</th>
+                    <th class="text-center">Pobierz PDF</th>
                     <th>Nr przesyłki</th>
                 </tr>
                 <tr class="spacer15"></tr>
                 <tr>
                     <td>08.08.2023</td>
                     <td>FV nr 34/8</td>
-                    <td>Emanuel Nowak</td>
-                    <td>1 900 zł</td>
-                    <td class="status green">opłacona</td>
                     <td class="download-icon">
                         <a href="#">
                             <img src="./assets/icons/dashboard/download.svg" alt="download icon" width="21" height="17">
@@ -32,9 +26,6 @@
                 <tr>
                     <td>08.08.2023</td>
                     <td>FV nr 34/8</td>
-                    <td>Maciej Jaworski</td>
-                    <td>1 900 zł</td>
-                    <td class="status orange">do zapłaty</td>
                     <td class="download-icon">
                         <a href="#">
                             <img src="./assets/icons/dashboard/download.svg" alt="download icon" width="21" height="17">
@@ -46,9 +37,6 @@
                 <tr>
                     <td>08.08.2023</td>
                     <td>FV nr 34/8</td>
-                    <td>Amadeusz Sawicki</td>
-                    <td>1 900 zł</td>
-                    <td class="status red">przeterminowana</td>
                     <td class="download-icon">
                         <a href="#">
                             <img src="./assets/icons/dashboard/download.svg" alt="download icon" width="21" height="17">

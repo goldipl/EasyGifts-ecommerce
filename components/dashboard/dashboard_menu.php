@@ -36,7 +36,7 @@
     <div class="menu-links-box big-to-download">
       <a class="menu-link-big not-hover" href="#">
         <img src="./assets/icons/dashboard/to_download.svg" alt="menu icon" width="20" height="20">Do pobrania </a>
-      <a class="menu-link" href="./dashboard-catalogs.php">Katalogi</a>
+      <a class="menu-link" href="./catalogs.php">Katalogi</a>
       <a class="menu-link" href="./dashboard-pricelists.php">Cenniki</a>
       <a class="menu-link" href="./dashboard-marketing-materials.php">Materiały marketingowe</a>
       <a class="menu-link" href="./dashboard-videos.php">Video</a>
