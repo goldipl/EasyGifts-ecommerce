@@ -10192,7 +10192,7 @@ label.add-files:focus, label.add-files:hover {
 .other-department-box__row__col {
   display: flex;
   flex-direction: column;
-  width: calc((100% - 92px) / 5);
+  width: calc((100% - 69px) / 4);
   justify-content: space-between;
   background-color: #ffffff;
 }

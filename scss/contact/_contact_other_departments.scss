@@ -38,7 +38,7 @@
     &__col {
       display: flex;
       flex-direction: column;
-      width: calc((100% - (4 * 23px)) / 5);
+      width: calc((100% - (3 * 23px)) / 4);
       justify-content: space-between;
       background-color: $white;
       .department-top-box {
