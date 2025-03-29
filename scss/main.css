@@ -17805,6 +17805,11 @@ main:has(.shop-creator-wrapper) {
   font-weight: bold;
   color: #212321;
 }
+.shop-creator-wrapper .shopcreator-content .shopcreator-prices__slot label img {
+  display: inline-flex;
+  margin-right: 4px;
+  margin-bottom: 4px;
+}
 .shop-creator-wrapper .shopcreator-content .shopcreator-prices__slot select {
   display: flex;
   align-items: center;

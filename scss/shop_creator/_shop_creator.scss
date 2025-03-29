@@ -248,6 +248,11 @@ main:has(.shop-creator-wrapper) {
         label {
           font-weight: bold;
           color: $text_color;
+          img {
+            display: inline-flex;
+            margin-right: 4px;
+            margin-bottom: 4px;
+          }
         }
         select {
           display: flex;

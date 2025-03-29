@@ -5,9 +5,9 @@
   </div>
   <div class="shopcreator-prices">
     <div class="shopcreator-prices__slot">
-      <label for="products-prices">Zmiana cen produktów: Rabat/Narzut %</label>
+      <label for="products-prices"><img src="./assets/img/common/topbar/PL-flag.png" alt="Polish Flag" class="flag-img">Zmiana cen produktów (PL): Rabat/Narzut %</label>
       <div class="d-flex mt-2">
-        <select name="products-prices-select" id="products-prices-select">
+        <select name="products-prices-select" id="products-prices-select-pl-one">
           <option value="+">+</option>
           <option value="-">-</option>
         </select>
@@ -15,9 +15,31 @@
       </div>
     </div>
     <div class="shopcreator-prices__slot">
-      <label for="products-prices">Zmiana cen oznakowań: Rabat/Narzut %</label>
+      <label for="products-prices"><img src="./assets/img/common/topbar/PL-flag.png" alt="Polish Flag" class="flag-img"> Zmiana cen oznakowań (PL): Rabat/Narzut %</label>
       <div class="d-flex mt-2">
-        <select name="products-branding-select" id="products-branding-select">
+        <select name="products-branding-select" id="products-branding-select-pl-two">
+          <option value="+">+</option>
+          <option value="-">-</option>
+        </select>
+        <input class="form-input" type="text" name="products-branding" id="products-branding">
+      </div>
+    </div>
+  </div>
+  <div class="shopcreator-prices">
+    <div class="shopcreator-prices__slot">
+      <label for="products-prices"><img src="./assets/img/common/topbar/EN-flag.png" alt="Polish Flag" class="flag-img">Zmiana cen produktów (EN): Rabat/Narzut %</label>
+      <div class="d-flex mt-2">
+        <select name="products-prices-select" id="products-prices-select-en-one">
+          <option value="+">+</option>
+          <option value="-">-</option>
+        </select>
+        <input class="form-input" type="text" name="products-prices" id="products-prices">
+      </div>
+    </div>
+    <div class="shopcreator-prices__slot">
+      <label for="products-prices"><img src="./assets/img/common/topbar/EN-flag.png" alt="Polish Flag" class="flag-img"> Zmiana cen oznakowań (EN): Rabat/Narzut %</label>
+      <div class="d-flex mt-2">
+        <select name="products-branding-select" id="products-branding-select-en-two">
           <option value="+">+</option>
           <option value="-">-</option>
         </select>
@@ -30,7 +52,7 @@
       <strong>Ceny oferty podstawowej:</strong> Widoczne na Twojej stronie, to ceny katalogowe bez rabatu agencyjnego.
     </p>
     <p>
-      <strong>Ceny oferty markowej:</strong> Widoczne na Twojej stronie, to ceny zakupu, które mają ustawiony automatyczny narzut +50%.
+      <strong>Ceny oferty markowej (Pierre Cardin, Schwarzwolf):</strong> Widoczne na Twojej stronie, to ceny zakupu, które mają ustawiony automatyczny narzut +50%.
     </p>
     <p>
       <strong>Uwaga:</strong> Ceny znakowania są zgodne z aktualnym cennikiem nadruków. Jeśli chcesz, możesz dodać własny narzut w %.
