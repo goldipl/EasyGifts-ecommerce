@@ -58,9 +58,11 @@
                         <div class="col-container">
                             <div class="final-radios-types">
                                 <div class="final-radios-types_slot">
-                                    <label class="custom-radio-container">Przelew tradycyjny
+                                    <label class="custom-radio-container">Przelew bankowy
                                         <input type="radio" name="radio2" class="custom_input" checked>
                                         <span class="custom-radio-checkmark"></span>
+                                        <br>
+                                        <small>Faktura z odroczonym terminem płatności</small>
                                     </label>
                                     <div class="pay-images">
                                         <img src="./assets/icons/cart/wallet2.svg" alt="pay-icon" width="24" height="24">

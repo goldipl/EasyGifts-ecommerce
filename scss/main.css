@@ -8585,6 +8585,9 @@ label.add-files:focus, label.add-files:hover {
   line-height: 160%;
   color: #212321;
 }
+.cart_container.step_five .cart-table_box .cart-final-container__col .col-container .final-radios-types_slot label small {
+  font-size: 12px;
+}
 .cart_container.step_five .cart-table_box .cart-final-container__col .col-container .final-radios-types_slot label .custom-radio-checkmark {
   top: 5px;
 }
