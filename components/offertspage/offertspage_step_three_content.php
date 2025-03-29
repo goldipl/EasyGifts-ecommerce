@@ -16,10 +16,10 @@
                 <th>Produkt</th>
                 <th>Ilość</th>
                 <th>Cena <br>katalogowa </th>
-                <th>Twoja cena <br>netto szt. </th>
+                <th>Twoja cena <br>netto / szt. </th>
                 <th>Wartość <br>netto </th>
                 <th>Narzut %</th>
-                <th>Jednostkowa cena <br> dla klienta <br> netto/szt. </th>
+                <th>Jednostkowa cena netto dla klienta</th>
                 <th>Wartość <br> dla klienta <br> netto </th>
                 <th>Zysk</th>
               </tr>
@@ -70,9 +70,7 @@
                 <td>
                   <input type="text" name="product-mark-up" id="product-mark-up">
                 </td>
-                <td>
-                  <input type="text" name="product-unit-price" id="product-unit-price">
-                </td>
+                <td>22,22</td>
                 <td>167,00 PLN</td>
                 <td class="green">56,00 PLN</td>
               </tr>
@@ -84,45 +82,20 @@
                   <div class="table-product-box">
                     <p class="m-0">Pierwszy logotyp:</p>
                     <p class="m-0">L0 (grawer laserowy)</p>
-                  </div>
-                </td>
-                <td>10</td>
-                <td>
-                  <div class="table-product-box">
                     <p class="m-0">Miejsca: 1</p>
                     <p class="m-0">Kolory: 1</p>
                   </div>
                 </td>
+                <td>10</td>
+                <td>0,59 PLN</td>
                 <td>0,49 PLN</td>
                 <td>49,00 PLN</td>
                 <td>
                   <input type="text" name="product-mark-up" id="product-mark-up">
                 </td>
-                <td>
-                  <input type="text" name="product-unit-price" id="product-unit-price">
-                </td>
+                <td>22,22</td>
                 <td>167,00 PLN</td>
                 <td class="green">39,00 PLN</td>
-              </tr>
-              <tr>
-                <td colspan="5">
-                  <div class="bottom-quantity-box-with-btn">
-                    <div class="bottom-quantity-box">
-                      <p>Wpisz narzut dla wszystkich produktów</p>
-                      <input class="form-input" type="text" name="all-quantity">
-                      <button class="confirm-btn">Zatwierdź</button>
-                    </div>
-                  </div>
-                </td>
-                <td colspan="5">
-                  <div class="bottom-quantity-box-with-btn">
-                    <div class="bottom-quantity-box">
-                      <p>Wpisz narzut dla wszystkich pozycji znakowania</p>
-                      <input class="form-input" type="text" name="all-quantity">
-                      <button class="confirm-btn">Zatwierdź</button>
-                    </div>
-                  </div>
-                </td>
               </tr>
               <!-- spacer15 -->
               <tr class="spacer15"></tr>
@@ -173,9 +146,7 @@
                 <td>
                   <input type="text" name="product-mark-up" id="product-mark-up">
                 </td>
-                <td>
-                  <input type="text" name="product-unit-price" id="product-unit-price">
-                </td>
+                <td>22,22</td>
                 <td>167,00 PLN</td>
                 <td class="green">56,00 PLN</td>
               </tr>
@@ -187,23 +158,18 @@
                   <div class="table-product-box">
                     <p class="m-0">Pierwszy logotyp:</p>
                     <p class="m-0">L0 (grawer laserowy)</p>
-                  </div>
-                </td>
-                <td>10</td>
-                <td>
-                  <div class="table-product-box">
                     <p class="m-0">Miejsca: 1</p>
                     <p class="m-0">Kolory: 1</p>
                   </div>
                 </td>
+                <td>10</td>
+                <td>0,59 PLN</td>
                 <td>0,49 PLN</td>
                 <td>49,00 PLN</td>
                 <td>
                   <input type="text" name="product-mark-up" id="product-mark-up">
                 </td>
-                <td>
-                  <input type="text" name="product-unit-price" id="product-unit-price">
-                </td>
+                <td>22,22</td>
                 <td>167,00 PLN</td>
                 <td class="green">39,00 PLN</td>
               </tr>
@@ -229,9 +195,7 @@
                 <td>
                   <input type="text" name="product-mark-up" id="product-mark-up">
                 </td>
-                <td>
-                  <input type="text" name="product-unit-price" id="product-unit-price">
-                </td>
+                <td>22,22</td>
                 <td>167,00 PLN</td>
                 <td class="green">39,00 PLN</td>
               </tr>
