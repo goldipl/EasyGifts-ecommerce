@@ -1,5 +1,16 @@
+<div class="shop-tabs container">
+  <a href="" class="shop-tabs__btn active">
+    <img src="./assets/img/common/topbar/PL-flag.png" alt="Polish Flag" class="flag-img">
+    <span>Dokumenty (PL)</span>
+  </a>
+  <a href="" class="shop-tabs__btn">
+    <img src="./assets/img/common/topbar/EN-flag.png" alt="English Flag" class="flag-img">
+    <span>Dokumenty (EN)</span>
+  </a>
+</div>
+
 <form class="shopcreator-content container">
-  <h3>Klauzula danych osobowych</h3>
+  <h3><img src="./assets/img/common/topbar/PL-flag.png" alt="Polish Flag" class="flag-img">Klauzula danych osobowych (PL)</h3>
   <div class="textbox">
     <p>Poniżej znajduje się przykładowa treść klauzuli niezbędnej do umieszczenia w formularzu kontaktowym na stronie.</p>
     <p>Uzupełnij teksty oznaczone kolorem czerwonym, a następnie zmień kolor czcionki z czerwonego na czarny.</p>
@@ -11,7 +22,7 @@
       </div>
     </div>
   </div>
-  <h3>Polityka prywatności</h3>
+  <h3><img src="./assets/img/common/topbar/PL-flag.png" alt="Polish Flag" class="flag-img">Polityka prywatności (PL)</h3>
   <div class="textbox">
     <p>Poniżej znajduje się przykładowa treść Polityki prywatności. Uzupełnij teksty oznaczone kolorem czerwonym, a następnie zmień kolor czcionki z czerwonego na czarny.</p>
   </div>
@@ -22,7 +33,7 @@
       </div>
     </div>
   </div>
-  <h3>Regulamin strony </h3>
+  <h3><img src="./assets/img/common/topbar/PL-flag.png" alt="Polish Flag" class="flag-img">Regulamin strony (PL)</h3>
   <div class="textbox">
     <p>Poniżej znajduje się przykładowy regulamin strony. Możesz z niego skorzystać, tylko pamiętaj o uzupełnieniu brakujących informacji dotyczących Twojej firmy. Uzupełnij teksty oznaczone kolorem czerwonym, a następnie zmień kolor czcionki z czerwonego na czarny. Jeśli chcesz, możesz zmienić regulamin na własny.</p>
   </div>

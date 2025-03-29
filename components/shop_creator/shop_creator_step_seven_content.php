@@ -8,10 +8,6 @@
     <p>Arkusz stylów CSS to lista dyrektyw (tzw. reguł) ustalających w jaki sposób ma zostać wyświetlana przez przeglądarkęinternetową zawartość wybranego elementu (lub elementów) strony www. Można w ten sposób opisać wszystkie pojęciaodpowiedzialne za prezentację elementów dokumentów internetowych, takie jak czcionki, kolor tekstu, marginesy, odstępmiędzywierszowy lub pozycja danego elementu względem innych elementów bądź okna przeglądarki.</p>
   </div>
   <textarea class="form-textarea" name="css-textarea" id="css-textarea"></textarea>
-  <div class="textbox">
-    <p>Arkusz stylów CSS to lista dyrektyw (tzw. reguł) ustalających w jaki sposób ma zostać wyświetlana przez przeglądarkęinternetową zawartość wybranego elementu (lub elementów) strony www. Można w ten sposób opisać wszystkie pojęciaodpowiedzialne za prezentację elementów dokumentów internetowych, takie jak czcionki, kolor tekstu, marginesy, odstępmiędzywierszowy lub pozycja danego elementu względem innych elementów bądź okna przeglądarki.</p>
-  </div>
-  <textarea class="form-textarea" name="ga-textarea" id="ga-textarea"></textarea>
   <div class="bottom-button right-btn justify-content-between">
     <button class="white-btn prev">
       <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">

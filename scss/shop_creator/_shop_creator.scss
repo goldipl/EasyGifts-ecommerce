@@ -8,6 +8,35 @@ main:has(.shop-creator-wrapper) {
   }
 }
 
+.shop-tabs {
+  padding: 22px 60px;
+  background-color: $white;
+  border-bottom: 1px solid $grey6;
+  padding-top: 40px;
+  &__btn {
+    text-decoration: unset;
+    padding: 24px;
+    color: $text_color;
+    text-transform: uppercase;
+    font-weight: 600;
+    img {
+      display: inline-flex;
+      margin-right: 4px;
+    }
+    &.active,
+    &:hover {
+      color: $white;
+      background-color: $main-color;
+    }
+  }
+  @media (max-width: 991px) {
+    padding: 20px 0;
+    &__btn {
+      font-size: 10px;
+    }
+  }
+}
+
 .ck-editor {
   .ck-content {
     min-height: 140px;
@@ -90,6 +119,11 @@ main:has(.shop-creator-wrapper) {
       text-transform: uppercase;
       color: $text_color;
       margin-bottom: 16px;
+      img {
+        display: inline-flex;
+        margin-right: 6px;
+        margin-bottom: 4px;
+      }
       &.not-uppercase {
         text-transform: unset !important;
       }
@@ -512,6 +546,7 @@ main:has(.shop-creator-wrapper) {
         margin-bottom: 8px;
         text-transform: none;
         color: $text_color;
+
         svg {
           display: inline-flex;
           margin-right: 10px;

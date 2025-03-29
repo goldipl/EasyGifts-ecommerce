@@ -1,9 +1,19 @@
+<div class="shop-tabs container">
+  <a href="" class="shop-tabs__btn active">
+    <img src="./assets/img/common/topbar/PL-flag.png" alt="Polish Flag" class="flag-img">
+    <span>Banery (PL)</span>
+  </a>
+  <a href="" class="shop-tabs__btn">
+    <img src="./assets/img/common/topbar/EN-flag.png" alt="English Flag" class="flag-img">
+    <span>Banery (EN)</span>
+  </a>
+</div>
+
 <form class="shopcreator-content container">
-  <h3>Banery reklamowe</h3>
+  <h3><img src="./assets/img/common/topbar/PL-flag.png" alt="Polish Flag" class="flag-img">Banery reklamowe (PL)</h3>
   <div class="textbox">
     <p>Dodaj kilka banerów reklamowych. Poniżej zobaczysz 4 gotowe banery reklamowe, które możesz wykorzystać (zmieniamy je sezonowo, o czym poinformujemy Cię mailowo.) </p>
     <p>Wystarczy, że wkleisz do nich linki kierujące do produktów lub kategorii produktowych. </p>
-    <p>Jeśli nie chcesz korzystać z gotowych banerów, to wówczas wgraj własne. Możesz dodać 4 banery o wymiarach 1920 x 500 px.</p>
   </div>
   <div class="shopcreator-banners">
     <div class="shopcreator-banners-slot">
@@ -99,7 +109,8 @@
       </div>
     </div>
   </div>
-  <h3>Twoje banery</h3>
+  <h3><img src="./assets/img/common/topbar/PL-flag.png" alt="Polish Flag" class="flag-img">Twoje banery (PL)</h3>
+  <p>Jeśli nie chcesz korzystać z gotowych banerów, to wówczas wgraj własne. Możesz dodać 4 banery o wymiarach 1920 x 500 px.</p>
   <div class="shopcreator-banners">
     <div class="shopcreator-banners-slot">
       <div class="shopcreator-banners-slot__title">

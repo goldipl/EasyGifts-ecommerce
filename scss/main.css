@@ -17550,6 +17550,36 @@ main:has(.shop-creator-wrapper) {
   }
 }
 
+.shop-tabs {
+  padding: 22px 60px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #d2d2d2;
+  padding-top: 40px;
+}
+.shop-tabs__btn {
+  text-decoration: unset;
+  padding: 24px;
+  color: #212321;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.shop-tabs__btn img {
+  display: inline-flex;
+  margin-right: 4px;
+}
+.shop-tabs__btn.active, .shop-tabs__btn:hover {
+  color: #ffffff;
+  background-color: #e6007e;
+}
+@media (max-width: 991px) {
+  .shop-tabs {
+    padding: 20px 0;
+  }
+  .shop-tabs__btn {
+    font-size: 10px;
+  }
+}
+
 .ck-editor .ck-content {
   min-height: 140px;
   margin-bottom: 24px;
@@ -17632,6 +17662,11 @@ main:has(.shop-creator-wrapper) {
   text-transform: uppercase;
   color: #212321;
   margin-bottom: 16px;
+}
+.shop-creator-wrapper .shopcreator-content h3 img {
+  display: inline-flex;
+  margin-right: 6px;
+  margin-bottom: 4px;
 }
 .shop-creator-wrapper .shopcreator-content h3.not-uppercase {
   text-transform: unset !important;
