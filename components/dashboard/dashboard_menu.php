@@ -28,7 +28,8 @@
     <div class="menu-links-box big-offerts">
       <a class="menu-link-big not-hover" href="#">
         <img src="./assets/icons/dashboard/offerts.svg" alt="menu icon" width="20" height="20">Oferty </a>
-      <a class="menu-link" href="./dashboard-your-offers.php">Twój ofertownik</a>
+      <a class="menu-link" href="./dashboard-your-offerts.php">Oferty dla Ciebie</a>
+      <a class="menu-link" href="./dashboard-your-bidder.php">Twój ofertownik</a>
       <a class="menu-link" href="./dashboard-calculations.php">Kalkulacje</a>
       <a class="menu-link" href="./dashboard-negotiations.php">Negocjacje</a>
     </div>

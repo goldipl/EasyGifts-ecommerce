@@ -11217,6 +11217,27 @@ label.add-files:focus, label.add-files:hover {
     width: 100%;
   }
 }
+.dashboard-wrapper .title p span {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  text-transform: inherit;
+  color: #e6007e;
+}
+
+.dashboard-wrapper .title-sub {
+  min-height: 40px;
+}
+
+.dashboard-wrapper .title-sub p span {
+  display: block;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  margin: 0;
+  text-transform: uppercase;
+}
+
 .dashboard-wrapper .title-benefits-box {
   border-top: 20px solid #f2f3f7;
 }

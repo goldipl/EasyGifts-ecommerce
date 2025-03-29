@@ -199,3 +199,22 @@
     }
   }
 }
+
+.dashboard-wrapper .title p span {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  text-transform: inherit;
+  color: $main-color;
+}
+.dashboard-wrapper .title-sub {
+  min-height: 40px;
+}
+.dashboard-wrapper .title-sub p span {
+  display: block;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  margin: 0;
+  text-transform: uppercase;
+}

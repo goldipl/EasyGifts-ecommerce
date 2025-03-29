@@ -22,7 +22,7 @@
                 </div>
                 <div class="dashboard-container__right">
                     <?php include "./components/dashboard/dashboard_title.php"; ?>
-                    <?php include "./components/dashboard/dashboard_your_offers_content.php"; ?> 
+                    <?php include "./components/dashboard/dashboard_your_bidder_content.php"; ?> 
                 </div>
             </div>
         </main>
@@ -30,7 +30,7 @@
             <?php include "./components/common/footer.php"; ?> 
         </footer>
         <script>
-            document.querySelector('.menu-links-box.big-offerts > a:nth-of-type(2)').classList.add('active');
+            document.querySelector('.menu-links-box.big-offerts > a:nth-of-type(3)').classList.add('active');
         </script>
         <script src="./js/jquery.min.js"></script>
         <script src="./js/popper.min.js"></script>
