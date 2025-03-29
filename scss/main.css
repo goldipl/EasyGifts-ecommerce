@@ -13704,6 +13704,34 @@ label.add-files:focus, label.add-files:hover {
   -o-object-fit: contain;
      object-fit: contain;
 }
+.offertspage_container.step_three .offertspage-table_box .offertspage-products-table tbody tr td .table-product-box__bottom.mod {
+  display: block;
+}
+.offertspage_container.step_three .offertspage-table_box .offertspage-products-table tbody tr td .table-product-box__bottom.mod .boxes {
+  width: 100%;
+  float: left;
+  margin: 5px 0 0 0;
+  text-align: left;
+  font-size: 12px;
+}
+.offertspage_container.step_three .offertspage-table_box .offertspage-products-table tbody tr td .table-product-box__bottom.mod .boxes .box-detailed {
+  width: 100%;
+  float: left;
+  margin: 5px 0 0 0;
+  text-align: left;
+  font-size: 12px;
+}
+.offertspage_container.step_three .offertspage-table_box .offertspage-products-table tbody tr td .table-product-box__bottom.mod .boxes .box-detailed .box {
+  float: left;
+  height: 20px;
+  width: 20px;
+  border: 1px solid #ebebeb;
+}
+.offertspage_container.step_three .offertspage-table_box .offertspage-products-table tbody tr td .table-product-box__bottom.mod .boxes .box-detailed .qty {
+  float: left;
+  padding-top: 2px;
+  margin-left: 5px;
+}
 .offertspage_container.step_three .offertspage-table_box .offertspage-products-table tbody tr td .table-product-box__bottom--right {
   display: flex;
   flex-direction: column;
