@@ -39,7 +39,7 @@
       <a class="menu-link" href="./catalogs.php">Katalogi</a>
       <a class="menu-link" href="./dashboard-pricelists.php">Cenniki</a>
       <a class="menu-link" href="./dashboard-marketing-materials.php">Materiały marketingowe</a>
-      <a class="menu-link" href="./dashboard-videos.php">Video</a>
+      <a class="menu-link" href="./videos.php">Video</a>
       <a class="menu-link" href="./instructions.php">Ulotki i instrukcje</a>
       <a class="menu-link" href="./dashboard-documents.php">Dokumenty</a>
       <a class="menu-link" href="./faq.php">FAQ</a>

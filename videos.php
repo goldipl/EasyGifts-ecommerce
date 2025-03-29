@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>EasyGifts - Panel Klienta - Video</title>
+        <title>EasyGifts - Video</title>
         <link rel="shortcut icon" href="./assets/icons/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="./css/bootstrap.min.css" crossorigin="anonymous">
         <link rel="stylesheet" href="./css/select2.min.css" />
@@ -15,16 +15,18 @@
             <?php include "./components/common/topbar.php"; ?> 
             <?php include "./components/common/nav.php"; ?> 
         </header>
-        <main id="main-wrapper">
-            <div class="dashboard-container container">
-                <div class="dashboard-container__left">
-                    <?php include "./components/dashboard/dashboard_menu.php"; ?> 
-                </div>
-                <div class="dashboard-container__right">
-                    <?php include "./components/dashboard/dashboard_title.php"; ?>
-                    <?php include "./components/dashboard/dashboard_videos_content.php"; ?> 
-                </div>
+        <main id="main-wrapper" class="grey-wrapper">
+            <div class="breadcrumbs container">
+                <ul>
+                    <li class="breadcrumb-item">
+                        <a href="./index.php">Strona główna</a>
+                    </li>
+                    <li class="breadcrumb-item">
+                        <span>Video</span>
+                    </li>
+                </ul>
             </div>
+            <?php include "./components/dashboard/dashboard_video_content.php"; ?> 
         </main>
         <footer> 
             <?php include "./components/common/footer.php"; ?> 

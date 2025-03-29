@@ -17059,6 +17059,12 @@ main.grey-background {
   margin-bottom: 23px;
   background-color: #ffffff;
 }
+.catalogs-container .catalogs-wrapper_col.video-slot {
+  height: auto;
+}
+.catalogs-container .catalogs-wrapper_col.video-slot .catalogs-wrapper_col_top {
+  height: auto;
+}
 .catalogs-container .catalogs-wrapper_col:nth-of-type(2n) {
   width: 50%;
   margin-right: 0;

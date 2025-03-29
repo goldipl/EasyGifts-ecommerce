@@ -38,6 +38,12 @@
       margin-right: 23px;
       margin-bottom: 23px;
       background-color: $white;
+      &.video-slot {
+        height: auto;
+        .catalogs-wrapper_col_top {
+          height: auto;
+        }
+      }
       &:nth-of-type(2n) {
         width: 50%;
         margin-right: 0;
