@@ -17,7 +17,7 @@
                 "itemListElement": [{
                     "@type": "ListItem",
                     "position": 1,
-                    "name": "Home",
+                    "name": "Strona główna",
                     "item": "https://www.easygifts.com.pl/index.php"
                 }, {
                     "@type": "ListItem",
@@ -42,7 +42,7 @@
             <div class="breadcrumbs container">
                 <ul>
                     <li class="breadcrumb-item">
-                        <a href="./index.php">Home</a>
+                        <a href="./index.php">Strona główna</a>
                     </li>
                     <li class="breadcrumb-item">
                         <a href="#">Oferta</a>

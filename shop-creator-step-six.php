@@ -17,7 +17,7 @@
         <div class="breadcrumbs container">
             <ul>
                 <li class="breadcrumb-item">
-                    <a href="./index.php">Home</a>
+                    <a href="./index.php">Strona główna</a>
                 </li>
                 <li class="breadcrumb-item">
                     <span>Kreator sklepów i katalogów online</span>
