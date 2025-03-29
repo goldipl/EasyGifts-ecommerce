@@ -30,7 +30,7 @@
             <?php include "./components/common/footer.php"; ?> 
         </footer>
         <script>
-            document.querySelector('.menu-links-box.big-profile > a:nth-of-type(4)').classList.add('active');
+            document.querySelector('.menu-links-box.big-profile > a:nth-of-type(5)').classList.add('active');
         </script>
         <script src="./js/jquery.min.js"></script>
         <script src="./js/popper.min.js"></script>

@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>EasyGifts - Panel Klienta - Newsletter</title>
+        <title>EasyGifts - Panel Klienta - Zmień hasło</title>
         <link rel="shortcut icon" href="./assets/icons/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="./css/bootstrap.min.css" crossorigin="anonymous">
         <link rel="stylesheet" href="./css/select2.min.css" />
@@ -22,7 +22,7 @@
                 </div>
                 <div class="dashboard-container__right">
                     <?php include "./components/dashboard/dashboard_title.php"; ?>
-                    <?php include "./components/dashboard/dashboard_newsletter_content.php"; ?> 
+                    <?php include "./components/dashboard/dashboard_change_password_content.php"; ?> 
                 </div>
             </div>
         </main>

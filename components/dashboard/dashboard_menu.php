@@ -12,17 +12,18 @@
       <a class="menu-link-big not-hover" href="#">
         <img src="./assets/icons/dashboard/profile.svg" alt="menu icon" width="20" height="20">Profil </a>
       <a class="menu-link" href="./dashboard-your-data.php">Twoje dane</a>
-      <a class="menu-link" href="./dashboard-newsletter.php">Newsletter</a>
+      <a class="menu-link" href="./dashboard-change-password.php">Zmień hasło</a>
+      <a class="menu-link" href="./newsletter.php">Newsletter</a>
       <a class="menu-link" href="./dashboard-program.php">Program Rozwoju</a>
     </div>
     <div class="menu-links-box big-orders">
       <a class="menu-link-big not-hover" href="#">
         <img src="./assets/icons/dashboard/orders.svg" alt="menu icon" width="20" height="20">Zamówienia </a>
       <a class="menu-link" href="./dashboard-orders.php">Zamówienia</a>
-      <a class="menu-link" href="./dashboard-fv-delivery-letters.php">FV i listy przewozowe</a>
+      <a class="menu-link" href="./dashboard-fv-delivery-letters.php">Faktury i listy przewozowe</a>
       <a class="menu-link" href="./dashboard-delivery-addresses.php">Adresy dostaw</a>
-      <a class="menu-link" href="./dashboard-visualizations.php">Wizualizacje</a>
       <a class="menu-link" href="./dashboard-logos.php">Logotypy</a>
+      <a class="menu-link" href="./shopping-list.php">Lista zakupów</a>
     </div>
     <div class="menu-links-box big-offerts">
       <a class="menu-link-big not-hover" href="#">
