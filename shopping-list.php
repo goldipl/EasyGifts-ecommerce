@@ -22,7 +22,7 @@
                         <a href="./index.php">Home</a>
                     </li>
                     <li class="breadcrumb-item">
-                        <a href="#">OfeProfilta</a>
+                        <a href="#">Profil</a>
                     </li>
                     <li class="breadcrumb-item">
                         <span>Lista zakupów</span>
@@ -32,14 +32,10 @@
             <div class="category-wrapper">
                 <div class="container">
                     <aside class="category-wrapper__left">
-                        <?php include "./components/category/category_menu.php"; ?> 
                         <?php include "./components/category/category_left_filters.php"; ?> 
                     </aside>
                     <div class="category-wrapper__right">
-                        <?php include "./components/category/category_top_seo_text.php"; ?> 
-                        <?php include "./components/category/category_top_filters.php"; ?> 
-                        <?php include "./components/category/category_filters_main.php"; ?> 
-                        <?php include "./components/common/pagination.php"; ?> 
+                        <?php include "./components/category/category_top_shopping.php"; ?> 
                     </div>
                 </div>
             </div> 
