@@ -90,30 +90,6 @@
                           </div>
                         </div>
                       </div>
-                      <div class="offertspage-branding-product-box__middle__files">
-                        <p class="title">Wgraj pliki:</p>
-                        <p class="desc-info">Wymagamy plik w wektorach, format pliku zapisany <br> w krzywych (czcionka i obiekty). </p>
-                        <div class="first-logo-box">
-                          <p class="desc-info-logo">Logotyp 1:</p>
-                          <label for="files" class="upload-files-box" data-chash="f5b1b89d98b7286673128a5fb112cb9a1dc84ed86b6a5142f7e73aa46124efa0">
-                            <p class="file-save custom-checkbox-container">
-                              <input class="checkbox custom-input file-save-input" id="file-save-f5b1b89d98b7286673128a5fb112cb9a1dc84ed86b6a5142f7e73aa46124efa0_1" name="file-save-f5b1b89d98b7286673128a5fb112cb9a1dc84ed86b6a5142f7e73aa46124efa0_1" type="checkbox" data-lx="1" data-chash="f5b1b89d98b7286673128a5fb112cb9a1dc84ed86b6a5142f7e73aa46124efa0">
-                              <span class="file-save-span custom-checkbox-checkmark" data-lx="1" data-chash="f5b1b89d98b7286673128a5fb112cb9a1dc84ed86b6a5142f7e73aa46124efa0"></span>
-                              <label for="file-save-f5b1b89d98b7286673128a5fb112cb9a1dc84ed86b6a5142f7e73aa46124efa0_1" id="file-save-label-f5b1b89d98b7286673128a5fb112cb9a1dc84ed86b6a5142f7e73aa46124efa0_1">Zapisz w na mojej liście logotypów</label>
-                            </p>
-                            <img src="./assets/icons/upload-icon.svg" alt="upload icon" width="21" height="14">
-                            <p class="file-info">Dodaj plik z dysku</p>
-                            <input class="file file-block" type="file" id="logo_file_f5b1b89d98b7286673128a5fb112cb9a1dc84ed86b6a5142f7e73aa46124efa0_1" data-lx="1" data-chash="f5b1b89d98b7286673128a5fb112cb9a1dc84ed86b6a5142f7e73aa46124efa0">
-                          </label>
-                          <p>
-                            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M3 5H12V6H3V5ZM3 7H12V8H3V7ZM3 9H12V10H3V9Z" fill="#374957"></path>
-                            </svg>
-                            <span class="logo-list" data-lx="1" data-chash="f5b1b89d98b7286673128a5fb112cb9a1dc84ed86b6a5142f7e73aa46124efa0">Kliknij i wybierz z Twoich logotypów</span>
-                            <input class="file file-block" type="hidden" id="logo_file_list_f5b1b89d98b7286673128a5fb112cb9a1dc84ed86b6a5142f7e73aa46124efa0_1" data-lx="1" data-chash="f5b1b89d98b7286673128a5fb112cb9a1dc84ed86b6a5142f7e73aa46124efa0">
-                          </p>
-                        </div>
-                      </div>
                     </div>
                     <div class="offertspage-branding-product-box__bottom">
                       <div class="offertspage-branding-product-box__bottom--col">
@@ -248,50 +224,6 @@
                               </select>
                             </div>
                           </div>
-                        </div>
-                      </div>
-                      <div class="offertspage-branding-product-box__middle__files">
-                        <p class="title">Wgraj pliki:</p>
-                        <p class="desc-info">Wymagamy plik w wektorach, format pliku zapisany <br> w krzywych (czcionka i obiekty). </p>
-                        <div class="first-logo-box">
-                          <p class="desc-info-logo">Logotyp 1:</p>
-                          <label for="files" class="upload-files-box" data-chash="f5b1b89d98b7286673128a5fb112cb9a1dc84ed86b6a5142f7e73aa46124efa0">
-                            <p class="file-save custom-checkbox-container">
-                              <input class="checkbox custom-input file-save-input" id="file-save-f5b1b89d98b7286673128a5fb112cb9a1dc84ed86b6a5142f7e73aa46124efa0_1" name="file-save-f5b1b89d98b7286673128a5fb112cb9a1dc84ed86b6a5142f7e73aa46124efa0_1" type="checkbox" data-lx="1" data-chash="f5b1b89d98b7286673128a5fb112cb9a1dc84ed86b6a5142f7e73aa46124efa0">
-                              <span class="file-save-span custom-checkbox-checkmark" data-lx="1" data-chash="f5b1b89d98b7286673128a5fb112cb9a1dc84ed86b6a5142f7e73aa46124efa0"></span>
-                              <label for="file-save-f5b1b89d98b7286673128a5fb112cb9a1dc84ed86b6a5142f7e73aa46124efa0_1" id="file-save-label-f5b1b89d98b7286673128a5fb112cb9a1dc84ed86b6a5142f7e73aa46124efa0_1">Zapisz w na mojej liście logotypów</label>
-                            </p>
-                            <img src="./assets/icons/upload-icon.svg" alt="upload icon" width="21" height="14">
-                            <p class="file-info">Dodaj plik z dysku</p>
-                            <input class="file file-block" type="file" id="logo_file_f5b1b89d98b7286673128a5fb112cb9a1dc84ed86b6a5142f7e73aa46124efa0_1" data-lx="1" data-chash="f5b1b89d98b7286673128a5fb112cb9a1dc84ed86b6a5142f7e73aa46124efa0">
-                          </label>
-                          <p>
-                            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M3 5H12V6H3V5ZM3 7H12V8H3V7ZM3 9H12V10H3V9Z" fill="#374957"></path>
-                            </svg>
-                            <span class="logo-list" data-lx="1" data-chash="f5b1b89d98b7286673128a5fb112cb9a1dc84ed86b6a5142f7e73aa46124efa0">Kliknij i wybierz z Twoich logotypów</span>
-                            <input class="file file-block" type="hidden" id="logo_file_list_f5b1b89d98b7286673128a5fb112cb9a1dc84ed86b6a5142f7e73aa46124efa0_1" data-lx="1" data-chash="f5b1b89d98b7286673128a5fb112cb9a1dc84ed86b6a5142f7e73aa46124efa0">
-                          </p>
-                        </div>
-                        <div class="second-logo-box">
-                          <p class="desc-info-logo">Logotyp 2:</p>
-                          <label for="files" class="upload-files-box" data-chash="f5b1b89d98b7286673128a5fb112cb9a1dc84ed86b6a5142f7e73aa46124efa0">
-                            <p class="file-save custom-checkbox-container">
-                              <input class="checkbox custom-input file-save-input" id="file-save-f5b1b89d98b7286673128a5fb112cb9a1dc84ed86b6a5142f7e73aa46124efa0_1" name="file-save-f5b1b89d98b7286673128a5fb112cb9a1dc84ed86b6a5142f7e73aa46124efa0_1" type="checkbox" data-lx="1" data-chash="f5b1b89d98b7286673128a5fb112cb9a1dc84ed86b6a5142f7e73aa46124efa0">
-                              <span class="file-save-span custom-checkbox-checkmark" data-lx="1" data-chash="f5b1b89d98b7286673128a5fb112cb9a1dc84ed86b6a5142f7e73aa46124efa0"></span>
-                              <label for="file-save-f5b1b89d98b7286673128a5fb112cb9a1dc84ed86b6a5142f7e73aa46124efa0_1" id="file-save-label-f5b1b89d98b7286673128a5fb112cb9a1dc84ed86b6a5142f7e73aa46124efa0_1">Zapisz w na mojej liście logotypów</label>
-                            </p>
-                            <img src="./assets/icons/upload-icon.svg" alt="upload icon" width="21" height="14">
-                            <p class="file-info">Dodaj plik z dysku</p>
-                            <input class="file file-block" type="file" id="logo_file_f5b1b89d98b7286673128a5fb112cb9a1dc84ed86b6a5142f7e73aa46124efa0_1" data-lx="1" data-chash="f5b1b89d98b7286673128a5fb112cb9a1dc84ed86b6a5142f7e73aa46124efa0">
-                          </label>
-                          <p>
-                            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M3 5H12V6H3V5ZM3 7H12V8H3V7ZM3 9H12V10H3V9Z" fill="#374957"></path>
-                            </svg>
-                            <span class="logo-list" data-lx="1" data-chash="f5b1b89d98b7286673128a5fb112cb9a1dc84ed86b6a5142f7e73aa46124efa0">Kliknij i wybierz z Twoich logotypów</span>
-                            <input class="file file-block" type="hidden" id="logo_file_list_f5b1b89d98b7286673128a5fb112cb9a1dc84ed86b6a5142f7e73aa46124efa0_1" data-lx="1" data-chash="f5b1b89d98b7286673128a5fb112cb9a1dc84ed86b6a5142f7e73aa46124efa0">
-                          </p>
                         </div>
                       </div>
                     </div>
