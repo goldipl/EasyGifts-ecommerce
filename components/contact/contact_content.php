@@ -38,6 +38,13 @@
             </div>
             <div class="contact-wrapper_col__content">
                 <div class="contact-box">
+                    <h3 class="office">Biuro</h3>
+                    <p class="phone2"><a class="gtm-phone" href="tel:+48 713152330">+48 713 152 330</a></p>
+                    <p class="mail"><a class="gtm-mail" href="mailto:biuro@easygifts.pl">biuro@easygifts.pl</a></p>
+                    <p class="hours">czynne pon. - pt.: 08:00 - 16:00</p>
+                </div>
+                <div class="horizontal-line"></div>
+                <div class="contact-box">
                     <h3 class="storage">Magazyn</h3>
                     <p class="phone"><a class="gtm-phone" href="tel:+48 71 397 87 16">+48 71 397 87 16</a></p>
                     <p class="phone2"><a class="gtm-phone" href="tel:+48 668 599 127">+48 668 599 127</a></p>
@@ -61,28 +68,29 @@
             <div class="contact-wrapper_col__content">
                 <form class="send-form">
                     <div class="input-slot">
-                        <label for="name-surname">Imię i nazwisko</label>
+                        <p>Pole oznaczone * są wymagane</p>
+                        <label for="name-surname">Imię i nazwisko *</label>
                         <input class="form-input" type="text" name="name-surname" id="name-surname" placeholder="Jan Nowak" required>
                     </div>
                     <div class="input-slot">
-                        <label for="company">Firma</label>
-                        <input class="form-input" type="text" name="company" id="company" placeholder="Firma1">
+                        <label for="company">Firma *</label>
+                        <input class="form-input" type="text" name="company" id="company" placeholder="Firma1" required>
                     </div>
                     <div class="input-slot">
-                        <label for="nip-code">NIP</label>
-                        <input class="form-input" type="text" name="nip-code" id="nip-code" placeholder="54111474">
+                        <label for="nip-code">NIP *</label>
+                        <input class="form-input" type="text" name="nip-code" id="nip-code" placeholder="54111474" required>
                     </div>
                     <div class="input-slot">
-                        <label for="email">Email</label>
+                        <label for="email">E-mail *</label>
                         <input class="form-input" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" name="email" id="email" placeholder="mail@gmail.com" required>
                     </div>
                     <div class="input-slot">
-                        <label for="telephone">Telefon</label>
-                        <input class="form-input" type="text" name="telephone" id="telephone" placeholder="555 555 666">
+                        <label for="telephone">Telefon *</label>
+                        <input class="form-input" type="text" name="telephone" id="telephone" placeholder="555 555 666" required>
                     </div>
                     <div class="input-slot">
                         <label for="msgarea">Wiadomość</label>
-                        <textarea class="form-textarea" name="msgarea" id="msgarea" placeholder="Wiadomość...." required></textarea>
+                        <textarea class="form-textarea" name="msgarea" id="msgarea" placeholder="Wiadomość...."></textarea>
                     </div>
                     <div class="checkbox-button-box">
                         <label class="custom-checkbox-container">Administratorem Państwa danych osobowych jest PCM Sp. z o.o. EASY GIFTS Sp.k. (NIP: 8961447858). Dane osobowe przetwarzane będą wyłącznie w prawnie usprawiedliwionych celach administratora danych polegających na udzieleniu odpowiedzi na Państwa wiadomość. Podanie przez Państwa danych osobowych jest dobrowolne, ale też niezbędne do nawiązania z Państwem kontaktu za pomocą formularza kontaktowego. Szczegółowe informacje na temat przetwarzania Państwa danych osobowych mogą Państwo znaleźć w naszej <a href="#">Polityce prywatności</a> na temat zasad przetwarzania danych osobowych.<input type="checkbox" class="custom_input"><span class="custom-checkbox-checkmark"></span>
