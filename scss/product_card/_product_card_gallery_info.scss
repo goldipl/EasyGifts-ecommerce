@@ -195,7 +195,6 @@
         color: $main-color-second;
       }
     }
-    &_code,
     &_ean {
       font-size: 14px;
       font-weight: 400;
@@ -206,7 +205,9 @@
         color: $grey5;
       }
     }
-    &_color {
+    &_color,
+    &_code,
+    &_ean {
       font-size: 18px;
       font-weight: 500;
       line-height: 177.023%;
@@ -434,14 +435,14 @@
         .product-more-box__col {
           display: flex;
           flex-direction: row;
-          justify-content: center;
+          justify-content: flex-start;
           align-items: center;
           width: 272px;
           height: 54px;
           border: 1px solid $grey5;
           border-bottom: 0;
           text-decoration: none;
-          padding-left: 2px;
+          padding-left: 8px;
           &:hover {
             background-color: $light_grey;
           }
@@ -453,9 +454,13 @@
             margin: 0;
             color: $text_color;
             text-transform: uppercase;
+            &.small {
+              line-height: 1em;
+              font-size: 14px;
+            }
             span {
               font-weight: 500;
-              color: $main-color-second;
+              color: $main-color;
             }
           }
           img {
@@ -465,12 +470,8 @@
             border-left: 0;
           }
         }
-        &:has(.offerts) {
-          border-bottom: 1px solid $grey5;
-        }
         &.last-row {
           .product-more-box__col {
-            border-top: 0;
             border-bottom: 1px solid $grey5;
           }
         }

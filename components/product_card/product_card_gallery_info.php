@@ -114,11 +114,14 @@
             <h1>Długopis metalowy</h1>
         </div>
         <div class="product-info_short-description">
-            <div class="product-info_code"><span>Kod produktu: 1333903</span>
+            <div class="product-info_code">Kod produktu: <span>1333903</span>
             </div>
             <div class="product-info_color">Kolor: <span>czarny</span>
             </div>
+            <div class="product-info_ean">EAN: <span>465651333903</span>
+            </div>
         </div>
+        <p class="product-info_availability-colors-title">Dostępne kolory</p>
         <div class="product-info_availability-colors">
             <a href="#" class="color grey"></a>
             <a href="#" class="color red"></a>
@@ -149,29 +152,32 @@
         <div class="product-more-box">
             <div class="product-more-box__row">
                 <a href="#" class="product-more-box__col">
-                    <img src="./assets/icons/product_page/nego-price.svg" alt="download icon">
+                    <img src="./assets/icons/product_page/nego-price.svg" alt="download icon" width="25" height="25">
                     <p>Negocjuj cenę</p>
                 </a>
-                <a href="#" class="product-more-box__col">
-                    <img src="./assets/icons/product_page/download.svg" alt="comparision icon">
-                    <p>Pobierz ulotkę PDF</p>
+                <a href="#" class="product-more-box__col offerts">
+                    <img src="./assets/icons/product_page/offert.svg" alt="download icon" width="25" height="25">
+                    <p>Ofertownik</p>
                 </a>
             </div>
             <div class="product-more-box__row">
                 <a href="#" class="product-more-box__col">
-                    <img src="./assets/icons/product_page/branding-location.svg" alt="comparision icon">
-                    <p>Miejsce znakowania</p>
+                    <img src="./assets/icons/product_page/download.svg" alt="comparision icon" width="25" height="25">
+                    <p>Stwórz e-ulotkę</p>
                 </a>
-                <a href="#" class="product-more-box__col offerts">
-                    <img src="./assets/icons/product_page/offert.svg" alt="download icon">
-                    <p>Ofertownik</p>
+                <a href="#" class="product-more-box__col">
+                    <img src="./assets/icons/product_page/shopping-list.png" alt="comparision icon" width="25" height="25">
+                    <p>Lista zakupów</p>
                 </a>
             </div>
             <div class="product-more-box__row last-row">
                 <a href="#" class="product-more-box__col">
-                    <img src="./assets/icons/product_page/branding-time.svg" alt="download icon">
-                    <p>Znakowanie: <span>2 dni</span>
-                    </p>
+                    <img src="./assets/icons/product_page/branding-location.svg" alt="comparision icon" width="25" height="25">
+                    <p>Miejsce znakowania</p>
+                </a>
+                <a href="#" class="product-more-box__col">
+                    <img src="./assets/icons/product_page/branding-time.svg" alt="download icon" width="25" height="25">
+                    <p class="small">TT2 (termotransfer): <span>3</span> dni</p>
                 </a>
             </div>
         </div>
