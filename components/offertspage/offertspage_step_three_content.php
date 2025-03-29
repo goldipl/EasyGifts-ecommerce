@@ -64,7 +64,7 @@
                   </div>
                 </td>
                 <td>10</td>
-                <td>1,95 zł</td>
+                <td>1,95 PLN</td>
                 <td>1,09 PLN</td>
                 <td>1,09 PLN</td>
                 <td>
@@ -140,7 +140,7 @@
                   </div>
                 </td>
                 <td>10</td>
-                <td>1,95 zł</td>
+                <td>1,95 PLN</td>
                 <td>1,09 PLN</td>
                 <td>1,09 PLN</td>
                 <td>
