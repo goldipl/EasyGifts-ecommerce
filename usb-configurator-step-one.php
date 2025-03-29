@@ -26,19 +26,21 @@
                     </li>
                 </ul>
             </div>
-            <div class="container usb-title">
-                <h1 class="title">Konfigurator USB</h1>
-            </div>
-            <div class="progress common-progress-bar container bg-white">
-                <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-            <div class="common-steps-container container bg-white">
-                <div class="container">
-                    <div class="common-steps-container-slot">
-                        <p class="active">1. Personalizacja pendrive’a</p>
-                    </div>
-                    <div class="common-steps-container-slot">
-                        <p>2. Podsumowanie</p>
+            <div class="container">
+                <div class="usb-title">
+                    <h1 class="title">Konfigurator USB</h1>
+                </div>
+                <div class="progress common-progress-bar bg-white">
+                    <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="common-steps-container bg-white w-100">
+                    <div class="container">
+                        <div class="common-steps-container-slot">
+                            <p class="active">1. Personalizacja pendrive’a</p>
+                        </div>
+                        <div class="common-steps-container-slot">
+                            <p>2. Podsumowanie</p>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -1,6 +1,5 @@
 <div class="usb_container">
     <div class="container">
-        <h1>Negocjator</h1>
         <div class="d-flex flex-row">
             <div class="accordion-container d-flex flex-column">
                 <div class="accordion me-2" id="accordionExample">

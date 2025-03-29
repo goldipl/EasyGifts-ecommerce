@@ -1,3 +1,6 @@
+.container:has(.usb-title) {
+  margin-bottom: 24px;
+}
 .usb-title {
   padding: 35px 0;
   background-color: $white;
