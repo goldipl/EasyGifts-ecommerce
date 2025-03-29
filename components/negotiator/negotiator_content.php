@@ -302,38 +302,19 @@
                                         <div class="price-proposition-box">
                                             <div class="price-proposition-box__row">
                                                 <div class="price-proposition-box__row__left">
-                                                    <p>Produkt:</p>
+                                                    <p>Negocjuj cenę produktu:</p>
                                                 </div>
                                                 <div class="price-proposition-box__row__right">
-                                                    <input class="form-input" type="text" placeholder="Twoja cena">
+                                                    <input class="form-input" type="text" placeholder="Twoja proponowana cena">
                                                     <p class="desc">Obecna cena: 2,88 PLN</p>
                                                 </div>
                                             </div>
                                             <div class="price-proposition-box__row">
                                                 <div class="price-proposition-box__row__left">
-                                                    <p>Znakowanie logotyp A:</p>
+                                                    <p>Koszt znakowania płatny dodatkowo:</p>
                                                 </div>
                                                 <div class="price-proposition-box__row__right">
-                                                    <input class="form-input" type="text" placeholder="Twoja cena">
-                                                    <p class="desc">Obecna cena: (1,09 PLN/szt.)</p>
-                                                </div>
-                                            </div>
-                                            <div class="price-proposition-box__row">
-                                                <div class="price-proposition-box__row__left">
-                                                    <p>Znakowanie logotyp B:</p>
-                                                </div>
-                                                <div class="price-proposition-box__row__right">
-                                                    <input class="form-input" type="text" placeholder="Twoja cena">
-                                                    <p class="desc">Obecna cena: (1,09 PLN/szt.)</p>
-                                                </div>
-                                            </div>
-                                            <div class="price-proposition-box__row">
-                                                <div class="price-proposition-box__row__left">
-                                                    <p>Łączna cena produktu ze znakowaniem:</p>
-                                                </div>
-                                                <div class="price-proposition-box__row__right">
-                                                    <input class="form-input" type="text" placeholder="Twoja cena">
-                                                    <p class="desc">Obecna cena: (3,91 PLN/szt.)</p>
+                                                    <p class="desc">1,09 PLN/szt.</p>
                                                 </div>
                                             </div>
                                         </div>
