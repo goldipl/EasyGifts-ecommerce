@@ -52,6 +52,7 @@
       <a class="menu-link-big" href="#">
         <img src="./assets/icons/dashboard/cart.svg" alt="menu icon" width="20" height="20">Kreator sklepów
         i katalogów online</a>
+        <a class="menu-link" href="./dashboard-shop-interactions.php">Interakcje klientów z Twoją stroną noname</a>
     </div>
     <button class="logout">
       <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
