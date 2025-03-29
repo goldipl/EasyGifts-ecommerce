@@ -164,6 +164,28 @@
           width: 100%;
         }
       }
+      .codes {
+        display: flex;
+        flex-direction: row;
+        .ptxt {
+          flex-grow: 1;
+          font-size: 13px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 1.75em;
+          color: $text_color;
+          margin: 0 0 9px 0;
+        }
+        .copy-img {
+          width: 200px;
+          height: 200px;
+          margin-left: 10px;
+          object-fit: cover;
+          flex-shrink: 0;
+          cursor: pointer;
+          border: 1px solid #f4f4f4;
+        }
+      }
       img {
         width: 100%;
         height: auto;

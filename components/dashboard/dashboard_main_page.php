@@ -1,7 +1,7 @@
 <div class="dashboard-main">
     <section class="dashboard-main-box-large">
         <div class="title">
-            <p><img src="./assets/icons/dashboard/wallet.svg" alt="dashboard icon" width="20" height="20">Twoja Linia kredytowa: <span>40 000zł</span></p>
+            <p><img src="./assets/icons/dashboard/wallet.svg" alt="dashboard icon" width="20" height="20">Twoja Linia kredytowa:</p>
         </div>
         <div class="bottom-boxes">
             <div class="value-box">
@@ -18,7 +18,7 @@
                 </div>
             </div>
             <div class="value-box">
-                <p>Dostępna linia kredytowa</p>
+                <p>Twoja linia kredytowa</p>
                 <b class="green">38 900 zł</b>
             </div>
         </div>
@@ -38,10 +38,8 @@
         <div class="box-content">
             <div class="catalog-offert">
                 <p class="orange catalog-p">Oferta katalogowa: 44%</p>
-                <a href="#">Kody rabatowe na produkty</a>
-                <a href="#">Kody rabatowe na znakowanie</a>
-                <a href="#">Nagrody dla Ciebie</a>
             </div>
+            <div class="codes"><div class="ptxt">Kod: <strong data-clipboard-target="#code_18" class="copy-icon" id="code_18">KOSZYK3</strong><br>Rabat: 3%<br>Zakres: Koszyk<br>Kod wielokrotnego użytku<br>Min. wartość zamówienia netto: 500,00 PLN<br>Ważny: 2025-03-07 do 2025-03-31</div><img src="./assets/img/dashboard/discount.png" width="200" height="200" class="copy-img" data-clipboard-target="#code_18"></div>
         </div>
     </div>
     <div class="dashboard-main-box">
@@ -64,6 +62,7 @@
                     <p>Kierownik Biura Obsługi Klienta</p>
                     <p>tel: <a class="gtm-phone" href="tel:+48 71 330 51 11">+48 71 330 51 11</a></p>
                     <p>kom: <a class="gtm-phone" href="tel:+48 880 349 176">+48 880 349 176</a></p>
+                    <p>e-mail: <a class="gtm-mail" href="mailto:biuro@easygifts.pl">biuro@easygifts.pl</a></p>
                     <button>
                         <a href="mailto:biuro@easygifts.pl">Napisz</a>
                     </button>

@@ -9,12 +9,12 @@
   </div>
   <div class="menu-links-container">
     <div class="menu-links-box big-profile">
-      <a class="menu-link-big not-hover" href="#">
+      <a class="menu-link-big" href="./dashboard.php">
         <img src="./assets/icons/dashboard/profile.svg" alt="menu icon" width="20" height="20">Profil </a>
       <a class="menu-link" href="./dashboard-your-data.php">Twoje dane</a>
       <a class="menu-link" href="./dashboard-change-password.php">Zmień hasło</a>
       <a class="menu-link" href="./newsletter.php">Newsletter</a>
-      <a class="menu-link" href="./dashboard-program.php">Program Rozwoju</a>
+      <a class="menu-link" href="./dashboard-program.php">Program rozwoju</a>
     </div>
     <div class="menu-links-box big-orders">
       <a class="menu-link-big not-hover" href="#">
