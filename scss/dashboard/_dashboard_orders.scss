@@ -67,14 +67,13 @@
         }
         span {
           display: inline-flex;
-          margin-left: 8px;
           &.green {
             font-weight: 700;
             color: $dashboard_green;
           }
-          &.orange {
+          &.color-main {
             font-weight: 700;
-            color: $dashboard_orange;
+            color: $main-color;
           }
         }
       }

@@ -11526,15 +11526,14 @@ label.add-files:focus, label.add-files:hover {
 }
 .dashboard-orders__slot--right p span {
   display: inline-flex;
-  margin-left: 8px;
 }
 .dashboard-orders__slot--right p span.green {
   font-weight: 700;
   color: #54bf00;
 }
-.dashboard-orders__slot--right p span.orange {
+.dashboard-orders__slot--right p span.color-main {
   font-weight: 700;
-  color: #f26521;
+  color: #e6007e;
 }
 .dashboard-orders__slot--right .dashboard-product-details-btn {
   display: flex;
