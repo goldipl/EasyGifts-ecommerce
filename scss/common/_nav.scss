@@ -123,6 +123,10 @@ nav {
           height: 27px;
           padding: 2px;
           width: auto;
+          @media (max-width: 991px) {
+            min-width: 22px;
+            height: 22px;
+          }
           p {
             display: flex;
             align-items: center;
@@ -131,6 +135,9 @@ nav {
             color: $white;
             width: 100%;
             height: 100%;
+            @media (max-width: 991px) {
+              font-size: 12px;
+            }
           }
         }
         .offertspage-quantity,
@@ -359,6 +366,10 @@ nav {
         svg {
           width: 30px;
           height: 30px;
+          &.wishlist-icon {
+            width: 30px !important;
+            height: 30px !important;
+          }
         }
       }
     }
