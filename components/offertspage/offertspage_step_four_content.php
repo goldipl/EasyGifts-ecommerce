@@ -79,16 +79,6 @@
                                             <span class="custom-checkbox-checkmark"></span>
                                             </label>
                                         </div>
-                                        <div class="table-middle-checkboxes__slot">
-                                            <label class="custom-checkbox-container">Znakowanie <input type="checkbox" class="custom_input">
-                                            <span class="custom-checkbox-checkmark"></span>
-                                            </label>
-                                        </div>
-                                        <div class="table-middle-checkboxes__slot">
-                                            <label class="custom-checkbox-container">Rozmiar znakowania <input type="checkbox" class="custom_input">
-                                            <span class="custom-checkbox-checkmark"></span>
-                                            </label>
-                                        </div>
                                     </div>
                                 </div>
                             </td>

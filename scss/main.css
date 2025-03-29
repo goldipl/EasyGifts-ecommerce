@@ -14084,6 +14084,7 @@ label.add-files:focus, label.add-files:hover {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  text-align: left;
 }
 .offertspage_container.step_four .offertspage-set-prices .offertspage-step-table-container .offertspage-products-table tbody tr td .table-product-box__bottom--right p {
   font-size: 14px;
