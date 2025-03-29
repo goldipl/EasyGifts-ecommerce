@@ -26,7 +26,7 @@
                 <input class="form-input" type="text" name="city" placeholder="Kraków">
               </div>
               <div class="input-slot">
-                <label for="tel">Tel.</label>
+                <label for="tel">Telefon</label>
                 <input class="form-input" type="text" name="tel" placeholder="666666666">
               </div>
               <div class="input-slot">
@@ -42,8 +42,12 @@
             </div>
             <div class="inputs-container">
               <div class="input-slot">
-                <label for="email">Email</label>
+                <label for="email">E-mail</label>
                 <input class="form-input" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" name="email" placeholder="mail@gmail.com">
+              </div>
+              <div class="input-slot">
+                <label for="order-inner-number">Tutaj możesz wpisać swój wewnętrzny numer zamówienia</label>
+                <input class="form-input" type="text" name="order-inner-number">
               </div>
               <div class="input-slot">
                 <label for="comments">Uwagi</label>
@@ -68,28 +72,28 @@
             </div>
             <div class="inputs-container">
               <div class="input-slot">
-                <label for="address-company">Firma</label>
-                <input class="form-input" type="text" name="address-company" placeholder="Nazwa firmy">
+                <label for="address-company">Firma *</label>
+                <input class="form-input" type="text" name="address-company" placeholder="Nazwa firmy" required="">
               </div>
               <div class="input-slot">
-                <label for="address-street">Ulica</label>
-                <input class="form-input" type="text" name="address-street " placeholder="Polna 28">
+                <label for="address-street">Ulica *</label>
+                <input class="form-input" type="text" name="address-street " placeholder="Polna 28" required="">
               </div>
               <div class="input-slot">
-                <label for="address-zipcode">Kod pocztowy</label>
-                <input class="form-input" type="text" name="address-zipcode" placeholder="00-000">
+                <label for="address-zipcode">Kod pocztowy *</label>
+                <input class="form-input" type="text" name="address-zipcode" placeholder="00-000" required="">
               </div>
               <div class="input-slot">
-                <label for="address-city">Miasto</label>
-                <input class="form-input" type="text" name="address-city" placeholder="Kraków">
+                <label for="address-city">Miasto *</label>
+                <input class="form-input" type="text" name="address-city" placeholder="Kraków" required="">
               </div>
               <div class="input-slot">
-                <label for="address-telephone-person">Telefon do odbiorcy</label>
-                <input class="form-input" type="text" name="address-telephone-person" placeholder="666666666">
+                <label for="address-contact-person">Osoba kontaktowa *</label>
+                <input class="form-input" type="text" name="address-contact-person" placeholder="Jan Kowalski" required="">
               </div>
               <div class="input-slot">
-                <label for="address-contact-person">Osoba kontaktowa (odbiorca)</label>
-                <input class="form-input" type="text" name="address-contact-person" placeholder="Jan Kowalski">
+                <label for="address-telephone-person">Telefon *</label>
+                <input class="form-input" type="text" name="address-telephone-person" placeholder="666666666" required="">
               </div>
               <label class="add-address-chekbox custom-checkbox-container">
                 <small>Dodaj adres do książki adresowej</small>
