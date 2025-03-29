@@ -17582,6 +17582,21 @@ main:has(.shop-creator-wrapper) {
     padding: 18px;
   }
 }
+.shop-creator-wrapper .shopcreator-content .greybox div.english_version {
+  margin: 35px 0 0 0;
+}
+.shop-creator-wrapper .shopcreator-content .greybox div.english_version .custom-checkbox-checkmark {
+  display: inline-block;
+  border: 1px solid #ccc;
+  background: #fff;
+  top: 0;
+  height: 25px;
+  width: 25px;
+}
+.shop-creator-wrapper .shopcreator-content .greybox div.english_version label {
+  padding-top: 2px;
+  font-size: 14px;
+}
 .shop-creator-wrapper .shopcreator-content h3 {
   font-size: 18px;
   font-weight: 700;

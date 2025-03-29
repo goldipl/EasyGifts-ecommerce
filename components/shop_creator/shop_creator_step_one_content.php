@@ -12,6 +12,11 @@
       <button class="white-save-btn">Zapisz <img src="./assets/icons/dashboard/save-btn-color.svg" alt="save btn icon" width="18" height="18">
       </button>
     </div>
+    <div class="english_version">
+      <label for="english_version" class="custom-checkbox-container">Dodaj angielską wersję językową strony no-name.                    <input type="checkbox" name="english_version" value="1" class="custom_input english_version" id="english_version">
+        <span class="custom-checkbox-checkmark"></span>
+      </label>                                
+    </div>
   </div>
   <div class="info-box">
     <h3>

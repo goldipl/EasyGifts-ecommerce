@@ -67,6 +67,21 @@ main:has(.shop-creator-wrapper) {
     @media (max-width: 992px) {
       padding: 18px;
     }
+    .greybox div.english_version {
+      margin: 35px 0 0 0;
+      .custom-checkbox-checkmark {
+        display: inline-block;
+        border: 1px solid #ccc;
+        background: #fff;
+        top: 0;
+        height: 25px;
+        width: 25px;
+      }
+      label {
+        padding-top: 2px;
+        font-size: 14px;
+      }
+    }
     h3 {
       font-size: 18px;
       font-weight: 700;
