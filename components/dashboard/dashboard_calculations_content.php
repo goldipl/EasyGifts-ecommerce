@@ -12,7 +12,7 @@
           <th>Nazwa</th>
           <th>Cena</th>
           <th class="text-center">Pobierz PDF</th>
-          <th class="text-center">Ważność</th>
+          <th class="text-center">Dodaj do koszyka</th>
           <th class="text-center">Usuń</th>
         </tr>
         <tr class="spacer15"></tr>
@@ -47,12 +47,11 @@
               <img src="./assets/icons/dashboard/download.svg" alt="download icon" width="21" height="17">
             </a>
           </td>
-          <td>
-            <div class="validity">
-                <span class="text-center">Ważna do:</span>
-                <span class="text-center pink">17 stycznia 2025</span>
-            </div>
-          </td>
+          <td class="text-center">
+            <a href="" class="cart">
+              <img src="./assets/icons/dashboard/cart.svg" alt="cart icon" width="20" height="20">
+            </a>                        
+         </td>
           <td>
             <a href="#" class="delete">
               <img src="./assets/icons/dashboard/delete.svg" alt="delete icon" width="15" height="17">
@@ -91,12 +90,11 @@
               <img src="./assets/icons/dashboard/download.svg" alt="download icon" width="21" height="17">
             </a>
           </td>
-          <td>
-            <div class="validity">
-                <span class="text-center">Ważna do:</span>
-                <span class="text-center pink">17 stycznia 2025</span>
-            </div>
-          </td>
+          <td class="text-center">
+            <a href="" class="cart">
+              <img src="./assets/icons/dashboard/cart.svg" alt="cart icon" width="20" height="20">
+            </a>                        
+         </td>
           <td>
             <a href="#" class="delete">
               <img src="./assets/icons/dashboard/delete.svg" alt="delete icon" width="15" height="17">
