@@ -113,7 +113,8 @@
     <div class="e-leaflet-info_title">
       <h1>Stwórz E-ULOTKĘ</h1>
     </div>
-    <label for="discount">Nazwa:</label>
+    <p>Pola oznaczone * są wymagane.</p>
+    <label for="discount">Nazwa *:</label>
     <input class="form-input w-100" type="text" name="e-leaflet-name" id="e-leaflet-name">
     <label for="discount">Opis:</label>
     <textarea class="form-textarea w-100" type="text" name="e-leaflet-desc" id="e-leaflet-desc"></textarea>
