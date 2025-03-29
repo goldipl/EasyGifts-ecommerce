@@ -18301,4 +18301,19 @@ main:has(.shop-creator-wrapper) {
 .wishlist-remove-all:hover,
 .wishlist-to-cart:hover {
   opacity: 0.8;
+}
+
+.usb-title {
+  padding: 35px 0;
+  background-color: #ffffff;
+}
+.usb-title .title {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  text-transform: uppercase;
+  color: #34224f;
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */
