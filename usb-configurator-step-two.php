@@ -42,16 +42,7 @@
                     </div>
                 </div>
             </div>
-            <div class="usb-wrapper">
-                <div class="container">
-                    <aside class="usb-wrapper__left">
-                        <?php include "./components/usb_configurator/usb_config_main_wrapper_step_two.php"; ?> 
-                    </aside>
-                    <div class="usb-wrapper__right">
-                        <?php include "./components/usb_configurator/usb_config_summary_step_two.php"; ?> 
-                    </div>
-                </div>
-            </div> 
+            <?php include "./components/usb_configurator/usb_config_main_wrapper_step_two.php"; ?> 
         </main>
         <footer> 
             <?php include "./components/common/footer.php"; ?> 

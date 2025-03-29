@@ -1,4 +1,5 @@
-.negotiator_container {
+.negotiator_container,
+.usb_container {
   .accordion-container {
     width: calc(80% - 27px);
     margin-right: 27px;
@@ -599,7 +600,8 @@
 }
 
 @media (max-width: 1640px) {
-  .negotiator_container {
+  .negotiator_container,
+  .usb_container {
     .accordion-container {
       .accordion {
         &-body {
@@ -628,7 +630,8 @@
 }
 
 @media (max-width: 1400px) {
-  .negotiator_container {
+  .negotiator_container,
+  .usb_container {
     .accordion-container {
       .accordion {
         &-body {
@@ -651,7 +654,8 @@
 }
 
 @media (max-width: 1200px) {
-  .negotiator_container {
+  .negotiator_container,
+  .usb_container {
     h1 {
       padding: 16px 0 20px 0;
       font-size: 26px;
@@ -899,7 +903,8 @@
 }
 
 @media (max-width: 760px) {
-  .negotiator_container {
+  .negotiator_container,
+  .usb_container {
     .accordion-container {
       .accordion {
         &-body {
