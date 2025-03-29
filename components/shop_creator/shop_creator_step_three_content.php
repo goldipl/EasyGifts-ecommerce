@@ -6,23 +6,28 @@
   <div class="shopcreator-labels d-flex flex-row flex-wrap gap-3">
     <div class="d-flex flex-column label-box">
       <label for="shop-name">Nazwa sklepu/katalogu lub firmy</label>
-      <input class="form-input" type="text" name="shop-name" id="shop-name">
+      <input class="form-input" type="text" name="shop-name" id="shop-name-pl" placeholder="🇵🇱 Gadżety reklamowe">
+      <input class="form-input" type="text" name="shop-name" id="shop-name-en" placeholder="🇬🇧 Promotional gifts">
     </div>
   </div>
   <div class="shopcreator-labels d-flex flex-row flex-wrap gap-3">
     <div class="d-flex flex-column label-box">
-      <label for="shop-desc">Opis Firmy:</label>
-      <textarea class="form-textarea" name="shop-desc" id="shop-desc"></textarea>
+      <label for="shop-desc">Opis Firmy (PL):</label>
+      <textarea class="form-textarea" name="shop-desc" id="shop-desc-pl" placeholder="🇵🇱"></textarea>
+      <label for="shop-desc">Opis Firmy (EN):</label>
+      <textarea class="form-textarea" name="shop-desc" id="shop-desc-en" placeholder="🇬🇧"></textarea>
       <p>Opis firmy lub sklepu. Będzie widoczny w sklepie no-name w zakładce “Kontakt” oraz jako opis strony podczasudostępniania jej np. w mediach społecznościowych.</p>
     </div>
     <div class="d-flex flex-column label-box">
       <label for="shop-email">Adres email:</label>
       <input class="form-input" type="email" name="shop-email" id="shop-email">
-      <p>Wpisz swój adres e-mail do kontaktu dla klientów. Będziesz otrzymywać na tą skrzynkę zapytania ofertowe od klientów.</p>
+      <p>Wpisz swój adres e-mail do kontaktu dla klientów. Będziesz otrzymywać na tą skrzynkę zapytania ofertowe od klientów. <strong>UWAGA: Jeśli pozostawisz to pole puste, formularze kontaktowe i zapytania o produkt nie będą widoczne.</strong></p>
     </div>
     <div class="d-flex flex-column label-box">
-      <label for="shop-contactdata">Dane kontaktowe:</label>
-      <textarea class="form-textarea" name="shop-contactdata" id="shop-contactdata"></textarea>
+      <label for="shop-contactdata">Dane kontaktowe (PL):</label>
+      <textarea class="form-textarea" name="shop-contactdata-pl" id="shop-contactdata" placeholder="🇵🇱"></textarea>
+      <label for="shop-contactdata">Dane kontaktowe (EN):</label>
+      <textarea class="form-textarea" name="shop-contactdata-en" id="shop-contactdata" placeholder="🇬🇧"></textarea>
       <p>Dane teleadresowe firmy. Wpisane dane będą widoczne na stronie głównej oraz w stopce w mailach automatycznych,które będą otrzymywać Twoi klienci po wysłaniu zapytania lub złożeniu zamówienia (tylko dla sklepów internetowych).</p>
     </div>
     <div class="d-flex flex-column label-box">
@@ -34,7 +39,7 @@
         </p>
         <input class="file file-block" type="file" id="files02">
       </label>
-      <p>Dane teleadresowe firmy Wpisane dane będą widoczne na stronie głównej oraz w stopce w mailach automatycznych, które będą otrzymywać Twoi klienci po wysłaniu zapytania lub złożeniu zamówienia (tylko dla sklepów internetowych).</p>
+      <p>Dozwolone typy plików: JPEG, PNG.<br>Maksymalny rozmiar pliku: 5MB.<br>Optymalna wysokość: 70 pikseli.</p>
     </div>
   </div>
   <strong>Szablon kolorystyczny:</strong>
@@ -44,70 +49,70 @@
       <label class="custom-checkbox-container">
         <strong>beżowy</strong>
         <input type="checkbox" class="custom_input">
-        <span class="custom-checkbox-checkmark"></span>
+        <span class="custom-checkbox-checkmark" style="background-color: beige"></span>
       </label>
     </div>
     <div class="shopcreator-checks__slot short-slot">
       <label class="custom-checkbox-container">
         <strong>niebieski</strong>
         <input type="checkbox" class="custom_input">
-        <span class="custom-checkbox-checkmark"></span>
+        <span class="custom-checkbox-checkmark" style="background-color: lightblue"></span>
       </label>
     </div>
     <div class="shopcreator-checks__slot short-slot">
       <label class="custom-checkbox-container">
         <strong>czarny</strong>
         <input type="checkbox" class="custom_input">
-        <span class="custom-checkbox-checkmark"></span>
+        <span class="custom-checkbox-checkmark" style="background-color: black"></span>
       </label>
     </div>
     <div class="shopcreator-checks__slot short-slot">
       <label class="custom-checkbox-container">
         <strong>pomarańczowy</strong>
         <input type="checkbox" class="custom_input">
-        <span class="custom-checkbox-checkmark"></span>
+        <span class="custom-checkbox-checkmark" style="background-color: orange"></span>
       </label>
     </div>
     <div class="shopcreator-checks__slot short-slot">
       <label class="custom-checkbox-container">
         <strong>czerwony</strong>
         <input type="checkbox" class="custom_input">
-        <span class="custom-checkbox-checkmark"></span>
+        <span class="custom-checkbox-checkmark" style="background-color: red"></span>
       </label>
     </div>
     <div class="shopcreator-checks__slot short-slot">
       <label class="custom-checkbox-container">
         <strong>różowy</strong>
         <input type="checkbox" class="custom_input">
-        <span class="custom-checkbox-checkmark"></span>
+        <span class="custom-checkbox-checkmark" style="background-color: pink"></span>
       </label>
     </div>
     <div class="shopcreator-checks__slot short-slot">
       <label class="custom-checkbox-container">
         <strong>fioletowy</strong>
         <input type="checkbox" class="custom_input">
-        <span class="custom-checkbox-checkmark"></span>
+        <span class="custom-checkbox-checkmark" style="background-color: violet"></span>
       </label>
     </div>
     <div class="shopcreator-checks__slot short-slot">
       <label class="custom-checkbox-container">
         <strong>szary</strong>
         <input type="checkbox" class="custom_input">
-        <span class="custom-checkbox-checkmark"></span>
+        <span class="custom-checkbox-checkmark" style="background-color: grey"></span>
       </label>
     </div>
     <div class="shopcreator-checks__slot short-slot">
       <label class="custom-checkbox-container">
         <strong>granatowy</strong>
         <input type="checkbox" class="custom_input">
-        <span class="custom-checkbox-checkmark"></span>
+        <span class="custom-checkbox-checkmark" style="background-color: blue"></span>
       </label>
     </div>
     <div class="shopcreator-checks__slot short-slot">
       <label class="custom-checkbox-container">
         <strong>zielony</strong>
         <input type="checkbox" class="custom_input">
-        <span class="custom-checkbox-checkmark"></span>
+        <span class="custom-checkbox-checkmark" style="background-color: green"></span>
       </label>
     </div>
   </div>
