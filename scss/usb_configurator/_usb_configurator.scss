@@ -1,3 +1,9 @@
+.usb-row-grid {
+  @media (max-width: 991px) {
+    flex-direction: column !important;
+  }
+}
+
 .container:has(.usb-title) {
   margin-bottom: 24px;
 }
@@ -30,6 +36,9 @@
   .accordion-body {
     justify-content: flex-start !important;
     padding: 40px;
+    @media (max-width: 760px) {
+      padding: 16px;
+    }
     &:has(.usb-big-img) {
       align-items: center;
     }
@@ -43,6 +52,10 @@
           height: 310px;
           width: auto;
           max-width: 440px;
+          @media (max-width: 760px) {
+            max-width: 80vw;
+            height: auto;
+          }
         }
         .product-download {
           position: absolute;
@@ -56,6 +69,10 @@
       flex-direction: row;
       justify-content: space-between;
       gap: 120px;
+      @media (max-width: 760px) {
+        flex-direction: column;
+        gap: 24px;
+      }
       .colors-row {
         .colors-title {
           margin-bottom: 24px;
@@ -65,6 +82,9 @@
             line-height: 120%;
             text-transform: uppercase;
             color: $small_text_color;
+            @media (max-width: 760px) {
+              font-size: 14px;
+            }
           }
         }
         .colors-squares {
@@ -115,6 +135,9 @@
           font-size: 18px;
           line-height: 120%;
           color: $small_text_color;
+          @media (max-width: 760px) {
+            font-size: 14px;
+          }
         }
         &:hover {
           cursor: pointer;
@@ -130,6 +153,10 @@
       width: 100%;
       padding-bottom: 20px;
 
+      @media (max-width: 760px) {
+        margin-bottom: 24px;
+      }
+
       .slider-labels {
         display: flex;
         justify-content: space-between;
@@ -139,6 +166,9 @@
         font-size: 12px;
         left: 24px;
         color: 24px;
+        @media (max-width: 760px) {
+          left: 0;
+        }
         span {
           color: $grey5;
           &::before {
@@ -196,11 +226,21 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        min-width: 165px;
         width: calc(25% - 24px);
         padding: 20px;
         border-radius: 40px;
         border: 1px solid $transparent;
         cursor: pointer;
+        @media (max-width: 760px) {
+          border-radius: 16px;
+          width: 40%;
+          min-width: unset;
+          .usb-box-img {
+            width: 100%;
+            height: auto;
+          }
+        }
         .usb-box-img {
           object-fit: contain;
         }
@@ -209,6 +249,12 @@
           top: -6px;
           right: -6px;
           display: none;
+          @media (max-width: 760px) {
+            width: 24px;
+            height: 24px;
+            top: -3px;
+            right: -3px;
+          }
         }
         &:hover {
           border: 1px solid $grey14;
@@ -239,6 +285,9 @@
         padding: 14px 19px;
         border-radius: 10px;
         user-select: none;
+        @media (max-width: 760px) {
+          width: 100%;
+        }
         &.active {
           border-color: $main-color;
           span {
@@ -250,6 +299,9 @@
           font-size: 18px;
           line-height: 120%;
           color: $small_text_color;
+          @media (max-width: 760px) {
+            font-size: 14px;
+          }
         }
         &:hover {
           cursor: pointer;
@@ -279,6 +331,9 @@
         padding: 14px 19px;
         border-radius: 10px;
         user-select: none;
+        @media (max-width: 760px) {
+          width: 100%;
+        }
         &.active {
           border-color: $main-color;
           span {
@@ -290,6 +345,9 @@
           font-size: 18px;
           line-height: 120%;
           color: $small_text_color;
+          @media (max-width: 760px) {
+            font-size: 14px;
+          }
         }
         &:hover {
           cursor: pointer;
@@ -303,10 +361,129 @@
   }
 
   .usb-summary-box {
+    max-width: 440px;
+    @media (max-width: 991px) {
+      max-width: unset;
+    }
     .aside-box-wrapper {
       position: sticky;
       top: 16px;
       background-color: $white;
+      border: 1px solid $grey14;
+    }
+    &__title {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 24px 0;
+      text-align: center;
+      border-bottom: 1px solid $grey14;
+      p {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 140%;
+        text-transform: uppercase;
+        color: $small_text_color;
+        margin: 0;
+        @media (max-width: 760px) {
+          font-size: 18px;
+        }
+      }
+    }
+    &__usb-quantity,
+    &__usb-price,
+    &__usb-availability,
+    &__usb-branding,
+    &__usb-comments {
+      padding: 18px 24px;
+      border-bottom: 1px solid $grey5;
+      margin: 0 24px;
+      @media (max-width: 760px) {
+        padding: 16px 12px;
+        margin: 0 8px;
+      }
+      .subtitle {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 160%;
+        color: $small_text_color;
+        margin-bottom: 8px;
+        span.blue {
+          color: #219af2;
+        }
+        @media (max-width: 760px) {
+          font-size: 16px;
+        }
+      }
+      small {
+        display: flex;
+        font-size: 14px;
+        color: $small_text_color;
+        @media (max-width: 760px) {
+          display: inline-flex;
+          width: 100%;
+        }
+        span.green {
+          display: inline-flex;
+          margin: 0 4px;
+          font-size: 16px;
+          font-weight: 700;
+          color: #00ba28;
+        }
+        s.red {
+          display: inline-flex;
+          margin: 0 4px;
+          font-size: 14px;
+          font-weight: 700;
+          color: #ff0000;
+        }
+      }
+      .quantity {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 160%;
+        color: $main-color-second;
+        margin-bottom: 0;
+        @media (max-width: 760px) {
+          font-size: 16px;
+        }
+      }
+    }
+    &__usb-comments {
+      border-bottom: 0;
+      background-color: #ffc8c8;
+      margin: 24px 24px 0 24px;
+      @media (max-width: 760px) {
+        margin: 8px;
+      }
+      .usb-comments-box {
+        display: flex;
+        gap: 18px;
+        &__text {
+          p {
+            margin: 0;
+            @media (max-width: 760px) {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+    &__button {
+      margin: 0 24px 24px 24px;
+      width: 100%;
+      @media (max-width: 760px) {
+        margin: 8px;
+      }
+      a {
+        width: calc(100% - 48px);
+        @media (max-width: 760px) {
+          width: calc(100% - 16px);
+        }
+        &:hover img {
+          content: url(./../assets/icons/common/buttons/button_pink_arrow.svg);
+        }
+      }
     }
   }
 }

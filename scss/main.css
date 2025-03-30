@@ -18523,6 +18523,12 @@ main:has(.shop-creator-wrapper) {
   opacity: 0.8;
 }
 
+@media (max-width: 991px) {
+  .usb-row-grid {
+    flex-direction: column !important;
+  }
+}
+
 .container:has(.usb-title) {
   margin-bottom: 24px;
 }
@@ -18558,6 +18564,11 @@ main:has(.shop-creator-wrapper) {
   justify-content: flex-start !important;
   padding: 40px;
 }
+@media (max-width: 760px) {
+  .usb_container .accordion-body {
+    padding: 16px;
+  }
+}
 .usb_container .accordion-body:has(.usb-big-img) {
   align-items: center;
 }
@@ -18572,6 +18583,12 @@ main:has(.shop-creator-wrapper) {
   width: auto;
   max-width: 440px;
 }
+@media (max-width: 760px) {
+  .usb_container .accordion-body__col .product-wrapper .usb-big-img {
+    max-width: 80vw;
+    height: auto;
+  }
+}
 .usb_container .accordion-body__col .product-wrapper .product-download {
   position: absolute;
   bottom: 16px;
@@ -18583,6 +18600,12 @@ main:has(.shop-creator-wrapper) {
   justify-content: space-between;
   gap: 120px;
 }
+@media (max-width: 760px) {
+  .usb_container .accordion-body .colors-box {
+    flex-direction: column;
+    gap: 24px;
+  }
+}
 .usb_container .accordion-body .colors-box .colors-row .colors-title {
   margin-bottom: 24px;
 }
@@ -18592,6 +18615,11 @@ main:has(.shop-creator-wrapper) {
   line-height: 120%;
   text-transform: uppercase;
   color: #374957;
+}
+@media (max-width: 760px) {
+  .usb_container .accordion-body .colors-box .colors-row .colors-title span {
+    font-size: 14px;
+  }
 }
 .usb_container .accordion-body .colors-box .colors-row .colors-squares .color {
   cursor: pointer;
@@ -18643,6 +18671,11 @@ main:has(.shop-creator-wrapper) {
   line-height: 120%;
   color: #374957;
 }
+@media (max-width: 760px) {
+  .usb_container .accordion-body .usb-size-box__slot span {
+    font-size: 14px;
+  }
+}
 .usb_container .accordion-body .usb-size-box__slot:hover {
   cursor: pointer;
   border-color: #e6007e;
@@ -18655,6 +18688,11 @@ main:has(.shop-creator-wrapper) {
   width: 100%;
   padding-bottom: 20px;
 }
+@media (max-width: 760px) {
+  .usb_container .accordion-body .usb-slider-container {
+    margin-bottom: 24px;
+  }
+}
 .usb_container .accordion-body .usb-slider-container .slider-labels {
   display: flex;
   justify-content: space-between;
@@ -18664,6 +18702,11 @@ main:has(.shop-creator-wrapper) {
   font-size: 12px;
   left: 24px;
   color: 24px;
+}
+@media (max-width: 760px) {
+  .usb_container .accordion-body .usb-slider-container .slider-labels {
+    left: 0;
+  }
 }
 .usb_container .accordion-body .usb-slider-container .slider-labels span {
   color: #8a8a8a;
@@ -18722,11 +18765,23 @@ main:has(.shop-creator-wrapper) {
   display: flex;
   justify-content: center;
   align-items: center;
+  min-width: 165px;
   width: calc(25% - 24px);
   padding: 20px;
   border-radius: 40px;
   border: 1px solid rgba(255, 255, 255, 0);
   cursor: pointer;
+}
+@media (max-width: 760px) {
+  .usb_container .accordion-body .usb-img-box__slot {
+    border-radius: 16px;
+    width: 40%;
+    min-width: unset;
+  }
+  .usb_container .accordion-body .usb-img-box__slot .usb-box-img {
+    width: 100%;
+    height: auto;
+  }
 }
 .usb_container .accordion-body .usb-img-box__slot .usb-box-img {
   -o-object-fit: contain;
@@ -18737,6 +18792,14 @@ main:has(.shop-creator-wrapper) {
   top: -6px;
   right: -6px;
   display: none;
+}
+@media (max-width: 760px) {
+  .usb_container .accordion-body .usb-img-box__slot .check-icon {
+    width: 24px;
+    height: 24px;
+    top: -3px;
+    right: -3px;
+  }
 }
 .usb_container .accordion-body .usb-img-box__slot:hover {
   border: 1px solid #dedede;
@@ -18769,6 +18832,11 @@ main:has(.shop-creator-wrapper) {
      -moz-user-select: none;
           user-select: none;
 }
+@media (max-width: 760px) {
+  .usb_container .accordion-body .usb-branding-box-first-type__slot {
+    width: 100%;
+  }
+}
 .usb_container .accordion-body .usb-branding-box-first-type__slot.active {
   border-color: #e6007e;
 }
@@ -18780,6 +18848,11 @@ main:has(.shop-creator-wrapper) {
   font-size: 18px;
   line-height: 120%;
   color: #374957;
+}
+@media (max-width: 760px) {
+  .usb_container .accordion-body .usb-branding-box-first-type__slot span {
+    font-size: 14px;
+  }
 }
 .usb_container .accordion-body .usb-branding-box-first-type__slot:hover {
   cursor: pointer;
@@ -18812,6 +18885,11 @@ main:has(.shop-creator-wrapper) {
      -moz-user-select: none;
           user-select: none;
 }
+@media (max-width: 760px) {
+  .usb_container .accordion-body .usb-branding-box-second-type__slot {
+    width: 100%;
+  }
+}
 .usb_container .accordion-body .usb-branding-box-second-type__slot.active {
   border-color: #e6007e;
 }
@@ -18824,6 +18902,11 @@ main:has(.shop-creator-wrapper) {
   line-height: 120%;
   color: #374957;
 }
+@media (max-width: 760px) {
+  .usb_container .accordion-body .usb-branding-box-second-type__slot span {
+    font-size: 14px;
+  }
+}
 .usb_container .accordion-body .usb-branding-box-second-type__slot:hover {
   cursor: pointer;
   border-color: #e6007e;
@@ -18831,8 +18914,143 @@ main:has(.shop-creator-wrapper) {
 .usb_container .accordion-body .usb-branding-box-second-type__slot:hover span {
   color: #e6007e;
 }
+.usb_container .usb-summary-box {
+  max-width: 440px;
+}
+@media (max-width: 991px) {
+  .usb_container .usb-summary-box {
+    max-width: unset;
+  }
+}
 .usb_container .usb-summary-box .aside-box-wrapper {
   position: sticky;
   top: 16px;
   background-color: #ffffff;
+  border: 1px solid #dedede;
+}
+.usb_container .usb-summary-box__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 0;
+  text-align: center;
+  border-bottom: 1px solid #dedede;
+}
+.usb_container .usb-summary-box__title p {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 140%;
+  text-transform: uppercase;
+  color: #374957;
+  margin: 0;
+}
+@media (max-width: 760px) {
+  .usb_container .usb-summary-box__title p {
+    font-size: 18px;
+  }
+}
+.usb_container .usb-summary-box__usb-quantity, .usb_container .usb-summary-box__usb-price, .usb_container .usb-summary-box__usb-availability, .usb_container .usb-summary-box__usb-branding, .usb_container .usb-summary-box__usb-comments {
+  padding: 18px 24px;
+  border-bottom: 1px solid #8a8a8a;
+  margin: 0 24px;
+}
+@media (max-width: 760px) {
+  .usb_container .usb-summary-box__usb-quantity, .usb_container .usb-summary-box__usb-price, .usb_container .usb-summary-box__usb-availability, .usb_container .usb-summary-box__usb-branding, .usb_container .usb-summary-box__usb-comments {
+    padding: 16px 12px;
+    margin: 0 8px;
+  }
+}
+.usb_container .usb-summary-box__usb-quantity .subtitle, .usb_container .usb-summary-box__usb-price .subtitle, .usb_container .usb-summary-box__usb-availability .subtitle, .usb_container .usb-summary-box__usb-branding .subtitle, .usb_container .usb-summary-box__usb-comments .subtitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 160%;
+  color: #374957;
+  margin-bottom: 8px;
+}
+.usb_container .usb-summary-box__usb-quantity .subtitle span.blue, .usb_container .usb-summary-box__usb-price .subtitle span.blue, .usb_container .usb-summary-box__usb-availability .subtitle span.blue, .usb_container .usb-summary-box__usb-branding .subtitle span.blue, .usb_container .usb-summary-box__usb-comments .subtitle span.blue {
+  color: #219af2;
+}
+@media (max-width: 760px) {
+  .usb_container .usb-summary-box__usb-quantity .subtitle, .usb_container .usb-summary-box__usb-price .subtitle, .usb_container .usb-summary-box__usb-availability .subtitle, .usb_container .usb-summary-box__usb-branding .subtitle, .usb_container .usb-summary-box__usb-comments .subtitle {
+    font-size: 16px;
+  }
+}
+.usb_container .usb-summary-box__usb-quantity small, .usb_container .usb-summary-box__usb-price small, .usb_container .usb-summary-box__usb-availability small, .usb_container .usb-summary-box__usb-branding small, .usb_container .usb-summary-box__usb-comments small {
+  display: flex;
+  font-size: 14px;
+  color: #374957;
+}
+@media (max-width: 760px) {
+  .usb_container .usb-summary-box__usb-quantity small, .usb_container .usb-summary-box__usb-price small, .usb_container .usb-summary-box__usb-availability small, .usb_container .usb-summary-box__usb-branding small, .usb_container .usb-summary-box__usb-comments small {
+    display: inline-flex;
+    width: 100%;
+  }
+}
+.usb_container .usb-summary-box__usb-quantity small span.green, .usb_container .usb-summary-box__usb-price small span.green, .usb_container .usb-summary-box__usb-availability small span.green, .usb_container .usb-summary-box__usb-branding small span.green, .usb_container .usb-summary-box__usb-comments small span.green {
+  display: inline-flex;
+  margin: 0 4px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #00ba28;
+}
+.usb_container .usb-summary-box__usb-quantity small s.red, .usb_container .usb-summary-box__usb-price small s.red, .usb_container .usb-summary-box__usb-availability small s.red, .usb_container .usb-summary-box__usb-branding small s.red, .usb_container .usb-summary-box__usb-comments small s.red {
+  display: inline-flex;
+  margin: 0 4px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #ff0000;
+}
+.usb_container .usb-summary-box__usb-quantity .quantity, .usb_container .usb-summary-box__usb-price .quantity, .usb_container .usb-summary-box__usb-availability .quantity, .usb_container .usb-summary-box__usb-branding .quantity, .usb_container .usb-summary-box__usb-comments .quantity {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 160%;
+  color: #34224f;
+  margin-bottom: 0;
+}
+@media (max-width: 760px) {
+  .usb_container .usb-summary-box__usb-quantity .quantity, .usb_container .usb-summary-box__usb-price .quantity, .usb_container .usb-summary-box__usb-availability .quantity, .usb_container .usb-summary-box__usb-branding .quantity, .usb_container .usb-summary-box__usb-comments .quantity {
+    font-size: 16px;
+  }
+}
+.usb_container .usb-summary-box__usb-comments {
+  border-bottom: 0;
+  background-color: #ffc8c8;
+  margin: 24px 24px 0 24px;
+}
+@media (max-width: 760px) {
+  .usb_container .usb-summary-box__usb-comments {
+    margin: 8px;
+  }
+}
+.usb_container .usb-summary-box__usb-comments .usb-comments-box {
+  display: flex;
+  gap: 18px;
+}
+.usb_container .usb-summary-box__usb-comments .usb-comments-box__text p {
+  margin: 0;
+}
+@media (max-width: 760px) {
+  .usb_container .usb-summary-box__usb-comments .usb-comments-box__text p {
+    font-size: 14px;
+  }
+}
+.usb_container .usb-summary-box__button {
+  margin: 0 24px 24px 24px;
+  width: 100%;
+}
+@media (max-width: 760px) {
+  .usb_container .usb-summary-box__button {
+    margin: 8px;
+  }
+}
+.usb_container .usb-summary-box__button a {
+  width: calc(100% - 48px);
+}
+@media (max-width: 760px) {
+  .usb_container .usb-summary-box__button a {
+    width: calc(100% - 16px);
+  }
+}
+.usb_container .usb-summary-box__button a:hover img {
+  content: url(./../assets/icons/common/buttons/button_pink_arrow.svg);
 }/*# sourceMappingURL=main.css.map */
