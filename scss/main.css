@@ -18523,7 +18523,10 @@ main:has(.shop-creator-wrapper) {
   opacity: 0.8;
 }
 
-@media (max-width: 991px) {
+.usb-row-grid .white-btn {
+  margin-bottom: 24px;
+}
+@media (max-width: 1180px) {
   .usb-row-grid {
     flex-direction: column !important;
   }
@@ -18564,6 +18567,11 @@ main:has(.shop-creator-wrapper) {
   justify-content: flex-start !important;
   padding: 40px;
 }
+@media (max-width: 1240px) {
+  .usb_container .accordion-body {
+    flex-direction: column !important;
+  }
+}
 @media (max-width: 760px) {
   .usb_container .accordion-body {
     padding: 16px;
@@ -18571,6 +18579,11 @@ main:has(.shop-creator-wrapper) {
 }
 .usb_container .accordion-body:has(.usb-big-img) {
   align-items: center;
+}
+@media (max-width: 1400px) {
+  .usb_container .accordion-body:has(.usb-big-img) {
+    flex-direction: column !important;
+  }
 }
 .usb_container .accordion-body__col:has(.usb-big-img) {
   margin-right: 60px;
@@ -18915,11 +18928,15 @@ main:has(.shop-creator-wrapper) {
   color: #e6007e;
 }
 .usb_container .usb-summary-box {
-  max-width: 440px;
+  width: 460px;
+  max-width: 460px;
+  min-width: 457px;
 }
-@media (max-width: 991px) {
+@media (max-width: 1180px) {
   .usb_container .usb-summary-box {
+    min-width: unset;
     max-width: unset;
+    width: 100%;
   }
 }
 .usb_container .usb-summary-box .aside-box-wrapper {
@@ -19034,6 +19051,43 @@ main:has(.shop-creator-wrapper) {
     font-size: 14px;
   }
 }
+.usb_container .usb-summary-box__pay {
+  margin: 0 24px 24px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.usb_container .usb-summary-box__pay .pay-text {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 160%;
+  text-align: center;
+  color: #374957;
+  margin: 23px 0 0 0;
+}
+.usb_container .usb-summary-box__pay .brutto-value {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 177%;
+  text-align: center;
+  color: #e6007e;
+  margin: 0;
+}
+.usb_container .usb-summary-box__pay .brutto-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  text-align: center;
+  color: #8a8a8a;
+  margin: 0 0 -16px 0;
+}
+@media (max-width: 760px) {
+  .usb_container .usb-summary-box__pay {
+    margin: 8px;
+  }
+}
 .usb_container .usb-summary-box__button {
   margin: 0 24px 24px 24px;
   width: 100%;
@@ -19053,4 +19107,114 @@ main:has(.shop-creator-wrapper) {
 }
 .usb_container .usb-summary-box__button a:hover img {
   content: url(./../assets/icons/common/buttons/button_pink_arrow.svg);
+}
+
+.usb-finally-box {
+  background-color: #ffffff;
+  padding: 55px 45px;
+  margin-right: 24px;
+}
+@media (max-width: 1180px) {
+  .usb-finally-box {
+    margin-right: 0;
+    padding: 16px;
+  }
+}
+.usb-finally-box .usb-chosen-box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 220px;
+  width: 220px;
+  padding: 20px;
+  border-radius: 40px;
+  border: 1px solid #dedede;
+  height: -moz-max-content;
+  height: max-content;
+}
+.usb-finally-box .usb-chosen-box .usb-chosen-img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 24px;
+  width: 100%;
+}
+.usb-finally-box .usb-chosen-box .check-icon {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  display: block;
+}
+@media (max-width: 760px) {
+  .usb-finally-box .usb-chosen-box .check-icon {
+    width: 24px;
+    height: 24px;
+    top: -3px;
+    right: -3px;
+  }
+}
+@media (max-width: 760px) {
+  .usb-finally-box .usb-chosen-box {
+    border-radius: 16px;
+    width: 220px;
+    height: 220px;
+    min-width: unset;
+  }
+  .usb-finally-box .usb-chosen-box .usb-chosen-img {
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+  }
+}
+.usb-finally-box__top {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  margin-bottom: 44px;
+}
+@media (max-width: 760px) {
+  .usb-finally-box__top {
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 24px;
+  }
+  .usb-finally-box__top .usb-chosen-box {
+    width: 220px;
+    height: auto;
+  }
+}
+.usb-finally-box__top .usb-info-text h2 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 120%;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+@media (max-width: 760px) {
+  .usb-finally-box__top .usb-info-text h2 {
+    font-size: 22px;
+  }
+}
+.usb-finally-box__top .usb-info-text p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+}
+@media (max-width: 760px) {
+  .usb-finally-box__top .usb-info-text p {
+    font-size: 14px;
+  }
+}
+.usb-finally-box__bottom .usb-chosen-types {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.usb-finally-box__bottom .usb-chosen-types__slot .usb-chosen-text {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120%;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  color: #374957;
 }/*# sourceMappingURL=main.css.map */

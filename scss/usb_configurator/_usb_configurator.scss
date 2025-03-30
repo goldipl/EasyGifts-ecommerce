@@ -1,5 +1,8 @@
 .usb-row-grid {
-  @media (max-width: 991px) {
+  .white-btn {
+    margin-bottom: 24px;
+  }
+  @media (max-width: 1180px) {
     flex-direction: column !important;
   }
 }
@@ -36,11 +39,17 @@
   .accordion-body {
     justify-content: flex-start !important;
     padding: 40px;
+    @media (max-width: 1240px) {
+      flex-direction: column !important;
+    }
     @media (max-width: 760px) {
       padding: 16px;
     }
     &:has(.usb-big-img) {
       align-items: center;
+      @media (max-width: 1400px) {
+        flex-direction: column !important;
+      }
     }
     &__col {
       &:has(.usb-big-img) {
@@ -361,9 +370,13 @@
   }
 
   .usb-summary-box {
-    max-width: 440px;
-    @media (max-width: 991px) {
+    width: 460px;
+    max-width: 460px;
+    min-width: 457px;
+    @media (max-width: 1180px) {
+      min-width: unset;
       max-width: unset;
+      width: 100%;
     }
     .aside-box-wrapper {
       position: sticky;
@@ -467,6 +480,41 @@
             }
           }
         }
+      }
+    }
+    &__pay {
+      margin: 0 24px 24px 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+      .pay-text {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 160%;
+        text-align: center;
+        color: $small_text_color;
+        margin: 23px 0 0 0;
+      }
+      .brutto-value {
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 177%;
+        text-align: center;
+        color: $main-color;
+        margin: 0;
+      }
+      .brutto-text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 160%;
+        text-align: center;
+        color: $grey5;
+        margin: 0 0 -16px 0;
+      }
+      @media (max-width: 760px) {
+        margin: 8px;
       }
     }
     &__button {

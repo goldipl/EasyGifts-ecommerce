@@ -337,8 +337,3 @@
         </div>
     </div>
 </div>
-<script>
-    function toggleChecked(e) {
-        e.classList.toggle("checked");
-    }
-</script>
