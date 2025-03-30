@@ -18549,4 +18549,290 @@ main:has(.shop-creator-wrapper) {
   .usb-title .title {
     font-size: 24px;
   }
+}
+
+.usb_container .accordion-button {
+  pointer-events: none;
+}
+.usb_container .accordion-body {
+  justify-content: flex-start !important;
+  padding: 40px;
+}
+.usb_container .accordion-body:has(.usb-big-img) {
+  align-items: center;
+}
+.usb_container .accordion-body__col:has(.usb-big-img) {
+  margin-right: 60px;
+}
+.usb_container .accordion-body__col .product-wrapper {
+  position: relative;
+}
+.usb_container .accordion-body__col .product-wrapper .usb-big-img {
+  height: 310px;
+  width: auto;
+  max-width: 440px;
+}
+.usb_container .accordion-body__col .product-wrapper .product-download {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+}
+.usb_container .accordion-body .colors-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 120px;
+}
+.usb_container .accordion-body .colors-box .colors-row .colors-title {
+  margin-bottom: 24px;
+}
+.usb_container .accordion-body .colors-box .colors-row .colors-title span {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #374957;
+}
+.usb_container .accordion-body .colors-box .colors-row .colors-squares .color {
+  cursor: pointer;
+  border-radius: 100%;
+}
+.usb_container .accordion-body .colors-box .colors-row .colors-squares .color.checked {
+  outline: 1px solid #000000;
+  background-image: url(./../assets/icons/product_page/checked.svg);
+  background-size: 15px 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.usb_container .accordion-body .colors-box .colors-row .colors-squares .color:hover {
+  outline: 1px solid #000000;
+}
+.usb_container .accordion-body .usb-size-box {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+.usb_container .accordion-body .usb-size-box__slot {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #8a8a8a;
+  height: 50px;
+  min-width: 124px;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 14px 19px;
+  border-radius: 10px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.usb_container .accordion-body .usb-size-box__slot.active {
+  border-color: #e6007e;
+}
+.usb_container .accordion-body .usb-size-box__slot.active span {
+  color: #e6007e;
+}
+.usb_container .accordion-body .usb-size-box__slot span {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120%;
+  color: #374957;
+}
+.usb_container .accordion-body .usb-size-box__slot:hover {
+  cursor: pointer;
+  border-color: #e6007e;
+}
+.usb_container .accordion-body .usb-size-box__slot:hover span {
+  color: #e6007e;
+}
+.usb_container .accordion-body .usb-slider-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 20px;
+}
+.usb_container .accordion-body .usb-slider-container .slider-labels {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: absolute;
+  bottom: -20px;
+  font-size: 12px;
+  left: 24px;
+  color: 24px;
+}
+.usb_container .accordion-body .usb-slider-container .slider-labels span {
+  color: #8a8a8a;
+}
+.usb_container .accordion-body .usb-slider-container .slider-labels span::before {
+  position: relative;
+  left: 4px;
+  display: block;
+  content: "|";
+  color: #8a8a8a;
+}
+.usb_container .accordion-body .usb-slider-container .slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 20px;
+  background: #e7e7e7;
+  border: 1px solid #34224f;
+  outline: none;
+  opacity: 0.9;
+  transition: opacity 0.15s ease-in-out;
+}
+.usb_container .accordion-body .usb-slider-container .slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 23px;
+  height: 41px;
+  background: #e6007e;
+  cursor: pointer;
+}
+@media (max-width: 991px) {
+  .usb_container .accordion-body .usb-slider-container .slider::-webkit-slider-thumb {
+    width: 9px;
+  }
+}
+.usb_container .accordion-body .usb-slider-container .slider::-moz-range-thumb {
+  width: 23px;
+  height: 41px;
+  background: #e6007e;
+  cursor: pointer;
+}
+@media (max-width: 991px) {
+  .usb_container .accordion-body .usb-slider-container .slider::-moz-range-thumb {
+    width: 9px;
+  }
+}
+.usb_container .accordion-body .usb-img-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.usb_container .accordion-body .usb-img-box__slot {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(25% - 24px);
+  padding: 20px;
+  border-radius: 40px;
+  border: 1px solid rgba(255, 255, 255, 0);
+  cursor: pointer;
+}
+.usb_container .accordion-body .usb-img-box__slot .usb-box-img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.usb_container .accordion-body .usb-img-box__slot .check-icon {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  display: none;
+}
+.usb_container .accordion-body .usb-img-box__slot:hover {
+  border: 1px solid #dedede;
+}
+.usb_container .accordion-body .usb-img-box__slot.active {
+  border: 1px solid #dedede;
+}
+.usb_container .accordion-body .usb-img-box__slot.active .check-icon {
+  display: block;
+}
+.usb_container .accordion-body .usb-branding-box-first-type {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+.usb_container .accordion-body .usb-branding-box-first-type__slot {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #8a8a8a;
+  height: 50px;
+  width: calc(50% - 20px);
+  padding: 14px 19px;
+  border-radius: 10px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.usb_container .accordion-body .usb-branding-box-first-type__slot.active {
+  border-color: #e6007e;
+}
+.usb_container .accordion-body .usb-branding-box-first-type__slot.active span {
+  color: #e6007e;
+}
+.usb_container .accordion-body .usb-branding-box-first-type__slot span {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120%;
+  color: #374957;
+}
+.usb_container .accordion-body .usb-branding-box-first-type__slot:hover {
+  cursor: pointer;
+  border-color: #e6007e;
+}
+.usb_container .accordion-body .usb-branding-box-first-type__slot:hover span {
+  color: #e6007e;
+}
+.usb_container .accordion-body .usb-branding-box-second-type {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+.usb_container .accordion-body .usb-branding-box-second-type__slot {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #8a8a8a;
+  height: 50px;
+  min-width: 124px;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 14px 19px;
+  border-radius: 10px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.usb_container .accordion-body .usb-branding-box-second-type__slot.active {
+  border-color: #e6007e;
+}
+.usb_container .accordion-body .usb-branding-box-second-type__slot.active span {
+  color: #e6007e;
+}
+.usb_container .accordion-body .usb-branding-box-second-type__slot span {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120%;
+  color: #374957;
+}
+.usb_container .accordion-body .usb-branding-box-second-type__slot:hover {
+  cursor: pointer;
+  border-color: #e6007e;
+}
+.usb_container .accordion-body .usb-branding-box-second-type__slot:hover span {
+  color: #e6007e;
+}
+.usb_container .usb-summary-box .aside-box-wrapper {
+  position: sticky;
+  top: 16px;
+  background-color: #ffffff;
 }/*# sourceMappingURL=main.css.map */
