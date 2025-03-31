@@ -31,10 +31,14 @@
           }
         }
         .colors-btn {
-          display: flex;
+          display: inline-flex;
           flex-direction: row;
           justify-content: flex-start;
           align-items: flex-start;
+          width: max-content;
+          a {
+            margin-top: 36px;
+          }
         }
         span.code {
           float: left;

@@ -6845,10 +6845,18 @@ label.add-files:focus, label.add-files:hover {
 .calculator_container .cart-table_box .cart-products-table .add-qtys .colors-btn,
 .negotiator_container .cart-table_box .cart-products-table .add-qtys .colors-btn,
 .usb_container .cart-table_box .cart-products-table .add-qtys .colors-btn {
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
+  width: -moz-max-content;
+  width: max-content;
+}
+.cart_container .cart-table_box .cart-products-table .add-qtys .colors-btn a,
+.calculator_container .cart-table_box .cart-products-table .add-qtys .colors-btn a,
+.negotiator_container .cart-table_box .cart-products-table .add-qtys .colors-btn a,
+.usb_container .cart-table_box .cart-products-table .add-qtys .colors-btn a {
+  margin-top: 36px;
 }
 .cart_container .cart-table_box .cart-products-table .add-qtys span.code,
 .calculator_container .cart-table_box .cart-products-table .add-qtys span.code,
