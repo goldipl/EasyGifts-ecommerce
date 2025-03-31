@@ -137,15 +137,31 @@
             <p>Cena katalogowa<span>7,56 PLN</span></p>
         </div>
         <div class="product-price-box">
+            <div class="product-price-box_top">
+                <div class="product-price-box_top__left">
+                    <div class="catalog-price">
+                        <span>Cena katalogowa <p>2,88 PLN</p>
+                        </span>
+                    </div>
+                    <div class="your-price">
+                        <span>Twoja cena <p>2,55 PLN</p>
+                        </span>
+                    </div>
+                </div>
+                <a href="" class="product-price-box_top__right">
+                    <img src="./assets/icons/product_page/calculator.svg" alt="calc icon">
+                    <p>Kalkulator</p>
+                </a>
+            </div>
             <div class="product-price-box_bottom">
                 <div class="product-price-box_bottom__left">
-                    <a href="">
-                        <span class="check-price">Zaloguj się aby sprawdzić cenę</span>
-                    </a>
+                    <span>Cena promocyjna <p>1,88 PLN</p>
+                    </span>
+                    <p class="minimal-quantity">Minimalna ilość: 500 szt.</p>
                 </div>
                 <button class="product-price-box_bottom__right">
-                    <p>Do koszyka</p>
-                    <img src="./assets/icons/product_page/cart.svg" alt="cart icon" width="26" height="26">
+                    <img src="./assets/icons/product_page/cart.svg" alt="cart icon">
+                    <p>Dodaj do koszyka</p>
                 </button>
             </div>
         </div>
