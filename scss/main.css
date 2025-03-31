@@ -17842,6 +17842,42 @@ main:has(.shop-creator-wrapper) {
     padding: 18px;
   }
 }
+.shop-creator-wrapper .shopcreator-content.step-three input.flag-input {
+  padding: 0 16px 0 40px !important;
+}
+.shop-creator-wrapper .shopcreator-content.step-three textarea.flag-textarea {
+  padding: 10px 16px 16px 40px !important;
+}
+.shop-creator-wrapper .shopcreator-content.step-three .en-input-box {
+  position: relative;
+}
+.shop-creator-wrapper .shopcreator-content.step-three .en-input-box::before {
+  position: absolute;
+  top: 20px;
+  left: 6px;
+  content: "";
+  display: block;
+  width: 24px;
+  height: 16px;
+  background: url("./../assets/img/common/topbar/EN-flag.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.shop-creator-wrapper .shopcreator-content.step-three .pl-input-box {
+  position: relative;
+}
+.shop-creator-wrapper .shopcreator-content.step-three .pl-input-box::before {
+  position: absolute;
+  top: 20px;
+  left: 6px;
+  content: "";
+  display: block;
+  width: 24px;
+  height: 16px;
+  background: url("./../assets/img/common/topbar/PL-flag.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 .shop-creator-wrapper .shopcreator-content .greybox div.english_version {
   margin: 35px 0 0 0;
 }

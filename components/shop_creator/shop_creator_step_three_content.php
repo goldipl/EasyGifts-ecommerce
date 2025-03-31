@@ -1,4 +1,4 @@
-<form class="shopcreator-content container">
+<form class="shopcreator-content container step-three">
   <h3>Wprowadź dane teleadresowe Twojej firmy.</h3>
   <div class="textbox">
     <p>Pojawią się one jako wizytówka firmy w stopce strony.</p>
@@ -6,16 +6,24 @@
   <div class="shopcreator-labels d-flex flex-row flex-wrap gap-3">
     <div class="d-flex flex-column label-box">
       <label for="shop-name">Nazwa sklepu/katalogu lub firmy</label>
-      <input class="form-input" type="text" name="shop-name" id="shop-name-pl" placeholder="🇵🇱 Gadżety reklamowe">
-      <input class="form-input" type="text" name="shop-name" id="shop-name-en" placeholder="🇬🇧 Promotional gifts">
+      <div class="pl-input-box">
+        <input class="form-input flag-input pl-flag" type="text" name="shop-name" id="shop-name-pl" placeholder="Gadżety reklamowe">
+      </div>
+      <div class="en-input-box">
+        <input class="form-input flag-input en-flag" type="text" name="shop-name" id="shop-name-en" placeholder="Promotional gifts">
+      </div>
     </div>
   </div>
   <div class="shopcreator-labels d-flex flex-row flex-wrap gap-3">
     <div class="d-flex flex-column label-box">
       <label for="shop-desc">Opis Firmy (PL):</label>
-      <textarea class="form-textarea" name="shop-desc" id="shop-desc-pl" placeholder="🇵🇱"></textarea>
+      <div class="pl-input-box">
+        <textarea class="form-textarea flag-textarea pl-flag" name="shop-desc" id="shop-desc-pl" ></textarea>
+      </div>
       <label for="shop-desc">Opis Firmy (EN):</label>
-      <textarea class="form-textarea" name="shop-desc" id="shop-desc-en" placeholder="🇬🇧"></textarea>
+      <div class="en-input-box">
+        <textarea class="form-textarea flag-textarea en-flag" name="shop-desc" id="shop-desc-en" ></textarea>
+      </div>      
       <p>Opis firmy lub sklepu. Będzie widoczny w sklepie no-name w zakładce “Kontakt” oraz jako opis strony podczasudostępniania jej np. w mediach społecznościowych.</p>
     </div>
     <div class="d-flex flex-column label-box">
@@ -25,9 +33,13 @@
     </div>
     <div class="d-flex flex-column label-box">
       <label for="shop-contactdata">Dane kontaktowe (PL):</label>
-      <textarea class="form-textarea" name="shop-contactdata-pl" id="shop-contactdata" placeholder="🇵🇱"></textarea>
+      <div class="pl-input-box">
+        <textarea class="form-textarea flag-textarea pl-flag" name="shop-contactdata-pl" id="shop-contactdata" ></textarea>
+      </div>     
       <label for="shop-contactdata">Dane kontaktowe (EN):</label>
-      <textarea class="form-textarea" name="shop-contactdata-en" id="shop-contactdata" placeholder="🇬🇧"></textarea>
+      <div class="en-input-box">
+        <textarea class="form-textarea flag-textarea en-flag" name="shop-contactdata-en" id="shop-contactdata" ></textarea>
+      </div>  
       <p>Dane teleadresowe firmy. Wpisane dane będą widoczne na stronie głównej oraz w stopce w mailach automatycznych,które będą otrzymywać Twoi klienci po wysłaniu zapytania lub złożeniu zamówienia (tylko dla sklepów internetowych).</p>
     </div>
     <div class="d-flex flex-column label-box">
