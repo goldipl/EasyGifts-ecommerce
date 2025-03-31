@@ -50,10 +50,14 @@
                       </div>
                       <div class="cart-delivery__col">
                         <h3>Znakowanie:</h3>
+                        <p><strong>Pierwszy logotyp:</strong></p>
                         <p>L0 (grawer laserowy)</p>
-                        <p>Logotyp: 1</p>
                         <p>Miejsca: 1</p>
                         <p>Kolory: 1</p>
+                        <p><strong>Drugi logotyp:</strong></p>
+                        <p>S2 (sitodruk)</p>
+                        <p>Miejsca: 1</p>
+                        <p>Kolory: Full color</p>
                       </div>
                       <div class="cart-delivery__col">
                         <h3>Ilość: 100</h3>
@@ -114,10 +118,14 @@
                       </div>
                       <div class="cart-delivery__col">
                         <h3>Znakowanie:</h3>
+                        <p><strong>Pierwszy logotyp:</strong></p>
                         <p>L0 (grawer laserowy)</p>
-                        <p>Logotyp: 1</p>
                         <p>Miejsca: 1</p>
                         <p>Kolory: 1</p>
+                        <p><strong>Drugi logotyp:</strong></p>
+                        <p>S2 (sitodruk)</p>
+                        <p>Miejsca: 1</p>
+                        <p>Kolory: Full color</p>
                       </div>
                       <div class="cart-delivery__col">
                         <h3>Ilość: 100</h3>
