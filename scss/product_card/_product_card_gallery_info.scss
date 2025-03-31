@@ -30,6 +30,10 @@
     display: flex;
     width: 50%;
 
+    .swiper-zoom-container {
+      overflow: hidden;
+    }
+
     /* top gallery */
     .gallery {
       display: flex;

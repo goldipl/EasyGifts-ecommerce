@@ -5382,6 +5382,9 @@ label.add-files:focus, label.add-files:hover {
   /* thumbs */
   /* buttons */
 }
+.product_card_gallery_info .product-gallery .swiper-zoom-container {
+  overflow: hidden;
+}
 .product_card_gallery_info .product-gallery .gallery {
   display: flex;
   justify-content: center;
@@ -17377,6 +17380,12 @@ main.grey-background {
 }
 .catalogs-container .catalogs-wrapper_col.video-slot .catalogs-wrapper_col_top {
   height: auto;
+}
+@media (max-width: 640px) {
+  .catalogs-container .catalogs-wrapper_col.video-slot .catalogs-wrapper_col_top iframe {
+    width: 100%;
+    margin-bottom: 24px;
+  }
 }
 .catalogs-container .catalogs-wrapper_col:nth-of-type(2n) {
   width: 50%;
