@@ -49,7 +49,7 @@
                         <p>5. Banery</p>
                     </div>
                     <div class="common-steps-container-slot">
-                        <p class="active">6. Klauzula</p>
+                        <p class="active">6. Dokumenty</p>
                     </div>
                     <div class="common-steps-container-slot">
                         <p>7. Finalizacja</p>
