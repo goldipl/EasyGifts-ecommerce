@@ -103,10 +103,14 @@
           }
         }
         .colors-btn {
-          display: flex;
+          display: inline-flex;
+          width: max-content;
           flex-direction: row;
           justify-content: flex-start;
           align-items: flex-start;
+          a {
+            margin-top: 36px;
+          }
         }
         span.code {
           float: left;

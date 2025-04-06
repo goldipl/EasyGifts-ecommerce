@@ -12691,10 +12691,15 @@ label.add-files:focus, label.add-files:hover {
   width: 120px;
 }
 .offertspage_container .offertspage-table_box .offertspage-products-table .add-qtys .colors-btn {
-  display: flex;
+  display: inline-flex;
+  width: -moz-max-content;
+  width: max-content;
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
+}
+.offertspage_container .offertspage-table_box .offertspage-products-table .add-qtys .colors-btn a {
+  margin-top: 36px;
 }
 .offertspage_container .offertspage-table_box .offertspage-products-table .add-qtys span.code {
   float: left;
