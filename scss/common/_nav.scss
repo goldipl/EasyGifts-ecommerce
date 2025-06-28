@@ -232,6 +232,28 @@ nav {
 @media (min-width: 992px) {
   header {
     height: 184px;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.05);
+    transition: height 0.4s ease;
+    &.fixed-header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 10;
+      background: $white;
+    }
+    &:has(#topbar.page-scroll) {
+      height: 136px;
+    }
+    #topbar {
+      transition: height 0.4s ease;
+      &.page-scroll {
+        height: 32px;
+        .container {
+          height: 32px;
+        }
+      }
+    }
   }
   nav {
     height: 144px;
@@ -247,6 +269,10 @@ nav {
       left: 0;
       display: flex;
       height: 86px;
+      transition: height 0.4s ease;
+      &.page-scroll {
+        height: 70px;
+      }
     }
     .navbar-bottom {
       position: absolute;
@@ -254,6 +280,15 @@ nav {
       left: 0;
       display: flex;
       height: 60px;
+      transition: height 0.4s ease, top 0.4s ease;
+      &.page-scroll {
+        top: 58px;
+        height: 50px;
+        .main-nav-item {
+          height: 42px;
+          transition: height 0.4s ease;
+        }
+      }
       .main-nav-item {
         height: 60px;
       }

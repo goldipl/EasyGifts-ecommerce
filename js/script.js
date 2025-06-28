@@ -19,3 +19,13 @@ const toggleMainWrapperClass = () => {
 }
 
 document.addEventListener('click', toggleMainWrapperClass);
+
+$(window).on('scroll', function() {
+  if ($(window).scrollTop() > 0) {
+    $('#topbar, nav .navbar-top, nav .navbar-bottom').addClass('page-scroll');
+    $('header').addClass('fixed-header');
+  } else {
+    $('#topbar, nav .navbar-top, nav .navbar-bottom').removeClass('page-scroll');
+     $('header').removeClass('fixed-header');
+  }
+});

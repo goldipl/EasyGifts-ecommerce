@@ -56,6 +56,9 @@ body #main-wrapper.opened-menu::after {
   height: 100vh;
   z-index: 9;
 }
+body:has(header.fixed-header) #main-wrapper.opened-menu::after {
+  height: 160vh;
+}
 
 @media (max-width: 1576px) {
   body #main-wrapper.opened-menu::after {
@@ -431,6 +434,28 @@ nav .navbar-bottom .main-nav-item > a.show::after {
 @media (min-width: 992px) {
   header {
     height: 184px;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.05);
+    transition: height 0.4s ease;
+  }
+  header.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    background: #ffffff;
+  }
+  header:has(#topbar.page-scroll) {
+    height: 136px;
+  }
+  header #topbar {
+    transition: height 0.4s ease;
+  }
+  header #topbar.page-scroll {
+    height: 32px;
+  }
+  header #topbar.page-scroll .container {
+    height: 32px;
   }
   nav {
     height: 144px;
@@ -447,6 +472,10 @@ nav .navbar-bottom .main-nav-item > a.show::after {
     left: 0;
     display: flex;
     height: 86px;
+    transition: height 0.4s ease;
+  }
+  nav .navbar-top.page-scroll {
+    height: 70px;
   }
   nav .navbar-bottom {
     position: absolute;
@@ -454,6 +483,15 @@ nav .navbar-bottom .main-nav-item > a.show::after {
     left: 0;
     display: flex;
     height: 60px;
+    transition: height 0.4s ease, top 0.4s ease;
+  }
+  nav .navbar-bottom.page-scroll {
+    top: 58px;
+    height: 50px;
+  }
+  nav .navbar-bottom.page-scroll .main-nav-item {
+    height: 42px;
+    transition: height 0.4s ease;
   }
   nav .navbar-bottom .main-nav-item {
     height: 60px;

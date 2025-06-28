@@ -24,6 +24,13 @@ body {
       z-index: 9;
     }
   }
+  &:has(header.fixed-header) {
+    #main-wrapper {
+      &.opened-menu::after {
+        height: 160vh;
+      }
+    }
+  }
 }
 
 @media (max-width: 1576px) {
