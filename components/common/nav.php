@@ -230,6 +230,51 @@
                                         </ul>
                                     </ul>
                                 </li>
+                                <li class="dropend">
+                                    <a class="dropdown-item" href="#" data-bs-toggle="dropdown">Parasole i płaszcze</a>
+                                    <ul class="dropdown-menu second-lvl-menu">
+                                        <ul class="list-unstyled">
+                                            <li>
+                                                <a class="dropdown-item" href="#"><img src="./assets/icons/common/header/menu/office_accessories.svg" alt="menu icon" width="35" height="35">Parasol 01</a>
+                                            </li>
+                                        </ul>
+                                        <ul class="list-unstyled">
+                                            <li>
+                                                <a class="dropdown-item" href="#"><img src="./assets/icons/common/header/menu/office_accessories.svg" alt="menu icon" width="35" height="35">Parasol 02</a>
+                                            </li>
+                                        </ul>
+                                    </ul>
+                                </li>
+                                <li class="dropend">
+                                    <a class="dropdown-item" href="#" data-bs-toggle="dropdown">Parasole i płaszcze</a>
+                                    <ul class="dropdown-menu second-lvl-menu">
+                                        <ul class="list-unstyled">
+                                            <li>
+                                                <a class="dropdown-item" href="#"><img src="./assets/icons/common/header/menu/office_accessories.svg" alt="menu icon" width="35" height="35">Parasol 01</a>
+                                            </li>
+                                        </ul>
+                                        <ul class="list-unstyled">
+                                            <li>
+                                                <a class="dropdown-item" href="#"><img src="./assets/icons/common/header/menu/office_accessories.svg" alt="menu icon" width="35" height="35">Parasol 02</a>
+                                            </li>
+                                        </ul>
+                                    </ul>
+                                </li>
+                                <li class="dropend">
+                                    <a class="dropdown-item" href="#" data-bs-toggle="dropdown">Parasole i płaszcze</a>
+                                    <ul class="dropdown-menu second-lvl-menu">
+                                        <ul class="list-unstyled">
+                                            <li>
+                                                <a class="dropdown-item" href="#"><img src="./assets/icons/common/header/menu/office_accessories.svg" alt="menu icon" width="35" height="35">Parasol 01</a>
+                                            </li>
+                                        </ul>
+                                        <ul class="list-unstyled">
+                                            <li>
+                                                <a class="dropdown-item" href="#"><img src="./assets/icons/common/header/menu/office_accessories.svg" alt="menu icon" width="35" height="35">Parasol 02</a>
+                                            </li>
+                                        </ul>
+                                    </ul>
+                                </li>
                                 <!-- 2nd Level Nav Dropdown Item -->
                                 <li class="dropend">
                                     <a class="dropdown-item" href="#" data-bs-toggle="dropdown">Torby, worki, plecaki</a>
