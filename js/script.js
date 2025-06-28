@@ -8,37 +8,37 @@ const main_wrapper = document.getElementById('main-wrapper');
 const toggleMainWrapperClass = () => {
     // Check if any element in toggle_menu_el has the "show" class
     const isMenuOpen = ([...toggle_menu_el]).some(el => el.classList.contains('show'));
-  
+
     // If the menu is open, add the "opened-menu" class to main_wrapper
     if (isMenuOpen) {
-      main_wrapper.classList.add('opened-menu');
+        main_wrapper.classList.add('opened-menu');
     } else {
-      // If the menu is not open, remove the "opened-menu" class from main_wrapper
-      main_wrapper.classList.remove('opened-menu');
+        // If the menu is not open, remove the "opened-menu" class from main_wrapper
+        main_wrapper.classList.remove('opened-menu');
     }
 }
 
 document.addEventListener('click', toggleMainWrapperClass);
 
 $(window).on('scroll', function() {
-  if ($(window).scrollTop() > 0) {
-    $('#topbar, nav .navbar-top, nav .navbar-bottom').addClass('page-scroll');
-    $('header').addClass('fixed-header');
-  } else {
-    $('#topbar, nav .navbar-top, nav .navbar-bottom').removeClass('page-scroll');
-     $('header').removeClass('fixed-header');
-  }
+    if ($(window).scrollTop() > 0) {
+        $('#topbar, nav .navbar-top, nav .navbar-bottom').addClass('page-scroll');
+        $('header').addClass('fixed-header');
+    } else {
+        $('#topbar, nav .navbar-top, nav .navbar-bottom').removeClass('page-scroll');
+        $('header').removeClass('fixed-header');
+    }
 });
 
-  $(document).ready(function () {
-    setInterval(function () {
-      var $menu = $('.menu-vertical-overflow');
-      if ($menu.length) {
-        if ($menu.height() >= 380) {
-          $menu.addClass('active-menu-overflow');
-        } else {
-          $menu.removeClass('active-menu-overflow');
+$(document).ready(function() {
+    setInterval(function() {
+        var $menu = $('.menu-vertical-overflow');
+        if ($menu.length) {
+            if ($menu.height() >= 380) {
+                $menu.addClass('active-menu-overflow');
+            } else {
+                $menu.removeClass('active-menu-overflow');
+            }
         }
-      }
     }, 100);
-  });
+});
