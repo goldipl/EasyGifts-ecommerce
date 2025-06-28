@@ -29,3 +29,16 @@ $(window).on('scroll', function() {
      $('header').removeClass('fixed-header');
   }
 });
+
+  $(document).ready(function () {
+    setInterval(function () {
+      var $menu = $('.menu-vertical-overflow');
+      if ($menu.length) {
+        if ($menu.height() >= 380) {
+          $menu.addClass('active-menu-overflow');
+        } else {
+          $menu.removeClass('active-menu-overflow');
+        }
+      }
+    }, 100);
+  });

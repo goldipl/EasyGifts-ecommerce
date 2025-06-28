@@ -493,6 +493,16 @@ nav .navbar-bottom .main-nav-item > a.show::after {
     height: 42px;
     transition: height 0.4s ease;
   }
+  nav .navbar-bottom .menu-vertical-overflow.active-menu-overflow {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 380px;
+    padding-right: 40px;
+  }
+  nav .navbar-bottom .menu-vertical-overflow.active-menu-overflow li a {
+    padding-left: 48px;
+    padding-right: 48px;
+  }
   nav .navbar-bottom .main-nav-item {
     height: 60px;
   }
