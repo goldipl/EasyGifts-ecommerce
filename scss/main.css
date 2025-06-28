@@ -3654,6 +3654,7 @@ label.add-files:focus, label.add-files:hover {
   left: 0;
   max-width: 800px;
   z-index: 1;
+  width: 100%;
 }
 #hero .hero_content .breadcrumbs {
   position: absolute;
