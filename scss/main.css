@@ -56,6 +56,11 @@ body #main-wrapper.opened-menu::after {
   height: 100vh;
   z-index: 9;
 }
+@media (min-width: 991px) {
+  body:has(header.fixed-header) {
+    padding-top: 136px;
+  }
+}
 body:has(header.fixed-header) #main-wrapper.opened-menu::after {
   height: 160vh;
 }

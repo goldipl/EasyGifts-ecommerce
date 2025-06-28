@@ -25,6 +25,9 @@ body {
     }
   }
   &:has(header.fixed-header) {
+    @media (min-width: 991px) {
+      padding-top: 136px;
+    }
     #main-wrapper {
       &.opened-menu::after {
         height: 160vh;
