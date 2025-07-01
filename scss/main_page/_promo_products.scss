@@ -41,7 +41,7 @@
         text-align: left;
         min-height: 80px;
         width: 100%;
-        margin: 0 auto 16px;
+        margin: 0 auto 12px;
         text-decoration: none;
         text-transform: uppercase;
         h3 {
@@ -137,7 +137,7 @@
       }
       .catalog-price {
         p {
-          font-size: 16px;
+          font-size: 15px;
           font-style: normal;
           font-weight: 600;
           line-height: 160%;
@@ -153,6 +153,7 @@
       height: 104px;
       width: 100%;
       border-top: 1px solid $grey;
+      padding: 0 16px;
       .your-price {
         p {
           font-size: 16px;
@@ -200,6 +201,7 @@
                 margin: 0;
                 text-align: center;
                 padding: 2px 0;
+                height: 40px;
               }
               td {
                 border: 1px solid $light_grey;
