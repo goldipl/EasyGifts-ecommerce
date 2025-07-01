@@ -98,7 +98,7 @@
       display: flex;
       height: 200px;
       width: 200px;
-      margin: 60px auto 24px;
+      margin: 40px auto 24px;
       img {
         height: 200px;
         width: 100%;
@@ -107,29 +107,26 @@
       }
     }
     .products-title {
-      display: -webkit-box;
-      -webkit-line-clamp: 2;
-      -webkit-box-orient: vertical;
-      overflow: hidden;
+      display: flex;
       text-align: center;
-      height: 60px;
+      min-height: 80px;
       width: 100%;
       margin: 0 auto 16px;
       text-transform: uppercase;
       h3 {
-        font-size: 24px;
+        font-size: 17px;
         font-style: normal;
         font-weight: 700;
-        line-height: 137%;
+        line-height: 120%;
         color: $text_color;
-        text-align: center;
+        text-align: left;
         margin: 0 auto;
         text-transform: uppercase;
         a {
-          font-size: 24px;
+          font-size: 17px;
           font-style: normal;
           font-weight: 700;
-          line-height: 137%;
+          line-height: 120%;
           color: $text_color;
           text-align: center;
           margin: 0 auto;
@@ -166,7 +163,7 @@
         font-style: normal;
         font-weight: 500;
         line-height: 160%;
-        margin: 19px 0 3px 0;
+        margin: 8px 0 3px 0;
         color: $text_color;
         span {
           font-size: 20px;
@@ -207,14 +204,6 @@
 @media (max-width: 1380px) {
   .swiper_products_block_box {
     &__top {
-      .products-title {
-        h3 {
-          font-size: 22px;
-          a {
-            font-size: 22px;
-          }
-        }
-      }
       .products-code {
         margin: 0 0 24px 0;
         p {
@@ -266,14 +255,6 @@
     &__top {
       .products-image {
         margin: 40px auto 40px;
-      }
-      .products-title {
-        h3 {
-          font-size: 20px;
-          a {
-            font-size: 20px;
-          }
-        }
       }
       .products-code {
         margin: 0 0 24px 0;
