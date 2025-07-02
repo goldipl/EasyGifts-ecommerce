@@ -2329,7 +2329,7 @@ label.add-files:focus, label.add-files:hover {
   margin-bottom: 42px;
 }
 .promo_products_swiper .swiper_products_block_box__top {
-  min-height: 550px;
+  min-height: 556px;
   padding: 24px 24px 0 24px;
 }
 .promo_products_swiper .swiper_products_block_box__top .products-image {
@@ -2434,9 +2434,10 @@ label.add-files:focus, label.add-files:hover {
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-align: center;
-  height: 40px;
+  min-height: 40px;
+  height: auto !important;
   width: 100%;
-  margin: 0 0 31px 0;
+  margin: 0 0 12px 0;
 }
 .promo_products_swiper .swiper_products_block_box__top .products-code p {
   font-size: 16px;
@@ -2451,7 +2452,7 @@ label.add-files:focus, label.add-files:hover {
   font-style: normal;
   font-weight: 600;
   line-height: 160%;
-  margin: 8px 0 3px 0;
+  margin: 0 0 3px 0;
   color: #212321;
 }
 .promo_products_swiper .swiper_products_block_box__top .catalog-price p span {
@@ -2526,9 +2527,6 @@ label.add-files:focus, label.add-files:hover {
   }
 }
 @media (max-width: 1380px) {
-  .promo_products_swiper .swiper_products_block_box__top .products-code {
-    margin: 0 0 24px 0;
-  }
   .promo_products_swiper .swiper_products_block_box__top .products-code p {
     font-size: 15px;
     line-height: 140%;
@@ -2554,9 +2552,6 @@ label.add-files:focus, label.add-files:hover {
 @media (max-width: 991px) {
   .promo_products_swiper .swiper_products_block_box__top .products-image {
     margin: 40px auto 40px;
-  }
-  .promo_products_swiper .swiper_products_block_box__top .products-code {
-    margin: 0 0 24px 0;
   }
   .promo_products_swiper .swiper_products_block_box__top .products-code p {
     font-size: 14px;
@@ -2931,6 +2926,9 @@ label.add-files:focus, label.add-files:hover {
   margin: 12px 0 0 0;
   text-transform: uppercase;
 }
+.swiper_products_block_box__top {
+  min-height: 556px;
+}
 .swiper_products_block_box__top .products-image {
   display: flex;
   height: 200px;
@@ -2979,9 +2977,10 @@ label.add-files:focus, label.add-files:hover {
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-align: center;
-  height: 40px;
+  min-height: 40px;
+  height: auto !important;
   width: 100%;
-  margin: 0 0 31px 0;
+  margin: 0 0 12px 0;
 }
 .swiper_products_block_box__top .products-code p {
   font-size: 16px;
@@ -3000,7 +2999,7 @@ label.add-files:focus, label.add-files:hover {
   font-style: normal;
   font-weight: 500;
   line-height: 160%;
-  margin: 8px 0 3px 0;
+  margin: 0 0 3px 0;
   color: #212321;
 }
 .swiper_products_block_box__bottom .catalog-price p span {
@@ -3032,9 +3031,6 @@ label.add-files:focus, label.add-files:hover {
 }
 
 @media (max-width: 1380px) {
-  .swiper_products_block_box__top .products-code {
-    margin: 0 0 24px 0;
-  }
   .swiper_products_block_box__top .products-code p {
     font-size: 15px;
     line-height: 140%;
@@ -3073,9 +3069,6 @@ label.add-files:focus, label.add-files:hover {
   }
   .swiper_products_block_box__top .products-image {
     margin: 40px auto 40px;
-  }
-  .swiper_products_block_box__top .products-code {
-    margin: 0 0 24px 0;
   }
   .swiper_products_block_box__top .products-code p {
     font-size: 14px;
@@ -15333,7 +15326,7 @@ main.grey-background {
 }
 .category-filters-main__slot__top {
   padding: 24px 24px 0 24px;
-  min-height: 550px;
+  min-height: 556px;
 }
 .category-filters-main__slot__top .products-image {
   display: flex;
@@ -15455,7 +15448,7 @@ main.grey-background {
   font-style: normal;
   font-weight: 600;
   line-height: 160%;
-  margin: 8px 0 3px 0;
+  margin: 0 0 3px 0;
   color: #212321;
 }
 .category-filters-main__slot__top .catalog-price p span {
@@ -15463,8 +15456,7 @@ main.grey-background {
 }
 .category-filters-main__slot__bottom {
   height: 104px;
-  padding-left: 32px;
-  padding-right: 32px;
+  padding: 0 16px;
   width: 100%;
   border-top: 1px solid #e6e6e6;
 }
@@ -15560,9 +15552,6 @@ main.grey-background {
   .category-filters-main__slot:nth-of-type(2n) {
     margin-right: 0 !important;
   }
-  .category-filters-main__slot__top .products-code {
-    margin: 0 0 24px 0;
-  }
   .category-filters-main__slot__top .products-code p {
     font-size: 15px;
     line-height: 140%;
@@ -15620,9 +15609,6 @@ main.grey-background {
   }
   .category-filters-main__slot__top .products-image {
     margin: 40px auto 40px;
-  }
-  .category-filters-main__slot__top .products-code {
-    margin: 0 0 24px 0;
   }
   .category-filters-main__slot__top .products-code p {
     font-size: 14px;

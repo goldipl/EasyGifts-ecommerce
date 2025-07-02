@@ -103,7 +103,7 @@
     }
     &__top {
       padding: 24px 24px 0 24px;
-      min-height: 550px;
+      min-height: 556px;
       .products-image {
         display: flex;
         height: 200px;
@@ -224,7 +224,7 @@
           font-style: normal;
           font-weight: 600;
           line-height: 160%;
-          margin: 8px 0 3px 0;
+          margin: 0 0 3px 0;
           color: $text_color;
           span {
             font-size: 20px;
@@ -234,8 +234,7 @@
     }
     &__bottom {
       height: 104px;
-      padding-left: 32px;
-      padding-right: 32px;
+      padding: 0 16px;
       width: 100%;
       border-top: 1px solid $grey;
       .your-price {
@@ -348,7 +347,6 @@
       }
       &__top {
         .products-code {
-          margin: 0 0 24px 0;
           p {
             font-size: 15px;
             line-height: 140%;
@@ -424,7 +422,6 @@
           margin: 40px auto 40px;
         }
         .products-code {
-          margin: 0 0 24px 0;
           p {
             font-size: 14px;
             line-height: 140%;
